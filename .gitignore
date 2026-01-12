@@ -1,0 +1,26 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+
+# Local agent/cli config (may contain tokens)
+.claude/
+
+# Generated / local outputs
+data/*.log
+data/*.epub
+data/*.pdf
+data/kanji_explanations/
+scripts/__pycache__/
+jp/__pycache__/
+
