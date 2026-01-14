@@ -25,10 +25,19 @@ python scripts/fetch_kyoiku_kanji.py
 
 ### 生成解释与 EPUB
 
-部分脚本会调用 `claude` CLI 生成内容，请先确保本机已安装并可用。
+脚本支持 `claude` 与 `codex` CLI 生成内容，使用 `-b/--backend` 或 `KANJI_BACKEND`/`AGENT_TYPE` 选择。
 
 ```bash
 python scripts/batch_generate_v3.py
 python scripts/make_epub_v2.py
 ```
+
+- backend 示例：`python scripts/batch_generate_v3.py -b codex`
+
+### 释义与词源要求（JSON 输出）
+
+- summary 必须包含核心含义与来源线索，并逐一说明各读音的典型场景
+- 需要给出词源/词根/词缀或古语词形；禁止仅写“中古日语/古日语/汉语”
+- 无法考证时写“资料不足/不确定”
+- etymology 字段已移除，词源信息写入 summary 或 readings.origin
 

@@ -35,24 +35,6 @@ def render(kanji: str, data: dict) -> str:
             lines.append(f"| {ex['word']} | {ex['reading']} | {ex['meaning']} | {ex['link']} |")
         lines.append("")
 
-    # 字源
-    ety = data["etymology"]
-    lines.append(f"## 字源\n\n「{kanji}」是{ety['type']}。{ety['explanation']}\n")
-
-    # 构件拆解
-    lines.append("## 构件拆解\n")
-    for c in data["components"]:
-        lines.append(f"**{c['part']}**：{c['meaning']} → {c['extension']}\n")
-
-    # 组合逻辑
-    parts = " + ".join(c["part"] for c in data["components"])
-    lines.append("## 组合逻辑\n")
-    lines.append("```")
-    lines.append(parts)
-    lines.append("    ↓")
-    lines.append(data["composition"])
-    lines.append("```\n")
-
     # 文化背景
     lines.append(f"## 文化背景\n\n{data['culture']}\n")
 
