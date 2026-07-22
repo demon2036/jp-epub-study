@@ -1,0 +1,197 @@
+{
+  "level": "N5",
+  "families": [
+    {
+      "family_id": "n5_family_01_sentence_frame",
+      "family_name": "句子骨架・判断起手系",
+      "family_lead": "先把最基础的“是什么”说稳。",
+      "family_hook": "这一家先解决 N5 最核心的成句能力：名词句、形容词句、肯定否定、话题和主语的视角，以及“变成……”这种最常见的状态变化。",
+      "progression_line": "从判断到否定，从描述到聚焦，从静态到变化",
+      "member_ids": [
+        "n5_002_da_desu",
+        "n5_020_janai_dewa_nai",
+        "n5_016_i_adjectives",
+        "n5_036_na_adjectives",
+        "n5_079_wa_topic_marker",
+        "n5_011_ga",
+        "n5_045_naru"
+      ]
+    },
+    {
+      "family_id": "n5_family_02_particle_map",
+      "family_name": "助词地图・谁对谁做什么系",
+      "family_lead": "把句子里的方向、地点和对象摆清楚。",
+      "family_hook": "中文学习者最容易在 に、で、を、の、と、や 这里打结；把这些一起学，能直接建立一句话里“动作落在哪、跟谁一起、列到什么程度”的地图。",
+      "progression_line": "从位置落点到对象关系，从单一连接到并列列举",
+      "member_ids": [
+        "n5_048_ni",
+        "n5_005_de",
+        "n5_051_ni_e",
+        "n5_060_o_wo",
+        "n5_052_no",
+        "n5_075_to",
+        "n5_082_ya"
+      ]
+    },
+    {
+      "family_id": "n5_family_03_question_route",
+      "family_name": "发问导航・把路问清系",
+      "family_lead": "先会开口问，才能把信息补齐。",
+      "family_hook": "这些条目都服务于同一个场景：不知道信息时，怎么把问题问准，或在选项之间做确认。`どうやって` 和 `方` 也正好适合放在一起对照。",
+      "progression_line": "从疑问标记到二选一，从问种类到问原因与方法",
+      "member_ids": [
+        "n5_021_ka",
+        "n5_022_ka_ka",
+        "n5_008_donna",
+        "n5_009_doushite",
+        "n5_010_douyatte",
+        "n5_081_wa_dou_desu_ka",
+        "n5_024_kata"
+      ]
+    },
+    {
+      "family_id": "n5_family_04_need_and_request",
+      "family_name": "有无需求・身边的人和物系",
+      "family_lead": "把“有”“想要”“请给我”说顺。",
+      "family_hook": "日常会话里最早高频的一组，就是先分清人和物的存在，再接到“我想要什么”“我怎么礼貌地开口要”。`お/ご` 放在这里，方便把礼貌包装一起记。",
+      "progression_line": "从存在区分到主观需求，从名词本体到礼貌索取",
+      "member_ids": [
+        "n5_012_ga_arimasu",
+        "n5_014_ga_imasu",
+        "n5_013_ga_hoshii",
+        "n5_061_o_kudasai",
+        "n5_059_o_go"
+      ]
+    },
+    {
+      "family_id": "n5_family_05_clause_links",
+      "family_name": "接句转弯・顺着说下去系",
+      "family_lead": "学会把两句话接成一股气。",
+      "family_hook": "这组不是按词典义分，而是按做题时最常见的决策点分：我要接续、转折，还是补一个原因？把 `でも / けど / けれども / しかし` 和 `から / ので` 一起学，最利于对比语气轻重和句间关系。",
+      "progression_line": "从平接到转折，从口语到书面，从连接到说明理由",
+      "member_ids": [
+        "n5_006_demo",
+        "n5_025_kedo",
+        "n5_026_keredo_mo",
+        "n5_062_shikashi",
+        "n5_063_sore_kara",
+        "n5_064_soshite",
+        "n5_023_kara",
+        "n5_058_node"
+      ]
+    },
+    {
+      "family_id": "n5_family_06_sentence_tone",
+      "family_name": "句尾温度・说给谁听系",
+      "family_lead": "同一件事，换个句尾就换了空气。",
+      "family_hook": "这一家都不是在加新事实，而是在调说话方式：解释、强调、求认同、感叹、推量。对中文学习者来说，把这些句尾放在一起，最容易抓住“语气差”而不是只背中文义。",
+      "progression_line": "从解释背景到拉近共识，从主张语气到推测判断",
+      "member_ids": [
+        "n5_046_ndesu",
+        "n5_053_no_desu",
+        "n5_047_ne",
+        "n5_083_yo",
+        "n5_037_naa",
+        "n5_004_darou",
+        "n5_007_deshou"
+      ]
+    },
+    {
+      "family_id": "n5_family_07_time_axis",
+      "family_name": "时间轴・先后早晚系",
+      "family_lead": "把动作摆到时间线上。",
+      "family_hook": "这些条目都在回答同一个问题：事情是在以前、当下、还是之后发生？是已经、还没、一直、直到，还是做完再做下一步？",
+      "progression_line": "从频率习惯到已然未然，从时间点到时间段，从前置到后续",
+      "member_ids": [
+        "n5_019_itsumo",
+        "n5_035_mou",
+        "n5_027_mada",
+        "n5_028_mada_te_imasen",
+        "n5_030_mae_ni",
+        "n5_076_toki",
+        "n5_029_made",
+        "n5_071_te_kara"
+      ]
+    },
+    {
+      "family_id": "n5_family_08_action_lens",
+      "family_name": "动作镜头・状态展开系",
+      "family_lead": "别只看动作发生，还要看动作呈现成什么样子。",
+      "family_hook": "这组共同点是：都不是单点动作，而是在给动作加镜头语言。`ている` 看进行或状态，`てある` 看结果留下，`ないで` 看省略前项，`たり～たり` 看列举，`たことがある` 看经验。",
+      "progression_line": "从进行到结果，从省略前项到松散列举，从一次动作到人生经验",
+      "member_ids": [
+        "n5_070_te_iru",
+        "n5_069_te_aru",
+        "n5_038_naide",
+        "n5_068_tari_tari",
+        "n5_066_ta_koto_ga_aru"
+      ]
+    },
+    {
+      "family_id": "n5_family_09_invite_and_ask",
+      "family_name": "邀请请求・把人拉进来系",
+      "family_lead": "让对方动起来，但语气要拿捏。",
+      "family_hook": "这组适合放在一起，是因为它们都发生在同一个互动场景里：一起做、我来帮、请你做、请你别做、我给建议。学的时候能顺手比较谁更主动、谁更礼貌、谁更像建议。",
+      "progression_line": "从一起行动到主动帮忙，从直接请求到反向请求，从邀约到建议",
+      "member_ids": [
+        "n5_031_masen_ka",
+        "n5_032_mashou",
+        "n5_033_mashouka",
+        "n5_018_issho_ni",
+        "n5_072_te_kudasai",
+        "n5_039_naide_kudasai",
+        "n5_015_hou_ga_ii"
+      ]
+    },
+    {
+      "family_id": "n5_family_10_rules_and_duty",
+      "family_name": "许可禁止・规则红绿灯系",
+      "family_lead": "先分清能不能，再分清必须不必须。",
+      "family_hook": "N5 最容易混的一大片就在这里：`てもいい`、`なくてもいい`、`てはいけない`、`ないといけない` 等都是同一决策场景里的红灯绿灯黄灯。把它们成组，最方便横向对比。",
+      "progression_line": "从许可到免除，从禁止到义务，从口语缩约到较正式说法",
+      "member_ids": [
+        "n5_074_temo_ii_desu",
+        "n5_041_naku_temo_ii",
+        "n5_073_te_wa_ikenai",
+        "n5_001_cha_ikenai_ja_ikenai",
+        "n5_040_naito_ikenai",
+        "n5_042_nakucha",
+        "n5_043_nakute_wa_ikenai",
+        "n5_044_nakute_wa_naranai"
+      ]
+    },
+    {
+      "family_id": "n5_family_11_action_intent",
+      "family_name": "想做决定・行动启动系",
+      "family_lead": "把你和一个动作的关系说清楚。",
+      "family_hook": "这一家都围绕“动作对我意味着什么”：我喜欢不喜欢、擅长不擅长、想不想做、打不打算做、决定做什么、为了做它要去哪里。不是机械词形，而是一条很实用的表达链。",
+      "progression_line": "从偏好与能力到愿望，从打算到选择，从决定到动身",
+      "member_ids": [
+        "n5_067_tai",
+        "n5_078_tsumori",
+        "n5_050_ni_suru",
+        "n5_049_ni_iku",
+        "n5_056_no_ga_suki",
+        "n5_055_no_ga_jouzu",
+        "n5_054_no_ga_heta"
+      ]
+    },
+    {
+      "family_id": "n5_family_12_compare_and_scale",
+      "family_name": "比较取舍・多一点少一点系",
+      "family_lead": "把程度、范围和优先级排出来。",
+      "family_hook": "做题时 `だけ / も / とても / すぎる / より / ほうが / 一番` 常常一起出现，因为它们都在处理“多少、谁更、哪个最”。把它们一起学，最容易形成比较和取舍的整套手感。",
+      "progression_line": "从限定与追加到程度强弱，从二者比较到群体里选最",
+      "member_ids": [
+        "n5_017_ichiban",
+        "n5_057_no_naka_de_a_ga_ichiban",
+        "n5_080_wa_yori_desu",
+        "n5_084_yori_hou_ga",
+        "n5_077_totemo",
+        "n5_065_sugiru",
+        "n5_003_dake",
+        "n5_034_mo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+你要为一本《JLPT N4 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n4_127_you_ni_naru",
+  "idx": 127,
+  "grammar_en": "you ni naru",
+  "grammar_jp": "ようになる",
+  "meaning": "to reach the point that; to come to be that; to turn into ~"
+}
+
+所属家族：
+{
+  "family_id": "f19_ability_difficulty",
+  "family_name": "能力・难易手感系",
+  "family_lead": "会不会、难不难、能不能养成",
+  "family_hook": "`ことができる`、`ようになる`、`ようにする`、`やすい`、`にくい`、`づらい`都在回答“这事做起来顺不顺、能不能做到”。",
+  "progression_line": "从能力有无到习惯养成，再到手感上的易难",
+  "members": [
+    {
+      "entry_id": "n4_036_koto_ga_dekiru",
+      "grammar_jp": "ことができる",
+      "grammar_en": "koto ga dekiru",
+      "meaning": "can; able to"
+    },
+    {
+      "entry_id": "n4_127_you_ni_naru",
+      "grammar_jp": "ようになる",
+      "grammar_en": "you ni naru",
+      "meaning": "to reach the point that; to come to be that; to turn into ~"
+    },
+    {
+      "entry_id": "n4_128_you_ni_suru",
+      "grammar_jp": "ようにする",
+      "grammar_en": "you ni suru",
+      "meaning": "to try to; to make sure that ~"
+    },
+    {
+      "entry_id": "n4_121_yasui",
+      "grammar_jp": "やすい",
+      "grammar_en": "yasui",
+      "meaning": "easy to; likely to; prone to; have a tendency to ~"
+    },
+    {
+      "entry_id": "n4_060_nikui",
+      "grammar_jp": "にくい",
+      "grammar_en": "nikui",
+      "meaning": "difficult to do ~"
+    },
+    {
+      "entry_id": "n4_132_zurai",
+      "grammar_jp": "づらい",
+      "grammar_en": "zurai",
+      "meaning": "difficult to do ~"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

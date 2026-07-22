@@ -1,0 +1,362 @@
+{
+  "level": "N4",
+  "families": [
+    {
+      "family_id": "f01_time_slices",
+      "family_name": "时间・切片取景系",
+      "family_lead": "先学会把动作放进时间画面里",
+      "family_hook": "这一家都在回答“事情发生在那段时间的哪一块”：是整段持续、期间插入，还是一边做一边做。",
+      "progression_line": "从整段背景到中途插入，再到同步进行",
+      "member_ids": [
+        "n4_001_aida",
+        "n4_002_aida_ni",
+        "n4_050_nagara",
+        "n4_033_koro_goro",
+        "n4_067_oki_ni"
+      ]
+    },
+    {
+      "family_id": "f02_time_nodes",
+      "family_name": "时间・前后节点系",
+      "family_lead": "抓住前后、截止、突发与终于",
+      "family_hook": "做题时最常混的是“之后”“截止到”“刚刚”“突然”“终于”，一起学更容易建立时间轴。",
+      "progression_line": "从刚刚起点到之后安排，再到期限、突发与结果",
+      "member_ids": [
+        "n4_072_sakki",
+        "n4_004_ato_de",
+        "n4_041_made_ni",
+        "n4_040_kyuu_ni",
+        "n4_122_yatto"
+      ]
+    },
+    {
+      "family_id": "f03_action_phases",
+      "family_name": "动作・起步延续收尾系",
+      "family_lead": "把动作看成一条会展开的线",
+      "family_hook": "这些语法都在描动作的阶段变化：开始、冒头、继续、结束，以及朝未来/朝现在发展。",
+      "progression_line": "从起步到延续，从方向变化到收尾",
+      "member_ids": [
+        "n4_009_dasu",
+        "n4_018_hajimeru",
+        "n4_117_tsuzukeru",
+        "n4_068_owaru",
+        "n4_094_te_iku",
+        "n4_098_te_kuru"
+      ]
+    },
+    {
+      "family_id": "f04_action_snapshots",
+      "family_name": "过程・动作切面系",
+      "family_lead": "同一个动作，切不同时间截面",
+      "family_hook": "`tokoro`、`たところ`、`たばかり`、`ていた`这类最适合放在一起对比，能一次看懂“正要/正在/刚做完/以前在做”。",
+      "progression_line": "从临界前一秒到进行中，再到刚结束与偶发",
+      "member_ids": [
+        "n4_116_tokoro",
+        "n4_106_teiru_tokoro",
+        "n4_085_ta_tokoro",
+        "n4_084_ta_bakari",
+        "n4_095_te_ita",
+        "n4_035_koto_ga_aru"
+      ]
+    },
+    {
+      "family_id": "f05_condition_branches",
+      "family_name": "条件・假设分岔系",
+      "family_lead": "先把“如果”这条大路理顺",
+      "family_hook": "`ば`、`たら`、`なら`、`と`、`場合は`都在条件题里高频混淆，合学最容易建立分工感。",
+      "progression_line": "从机械条件到场景假设，再到习惯结果",
+      "member_ids": [
+        "n4_005_ba",
+        "n4_088_tara",
+        "n4_054_nara",
+        "n4_108_to",
+        "n4_006_baai_wa"
+      ]
+    },
+    {
+      "family_id": "f06_connective_turns",
+      "family_name": "接续・转折翻面系",
+      "family_lead": "学会一句接一句，也学会话锋一转",
+      "family_hook": "这一家覆盖因果补充、递进补充、虽然如此、即便如此，正好对应阅读里最常见的逻辑转向。",
+      "progression_line": "从顺接补充到逆接让步，再到“即使这样也……”",
+      "member_ids": [
+        "n4_091_te_de",
+        "n4_062_noni",
+        "n4_107_temo",
+        "n4_079_sore_demo",
+        "n4_077_shi",
+        "n4_080_sore_ni"
+      ]
+    },
+    {
+      "family_id": "f07_choices_examples",
+      "family_name": "选择・举例拼盘系",
+      "family_lead": "不会全列，就学会挑着说",
+      "family_hook": "`または`、`でも`、`とか〜とか`、`など`都在做“给选项、举例子、留余地”，一起学最贴近日常表达和选择题。",
+      "progression_line": "从二选一到松散举例，再到模糊留白",
+      "member_ids": [
+        "n4_043_matawa",
+        "n4_011_demo",
+        "n4_115_toka_toka",
+        "n4_049_nado"
+      ]
+    },
+    {
+      "family_id": "f08_degree_limits",
+      "family_name": "程度・限定卡口系",
+      "family_lead": "把“只、并不、完全不”这几道口子分清",
+      "family_hook": "这组都在控制程度和范围，尤其适合中文学习者对比“只有”“不太”“完全不”“怎么都不”“光靠……就”。",
+      "progression_line": "从单一限定到弱否定，再到强否定和最小条件",
+      "member_ids": [
+        "n4_007_bakari",
+        "n4_003_amari_nai",
+        "n4_131_zenzen_nai",
+        "n4_051_nakanaka_nai",
+        "n4_008_dake_de"
+      ]
+    },
+    {
+      "family_id": "f09_comparison_scope",
+      "family_name": "比较・范围取舍系",
+      "family_lead": "会比，才会真正会选",
+      "family_hook": "`より`、`の中で`、`は〜が…は`、`も`、`そんなに`常在比较和程度判断里一起出现，合学最利于做排序和最高级题。",
+      "progression_line": "从范围框定到对象比较，再到程度拉高",
+      "member_ids": [
+        "n4_123_yori",
+        "n4_061_no_naka_de",
+        "n4_120_wa_ga_wa",
+        "n4_047_mo",
+        "n4_078_sonna_ni"
+      ]
+    },
+    {
+      "family_id": "f10_quotation_outputs",
+      "family_name": "引用・说法出口系",
+      "family_lead": "让整句话有个“出口”",
+      "family_hook": "想到什么、叫作什么、算不算这么说、是否如此，这一组都是把前面整句接出去的高频接口。",
+      "progression_line": "从命名到引用，从判断到包进“是否”",
+      "member_ids": [
+        "n4_110_to_iu",
+        "n4_118_tte",
+        "n4_114_to_omou",
+        "n4_109_to_ittemo_ii",
+        "n4_026_ka_dou_ka"
+      ]
+    },
+    {
+      "family_id": "f11_nominalize_boxes",
+      "family_name": "名词化・句子装箱系",
+      "family_lead": "把一句话装进名词盒子里",
+      "family_hook": "`こと`、`ということ`、`のは〜だ`、`さ`都在做“把描述变成一个可操作的对象”，适合一起建立抽象化感觉。",
+      "progression_line": "从动词名词化到整句打包，再到性质抽出",
+      "member_ids": [
+        "n4_034_koto",
+        "n4_111_to_iu_koto",
+        "n4_064_nowa_da",
+        "n4_071_sa"
+      ]
+    },
+    {
+      "family_id": "f12_question_tones",
+      "family_name": "发问・自语确认系",
+      "family_lead": "同样是问，语气差很多",
+      "family_hook": "`かしら`、`かな`、`かい`、`じゃないか`、`ではないか`都不是普通问句，而是带有自言自语、确认、劝诱色彩的句尾。",
+      "progression_line": "从轻声自问到对方确认，再到带推力的反问",
+      "member_ids": [
+        "n4_027_ka_shira",
+        "n4_030_kana",
+        "n4_028_kai",
+        "n4_025_janai_ka",
+        "n4_012_dewa_nai_ka"
+      ]
+    },
+    {
+      "family_id": "f13_hearsay_reports",
+      "family_name": "传闻・耳闻转述系",
+      "family_lead": "先分清消息从哪儿来",
+      "family_hook": "`そうだ`、`と聞いた`、`と言われている`、`らしい`都和“听说”有关，但消息来源、距离感和主观度不同。",
+      "progression_line": "从直接转述到听来消息，再到社会流传与模糊判断",
+      "member_ids": [
+        "n4_081_sou_da_1",
+        "n4_113_to_kiita",
+        "n4_112_to_iwarete_iru",
+        "n4_070_rashii"
+      ]
+    },
+    {
+      "family_id": "f14_seeming_lookalike",
+      "family_name": "像・看起来判断系",
+      "family_lead": "把“像”这件事一次学透",
+      "family_hook": "`そうだ`、`みたい`、`ようだ`、`に見える`这一大组最容易串形又串义，放在一起最适合做横向对比。",
+      "progression_line": "从外观直感到类比描写，再到较书面的推定",
+      "member_ids": [
+        "n4_082_sou_da_2",
+        "n4_083_sou_ni_sou_na",
+        "n4_044_mitai_da",
+        "n4_045_mitai_na",
+        "n4_046_mitai_ni",
+        "n4_125_you_da",
+        "n4_126_you_ni_you_na",
+        "n4_058_ni_mieru"
+      ]
+    },
+    {
+      "family_id": "f15_confidence_scale",
+      "family_name": "判断・把握度阶梯系",
+      "family_lead": "把不确定到笃定排成一条线",
+      "family_hook": "`かもしれない`、`きっと`、`はずだ`、`はずがない`、`さすが`都在表达判断强弱，合学最容易形成“把握度刻度”。",
+      "progression_line": "从可能到大概率，再到应然与断然否定",
+      "member_ids": [
+        "n4_029_kamo_shirenai",
+        "n4_032_kitto",
+        "n4_019_hazu_da",
+        "n4_020_hazu_ga_nai",
+        "n4_076_sasuga"
+      ]
+    },
+    {
+      "family_id": "f16_purpose_decision",
+      "family_name": "目的・打算・决定系",
+      "family_lead": "从想做，到打算，到定下来",
+      "family_hook": "`のに`（目的）、意向形、`ようと思う`、`予定だ`、`ことにする`、`ことになる`正好串成行动决策链。",
+      "progression_line": "从目的出发到主观打算，再到客观决定",
+      "member_ids": [
+        "n4_063_noni",
+        "n4_022_ikou_kei_volitional_form",
+        "n4_129_you_to_omou",
+        "n4_124_yotei_da",
+        "n4_038_koto_ni_suru",
+        "n4_037_koto_ni_naru"
+      ]
+    },
+    {
+      "family_id": "f17_need_obligation",
+      "family_name": "必要・义务上身系",
+      "family_lead": "把“需要”和“必须”分开记",
+      "family_hook": "必要系和`なければ〜`系常在同一决策场景里互换出现，一起学最能看清“有必要”与“不得不”的差别。",
+      "progression_line": "从客观需要到规范义务，再到更硬的必须",
+      "member_ids": [
+        "n4_013_ga_hitsuyou",
+        "n4_021_hitsuyou_ga_aru",
+        "n4_052_nakereba_ikenai",
+        "n4_053_nakereba_naranai"
+      ]
+    },
+    {
+      "family_id": "f18_state_result_control",
+      "family_name": "状态・结果操作系",
+      "family_lead": "看东西怎么变，也看人怎么让它变",
+      "family_hook": "`から作る`、他动词/自动词、`にする`、`くする`、`まま`都围着“结果状态”打转，特别适合放在一章里讲清。",
+      "progression_line": "从材料来源到状态变化，再到保持原样",
+      "member_ids": [
+        "n4_031_kara_tsukuru",
+        "n4_086_tadoushi_jidoushi",
+        "n4_059_ni_suru",
+        "n4_039_ku_suru",
+        "n4_042_mama"
+      ]
+    },
+    {
+      "family_id": "f19_ability_difficulty",
+      "family_name": "能力・难易手感系",
+      "family_lead": "会不会、难不难、能不能养成",
+      "family_hook": "`ことができる`、`ようになる`、`ようにする`、`やすい`、`にくい`、`づらい`都在回答“这事做起来顺不顺、能不能做到”。",
+      "progression_line": "从能力有无到习惯养成，再到手感上的易难",
+      "member_ids": [
+        "n4_036_koto_ga_dekiru",
+        "n4_127_you_ni_naru",
+        "n4_128_you_ni_suru",
+        "n4_121_yasui",
+        "n4_060_nikui",
+        "n4_132_zurai"
+      ]
+    },
+    {
+      "family_id": "f20_benefactive_help",
+      "family_name": "授受・求人帮忙系",
+      "family_lead": "谁给谁做，一定要站对位置",
+      "family_hook": "`てあげる`、`てくれる`、`てもらう`、`てやる`、`てほしい`都在同一“帮忙”场景里高频混淆，最适合成套记忆。",
+      "progression_line": "从我给别人到别人给我，再到我希望别人做",
+      "member_ids": [
+        "n4_092_te_ageru",
+        "n4_097_te_kureru",
+        "n4_100_te_morau",
+        "n4_104_te_yaru",
+        "n4_093_te_hoshii"
+      ]
+    },
+    {
+      "family_id": "f21_requests_commands",
+      "family_name": "请求・建议・命令系",
+      "family_lead": "把开口方式排出轻重缓急",
+      "family_hook": "请托、请求许可、建议、询问做法、命令、禁止常在口语题里互相替换，一起学最能抓语气级差。",
+      "progression_line": "从客气请求到建议咨询，再到命令与禁止",
+      "member_ids": [
+        "n4_096_te_itadakemasen_ka",
+        "n4_075_sasete_kudasai",
+        "n4_055_nasai",
+        "n4_048_na",
+        "n4_089_tara_dou",
+        "n4_090_tara_ii_desu_ka",
+        "n4_130_zehi"
+      ]
+    },
+    {
+      "family_id": "f22_honorific_humble",
+      "family_name": "敬语・抬人降己系",
+      "family_lead": "先抓功能，再记敬语外壳",
+      "family_hook": "`ございます`、`でございます`、`いらっしゃる`、`いたします`、`なさる`、`お〜になる`、`お〜ください`都是 N4 敬语骨架，合起来最好建立对应表。",
+      "progression_line": "从礼貌存在到尊他与自谦，再到敬语请求",
+      "member_ids": [
+        "n4_017_gozaimasu",
+        "n4_010_de_gozaimasu",
+        "n4_023_irassharu",
+        "n4_024_itashimasu",
+        "n4_056_nasaru",
+        "n4_066_o_ni_naru",
+        "n4_065_o_kudasai"
+      ]
+    },
+    {
+      "family_id": "f23_outward_signs",
+      "family_name": "心情・样子露出来系",
+      "family_lead": "不是直接说，而是从样子看出来",
+      "family_hook": "`がる`、`がり`、`たがる`、`がする`、`に気がつく`都和“从外在迹象判断内里状态”有关，中文学习者一起学最容易抓住感觉。",
+      "progression_line": "从显露情绪到显露愿望，再到察觉迹象",
+      "member_ids": [
+        "n4_016_garu_gatteiru",
+        "n4_015_gari",
+        "n4_087_tagaru",
+        "n4_014_ga_suru",
+        "n4_057_ni_ki_ga_tsuku"
+      ]
+    },
+    {
+      "family_id": "f24_voice_causative_passive",
+      "family_name": "使役・被动变形系",
+      "family_lead": "先认清变形，再认清关系",
+      "family_hook": "`られる`、受身形、`させる`、`させられる`是 N4 最容易形近混淆的一组，集中学最省返工。",
+      "progression_line": "从基本变形到被动，再到让别人做与被迫做",
+      "member_ids": [
+        "n4_069_rareru",
+        "n4_119_ukemi_kei",
+        "n4_074_saseru",
+        "n4_073_saserareru"
+      ]
+    },
+    {
+      "family_id": "f25_teform_extensions",
+      "family_name": "て形・先试先放系",
+      "family_lead": "て形后面一接，语气就活了",
+      "family_hook": "`てみる`、`ておく`、`てしまう`、`てよかった`、`てすみません`都属于“前项做完以后，后项补上态度或处理方式”的经典组合。",
+      "progression_line": "从试试看、先放着，到做完后的结果感与评价",
+      "member_ids": [
+        "n4_099_te_miru",
+        "n4_101_te_oku",
+        "n4_102_te_shimau_chau",
+        "n4_105_te_yokatta",
+        "n4_103_te_sumimasen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+你要为一本《JLPT N2 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n2_169_to_iu_koto_wa",
+  "idx": 169,
+  "grammar_en": "to iu koto wa",
+  "grammar_jp": "ということは",
+  "meaning": "that is to say; so that means; in other words ~"
+}
+
+所属家族：
+{
+  "family_id": "f23",
+  "family_name": "举例・换言系",
+  "family_lead": "会举、会换、会收束，阅读就顺了",
+  "family_hook": "这些表达都在帮助句子组织信息：举例、改说法、下定义、转述听闻、做总结。",
+  "progression_line": "从列举材料到换一种说法，再到收口成一句",
+  "members": [
+    {
+      "entry_id": "n2_002_aruiwa",
+      "grammar_jp": "あるいは",
+      "grammar_en": "aruiwa",
+      "meaning": "or; either; maybe; perhaps; possibly ~"
+    },
+    {
+      "entry_id": "n2_188_yara_yara",
+      "grammar_jp": "やら～やら",
+      "grammar_en": "yara~yara",
+      "meaning": "such things as A and B; A and B and so on ~"
+    },
+    {
+      "entry_id": "n2_167_to_itta",
+      "grammar_jp": "といった",
+      "grammar_en": "to itta",
+      "meaning": "like; such as ~"
+    },
+    {
+      "entry_id": "n2_036_iwayuru",
+      "grammar_jp": "いわゆる",
+      "grammar_en": "iwayuru",
+      "meaning": "what is called; as it is called; the so-called; so to speak"
+    },
+    {
+      "entry_id": "n2_170_to_iu_mono_da",
+      "grammar_jp": "というものだ",
+      "grammar_en": "to iu mono da",
+      "meaning": "something like; something called ~"
+    },
+    {
+      "entry_id": "n2_173_toka_de",
+      "grammar_jp": "とか（で）",
+      "grammar_en": "toka (de)",
+      "meaning": "I heard that ~"
+    },
+    {
+      "entry_id": "n2_169_to_iu_koto_wa",
+      "grammar_jp": "ということは",
+      "grammar_en": "to iu koto wa",
+      "meaning": "that is to say; so that means; in other words ~"
+    },
+    {
+      "entry_id": "n2_195_you_suru_ni",
+      "grammar_jp": "要するに（ようするに）",
+      "grammar_en": "you suru ni",
+      "meaning": "in short; in a word; to sum up; to put it simply ~"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `entry_id` 和 `other_entry_id` 都必须逐字照抄提供给你的真实 id，绝对不要把 `n2_...` 改成 `n4_...` 或别的 level 前缀。
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

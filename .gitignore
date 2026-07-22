@@ -15,12 +15,14 @@ venv/
 
 # Local agent/cli config (may contain tokens)
 .claude/
+.env
+.env.*
 
 # Generated / local outputs
 data/*.log
 data/*.epub
 data/*.pdf
+data/extracted_text/
 data/kanji_explanations/
 scripts/__pycache__/
 jp/__pycache__/
-

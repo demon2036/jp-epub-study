@@ -1,0 +1,178 @@
+{"updated_at": "2026-05-17T17:56:55.858481", "db": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json", "epub": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub", "audit_report": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_pronunciation_audit.json", "manifest": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_manifest.json", "meta": {"version": 2, "total": 2136, "completed": 2000, "last_updated": "2026-05-17T17:55:31.949533", "source": "joyo", "source_limit": 2136}, "status_counts": {"completed": 2000, "pending": 136}}
+=== generation round 1/5: 2026-05-17T17:56:56-07:00 ===
+待生成: 136 个汉字，批大小: 10, 批数: 14, 并发: 10, backend: codex
+[批 1/14] 生成中: 六力林曜来理話里両列
+[批 2/14] 生成中: 和旅様流礼緑練落葉路
+[批 3/14] 生成中: 陽令例冷利労料良輪連
+[批 4/14] 生成中: 量録陸類養容歴留略領
+[批 5/14] 生成中: 乱卵律朗欲翌臨裏覧論
+[批 6/14] 生成中: 了侶倫僚劣励厘吏呂塁
+[批 7/14] 生成中: 寮履庸廉廊弄恋惑慄慮
+[批 8/14] 生成中: 戻抑拉揚揺擁暦枠柳楼
+[批 9/14] 生成中: 欄沃浪涙涼湾溶漏濫炉
+[批 10/14] 生成中: 烈猟瑠璃痢瘍療瞭窯竜
+[1/136] 完成: 了
+[2/136] 完成: 侶
+[3/136] 完成: 倫
+[4/136] 完成: 僚
+[5/136] 完成: 劣
+[6/136] 完成: 励
+[7/136] 完成: 厘
+[8/136] 完成: 吏
+[9/136] 完成: 呂
+[10/136] 完成: 塁
+[批 11/14] 生成中: 籠粒糧累絡羅翼脇腕腰
+[11/136] 完成: 乱
+[12/136] 完成: 卵
+[13/136] 完成: 律
+[14/136] 完成: 朗
+[15/136] 完成: 欲
+[16/136] 完成: 翌
+[17/136] 完成: 臨
+[18/136] 完成: 裏
+[19/136] 完成: 覧
+[20/136] 完成: 論
+[批 12/14] 生成中: 藍虜裂裸謡賂賄踊辣郎
+[21/136] 完成: 六
+[22/136] 完成: 力
+[23/136] 完成: 林
+[24/136] 完成: 曜
+[25/136] 完成: 来
+[26/136] 完成: 理
+[27/136] 完成: 話
+[28/136] 完成: 里
+[29/136] 完成: 両
+[30/136] 完成: 列
+[批 13/14] 生成中: 酪鈴錬陵隆隣隷離零雷
+[31/136] 完成: 量
+[32/136] 完成: 録
+[33/136] 完成: 陸
+[34/136] 完成: 類
+[35/136] 完成: 養
+[36/136] 完成: 容
+[37/136] 完成: 歴
+[38/136] 完成: 留
+[39/136] 完成: 略
+[40/136] 完成: 領
+[批 14/14] 生成中: 霊露頼麓麗齢
+[41/136] 完成: 寮
+[42/136] 完成: 履
+[43/136] 完成: 庸
+[44/136] 完成: 廉
+[45/136] 完成: 廊
+[46/136] 完成: 弄
+[47/136] 完成: 恋
+[48/136] 完成: 惑
+[49/136] 完成: 慄
+[50/136] 完成: 慮
+[51/136] 完成: 陽
+[52/136] 完成: 令
+[53/136] 完成: 例
+[54/136] 完成: 冷
+[55/136] 完成: 利
+[56/136] 完成: 労
+[57/136] 完成: 料
+[58/136] 完成: 良
+[59/136] 完成: 輪
+[60/136] 完成: 連
+[61/136] 完成: 和
+[62/136] 完成: 旅
+[63/136] 完成: 様
+[64/136] 完成: 流
+[65/136] 完成: 礼
+[66/136] 完成: 緑
+[67/136] 完成: 練
+[68/136] 完成: 落
+[69/136] 完成: 葉
+[70/136] 完成: 路
+[71/136] 完成: 欄
+[72/136] 完成: 沃
+[73/136] 完成: 浪
+[74/136] 完成: 涙
+[75/136] 完成: 涼
+[76/136] 完成: 湾
+[77/136] 完成: 溶
+[78/136] 完成: 漏
+[79/136] 完成: 濫
+[80/136] 完成: 炉
+[81/136] 完成: 烈
+[82/136] 完成: 猟
+[83/136] 完成: 瑠
+[84/136] 完成: 璃
+[85/136] 完成: 痢
+[86/136] 完成: 瘍
+[87/136] 完成: 療
+[88/136] 完成: 瞭
+[89/136] 完成: 窯
+[90/136] 完成: 竜
+[91/136] 完成: 戻
+[92/136] 完成: 抑
+[93/136] 完成: 拉
+[94/136] 完成: 揚
+[95/136] 完成: 揺
+[96/136] 完成: 擁
+[97/136] 完成: 暦
+[98/136] 完成: 枠
+[99/136] 完成: 柳
+[100/136] 完成: 楼
+[101/136] 完成: 霊
+[102/136] 完成: 露
+[103/136] 完成: 頼
+[104/136] 完成: 麓
+[105/136] 完成: 麗
+[106/136] 完成: 齢
+[107/136] 完成: 籠
+[108/136] 完成: 粒
+[109/136] 完成: 糧
+[110/136] 完成: 累
+[111/136] 完成: 絡
+[112/136] 完成: 羅
+[113/136] 完成: 翼
+[114/136] 完成: 脇
+[115/136] 完成: 腕
+[116/136] 完成: 腰
+[117/136] 完成: 藍
+[118/136] 完成: 虜
+[119/136] 完成: 裂
+[120/136] 完成: 裸
+[121/136] 完成: 謡
+[122/136] 完成: 賂
+[123/136] 完成: 賄
+[124/136] 完成: 踊
+[125/136] 完成: 辣
+[126/136] 完成: 郎
+[127/136] 完成: 酪
+[128/136] 完成: 鈴
+[129/136] 完成: 錬
+[130/136] 完成: 陵
+[131/136] 完成: 隆
+[132/136] 完成: 隣
+[133/136] 完成: 隷
+[134/136] 完成: 離
+[135/136] 完成: 零
+[136/136] 完成: 雷
+
+完成: 2136/2136
+{"updated_at": "2026-05-17T18:48:09.595775", "db": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json", "epub": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub", "audit_report": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_pronunciation_audit.json", "manifest": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_manifest.json", "meta": {"version": 2, "total": 2136, "completed": 2136, "last_updated": "2026-05-17T18:48:09.055165", "source": "joyo", "source_limit": 2136}, "status_counts": {"completed": 2136}}
+{"complete": true, "counts": {"completed": 2136}, "total": 2136}
+{"final_generation_complete": true, "counts": {"completed": 2136}, "total": 2136}
+{
+  "files": [
+    {
+      "path": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json",
+      "issues": [],
+      "changes": [],
+      "change_count": 0,
+      "issue_count": 0,
+      "unresolved_count": 0
+    }
+  ],
+  "total_changes": 0,
+  "total_issues": 0,
+  "total_unresolved": 0
+}
+已生成: data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub
+{"created_at": "2026-05-17T18:48:24.541584", "model": "gpt-5.5", "reasoning_effort": "xhigh", "source": "joyo_2010_full_2136", "batch_size": 10, "concurrency": 10, "db": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json", "epub": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub", "audit_report": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_pronunciation_audit.json", "status_counts": {"completed": 2136}, "meta": {"version": 2, "total": 2136, "completed": 2136, "last_updated": "2026-05-17T18:48:09.055165", "source": "joyo", "source_limit": 2136}}
+{"updated_at": "2026-05-17T18:48:24.592441", "db": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json", "epub": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub", "audit_report": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_pronunciation_audit.json", "manifest": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_manifest.json", "meta": {"version": 2, "total": 2136, "completed": 2136, "last_updated": "2026-05-17T18:48:09.055165", "source": "joyo", "source_limit": 2136}, "status_counts": {"completed": 2136}}
+=== pipeline exit code 0: 2026-05-17T18:48:24-07:00 ===
+{"updated_at": "2026-05-17T18:48:24.905644", "db": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json", "epub": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub", "audit_report": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_pronunciation_audit.json", "manifest": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_manifest.json", "meta": {"version": 2, "total": 2136, "completed": 2136, "last_updated": "2026-05-17T18:48:09.055165", "source": "joyo", "source_limit": 2136}, "status_counts": {"completed": 2136}}

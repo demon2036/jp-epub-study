@@ -1,0 +1,1190 @@
+[
+  {
+    "idx": 1,
+    "entry_id": "n4_001_aida",
+    "grammar_en": "aida",
+    "grammar_jp": "間（あいだ）",
+    "meaning": "while; during; between ~",
+    "slug": "aida",
+    "level": "N4"
+  },
+  {
+    "idx": 2,
+    "entry_id": "n4_002_aida_ni",
+    "grammar_en": "aida ni",
+    "grammar_jp": "間に（あいだに）",
+    "meaning": "while; during~ something happened",
+    "slug": "aida_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 3,
+    "entry_id": "n4_003_amari_nai",
+    "grammar_en": "amari~nai",
+    "grammar_jp": "あまり～ない",
+    "meaning": "not very, not much ~",
+    "slug": "amari_nai",
+    "level": "N4"
+  },
+  {
+    "idx": 4,
+    "entry_id": "n4_004_ato_de",
+    "grammar_en": "ato de",
+    "grammar_jp": "後で（あとで）",
+    "meaning": "after~; later",
+    "slug": "ato_de",
+    "level": "N4"
+  },
+  {
+    "idx": 5,
+    "entry_id": "n4_005_ba",
+    "grammar_en": "ba",
+    "grammar_jp": "ば",
+    "meaning": "conditional form; If [A] then [B]",
+    "slug": "ba",
+    "level": "N4"
+  },
+  {
+    "idx": 6,
+    "entry_id": "n4_006_baai_wa",
+    "grammar_en": "baai wa",
+    "grammar_jp": "場合は（ばあいは）",
+    "meaning": "in the event of; in the case that ~",
+    "slug": "baai_wa",
+    "level": "N4"
+  },
+  {
+    "idx": 7,
+    "entry_id": "n4_007_bakari",
+    "grammar_en": "bakari",
+    "grammar_jp": "ばかり",
+    "meaning": "only; nothing but ~",
+    "slug": "bakari",
+    "level": "N4"
+  },
+  {
+    "idx": 8,
+    "entry_id": "n4_008_dake_de",
+    "grammar_en": "dake de",
+    "grammar_jp": "だけで",
+    "meaning": "just by; just by doing",
+    "slug": "dake_de",
+    "level": "N4"
+  },
+  {
+    "idx": 9,
+    "entry_id": "n4_009_dasu",
+    "grammar_en": "dasu",
+    "grammar_jp": "出す（だす）",
+    "meaning": "to begin to; to start to; to burst into; ... out (e.g. to jump out, to carry out)​",
+    "slug": "dasu",
+    "level": "N4"
+  },
+  {
+    "idx": 10,
+    "entry_id": "n4_010_de_gozaimasu",
+    "grammar_en": "de gozaimasu",
+    "grammar_jp": "でございます",
+    "meaning": "to be (honorific)",
+    "slug": "de_gozaimasu",
+    "level": "N4"
+  },
+  {
+    "idx": 11,
+    "entry_id": "n4_011_demo",
+    "grammar_en": "demo",
+    "grammar_jp": "でも",
+    "meaning": "... or something; how about~",
+    "slug": "demo",
+    "level": "N4"
+  },
+  {
+    "idx": 12,
+    "entry_id": "n4_012_dewa_nai_ka",
+    "grammar_en": "dewa nai ka",
+    "grammar_jp": "ではないか",
+    "meaning": "right?; isn't it?",
+    "slug": "dewa_nai_ka",
+    "level": "N4"
+  },
+  {
+    "idx": 13,
+    "entry_id": "n4_013_ga_hitsuyou",
+    "grammar_en": "ga hitsuyou",
+    "grammar_jp": "が必要（がひつよう）",
+    "meaning": "need; necessary",
+    "slug": "ga_hitsuyou",
+    "level": "N4"
+  },
+  {
+    "idx": 14,
+    "entry_id": "n4_014_ga_suru",
+    "grammar_en": "ga suru",
+    "grammar_jp": "がする",
+    "meaning": "to smell; hear; taste",
+    "slug": "ga_suru",
+    "level": "N4"
+  },
+  {
+    "idx": 15,
+    "entry_id": "n4_015_gari",
+    "grammar_en": "gari",
+    "grammar_jp": "がり",
+    "meaning": "personality (someone tends to; has a tendency to; has a sensitivity to ~)",
+    "slug": "gari",
+    "level": "N4"
+  },
+  {
+    "idx": 16,
+    "entry_id": "n4_016_garu_gatteiru",
+    "grammar_en": "garu / gatteiru",
+    "grammar_jp": "がる / がっている",
+    "meaning": "to show signs of; to appear; to feel, to think ~",
+    "slug": "garu_gatteiru",
+    "level": "N4"
+  },
+  {
+    "idx": 17,
+    "entry_id": "n4_017_gozaimasu",
+    "grammar_en": "gozaimasu",
+    "grammar_jp": "ございます",
+    "meaning": "to be, to exist (the polite form of いる/ある)",
+    "slug": "gozaimasu",
+    "level": "N4"
+  },
+  {
+    "idx": 18,
+    "entry_id": "n4_018_hajimeru",
+    "grammar_en": "hajimeru",
+    "grammar_jp": "始める（はじめる）",
+    "meaning": "to start; to begin to ~",
+    "slug": "hajimeru",
+    "level": "N4"
+  },
+  {
+    "idx": 19,
+    "entry_id": "n4_019_hazu_da",
+    "grammar_en": "hazu da",
+    "grammar_jp": "はずだ",
+    "meaning": "it must be; it should be (expectation)",
+    "slug": "hazu_da",
+    "level": "N4"
+  },
+  {
+    "idx": 20,
+    "entry_id": "n4_020_hazu_ga_nai",
+    "grammar_en": "hazu ga nai",
+    "grammar_jp": "はずがない",
+    "meaning": "cannot be (impossible)",
+    "slug": "hazu_ga_nai",
+    "level": "N4"
+  },
+  {
+    "idx": 21,
+    "entry_id": "n4_021_hitsuyou_ga_aru",
+    "grammar_en": "hitsuyou ga aru",
+    "grammar_jp": "必要がある（ひつようがある）",
+    "meaning": "need to; it is necessary to",
+    "slug": "hitsuyou_ga_aru",
+    "level": "N4"
+  },
+  {
+    "idx": 22,
+    "entry_id": "n4_022_ikou_kei_volitional_form",
+    "grammar_en": "ikou kei - volitional form",
+    "grammar_jp": "意向形 （いこうけい）",
+    "meaning": "volitional form​; let's do ~",
+    "slug": "ikou_kei_volitional_form",
+    "level": "N4"
+  },
+  {
+    "idx": 23,
+    "entry_id": "n4_023_irassharu",
+    "grammar_en": "irassharu",
+    "grammar_jp": "いらっしゃる",
+    "meaning": "to be; to come; to go (polite version)",
+    "slug": "irassharu",
+    "level": "N4"
+  },
+  {
+    "idx": 24,
+    "entry_id": "n4_024_itashimasu",
+    "grammar_en": "itashimasu",
+    "grammar_jp": "いたします",
+    "meaning": "to do (polite form of する)",
+    "slug": "itashimasu",
+    "level": "N4"
+  },
+  {
+    "idx": 25,
+    "entry_id": "n4_025_janai_ka",
+    "grammar_en": "janai ka",
+    "grammar_jp": "じゃないか",
+    "meaning": "right? isn't it? let's~; confirmation",
+    "slug": "janai_ka",
+    "level": "N4"
+  },
+  {
+    "idx": 26,
+    "entry_id": "n4_026_ka_dou_ka",
+    "grammar_en": "ka dou ka",
+    "grammar_jp": "かどうか",
+    "meaning": "whether or not ~",
+    "slug": "ka_dou_ka",
+    "level": "N4"
+  },
+  {
+    "idx": 27,
+    "entry_id": "n4_027_ka_shira",
+    "grammar_en": "ka shira",
+    "grammar_jp": "かしら",
+    "meaning": "I wonder (feminine)",
+    "slug": "ka_shira",
+    "level": "N4"
+  },
+  {
+    "idx": 28,
+    "entry_id": "n4_028_kai",
+    "grammar_en": "kai",
+    "grammar_jp": "かい",
+    "meaning": "turns a sentence into a yes/no question",
+    "slug": "kai",
+    "level": "N4"
+  },
+  {
+    "idx": 29,
+    "entry_id": "n4_029_kamo_shirenai",
+    "grammar_en": "kamo shirenai",
+    "grammar_jp": "かもしれない",
+    "meaning": "might; perhaps; indicates possibility",
+    "slug": "kamo_shirenai",
+    "level": "N4"
+  },
+  {
+    "idx": 30,
+    "entry_id": "n4_030_kana",
+    "grammar_en": "kana",
+    "grammar_jp": "かな",
+    "meaning": "I wonder; should I?",
+    "slug": "kana",
+    "level": "N4"
+  },
+  {
+    "idx": 31,
+    "entry_id": "n4_031_kara_tsukuru",
+    "grammar_en": "kara tsukuru",
+    "grammar_jp": "から作る（からつくる）",
+    "meaning": "made from; made with",
+    "slug": "kara_tsukuru",
+    "level": "N4"
+  },
+  {
+    "idx": 32,
+    "entry_id": "n4_032_kitto",
+    "grammar_en": "kitto",
+    "grammar_jp": "きっと",
+    "meaning": "surely; undoubtedly; almost certainly; most likely",
+    "slug": "kitto",
+    "level": "N4"
+  },
+  {
+    "idx": 33,
+    "entry_id": "n4_033_koro_goro",
+    "grammar_en": "koro / goro",
+    "grammar_jp": "頃（ころ / ごろ）",
+    "meaning": "around; about; when",
+    "slug": "koro_goro",
+    "level": "N4"
+  },
+  {
+    "idx": 34,
+    "entry_id": "n4_034_koto",
+    "grammar_en": "koto",
+    "grammar_jp": "こと",
+    "meaning": "Verb nominalizer",
+    "slug": "koto",
+    "level": "N4"
+  },
+  {
+    "idx": 35,
+    "entry_id": "n4_035_koto_ga_aru",
+    "grammar_en": "koto ga aru",
+    "grammar_jp": "ことがある",
+    "meaning": "there are times when",
+    "slug": "koto_ga_aru",
+    "level": "N4"
+  },
+  {
+    "idx": 36,
+    "entry_id": "n4_036_koto_ga_dekiru",
+    "grammar_en": "koto ga dekiru",
+    "grammar_jp": "ことができる",
+    "meaning": "can; able to",
+    "slug": "koto_ga_dekiru",
+    "level": "N4"
+  },
+  {
+    "idx": 37,
+    "entry_id": "n4_037_koto_ni_naru",
+    "grammar_en": "koto ni naru",
+    "grammar_jp": "ことになる",
+    "meaning": "It has been decided that..; it turns out that..",
+    "slug": "koto_ni_naru",
+    "level": "N4"
+  },
+  {
+    "idx": 38,
+    "entry_id": "n4_038_koto_ni_suru",
+    "grammar_en": "koto ni suru",
+    "grammar_jp": "ことにする",
+    "meaning": "to decide on",
+    "slug": "koto_ni_suru",
+    "level": "N4"
+  },
+  {
+    "idx": 39,
+    "entry_id": "n4_039_ku_suru",
+    "grammar_en": "ku suru",
+    "grammar_jp": "くする",
+    "meaning": "to make something ~",
+    "slug": "ku_suru",
+    "level": "N4"
+  },
+  {
+    "idx": 40,
+    "entry_id": "n4_040_kyuu_ni",
+    "grammar_en": "kyuu ni",
+    "grammar_jp": "急に（きゅうに）",
+    "meaning": "quickly; immediately; hastily; suddenly; abruptly; unexpectedly ~",
+    "slug": "kyuu_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 41,
+    "entry_id": "n4_041_made_ni",
+    "grammar_en": "made ni",
+    "grammar_jp": "までに",
+    "meaning": "by; by the time; indicates time limit",
+    "slug": "made_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 42,
+    "entry_id": "n4_042_mama",
+    "grammar_en": "mama",
+    "grammar_jp": "まま",
+    "meaning": "as it is; current state; without changing",
+    "slug": "mama",
+    "level": "N4"
+  },
+  {
+    "idx": 43,
+    "entry_id": "n4_043_matawa",
+    "grammar_en": "matawa",
+    "grammar_jp": "または",
+    "meaning": "both; or; otherwise​; choice between [A] or [B]",
+    "slug": "matawa",
+    "level": "N4"
+  },
+  {
+    "idx": 44,
+    "entry_id": "n4_044_mitai_da",
+    "grammar_en": "mitai da",
+    "grammar_jp": "みたいだ",
+    "meaning": "like; similar to; resembling ~",
+    "slug": "mitai_da",
+    "level": "N4"
+  },
+  {
+    "idx": 45,
+    "entry_id": "n4_045_mitai_na",
+    "grammar_en": "mitai na",
+    "grammar_jp": "みたいな",
+    "meaning": "like, similar to ~",
+    "slug": "mitai_na",
+    "level": "N4"
+  },
+  {
+    "idx": 46,
+    "entry_id": "n4_046_mitai_ni",
+    "grammar_en": "mitai ni",
+    "grammar_jp": "みたいに",
+    "meaning": "like; similar to ~",
+    "slug": "mitai_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 47,
+    "entry_id": "n4_047_mo",
+    "grammar_en": "mo",
+    "grammar_jp": "も",
+    "meaning": "as many as; as much as; up to; nearly ~",
+    "slug": "mo",
+    "level": "N4"
+  },
+  {
+    "idx": 48,
+    "entry_id": "n4_048_na",
+    "grammar_en": "na",
+    "grammar_jp": "な",
+    "meaning": "don’t ~ (order somebody to not do something)",
+    "slug": "na",
+    "level": "N4"
+  },
+  {
+    "idx": 49,
+    "entry_id": "n4_049_nado",
+    "grammar_en": "nado",
+    "grammar_jp": "など",
+    "meaning": "such as; things like ~",
+    "slug": "nado",
+    "level": "N4"
+  },
+  {
+    "idx": 50,
+    "entry_id": "n4_050_nagara",
+    "grammar_en": "nagara",
+    "grammar_jp": "ながら",
+    "meaning": "while; during; as; simultaneously",
+    "slug": "nagara",
+    "level": "N4"
+  },
+  {
+    "idx": 51,
+    "entry_id": "n4_051_nakanaka_nai",
+    "grammar_en": "nakanaka~nai",
+    "grammar_jp": "なかなか～ない",
+    "meaning": "not easy to; struggling to; not able to ~",
+    "slug": "nakanaka_nai",
+    "level": "N4"
+  },
+  {
+    "idx": 52,
+    "entry_id": "n4_052_nakereba_ikenai",
+    "grammar_en": "nakereba ikenai",
+    "grammar_jp": "なければいけない",
+    "meaning": "must do something; have to do something",
+    "slug": "nakereba_ikenai",
+    "level": "N4"
+  },
+  {
+    "idx": 53,
+    "entry_id": "n4_053_nakereba_naranai",
+    "grammar_en": "nakereba naranai",
+    "grammar_jp": "なければならない",
+    "meaning": "must do something; have to do something",
+    "slug": "nakereba_naranai",
+    "level": "N4"
+  },
+  {
+    "idx": 54,
+    "entry_id": "n4_054_nara",
+    "grammar_en": "nara",
+    "grammar_jp": "なら",
+    "meaning": "if; in the case that ~",
+    "slug": "nara",
+    "level": "N4"
+  },
+  {
+    "idx": 55,
+    "entry_id": "n4_055_nasai",
+    "grammar_en": "nasai",
+    "grammar_jp": "なさい",
+    "meaning": "do this (soft/firm command)",
+    "slug": "nasai",
+    "level": "N4"
+  },
+  {
+    "idx": 56,
+    "entry_id": "n4_056_nasaru",
+    "grammar_en": "nasaru",
+    "grammar_jp": "なさる",
+    "meaning": "to do (honorific)",
+    "slug": "nasaru",
+    "level": "N4"
+  },
+  {
+    "idx": 57,
+    "entry_id": "n4_057_ni_ki_ga_tsuku",
+    "grammar_en": "ni ki ga tsuku",
+    "grammar_jp": "に気がつく（にきがつく）",
+    "meaning": "to notice; to realize",
+    "slug": "ni_ki_ga_tsuku",
+    "level": "N4"
+  },
+  {
+    "idx": 58,
+    "entry_id": "n4_058_ni_mieru",
+    "grammar_en": "ni mieru",
+    "grammar_jp": "に見える（にみえる）",
+    "meaning": "to look; to seem; to appear",
+    "slug": "ni_mieru",
+    "level": "N4"
+  },
+  {
+    "idx": 59,
+    "entry_id": "n4_059_ni_suru",
+    "grammar_en": "ni suru",
+    "grammar_jp": "にする",
+    "meaning": "to make something ~",
+    "slug": "ni_suru",
+    "level": "N4"
+  },
+  {
+    "idx": 60,
+    "entry_id": "n4_060_nikui",
+    "grammar_en": "nikui",
+    "grammar_jp": "にくい",
+    "meaning": "difficult to do ~",
+    "slug": "nikui",
+    "level": "N4"
+  },
+  {
+    "idx": 61,
+    "entry_id": "n4_061_no_naka_de",
+    "grammar_en": "no naka de",
+    "grammar_jp": "の中で（のなかで）",
+    "meaning": "in; among ~",
+    "slug": "no_naka_de",
+    "level": "N4"
+  },
+  {
+    "idx": 62,
+    "entry_id": "n4_062_noni",
+    "grammar_en": "noni",
+    "grammar_jp": "のに",
+    "meaning": "although, in spite of, even though ~",
+    "slug": "noni",
+    "level": "N4"
+  },
+  {
+    "idx": 63,
+    "entry_id": "n4_063_noni",
+    "grammar_en": "noni",
+    "grammar_jp": "のに",
+    "meaning": "to (do something); in order to ~",
+    "slug": "noni",
+    "level": "N4"
+  },
+  {
+    "idx": 64,
+    "entry_id": "n4_064_nowa_da",
+    "grammar_en": "nowa~da",
+    "grammar_jp": "のは〜だ",
+    "meaning": "[A] is [B]; the reason for [A] is [B]",
+    "slug": "nowa_da",
+    "level": "N4"
+  },
+  {
+    "idx": 65,
+    "entry_id": "n4_065_o_kudasai",
+    "grammar_en": "o~kudasai",
+    "grammar_jp": "お～ください",
+    "meaning": "please do ~ (honorific)",
+    "slug": "o_kudasai",
+    "level": "N4"
+  },
+  {
+    "idx": 66,
+    "entry_id": "n4_066_o_ni_naru",
+    "grammar_en": "o~ni naru",
+    "grammar_jp": "お～になる",
+    "meaning": "to do (honorific)",
+    "slug": "o_ni_naru",
+    "level": "N4"
+  },
+  {
+    "idx": 67,
+    "entry_id": "n4_067_oki_ni",
+    "grammar_en": "oki ni",
+    "grammar_jp": "おきに",
+    "meaning": "repeated at intervals, every ~",
+    "slug": "oki_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 68,
+    "entry_id": "n4_068_owaru",
+    "grammar_en": "owaru",
+    "grammar_jp": "終わる（おわる）",
+    "meaning": "to finish; to end~",
+    "slug": "owaru",
+    "level": "N4"
+  },
+  {
+    "idx": 69,
+    "entry_id": "n4_069_rareru",
+    "grammar_en": "rareru",
+    "grammar_jp": "られる",
+    "meaning": "potential form; ability or inability to do something",
+    "slug": "rareru",
+    "level": "N4"
+  },
+  {
+    "idx": 70,
+    "entry_id": "n4_070_rashii",
+    "grammar_en": "rashii",
+    "grammar_jp": "らしい",
+    "meaning": "it seems like; I heard; apparently ~",
+    "slug": "rashii",
+    "level": "N4"
+  },
+  {
+    "idx": 71,
+    "entry_id": "n4_071_sa",
+    "grammar_en": "sa",
+    "grammar_jp": "さ",
+    "meaning": "-ness​ ; nominalizer for adjective",
+    "slug": "sa",
+    "level": "N4"
+  },
+  {
+    "idx": 72,
+    "entry_id": "n4_072_sakki",
+    "grammar_en": "sakki",
+    "grammar_jp": "さっき",
+    "meaning": "some time ago; just now",
+    "slug": "sakki",
+    "level": "N4"
+  },
+  {
+    "idx": 73,
+    "entry_id": "n4_073_saserareru",
+    "grammar_en": "saserareru",
+    "grammar_jp": "させられる",
+    "meaning": "causative-passive; to be made to do something",
+    "slug": "saserareru",
+    "level": "N4"
+  },
+  {
+    "idx": 74,
+    "entry_id": "n4_074_saseru",
+    "grammar_en": "saseru",
+    "grammar_jp": "させる",
+    "meaning": "causative form; to make/let somebody do something",
+    "slug": "saseru",
+    "level": "N4"
+  },
+  {
+    "idx": 75,
+    "entry_id": "n4_075_sasete_kudasai",
+    "grammar_en": "sasete kudasai",
+    "grammar_jp": "させてください",
+    "meaning": "please let me do",
+    "slug": "sasete_kudasai",
+    "level": "N4"
+  },
+  {
+    "idx": 76,
+    "entry_id": "n4_076_sasuga",
+    "grammar_en": "sasuga",
+    "grammar_jp": "さすが",
+    "meaning": "as one would expect; as is to be expected; even ~",
+    "slug": "sasuga",
+    "level": "N4"
+  },
+  {
+    "idx": 77,
+    "entry_id": "n4_077_shi",
+    "grammar_en": "shi",
+    "grammar_jp": "し",
+    "meaning": "and; and what’s more ~ (emphasis)",
+    "slug": "shi",
+    "level": "N4"
+  },
+  {
+    "idx": 78,
+    "entry_id": "n4_078_sonna_ni",
+    "grammar_en": "sonna ni",
+    "grammar_jp": "そんなに",
+    "meaning": "so much; so; like that",
+    "slug": "sonna_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 79,
+    "entry_id": "n4_079_sore_demo",
+    "grammar_en": "sore demo",
+    "grammar_jp": "それでも",
+    "meaning": "but still; and yet; even so ~",
+    "slug": "sore_demo",
+    "level": "N4"
+  },
+  {
+    "idx": 80,
+    "entry_id": "n4_080_sore_ni",
+    "grammar_en": "sore ni",
+    "grammar_jp": "それに",
+    "meaning": "besides; in addition; also; moreover ~",
+    "slug": "sore_ni",
+    "level": "N4"
+  },
+  {
+    "idx": 81,
+    "entry_id": "n4_081_sou_da_1",
+    "grammar_en": "sou da [1]",
+    "grammar_jp": "そうだ",
+    "meaning": "I heard that; it is said that ~",
+    "slug": "sou_da_1",
+    "level": "N4"
+  },
+  {
+    "idx": 82,
+    "entry_id": "n4_082_sou_da_2",
+    "grammar_en": "sou da [2]",
+    "grammar_jp": "そうだ",
+    "meaning": "looks like; appears like; seeming ~",
+    "slug": "sou_da_2",
+    "level": "N4"
+  },
+  {
+    "idx": 83,
+    "entry_id": "n4_083_sou_ni_sou_na",
+    "grammar_en": "sou ni / sou na",
+    "grammar_jp": "そうに / そうな",
+    "meaning": "seems like; looks like ~",
+    "slug": "sou_ni_sou_na",
+    "level": "N4"
+  },
+  {
+    "idx": 84,
+    "entry_id": "n4_084_ta_bakari",
+    "grammar_en": "ta bakari",
+    "grammar_jp": "たばかり",
+    "meaning": "just finished; something just occurred",
+    "slug": "ta_bakari",
+    "level": "N4"
+  },
+  {
+    "idx": 85,
+    "entry_id": "n4_085_ta_tokoro",
+    "grammar_en": "ta tokoro",
+    "grammar_jp": "たところ",
+    "meaning": "just finished doing, was just doing",
+    "slug": "ta_tokoro",
+    "level": "N4"
+  },
+  {
+    "idx": 86,
+    "entry_id": "n4_086_tadoushi_jidoushi",
+    "grammar_en": "tadoushi & jidoushi",
+    "grammar_jp": "他動詞 & 自動詞（たどうし & じどうし）",
+    "meaning": "Transitive & Intransitive Verbs",
+    "slug": "tadoushi_jidoushi",
+    "level": "N4"
+  },
+  {
+    "idx": 87,
+    "entry_id": "n4_087_tagaru",
+    "grammar_en": "tagaru",
+    "grammar_jp": "たがる",
+    "meaning": "wants to do ~ (third person)",
+    "slug": "tagaru",
+    "level": "N4"
+  },
+  {
+    "idx": 88,
+    "entry_id": "n4_088_tara",
+    "grammar_en": "tara",
+    "grammar_jp": "たら",
+    "meaning": "if; after; when ~",
+    "slug": "tara",
+    "level": "N4"
+  },
+  {
+    "idx": 89,
+    "entry_id": "n4_089_tara_dou",
+    "grammar_en": "tara dou",
+    "grammar_jp": "たらどう",
+    "meaning": "why don't you; how about ~ (used to give advice)",
+    "slug": "tara_dou",
+    "level": "N4"
+  },
+  {
+    "idx": 90,
+    "entry_id": "n4_090_tara_ii_desu_ka",
+    "grammar_en": "tara ii desu ka",
+    "grammar_jp": "たらいいですか",
+    "meaning": "what should I do?; speaker seeking instructions from listener",
+    "slug": "tara_ii_desu_ka",
+    "level": "N4"
+  },
+  {
+    "idx": 91,
+    "entry_id": "n4_091_te_de",
+    "grammar_en": "te / de",
+    "grammar_jp": "て / で",
+    "meaning": "conjunctive particle; so; because of [A], [B]...",
+    "slug": "te_de",
+    "level": "N4"
+  },
+  {
+    "idx": 92,
+    "entry_id": "n4_092_te_ageru",
+    "grammar_en": "te ageru",
+    "grammar_jp": "てあげる",
+    "meaning": "to do for; to do a favor",
+    "slug": "te_ageru",
+    "level": "N4"
+  },
+  {
+    "idx": 93,
+    "entry_id": "n4_093_te_hoshii",
+    "grammar_en": "te hoshii",
+    "grammar_jp": "てほしい",
+    "meaning": "I want you to; need you to ~",
+    "slug": "te_hoshii",
+    "level": "N4"
+  },
+  {
+    "idx": 94,
+    "entry_id": "n4_094_te_iku",
+    "grammar_en": "te iku",
+    "grammar_jp": "ていく",
+    "meaning": "to start; to continue; to go on",
+    "slug": "te_iku",
+    "level": "N4"
+  },
+  {
+    "idx": 95,
+    "entry_id": "n4_095_te_ita",
+    "grammar_en": "te ita",
+    "grammar_jp": "ていた",
+    "meaning": "was doing something (past continuous)",
+    "slug": "te_ita",
+    "level": "N4"
+  },
+  {
+    "idx": 96,
+    "entry_id": "n4_096_te_itadakemasen_ka",
+    "grammar_en": "te itadakemasen ka",
+    "grammar_jp": "ていただけませんか",
+    "meaning": "could you please ~",
+    "slug": "te_itadakemasen_ka",
+    "level": "N4"
+  },
+  {
+    "idx": 97,
+    "entry_id": "n4_097_te_kureru",
+    "grammar_en": "te kureru",
+    "grammar_jp": "てくれる",
+    "meaning": "to do a favor; do something for someone",
+    "slug": "te_kureru",
+    "level": "N4"
+  },
+  {
+    "idx": 98,
+    "entry_id": "n4_098_te_kuru",
+    "grammar_en": "te kuru",
+    "grammar_jp": "てくる",
+    "meaning": "to do… and come back; to become; to continue; to start ~",
+    "slug": "te_kuru",
+    "level": "N4"
+  },
+  {
+    "idx": 99,
+    "entry_id": "n4_099_te_miru",
+    "grammar_en": "te miru",
+    "grammar_jp": "てみる",
+    "meaning": "try doing",
+    "slug": "te_miru",
+    "level": "N4"
+  },
+  {
+    "idx": 100,
+    "entry_id": "n4_100_te_morau",
+    "grammar_en": "te morau",
+    "grammar_jp": "てもらう",
+    "meaning": "to get somebody to do something",
+    "slug": "te_morau",
+    "level": "N4"
+  },
+  {
+    "idx": 101,
+    "entry_id": "n4_101_te_oku",
+    "grammar_en": "te oku",
+    "grammar_jp": "ておく",
+    "meaning": "to do something in advance",
+    "slug": "te_oku",
+    "level": "N4"
+  },
+  {
+    "idx": 102,
+    "entry_id": "n4_102_te_shimau_chau",
+    "grammar_en": "te shimau / chau",
+    "grammar_jp": "てしまう / ちゃう",
+    "meaning": "to do something by accident, to finish completely",
+    "slug": "te_shimau_chau",
+    "level": "N4"
+  },
+  {
+    "idx": 103,
+    "entry_id": "n4_103_te_sumimasen",
+    "grammar_en": "te sumimasen",
+    "grammar_jp": "てすみません",
+    "meaning": "I’m sorry for",
+    "slug": "te_sumimasen",
+    "level": "N4"
+  },
+  {
+    "idx": 104,
+    "entry_id": "n4_104_te_yaru",
+    "grammar_en": "te yaru",
+    "grammar_jp": "てやる",
+    "meaning": "to do for; to do a favor (casual)",
+    "slug": "te_yaru",
+    "level": "N4"
+  },
+  {
+    "idx": 105,
+    "entry_id": "n4_105_te_yokatta",
+    "grammar_en": "te yokatta",
+    "grammar_jp": "てよかった",
+    "meaning": "I’m glad that ~",
+    "slug": "te_yokatta",
+    "level": "N4"
+  },
+  {
+    "idx": 106,
+    "entry_id": "n4_106_teiru_tokoro",
+    "grammar_en": "teiru tokoro",
+    "grammar_jp": "ているところ",
+    "meaning": "in the process of doing",
+    "slug": "teiru_tokoro",
+    "level": "N4"
+  },
+  {
+    "idx": 107,
+    "entry_id": "n4_107_temo",
+    "grammar_en": "temo",
+    "grammar_jp": "ても",
+    "meaning": "even; even if; even though ~",
+    "slug": "temo",
+    "level": "N4"
+  },
+  {
+    "idx": 108,
+    "entry_id": "n4_108_to",
+    "grammar_en": "to",
+    "grammar_jp": "と",
+    "meaning": "whenever [A] happens, [B] also happens",
+    "slug": "to",
+    "level": "N4"
+  },
+  {
+    "idx": 109,
+    "entry_id": "n4_109_to_ittemo_ii",
+    "grammar_en": "to ittemo ii",
+    "grammar_jp": "と言ってもいい（といってもいい）",
+    "meaning": "you could say; one might say; I'd say ~",
+    "slug": "to_ittemo_ii",
+    "level": "N4"
+  },
+  {
+    "idx": 110,
+    "entry_id": "n4_110_to_iu",
+    "grammar_en": "to iu",
+    "grammar_jp": "という",
+    "meaning": "called; named; that ~",
+    "slug": "to_iu",
+    "level": "N4"
+  },
+  {
+    "idx": 111,
+    "entry_id": "n4_111_to_iu_koto",
+    "grammar_en": "to iu koto",
+    "grammar_jp": "ということ",
+    "meaning": "convert phrase into noun",
+    "slug": "to_iu_koto",
+    "level": "N4"
+  },
+  {
+    "idx": 112,
+    "entry_id": "n4_112_to_iwarete_iru",
+    "grammar_en": "to iwarete iru",
+    "grammar_jp": "と言われている（といわれている）",
+    "meaning": "it is said that ~",
+    "slug": "to_iwarete_iru",
+    "level": "N4"
+  },
+  {
+    "idx": 113,
+    "entry_id": "n4_113_to_kiita",
+    "grammar_en": "to kiita",
+    "grammar_jp": "と聞いた（ときいた）",
+    "meaning": "I heard...",
+    "slug": "to_kiita",
+    "level": "N4"
+  },
+  {
+    "idx": 114,
+    "entry_id": "n4_114_to_omou",
+    "grammar_en": "to omou",
+    "grammar_jp": "と思う（とおもう）",
+    "meaning": "to think…; I think…; you think…",
+    "slug": "to_omou",
+    "level": "N4"
+  },
+  {
+    "idx": 115,
+    "entry_id": "n4_115_toka_toka",
+    "grammar_en": "toka~toka",
+    "grammar_jp": "とか～とか",
+    "meaning": "among other things; such as; like ~",
+    "slug": "toka_toka",
+    "level": "N4"
+  },
+  {
+    "idx": 116,
+    "entry_id": "n4_116_tokoro",
+    "grammar_en": "tokoro",
+    "grammar_jp": "ところ",
+    "meaning": "just about to; on the verge of doing something",
+    "slug": "tokoro",
+    "level": "N4"
+  },
+  {
+    "idx": 117,
+    "entry_id": "n4_117_tsuzukeru",
+    "grammar_en": "tsuzukeru",
+    "grammar_jp": "続ける（つづける）",
+    "meaning": "continue to; keen on ~",
+    "slug": "tsuzukeru",
+    "level": "N4"
+  },
+  {
+    "idx": 118,
+    "entry_id": "n4_118_tte",
+    "grammar_en": "tte",
+    "grammar_jp": "って",
+    "meaning": "named; called ~",
+    "slug": "tte",
+    "level": "N4"
+  },
+  {
+    "idx": 119,
+    "entry_id": "n4_119_ukemi_kei",
+    "grammar_en": "ukemi kei",
+    "grammar_jp": "受身形（うけみけい）",
+    "meaning": "passive form; passive voice",
+    "slug": "ukemi_kei",
+    "level": "N4"
+  },
+  {
+    "idx": 120,
+    "entry_id": "n4_120_wa_ga_wa",
+    "grammar_en": "wa~ga... wa",
+    "grammar_jp": "は〜が… は",
+    "meaning": "[A] but [B]; however; comparison",
+    "slug": "wa_ga_wa",
+    "level": "N4"
+  },
+  {
+    "idx": 121,
+    "entry_id": "n4_121_yasui",
+    "grammar_en": "yasui",
+    "grammar_jp": "やすい",
+    "meaning": "easy to; likely to; prone to; have a tendency to ~",
+    "slug": "yasui",
+    "level": "N4"
+  },
+  {
+    "idx": 122,
+    "entry_id": "n4_122_yatto",
+    "grammar_en": "yatto",
+    "grammar_jp": "やっと",
+    "meaning": "at last; finally; barely; narrowly ~",
+    "slug": "yatto",
+    "level": "N4"
+  },
+  {
+    "idx": 123,
+    "entry_id": "n4_123_yori",
+    "grammar_en": "yori",
+    "grammar_jp": "より",
+    "meaning": "than; rather than; more than ~",
+    "slug": "yori",
+    "level": "N4"
+  },
+  {
+    "idx": 124,
+    "entry_id": "n4_124_yotei_da",
+    "grammar_en": "yotei da",
+    "grammar_jp": "予定だ（よていだ）",
+    "meaning": "plan to, intend to",
+    "slug": "yotei_da",
+    "level": "N4"
+  },
+  {
+    "idx": 125,
+    "entry_id": "n4_125_you_da",
+    "grammar_en": "you da",
+    "grammar_jp": "ようだ",
+    "meaning": "appears; seems; looks as if ~",
+    "slug": "you_da",
+    "level": "N4"
+  },
+  {
+    "idx": 126,
+    "entry_id": "n4_126_you_ni_you_na",
+    "grammar_en": "you ni / you na",
+    "grammar_jp": "ように / ような",
+    "meaning": "like; as; similar to ~",
+    "slug": "you_ni_you_na",
+    "level": "N4"
+  },
+  {
+    "idx": 127,
+    "entry_id": "n4_127_you_ni_naru",
+    "grammar_en": "you ni naru",
+    "grammar_jp": "ようになる",
+    "meaning": "to reach the point that; to come to be that; to turn into ~",
+    "slug": "you_ni_naru",
+    "level": "N4"
+  },
+  {
+    "idx": 128,
+    "entry_id": "n4_128_you_ni_suru",
+    "grammar_en": "you ni suru",
+    "grammar_jp": "ようにする",
+    "meaning": "to try to; to make sure that ~",
+    "slug": "you_ni_suru",
+    "level": "N4"
+  },
+  {
+    "idx": 129,
+    "entry_id": "n4_129_you_to_omou",
+    "grammar_en": "you to omou",
+    "grammar_jp": "ようと思う（ようとおもう）",
+    "meaning": "thinking of doing; planning to ~",
+    "slug": "you_to_omou",
+    "level": "N4"
+  },
+  {
+    "idx": 130,
+    "entry_id": "n4_130_zehi",
+    "grammar_en": "zehi",
+    "grammar_jp": "ぜひ",
+    "meaning": "by all means; certainly; definitely ~",
+    "slug": "zehi",
+    "level": "N4"
+  },
+  {
+    "idx": 131,
+    "entry_id": "n4_131_zenzen_nai",
+    "grammar_en": "zenzen~nai",
+    "grammar_jp": "全然～ない（ぜんぜん～ない）",
+    "meaning": "(not) at all",
+    "slug": "zenzen_nai",
+    "level": "N4"
+  },
+  {
+    "idx": 132,
+    "entry_id": "n4_132_zurai",
+    "grammar_en": "zurai",
+    "grammar_jp": "づらい",
+    "meaning": "difficult to do ~",
+    "slug": "zurai",
+    "level": "N4"
+  }
+]

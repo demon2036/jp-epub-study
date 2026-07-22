@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Version 1 · 单条里直接打对照</title>
+  <style>
+    :root { --bg:#f7f9fd; --paper:#fff; --line:#dbe3ef; --text:#1f2937; --muted:#64748b; --blue:#1f4b8f; --amber:#b45309; --teal:#0f766e; --shadow:0 20px 46px rgba(31,75,143,.12); }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1060px;margin:0 auto;padding:34px 20px 72px}
+    .top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
+    h1{margin:0 0 10px;font-size:34px;color:#173f79}
+    .lead{color:var(--muted);font-size:17px;line-height:1.9;max-width:860px}
+    .back{color:#244a84;text-decoration:none;font-weight:800}
+    .entry{margin-top:26px;background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:var(--shadow)}
+    .g{font-size:32px;font-weight:900;color:#173f79;margin:0 0 8px}
+    .feel{background:#f6faff;border:1px solid #dbe8f9;border-radius:16px;padding:16px 18px;font-size:20px;font-weight:800;line-height:1.7;color:#0f2f57}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:18px}
+    .box{border:1px solid #e2e8f4;border-radius:18px;padding:18px;background:#fff}
+    .box h3{margin:0 0 10px;font-size:18px;color:#214a84}
+    .scene{background:linear-gradient(180deg,#fffaf2 0%,#fff 100%);border-color:#f2ddbf}
+    .scene h3{color:#b45309}
+    .formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#eef5ff;border:1px solid #d5e3f6;border-radius:12px;padding:10px 12px;color:#173f79}
+    .ex{margin-top:12px;padding:12px 14px;border-left:4px solid #93b4ea;background:#f8fbff;border-radius:0 12px 12px 0}
+    .jp{font-weight:800;font-size:18px;line-height:1.7}.zh{margin-top:5px;color:#475569;line-height:1.7}
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    th,td{border:1px solid #d9e2ef;padding:12px;text-align:left;vertical-align:top;line-height:1.8}
+    th{background:#f4f8ff;color:#173f79}
+    .ladder{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}
+    .step{border:1px solid #e2e8f4;border-radius:14px;padding:14px;background:#fff}
+    .step b{display:block;color:#173f79;margin-bottom:6px}
+    .memory{margin-top:16px;background:#eef7f7;border:1px solid #c8e6e3;color:#115e59;border-radius:16px;padding:16px 18px;line-height:1.9}
+    @media (max-width:900px){.grid,.ladder{grid-template-columns:1fr}.top{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Version 1 · 单条里直接打对照</h1>
+        <div class="lead">这是最“你想要”的结构：<b>一个语法就是一个记忆单元</b>。但这个单元不是孤立的，它内部就把相近、相反、强弱不同的语法一起打包了。下面用 <b>ばいい</b> 做完整演示。</div>
+      </div>
+      <a class="back" href="/files/grammar-structure-options-v2.html">← 回到结构对比</a>
+    </div>
+
+    <section class="entry">
+      <div class="g">ばいい</div>
+      <div class="feel">它像一句非常生活化的话：<b>“这事这样做就行。”</b> 重点不在命令，而在给出一条可行路径。</div>
+      <div class="grid">
+        <div class="box scene">
+          <h3>场景镜头</h3>
+          <p>朋友说电脑又卡住了。你不是在发布规章，也不是在训人，只是顺手给一个办法：<b>重启一下就行</b>。这就是 <code>ばいい</code> 的手感。</p>
+          <div class="ex"><div class="jp">分からなければ、先生に聞けばいい。</div><div class="zh">要是不懂，问老师就行。</div></div>
+          <div class="ex"><div class="jp">早く寝ればいいのに。</div><div class="zh">早点睡不就好了嘛。</div></div>
+        </div>
+        <div class="box">
+          <h3>句型骨架</h3>
+          <div class="formula">动词假定形（～ば） + いい</div>
+          <p><b>核心语气</b>：建议、给路子、提出解决办法。</p>
+          <p><b>做题第一抓手</b>：如果上下文是在“给一个可执行方案”，优先想到它。</p>
+        </div>
+      </div>
+
+      <div class="box" style="margin-top:18px">
+        <h3>这一页里直接记住的对照组</h3>
+        <table>
+          <thead>
+            <tr><th>对照组</th><th>怎么区分</th><th>做题抓手</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>ばいい</b> vs <b>たらいい</b></td>
+              <td><code>ばいい</code> 更容易强调“可行方案”；<code>たらいい</code> 更口语、更柔一点，更像“那样的话就好了”。</td>
+              <td>先看是不是在给具体操作办法。</td>
+            </tr>
+            <tr>
+              <td><b>ばいい</b> vs <b>ほうがいい</b></td>
+              <td><code>ほうがいい</code> 更像“最好这样”，评价色更明显；<code>ばいい</code> 更像“这样做就行”。</td>
+              <td>看句子是在评优选项，还是在给出路。</td>
+            </tr>
+            <tr>
+              <td><b>ばいい</b> vs <b>べきだ</b></td>
+              <td><code>べきだ</code> 有更强的义务感和规范感；<code>ばいい</code> 轻很多，更生活。</td>
+              <td>如果语境里有“责任/应当/规范”，警惕不是 <code>ばいい</code>。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="box" style="margin-top:18px">
+        <h3>建议系语气梯度</h3>
+        <div class="ladder">
+          <div class="step"><b>たらいい</b>更柔、更口语，像“那样的话就挺好”</div>
+          <div class="step"><b>ばいい</b>给办法，像“这样做就行”</div>
+          <div class="step"><b>ほうがいい</b>更像“最好这样”</div>
+          <div class="step"><b>べきだ</b>最硬，接近“应该/理应”</div>
+        </div>
+      </div>
+
+      <div class="memory"><b>记忆链：</b>朋友来问怎么办时，我先给一个办法（<code>ばいい</code>）；如果只是更温柔地提一句，可以换成 <code>たらいい</code>；如果我要强调“最好这样”，是 <code>ほうがいい</code>；如果变成道德或规范要求，那才是 <code>べきだ</code>。</div>
+    </section>
+  </div>
+</body>
+</html>

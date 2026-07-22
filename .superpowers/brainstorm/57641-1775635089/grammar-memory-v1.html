@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>方案 A · 生动记忆型</title>
+  <style>
+    :root {
+      --bg: #f7f9fd; --paper: #ffffff; --line: #d8e0ef; --text: #1f2937;
+      --muted: #5f6f86; --blue: #1f4b8f; --soft: #edf4ff; --soft2: #fef7ec; --shadow: 0 20px 48px rgba(31,75,143,.12);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", sans-serif; color: var(--text); background: var(--bg); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 34px 20px 70px; }
+    .top { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 24px; }
+    .back { text-decoration: none; color: #244a84; font-weight: 700; }
+    h1 { margin: 0 0 10px; color: #173f79; font-size: 34px; }
+    .lead { color: var(--muted); line-height: 1.9; font-size: 17px; }
+    .entry { background: var(--paper); border: 1px solid var(--line); border-radius: 24px; padding: 26px; box-shadow: var(--shadow); margin-top: 26px; }
+    .tag { display: inline-block; padding: 7px 11px; border-radius: 999px; background: var(--soft); color: var(--blue); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .g { font-size: 32px; font-weight: 900; margin: 14px 0 4px; color: #1f3f72; }
+    .kana { font-size: 16px; color: #64748b; margin-bottom: 10px; }
+    .sense { font-size: 20px; font-weight: 800; line-height: 1.7; color: #102a43; background: #f7fbff; border: 1px solid #dde8f8; padding: 16px 18px; border-radius: 16px; }
+    .grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; margin-top: 18px; }
+    .box { border-radius: 18px; padding: 18px; background: #fbfdff; border: 1px solid #e3eaf6; }
+    .box h3 { margin: 0 0 10px; color: #1f4b8f; font-size: 18px; }
+    .box p, .box li { line-height: 1.85; color: #334155; }
+    .scene { background: linear-gradient(180deg, #fffaf2 0%, #fff 100%); border-color: #f3ddbc; }
+    .scene h3 { color: #b45309; }
+    .formula { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: #eef5ff; border: 1px solid #d7e3f5; border-radius: 12px; padding: 12px 14px; font-size: 16px; color: #163c72; }
+    .ex { margin-top: 14px; padding: 14px 16px; border-left: 4px solid #8bb3ef; background: #f8fbff; border-radius: 0 14px 14px 0; }
+    .jp { font-size: 18px; font-weight: 700; color: #1f2937; }
+    .zh { margin-top: 6px; color: #475569; }
+    .memory { margin-top: 16px; background: #eef7f8; border: 1px solid #c7e7e3; color: #115e59; border-radius: 16px; padding: 16px 18px; line-height: 1.9; }
+    .warn { margin-top: 14px; background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412; border-radius: 16px; padding: 15px 18px; line-height: 1.85; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .top { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>方案 A · 生动记忆型</h1>
+        <div class="lead">这个版本最像《教育汉字详解》：<b>先让你抓住“语法的感觉”</b>，再补接续和限制。每条都尽量做成可以复述的小课，而不是只给你冷定义。</div>
+      </div>
+      <a class="back" href="/">← 回到对比页</a>
+    </div>
+
+    <section class="entry">
+      <div class="tag">Sample 01</div>
+      <div class="g">ばいい</div>
+      <div class="kana">～ばいい</div>
+      <div class="sense">它像一句很生活的话：<b>“这事这样做就行。”</b> 比“命令你必须这样”要软，比“纯客观说明”更有人味。</div>
+      <div class="grid">
+        <div class="box scene">
+          <h3>场景镜头</h3>
+          <p>朋友说电脑又卡住了，你不是在写规章，也不是在下命令，只是在给一个可行办法：<b>重启一下就行</b>。这种“给出路”的感觉，就是 <code>ばいい</code> 最好记的核心。</p>
+          <div class="ex">
+            <div class="jp">分からなければ、先生に聞けばいい。</div>
+            <div class="zh">要是不懂，问老师就行。</div>
+          </div>
+          <div class="ex">
+            <div class="jp">そんなに心配なら、電話すればいいよ。</div>
+            <div class="zh">如果你那么担心，打个电话就行呀。</div>
+          </div>
+        </div>
+        <div class="box">
+          <h3>句型骨架</h3>
+          <div class="formula">动词假定形（～ば） + いい</div>
+          <p><b>语气</b>：建议、给方法、指出可行路径。</p>
+          <p><b>说话人立场</b>：通常是“我看这样做就可以”。</p>
+          <p><b>常见误区</b>：别把它每次都翻成硬邦邦的“应该”。很多时候更像“……就行 / ……不就好了”。</p>
+        </div>
+      </div>
+      <div class="warn"><b>易混提醒：</b><code>ばいい</code> 和 <code>たらいい</code> 都能给建议，但 <code>ばいい</code> 往往更像“从解决办法出发”，更有“这样做就行”的操作感。</div>
+      <div class="memory"><b>一句话记忆：</b>别人来找你拿主意时，脑中先冒出来的那句“那你……就行啊”，就是 <code>ばいい</code>。</div>
+    </section>
+
+    <section class="entry">
+      <div class="tag">Sample 02</div>
+      <div class="g">ことになっている</div>
+      <div class="kana">～ことになっている</div>
+      <div class="sense">它不是“我现在决定”，而更像<b>墙上早就贴好的规则 / 组织里已经定下的安排</b>。重点在“外部已经这么定了”。</div>
+      <div class="grid">
+        <div class="box scene">
+          <h3>场景镜头</h3>
+          <p>你进公司第一天，同事告诉你：“周五要交周报。”“会议室不能带饮料。”这不是他临时想到的，是这个组织本来就这么运转。这个感觉就是 <code>ことになっている</code>。</p>
+          <div class="ex">
+            <div class="jp">この図書館では、飲み物を持ち込まないことになっている。</div>
+            <div class="zh">这家图书馆规定不能带饮料进去。</div>
+          </div>
+          <div class="ex">
+            <div class="jp">会議は十時に始まることになっています。</div>
+            <div class="zh">会议定的是十点开始。</div>
+          </div>
+        </div>
+        <div class="box">
+          <h3>句型骨架</h3>
+          <div class="formula">普通形 + ことになっている</div>
+          <p><b>核心语气</b>：规则、约定、制度、预先决定。</p>
+          <p><b>抓重点</b>：这个决定通常不强调“谁刚刚决定的”，而强调“现在的制度/安排就是这样”。</p>
+          <p><b>常见位置</b>：学校、公司、比赛规则、长期安排。</p>
+        </div>
+      </div>
+      <div class="warn"><b>易混提醒：</b>它和 <code>ことにする</code> 不一样。<code>ことにする</code> 更像“我决定这么做”；<code>ことになっている</code> 更像“事情已经被定成这样了”。</div>
+      <div class="memory"><b>一句话记忆：</b>脑中想一块公告牌：上面写着“本来就这么规定”。看见那块牌子，就想到 <code>ことになっている</code>。</div>
+    </section>
+
+    <section class="entry">
+      <div class="tag">Sample 03</div>
+      <div class="g">わけではない</div>
+      <div class="kana">～わけではない</div>
+      <div class="sense">它最像说话人往回收一点：<b>“不是你理解的那么绝对。”</b> 不是全盘否定，而是把过头的判断拉回来。</div>
+      <div class="grid">
+        <div class="box scene">
+          <h3>场景镜头</h3>
+          <p>朋友说：“你最近不出去，是不是不想见人？” 你回答：“也不是不想见，只是太忙。” 这种“不是完全那样啦”的退半步语气，就是 <code>わけではない</code>。</p>
+          <div class="ex">
+            <div class="jp">高い料理が全部おいしいわけではない。</div>
+            <div class="zh">贵的菜并不一定都好吃。</div>
+          </div>
+          <div class="ex">
+            <div class="jp">日本語が嫌いなわけではないが、まだ自信がない。</div>
+            <div class="zh">倒也不是讨厌日语，只是还没自信。</div>
+          </div>
+        </div>
+        <div class="box">
+          <h3>句型骨架</h3>
+          <div class="formula">普通形 + わけではない</div>
+          <p><b>核心语气</b>：部分否定、非绝对否定。</p>
+          <p><b>真正作用</b>：否定某种“过度概括”或“你以为我在说的那个绝对判断”。</p>
+          <p><b>翻译习惯</b>：常常要译成“并不是……”“倒也不是……”“不见得……”。</p>
+        </div>
+      </div>
+      <div class="warn"><b>易混提醒：</b>别偷懒直接当成普通的 <code>ではない</code>。它的味道不只是“不是”，而是“不是你说的那种绝对地不是/绝对地是”。</div>
+      <div class="memory"><b>一句话记忆：</b>当你想说“不是完全这样，只是你别说得太满”时，手边那把最顺手的工具就是 <code>わけではない</code>。</div>
+    </section>
+  </div>
+</body>
+</html>

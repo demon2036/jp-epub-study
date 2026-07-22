@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="kyoiku-kanji-guide" name="dtb:uid"/>
+    <meta content="0" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>教育汉字详解</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="sep_0">
+      <navLabel>
+        <text>第1学年 (10字)</text>
+      </navLabel>
+      <content src="grade1.xhtml#三"/>
+      <navPoint id="kanji-三">
+        <navLabel>
+          <text>三</text>
+        </navLabel>
+        <content src="grade1.xhtml#三"/>
+      </navPoint>
+      <navPoint id="kanji-五">
+        <navLabel>
+          <text>五</text>
+        </navLabel>
+        <content src="grade1.xhtml#五"/>
+      </navPoint>
+      <navPoint id="kanji-一">
+        <navLabel>
+          <text>一</text>
+        </navLabel>
+        <content src="grade1.xhtml#一"/>
+      </navPoint>
+      <navPoint id="kanji-四">
+        <navLabel>
+          <text>四</text>
+        </navLabel>
+        <content src="grade1.xhtml#四"/>
+      </navPoint>
+      <navPoint id="kanji-二">
+        <navLabel>
+          <text>二</text>
+        </navLabel>
+        <content src="grade1.xhtml#二"/>
+      </navPoint>
+      <navPoint id="kanji-右">
+        <navLabel>
+          <text>右</text>
+        </navLabel>
+        <content src="grade1.xhtml#右"/>
+      </navPoint>
+      <navPoint id="kanji-雨">
+        <navLabel>
+          <text>雨</text>
+        </navLabel>
+        <content src="grade1.xhtml#雨"/>
+      </navPoint>
+      <navPoint id="kanji-円">
+        <navLabel>
+          <text>円</text>
+        </navLabel>
+        <content src="grade1.xhtml#円"/>
+      </navPoint>
+      <navPoint id="kanji-王">
+        <navLabel>
+          <text>王</text>
+        </navLabel>
+        <content src="grade1.xhtml#王"/>
+      </navPoint>
+      <navPoint id="kanji-音">
+        <navLabel>
+          <text>音</text>
+        </navLabel>
+        <content src="grade1.xhtml#音"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

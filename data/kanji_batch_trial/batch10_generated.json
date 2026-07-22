@@ -1,0 +1,3057 @@
+{
+  "kanji": [
+    "三",
+    "五",
+    "一",
+    "四",
+    "二",
+    "右",
+    "雨",
+    "円",
+    "王",
+    "音"
+  ],
+  "elapsed_s": 762.29,
+  "items": {
+    "三": {
+      "summary": "三就是三条横线，画面直接等于“3”。音读さん用于三人、三月、三角这类数字和汉语词。训读み藏在三つ子、三つ編み等和语词里，三つ、三日会变成みっつ、みっか。先记さん是普通数字音，み是老和语词根。",
+      "semantic_core": {
+        "core": "数量“三”。",
+        "extension": "从具体的三个，扩展到第三、三角形、三天等数量组合。",
+        "root_hint": "字形三条线本身就是记忆线索，帮助很大。"
+      },
+      "readings": [
+        {
+          "kana": "さん",
+          "romaji": "san",
+          "type": "音读",
+          "usage": "用于普通数字读法和汉语词，如三人、三月、三角。",
+          "origin_hint": "汉语音读；作为数字音直接记。",
+          "mandarin_pronunciation": {
+            "pinyin": "sān",
+            "note": "用普通话一声读sa，再轻收n鼻音，辅助近似さん。"
+          },
+          "example_sentence": {
+            "jp_ruby": "三[さん]人[にん]で昼[ひる]ご飯[はん]を食[た]べました。",
+            "kana": "さんにんでひるごはんをたべました。",
+            "zh": "三个人一起吃了午饭。",
+            "note": "三人固定读さんにん，是さん的入口词。",
+            "mandarin_pronunciation": "sān nīn dē hī rū gǒ hǎn o tǎ bē mā shī tà。"
+          },
+          "anchor": {
+            "word": "三人",
+            "reading": "さんにん",
+            "meaning": "三个人",
+            "hint": "人数里最常见，马上能用。"
+          },
+          "examples": [
+            {
+              "word": "三月",
+              "reading": "さんがつ",
+              "meaning": "三月",
+              "link": "月份直接用さん。"
+            },
+            {
+              "word": "三角",
+              "reading": "さんかく",
+              "meaning": "三角",
+              "link": "汉语词里三多读さん。"
+            }
+          ],
+          "takeaway": "看到“三+汉语词”，先试さん。"
+        },
+        {
+          "kana": "み",
+          "romaji": "mi",
+          "type": "训读",
+          "usage": "用于和语固定词，常在三つ子、三つ編み、三日一类词里出现或音变。",
+          "origin_hint": "和语数词词根；三つ、三日里会促音化成みっ。",
+          "mandarin_pronunciation": {
+            "pinyin": "mī",
+            "note": "像普通话mi一声短平读，辅助近似み。"
+          },
+          "example_sentence": {
+            "jp_ruby": "彼女[かのじょ]は三[み]つ子[ご]の一人[ひとり]です。",
+            "kana": "かのじょはみつごのひとりです。",
+            "zh": "她是三胞胎中的一个。",
+            "note": "三つ子把三读成み，是训读词根的典型。",
+            "mandarin_pronunciation": "kàno jó wa mítsū gǒ no hítóri desù。"
+          },
+          "anchor": {
+            "word": "三つ子",
+            "reading": "みつご",
+            "meaning": "三胞胎",
+            "hint": "能把み和“成三个一组”的画面连起来。"
+          },
+          "examples": [
+            {
+              "word": "三つ編み",
+              "reading": "みつあみ",
+              "meaning": "三股辫",
+              "link": "三股编在一起，仍是み。"
+            },
+            {
+              "word": "三日",
+              "reading": "みっか",
+              "meaning": "三号；三天",
+              "link": "み遇到固定日期词时变成みっ。"
+            }
+          ],
+          "takeaway": "み是“三”的和语根，固定词里常会变形。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "数字三的三个入口",
+          "why_it_works": "同样是三，日语会按人数、日期、形状换读法或词形。",
+          "items": [
+            {
+              "word": "三人",
+              "reading": "さんにん",
+              "meaning": "三个人",
+              "relation": "人数",
+              "note": "普通数字音さん。"
+            },
+            {
+              "word": "三日",
+              "reading": "みっか",
+              "meaning": "三号；三天",
+              "relation": "日期",
+              "note": "固定日期词，读みっか。"
+            },
+            {
+              "word": "三角",
+              "reading": "さんかく",
+              "meaning": "三角",
+              "relation": "形状",
+              "note": "汉语词读さん。"
+            }
+          ],
+          "takeaway": "人数、汉语词多さん；日期三日要单记みっか。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "さん",
+          "same_kana": "さん",
+          "title": "さん：数字、酸味、生产",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多个汉字音读汇到さん，来源不同但现代同音。",
+          "teaching_point": "先看汉字和搭配对象。",
+          "why_it_works": "さん很常见，不靠声音猜义，要靠字形和词组。",
+          "items": [
+            {
+              "word": "三",
+              "reading": "さん",
+              "meaning": "三",
+              "relation": "目标字",
+              "note": "表示数量。",
+              "source_note": "数字音读。",
+              "memory_hook": "三条横线就是三。"
+            },
+            {
+              "word": "酸",
+              "reading": "さん",
+              "meaning": "酸",
+              "relation": "同音",
+              "note": "表示味道或化学酸。",
+              "source_note": "音读汇合。",
+              "memory_hook": "酸っぱい是酸。"
+            },
+            {
+              "word": "産",
+              "reading": "さん",
+              "meaning": "生产、产物",
+              "relation": "同音",
+              "note": "多见于産業、出産。",
+              "source_note": "音读汇合。",
+              "memory_hook": "产出东西的産。"
+            }
+          ],
+          "takeaway": "さん听音不够，三看数字，酸看味道，産看生产。"
+        },
+        {
+          "target_reading": "み",
+          "same_kana": "み",
+          "title": "み：三、身体、果实",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语词根同音，来源不必强行统一。",
+          "teaching_point": "看后面接的是数量、身体还是结果。",
+          "why_it_works": "み短而常撞音，必须靠搭配辨义。",
+          "items": [
+            {
+              "word": "三",
+              "reading": "み",
+              "meaning": "三的和语词根",
+              "relation": "目标字",
+              "note": "三つ子、三つ編み中出现。",
+              "source_note": "和语数词。",
+              "memory_hook": "三股辫是みつあみ。"
+            },
+            {
+              "word": "身",
+              "reading": "み",
+              "meaning": "身体；自身",
+              "relation": "同音",
+              "note": "身につける等常用。",
+              "source_note": "和语。",
+              "memory_hook": "身在自己身上。"
+            },
+            {
+              "word": "実",
+              "reading": "み",
+              "meaning": "果实；内容",
+              "relation": "同音",
+              "note": "木の実里的果实。",
+              "source_note": "和语。",
+              "memory_hook": "树上结的実。"
+            }
+          ],
+          "takeaway": "み后面跟数量词看三，跟身体看身，跟结果看実。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "中文“三个”的日语分工",
+          "why_it_works": "中文都可说三个，日语要看物体形状和计数方式。",
+          "items": [
+            {
+              "word": "三つ",
+              "reading": "みっつ",
+              "meaning": "三个",
+              "relation": "泛用",
+              "note": "不知道量词时最安全。"
+            },
+            {
+              "word": "三個",
+              "reading": "さんこ",
+              "meaning": "三个小物件",
+              "relation": "个数",
+              "note": "用于苹果、杯子等块状物。"
+            },
+            {
+              "word": "三本",
+              "reading": "さんぼん",
+              "meaning": "三根、三条",
+              "relation": "长条物",
+              "note": "用于笔、伞、瓶子等细长物。"
+            }
+          ],
+          "takeaway": "泛用三つ，小块三個，长条三本。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "三从数量到形状和日期",
+          "why_it_works": "三的核心是数量3，接不同名词就变成不同场景。",
+          "items": [
+            {
+              "word": "三番目",
+              "reading": "さんばんめ",
+              "meaning": "第三个",
+              "relation": "顺序",
+              "note": "数量三扩展为次序。"
+            },
+            {
+              "word": "三角",
+              "reading": "さんかく",
+              "meaning": "三角",
+              "relation": "形状",
+              "note": "三个角。"
+            },
+            {
+              "word": "三日",
+              "reading": "みっか",
+              "meaning": "三号；三天",
+              "relation": "日期",
+              "note": "固定读法要单记。"
+            }
+          ],
+          "takeaway": "三的义不难，难点在日期和量词读法。"
+        }
+      ],
+      "pitfalls": [
+        "三日常读みっか，初学不要按字面读成さんにち。",
+        "三人读さんにん，不读み人。"
+      ],
+      "memory_chain": "先看三条横线记住数量3；三人、三角用さん；三つ子、三つ編み用み；遇到三日就单独拉出来记みっか。"
+    },
+    "五": {
+      "summary": "五表示数字5，核心很直接。音读ご用于五時、五月、五分等普通数字组合。训读いつ用于五つ、五日这类和语数词，常带固定词形。记住ご走汉语数字线，いつ走和语数量线。",
+      "semantic_core": {
+        "core": "数量“五”。",
+        "extension": "从五个扩展到五点、五月、五天、五个人等计数场景。",
+        "root_hint": "字形本身帮助有限，主要靠五時ごじ和五ついつつ两条线记。"
+      },
+      "readings": [
+        {
+          "kana": "ご",
+          "romaji": "go",
+          "type": "音读",
+          "usage": "用于普通数字组合和汉语词，如五時、五月、五分。",
+          "origin_hint": "汉语音读；现代数字读法高频。",
+          "mandarin_pronunciation": {
+            "pinyin": "gō",
+            "note": "用一声短读go，嘴型收圆，辅助近似ご。"
+          },
+          "example_sentence": {
+            "jp_ruby": "五[ご]時[じ]に起[お]きます。",
+            "kana": "ごじにおきます。",
+            "zh": "五点起床。",
+            "note": "五時是ご最常见的生活入口。",
+            "mandarin_pronunciation": "gǒ ji ni óki māsu。"
+          },
+          "anchor": {
+            "word": "五時",
+            "reading": "ごじ",
+            "meaning": "五点",
+            "hint": "每天都能用，时间场景稳定。"
+          },
+          "examples": [
+            {
+              "word": "五月",
+              "reading": "ごがつ",
+              "meaning": "五月",
+              "link": "月份用ご。"
+            },
+            {
+              "word": "五分",
+              "reading": "ごふん",
+              "meaning": "五分钟",
+              "link": "时间长度里也用ご。"
+            }
+          ],
+          "takeaway": "五接时间、月份、汉语词，通常读ご。"
+        },
+        {
+          "kana": "いつ",
+          "romaji": "itsu",
+          "type": "训读",
+          "usage": "用于五つ、五日等和语固定数量词。",
+          "origin_hint": "和语数词词根；五日读いつか是重点。",
+          "mandarin_pronunciation": {
+            "pinyin": "ī tsū",
+            "note": "像i一声加tsu一声，tsu短促，辅助近似いつ。"
+          },
+          "example_sentence": {
+            "jp_ruby": "りんごを五[いつ]つ買[か]いました。",
+            "kana": "りんごをいつつかいました。",
+            "zh": "买了五个苹果。",
+            "note": "五つ直接把いつ和“五个”绑定。",
+            "mandarin_pronunciation": "rín gǒ o ítsūtsu kái māshità。"
+          },
+          "anchor": {
+            "word": "五つ",
+            "reading": "いつつ",
+            "meaning": "五个",
+            "hint": "泛用计数词，最适合记训读。"
+          },
+          "examples": [
+            {
+              "word": "五日",
+              "reading": "いつか",
+              "meaning": "五号；五天",
+              "link": "日期固定读いつか。"
+            },
+            {
+              "word": "五つ目",
+              "reading": "いつつめ",
+              "meaning": "第五个",
+              "link": "从五つ扩展到顺序。"
+            }
+          ],
+          "takeaway": "いつ主要记五つ、五日两块。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "五在时间和数量里换衣服",
+          "why_it_works": "同是5，时间多用ご，和语数量多用いつ。",
+          "items": [
+            {
+              "word": "五時",
+              "reading": "ごじ",
+              "meaning": "五点",
+              "relation": "时间点",
+              "note": "读ご。"
+            },
+            {
+              "word": "五日",
+              "reading": "いつか",
+              "meaning": "五号；五天",
+              "relation": "日期",
+              "note": "固定读いつか。"
+            },
+            {
+              "word": "五つ",
+              "reading": "いつつ",
+              "meaning": "五个",
+              "relation": "泛用数量",
+              "note": "和语计数。"
+            }
+          ],
+          "takeaway": "五時ごじ，五ついつつ，五日いつか。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "ご",
+          "same_kana": "ご",
+          "title": "ご：五、语言、之后",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多个汉字的音读在现代日语中同为ご。",
+          "teaching_point": "看搭配：数字、语言、时间先后。",
+          "why_it_works": "ご太短，必须用词组分辨。",
+          "items": [
+            {
+              "word": "五",
+              "reading": "ご",
+              "meaning": "五",
+              "relation": "目标字",
+              "note": "数字5。",
+              "source_note": "数字音读。",
+              "memory_hook": "五時ごじ。"
+            },
+            {
+              "word": "語",
+              "reading": "ご",
+              "meaning": "语言",
+              "relation": "同音",
+              "note": "日本語、中国語里的語。",
+              "source_note": "音读汇合。",
+              "memory_hook": "語是说话的语言。"
+            },
+            {
+              "word": "後",
+              "reading": "ご",
+              "meaning": "之后",
+              "relation": "同音",
+              "note": "午後、食後里的後。",
+              "source_note": "音读汇合。",
+              "memory_hook": "后面就是後。"
+            }
+          ],
+          "takeaway": "ご看词组：五是数字，語是语言，後是之后。"
+        },
+        {
+          "target_reading": "いつ",
+          "same_kana": "いつ",
+          "title": "いつ：五、何时、一的词素",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语数词、疑问词、音读词素碰到同一假名。",
+          "teaching_point": "看它是不是问时间，或是不是数字固定词。",
+          "why_it_works": "いつ常写假名，容易和五つ的いつ混在一起。",
+          "items": [
+            {
+              "word": "五",
+              "reading": "いつ",
+              "meaning": "五的和语词根",
+              "relation": "目标字",
+              "note": "用于五つ、五日。",
+              "source_note": "和语数词。",
+              "memory_hook": "五ついつつ。"
+            },
+            {
+              "word": "何時",
+              "reading": "いつ",
+              "meaning": "什么时候",
+              "relation": "同音",
+              "note": "现代多写いつ。",
+              "source_note": "汉字借写。",
+              "memory_hook": "问时间就是いつ。"
+            },
+            {
+              "word": "一",
+              "reading": "いつ",
+              "meaning": "一的音读词素",
+              "relation": "同音词素",
+              "note": "唯一、統一里的いつ。",
+              "source_note": "音读汇合。",
+              "memory_hook": "唯一ゆいいつ。"
+            }
+          ],
+          "takeaway": "いつ若在五つ、五日里是五；单独问句多是“什么时候”。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "中文“五个”的日语分工",
+          "why_it_works": "中文一个“个”很万能，日语要看物体类别。",
+          "items": [
+            {
+              "word": "五つ",
+              "reading": "いつつ",
+              "meaning": "五个",
+              "relation": "泛用",
+              "note": "不知道量词时安全。"
+            },
+            {
+              "word": "五個",
+              "reading": "ごこ",
+              "meaning": "五个小物件",
+              "relation": "块状物",
+              "note": "苹果、盒子等。"
+            },
+            {
+              "word": "五本",
+              "reading": "ごほん",
+              "meaning": "五根、五条",
+              "relation": "细长物",
+              "note": "笔、伞、瓶子等。"
+            }
+          ],
+          "takeaway": "泛用五つ，小块五個，长条五本。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "五从数量到时间和金额",
+          "why_it_works": "五的核心是5，接不同名词就是不同计数场景。",
+          "items": [
+            {
+              "word": "五人",
+              "reading": "ごにん",
+              "meaning": "五个人",
+              "relation": "人数",
+              "note": "人数读ごにん。"
+            },
+            {
+              "word": "五月",
+              "reading": "ごがつ",
+              "meaning": "五月",
+              "relation": "月份",
+              "note": "月份读ご。"
+            },
+            {
+              "word": "五円",
+              "reading": "ごえん",
+              "meaning": "五日元",
+              "relation": "金额",
+              "note": "钱数读ご。"
+            }
+          ],
+          "takeaway": "五接汉语式名词，多稳定读ご。"
+        }
+      ],
+      "pitfalls": [
+        "五日读いつか，不是ごにち。",
+        "五分作“五分钟”读ごふん，五分五分里的五分可读ごぶ。"
+      ],
+      "memory_chain": "把五分成两条路：五時、五月、五円都走ご；五つ、五日走いつ；看到日期先想固定读法いつか。"
+    },
+    "一": {
+      "summary": "一是一条线，核心就是“一个、第一”。音读いち是最普通的数字音，用在一年、一番、一月。音读いつ多在唯一、統一、同一等汉语词里。训读ひと用于一つ、一人、一言这类和语词。",
+      "semantic_core": {
+        "core": "数量“一”。",
+        "extension": "从一个扩展到第一、同一、统一、单独一个等义项。",
+        "root_hint": "字形一横就是1，是最强记忆线索。"
+      },
+      "readings": [
+        {
+          "kana": "いち",
+          "romaji": "ichi",
+          "type": "音读",
+          "usage": "最常见数字音，用于一年、一番、一月等。",
+          "origin_hint": "汉语音读；作为基础数字读法记。",
+          "mandarin_pronunciation": {
+            "pinyin": "ī qī",
+            "note": "用i一声接qi一声近似，注意日语ち更短。"
+          },
+          "example_sentence": {
+            "jp_ruby": "一[いち]年[ねん]日本語[にほんご]を勉強[べんきょう]しました。",
+            "kana": "いちねんにほんごをべんきょうしました。",
+            "zh": "学了一年日语。",
+            "note": "一年把いち和时间长度连起来。",
+            "mandarin_pronunciation": "íchi nén nihón gǒ o bénkyō shimáshità。"
+          },
+          "anchor": {
+            "word": "一年",
+            "reading": "いちねん",
+            "meaning": "一年",
+            "hint": "时间表达高频，读法稳定。"
+          },
+          "examples": [
+            {
+              "word": "一月",
+              "reading": "いちがつ",
+              "meaning": "一月",
+              "link": "月份用いち。"
+            },
+            {
+              "word": "一番",
+              "reading": "いちばん",
+              "meaning": "第一；最",
+              "link": "顺序第一也用いち。"
+            }
+          ],
+          "takeaway": "普通数字1，先读いち。"
+        },
+        {
+          "kana": "いつ",
+          "romaji": "itsu",
+          "type": "音读",
+          "usage": "多用于唯一、統一、同一等抽象汉语词。",
+          "origin_hint": "另一支音读；常在复合词中出现。",
+          "mandarin_pronunciation": {
+            "pinyin": "ī tsū",
+            "note": "i一声加短促tsu一声，辅助近似いつ。"
+          },
+          "example_sentence": {
+            "jp_ruby": "これが唯[ゆい]一[いつ]の答[こた]えです。",
+            "kana": "これがゆいいつのこたえです。",
+            "zh": "这就是唯一的答案。",
+            "note": "唯一是いつ读法的核心锚点。",
+            "mandarin_pronunciation": "kòre ga yúi ítsū no kotáe desù。"
+          },
+          "anchor": {
+            "word": "唯一",
+            "reading": "ゆいいつ",
+            "meaning": "唯一",
+            "hint": "意思和“一”高度贴合，容易记。"
+          },
+          "examples": [
+            {
+              "word": "統一",
+              "reading": "とういつ",
+              "meaning": "统一",
+              "link": "把多个合成一个。"
+            },
+            {
+              "word": "同一",
+              "reading": "どういつ",
+              "meaning": "同一",
+              "link": "强调是同一个。"
+            }
+          ],
+          "takeaway": "抽象的“唯一、统一、同一”常用いつ。"
+        },
+        {
+          "kana": "ひと",
+          "romaji": "hito",
+          "type": "训读",
+          "usage": "用于和语数词和固定词，如一つ、一人、一言。",
+          "origin_hint": "和语数词词根；一人读ひとり要单记。",
+          "mandarin_pronunciation": {
+            "pinyin": "hī tō",
+            "note": "hi、to都短平读，辅助近似ひと。"
+          },
+          "example_sentence": {
+            "jp_ruby": "一[ひと]つ質問[しつもん]があります。",
+            "kana": "ひとつしつもんがあります。",
+            "zh": "我有一个问题。",
+            "note": "一つ是ひと最实用的入口。",
+            "mandarin_pronunciation": "híto tsū shítsumón ga arimásu。"
+          },
+          "anchor": {
+            "word": "一つ",
+            "reading": "ひとつ",
+            "meaning": "一个",
+            "hint": "泛用计数，初学每天会遇到。"
+          },
+          "examples": [
+            {
+              "word": "一人",
+              "reading": "ひとり",
+              "meaning": "一个人",
+              "link": "人数特殊读法。"
+            },
+            {
+              "word": "一言",
+              "reading": "ひとこと",
+              "meaning": "一句话",
+              "link": "一个“言”就是一言。"
+            }
+          ],
+          "takeaway": "ひと负责和语里的“一个”。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "一的三条读法线",
+          "why_it_works": "一的意思简单，但读法按词类分工明显。",
+          "items": [
+            {
+              "word": "一年",
+              "reading": "いちねん",
+              "meaning": "一年",
+              "relation": "普通数字",
+              "note": "读いち。"
+            },
+            {
+              "word": "唯一",
+              "reading": "ゆいいつ",
+              "meaning": "唯一",
+              "relation": "抽象汉语词",
+              "note": "读いつ。"
+            },
+            {
+              "word": "一つ",
+              "reading": "ひとつ",
+              "meaning": "一个",
+              "relation": "和语计数",
+              "note": "读ひと。"
+            }
+          ],
+          "takeaway": "数字いち，抽象合一いつ，和语一个ひと。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "いち",
+          "same_kana": "いち",
+          "title": "いち：一、位置、市场",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "数字音、汉语词和旧词读法同音。",
+          "teaching_point": "看汉字和词义场景。",
+          "why_it_works": "いち高频，位置和一番容易听混。",
+          "items": [
+            {
+              "word": "一",
+              "reading": "いち",
+              "meaning": "一",
+              "relation": "目标字",
+              "note": "数字1。",
+              "source_note": "数字音读。",
+              "memory_hook": "一番いちばん。"
+            },
+            {
+              "word": "位置",
+              "reading": "いち",
+              "meaning": "位置",
+              "relation": "同音",
+              "note": "表示所在地点。",
+              "source_note": "音读词。",
+              "memory_hook": "位置是地点。"
+            },
+            {
+              "word": "市",
+              "reading": "いち",
+              "meaning": "集市",
+              "relation": "同音",
+              "note": "古风或复合词中见到。",
+              "source_note": "和语/固定读法。",
+              "memory_hook": "市場和买卖有关。"
+            }
+          ],
+          "takeaway": "いち听到后，先看是数字、地点还是市场。"
+        },
+        {
+          "target_reading": "いつ",
+          "same_kana": "いつ",
+          "title": "いつ：一、何时、逸",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "音读词素和疑问词同音，来源不同。",
+          "teaching_point": "看是否在复合词里，还是单独问时间。",
+          "why_it_works": "唯一的いつ和疑问词いつ很容易混。",
+          "items": [
+            {
+              "word": "一",
+              "reading": "いつ",
+              "meaning": "一的音读词素",
+              "relation": "目标字",
+              "note": "唯一、統一中出现。",
+              "source_note": "音读。",
+              "memory_hook": "合成一个就是統一。"
+            },
+            {
+              "word": "何時",
+              "reading": "いつ",
+              "meaning": "什么时候",
+              "relation": "同音",
+              "note": "通常写假名いつ。",
+              "source_note": "汉字借写。",
+              "memory_hook": "问时间。"
+            },
+            {
+              "word": "逸",
+              "reading": "いつ",
+              "meaning": "逸出、逸闻的逸",
+              "relation": "同音词素",
+              "note": "逸話など。",
+              "source_note": "音读汇合。",
+              "memory_hook": "逸話是奇闻轶事。"
+            }
+          ],
+          "takeaway": "いつ在唯一里是“一”，在问句里多是“什么时候”。"
+        },
+        {
+          "target_reading": "ひと",
+          "same_kana": "ひと",
+          "title": "ひと：一、人、ヒト",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语数词、人称词和物种名同音。",
+          "teaching_point": "看它指数量、个人，还是生物类别。",
+          "why_it_works": "ひと既能指一个，也能指人。",
+          "items": [
+            {
+              "word": "一",
+              "reading": "ひと",
+              "meaning": "一个的词根",
+              "relation": "目标字",
+              "note": "一つ、一言中出现。",
+              "source_note": "和语数词。",
+              "memory_hook": "一つひとつ。"
+            },
+            {
+              "word": "人",
+              "reading": "ひと",
+              "meaning": "人",
+              "relation": "同音",
+              "note": "普通的人。",
+              "source_note": "和语。",
+              "memory_hook": "人就是ひと。"
+            },
+            {
+              "word": "ヒト",
+              "reading": "ひと",
+              "meaning": "人类这个物种",
+              "relation": "同音",
+              "note": "生物学语境常写片假名。",
+              "source_note": "表记分化。",
+              "memory_hook": "片假名像分类标签。"
+            }
+          ],
+          "takeaway": "ひと看语境：数量一、人、或物种人类。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "中文“一个”的日语分工",
+          "why_it_works": "中文一个很万能，日语按物体类别换量词。",
+          "items": [
+            {
+              "word": "一つ",
+              "reading": "ひとつ",
+              "meaning": "一个",
+              "relation": "泛用",
+              "note": "不知道量词时安全。"
+            },
+            {
+              "word": "一個",
+              "reading": "いっこ",
+              "meaning": "一个小物件",
+              "relation": "块状物",
+              "note": "苹果、盒子等。"
+            },
+            {
+              "word": "一枚",
+              "reading": "いちまい",
+              "meaning": "一张；一片",
+              "relation": "薄片",
+              "note": "纸、票、照片等。"
+            }
+          ],
+          "takeaway": "泛用一つ，小块一個，薄片一枚。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "一从一个到唯一和一起",
+          "why_it_works": "一的核心是单个，容易扩展成第一、同一、合在一起。",
+          "items": [
+            {
+              "word": "一番",
+              "reading": "いちばん",
+              "meaning": "第一；最",
+              "relation": "顺序",
+              "note": "一个排在最前。"
+            },
+            {
+              "word": "一緒",
+              "reading": "いっしょ",
+              "meaning": "一起",
+              "relation": "合一",
+              "note": "一在这里促音化。"
+            },
+            {
+              "word": "一日",
+              "reading": "いちにち",
+              "meaning": "一天",
+              "relation": "时间长度",
+              "note": "表示时长读いちにち；每月1号读ついたち。"
+            }
+          ],
+          "takeaway": "一的难点不是意思，而是固定词的读法。"
+        }
+      ],
+      "pitfalls": [
+        "一人读ひとり，不读いちにん。",
+        "一日表示“一天”读いちにち，表示“每月1号”读ついたち。"
+      ],
+      "memory_chain": "先用一横记住1；一年、一番走いち；唯一、統一走いつ；一つ、一人、一言走ひと；一日和一人作为特殊高频词单独背。"
+    },
+    "四": {
+      "summary": "四表示数字4，但读法比意思更重要。音读し用于四月、四季、四国等固定汉语词。训读よん常用于许多普通计数，如四回、四番。训读よ用于四時、四人等固定说法，四つ、四日会变成よっつ、よっか。",
+      "semantic_core": {
+        "core": "数量“四”。",
+        "extension": "从四个扩展到四季、四角、四点、四天等。",
+        "root_hint": "字形帮助有限；靠し、よん、よ三条场景线记。"
+      },
+      "readings": [
+        {
+          "kana": "し",
+          "romaji": "shi",
+          "type": "音读",
+          "usage": "用于四月、四季、四国等固定汉语词。",
+          "origin_hint": "汉语音读；因与死同音，口语计数常偏向よん。",
+          "mandarin_pronunciation": {
+            "pinyin": "xī",
+            "note": "用xi一声近似し，舌面音短平读。"
+          },
+          "example_sentence": {
+            "jp_ruby": "四[し]月[がつ]に桜[さくら]が咲[さ]きます。",
+            "kana": "しがつにさくらがさきます。",
+            "zh": "四月樱花会开。",
+            "note": "四月固定读しがつ，是し的必背词。",
+            "mandarin_pronunciation": "shí gàtsu ni sakúra ga sakí masu。"
+          },
+          "anchor": {
+            "word": "四月",
+            "reading": "しがつ",
+            "meaning": "四月",
+            "hint": "月份固定，不能随便读よんがつ。"
+          },
+          "examples": [
+            {
+              "word": "四季",
+              "reading": "しき",
+              "meaning": "四季",
+              "link": "汉语词读し。"
+            },
+            {
+              "word": "四国",
+              "reading": "しこく",
+              "meaning": "四国地区",
+              "link": "地名固定读し。"
+            }
+          ],
+          "takeaway": "四月、四季这类固定汉语词读し。"
+        },
+        {
+          "kana": "よん",
+          "romaji": "yon",
+          "type": "训读",
+          "usage": "用于许多普通计数和口语数字，如四回、四番、四百。",
+          "origin_hint": "和语读法发展出的现代常用数字音。",
+          "mandarin_pronunciation": {
+            "pinyin": "yōn",
+            "note": "yo一声加n鼻音，辅助近似よん。"
+          },
+          "example_sentence": {
+            "jp_ruby": "四[よん]回[かい]練習[れんしゅう]しました。",
+            "kana": "よんかいれんしゅうしました。",
+            "zh": "练习了四次。",
+            "note": "四回是よん在计数中的典型用法。",
+            "mandarin_pronunciation": "yón kai rénshū shimáshità。"
+          },
+          "anchor": {
+            "word": "四回",
+            "reading": "よんかい",
+            "meaning": "四次",
+            "hint": "计次数很常用，读法稳定。"
+          },
+          "examples": [
+            {
+              "word": "四番",
+              "reading": "よんばん",
+              "meaning": "四号；第四",
+              "link": "顺序编号常用よん。"
+            },
+            {
+              "word": "四百",
+              "reading": "よんひゃく",
+              "meaning": "四百",
+              "link": "大数字中常用よん。"
+            }
+          ],
+          "takeaway": "一般数数和编号，よん很安全。"
+        },
+        {
+          "kana": "よ",
+          "romaji": "yo",
+          "type": "训读",
+          "usage": "用于四時、四人等固定词，也连接よっつ、よっか等音变。",
+          "origin_hint": "和语数词词根；后接词时会有促音变化。",
+          "mandarin_pronunciation": {
+            "pinyin": "yō",
+            "note": "yo一声短平读，辅助近似よ。"
+          },
+          "example_sentence": {
+            "jp_ruby": "四[よ]人[にん]で駅[えき]へ行[い]きました。",
+            "kana": "よにんでえきへいきました。",
+            "zh": "四个人去了车站。",
+            "note": "四人固定读よにん，不读よんにん。",
+            "mandarin_pronunciation": "yó nín de éki e ikí māshità。"
+          },
+          "anchor": {
+            "word": "四人",
+            "reading": "よにん",
+            "meaning": "四个人",
+            "hint": "人数里最容易踩坑，适合作入口。"
+          },
+          "examples": [
+            {
+              "word": "四時",
+              "reading": "よじ",
+              "meaning": "四点",
+              "link": "时间固定读よじ。"
+            },
+            {
+              "word": "四日",
+              "reading": "よっか",
+              "meaning": "四号；四天",
+              "link": "よ发生促音化。"
+            }
+          ],
+          "takeaway": "四人よにん、四時よじ、四日よっか要固定背。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "四的安全读法表",
+          "why_it_works": "四的读法受固定词影响大，按场景记最省力。",
+          "items": [
+            {
+              "word": "四月",
+              "reading": "しがつ",
+              "meaning": "四月",
+              "relation": "月份",
+              "note": "固定读し。"
+            },
+            {
+              "word": "四時",
+              "reading": "よじ",
+              "meaning": "四点",
+              "relation": "时间点",
+              "note": "固定读よ。"
+            },
+            {
+              "word": "四回",
+              "reading": "よんかい",
+              "meaning": "四次",
+              "relation": "次数",
+              "note": "普通计数读よん。"
+            }
+          ],
+          "takeaway": "四月しがつ，四時よじ，普通次数よんかい。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "し",
+          "same_kana": "し",
+          "title": "し：四、死、市、詩",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多个汉字的音读都汇到し。",
+          "teaching_point": "看字形和语义场景。",
+          "why_it_works": "し同音太多，不能靠听音猜字。",
+          "items": [
+            {
+              "word": "四",
+              "reading": "し",
+              "meaning": "四",
+              "relation": "目标字",
+              "note": "四月、四季中出现。",
+              "source_note": "数字音读。",
+              "memory_hook": "四月しがつ。"
+            },
+            {
+              "word": "死",
+              "reading": "し",
+              "meaning": "死亡",
+              "relation": "同音",
+              "note": "忌讳音，导致口语常用よん。",
+              "source_note": "音读汇合。",
+              "memory_hook": "死ぬ的死。"
+            },
+            {
+              "word": "詩",
+              "reading": "し",
+              "meaning": "诗",
+              "relation": "同音",
+              "note": "文学词。",
+              "source_note": "音读汇合。",
+              "memory_hook": "诗就是詩。"
+            }
+          ],
+          "takeaway": "し可能是四，也可能是死或詩，看汉字最稳。"
+        },
+        {
+          "target_reading": "よん",
+          "same_kana": "よん",
+          "title": "よん：四、读了、叫了",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "数字よん和动词音变形同音。",
+          "teaching_point": "看后面是否接计数词，还是接だ、で等动词形。",
+          "why_it_works": "よんかい和読んだ的よん听起来一样。",
+          "items": [
+            {
+              "word": "四",
+              "reading": "よん",
+              "meaning": "四",
+              "relation": "目标字",
+              "note": "四回、四番中出现。",
+              "source_note": "和语数字读。",
+              "memory_hook": "四回よんかい。"
+            },
+            {
+              "word": "読ん",
+              "reading": "よん",
+              "meaning": "读了中的读",
+              "relation": "同音",
+              "note": "読んだ、読んで里的形。",
+              "source_note": "动词音变。",
+              "memory_hook": "后面接だ多是动词。"
+            },
+            {
+              "word": "呼ん",
+              "reading": "よん",
+              "meaning": "叫了中的叫",
+              "relation": "同音",
+              "note": "呼んだ、呼んで里的形。",
+              "source_note": "动词音变。",
+              "memory_hook": "叫人来是呼ぶ。"
+            }
+          ],
+          "takeaway": "よん后接量词多是四，后接だ/で多是动词。"
+        },
+        {
+          "target_reading": "よ",
+          "same_kana": "よ",
+          "title": "よ：四、夜、世",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语词根同音，来源不同。",
+          "teaching_point": "看它说时间、世界，还是数字固定词。",
+          "why_it_works": "よ短而高频，搭配决定意思。",
+          "items": [
+            {
+              "word": "四",
+              "reading": "よ",
+              "meaning": "四的和语词根",
+              "relation": "目标字",
+              "note": "四人、四時中出现。",
+              "source_note": "和语数词。",
+              "memory_hook": "四人よにん。"
+            },
+            {
+              "word": "夜",
+              "reading": "よ",
+              "meaning": "夜晚",
+              "relation": "同音",
+              "note": "夜が明ける等。",
+              "source_note": "和语。",
+              "memory_hook": "夜就是晚上。"
+            },
+            {
+              "word": "世",
+              "reading": "よ",
+              "meaning": "世间；时代",
+              "relation": "同音",
+              "note": "世の中里的世。",
+              "source_note": "和语。",
+              "memory_hook": "世の中是世间。"
+            }
+          ],
+          "takeaway": "よ要靠后接词判断：四人是四，夜は夜，世の中是世。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "中文“四个”的日语分工",
+          "why_it_works": "日语计数要看物体形状。",
+          "items": [
+            {
+              "word": "四つ",
+              "reading": "よっつ",
+              "meaning": "四个",
+              "relation": "泛用",
+              "note": "不知道量词时可用。"
+            },
+            {
+              "word": "四個",
+              "reading": "よんこ",
+              "meaning": "四个小物件",
+              "relation": "块状物",
+              "note": "苹果、盒子等。"
+            },
+            {
+              "word": "四本",
+              "reading": "よんほん",
+              "meaning": "四根、四条",
+              "relation": "细长物",
+              "note": "笔、伞、瓶子等。"
+            }
+          ],
+          "takeaway": "泛用四つ，小块四個，长条四本。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "四从数字到季节、角和日期",
+          "why_it_works": "四的核心是4，接自然、形状、时间词产生常用词。",
+          "items": [
+            {
+              "word": "四季",
+              "reading": "しき",
+              "meaning": "四季",
+              "relation": "自然周期",
+              "note": "春夏秋冬四个季节。"
+            },
+            {
+              "word": "四角",
+              "reading": "しかく",
+              "meaning": "四角形；方形",
+              "relation": "形状",
+              "note": "四个角。"
+            },
+            {
+              "word": "四日",
+              "reading": "よっか",
+              "meaning": "四号；四天",
+              "relation": "日期",
+              "note": "固定读法。"
+            }
+          ],
+          "takeaway": "四的义稳，读法要靠词块记。"
+        }
+      ],
+      "pitfalls": [
+        "四人读よにん，不读よんにん。",
+        "四月读しがつ，四時读よじ，别套同一个读法。"
+      ],
+      "memory_chain": "四先分三路：四月、四季走し；四回、四番走よん；四人、四時走よ；四日よっか作为日期特别记。"
+    },
+    "二": {
+      "summary": "二表示数字2，字形两横很直观。音读に用于二時、二月、二回等普通数字组合。训读ふた用于二つ、二人、二日等和语固定词，常有音变。记住に是普通数字音，ふた是“两个”的和语根。",
+      "semantic_core": {
+        "core": "数量“二”。",
+        "extension": "从两个扩展到第二、两次、两天、两个人等。",
+        "root_hint": "两条横线就是二，字形线索很强。"
+      },
+      "readings": [
+        {
+          "kana": "に",
+          "romaji": "ni",
+          "type": "音读",
+          "usage": "用于二時、二月、二回等普通数字组合。",
+          "origin_hint": "汉语音读；现代数字读法高频。",
+          "mandarin_pronunciation": {
+            "pinyin": "nī",
+            "note": "用普通话ni一声短读，辅助近似に。"
+          },
+          "example_sentence": {
+            "jp_ruby": "二[に]時[じ]に昼[ひる]ご飯[はん]を食[た]べます。",
+            "kana": "にじにひるごはんをたべます。",
+            "zh": "两点吃午饭。",
+            "note": "二時是に的生活高频词。",
+            "mandarin_pronunciation": "nī jī nī hī rū gǒ hǎn o tǎ bē mā sū。"
+          },
+          "anchor": {
+            "word": "二時",
+            "reading": "にじ",
+            "meaning": "两点",
+            "hint": "时间点常用且读法稳定。"
+          },
+          "examples": [
+            {
+              "word": "二月",
+              "reading": "にがつ",
+              "meaning": "二月",
+              "link": "月份用に。"
+            },
+            {
+              "word": "二回",
+              "reading": "にかい",
+              "meaning": "两次",
+              "link": "次数用に。"
+            }
+          ],
+          "takeaway": "二接多数汉语式计数词，读に。"
+        },
+        {
+          "kana": "ふた",
+          "romaji": "futa",
+          "type": "训读",
+          "usage": "用于二つ、二人、二日、二重等和语词。",
+          "origin_hint": "和语数词词根；二人、二日读法要整块记。",
+          "mandarin_pronunciation": {
+            "pinyin": "fū tā",
+            "note": "fu、ta都短平读，辅助近似ふた。"
+          },
+          "example_sentence": {
+            "jp_ruby": "二[ふた]つの道[みち]があります。",
+            "kana": "ふたつのみちがあります。",
+            "zh": "有两条路。",
+            "note": "二つ直接把ふた和“两个”绑定。",
+            "mandarin_pronunciation": "fúta tsū no míchi ga arimásu。"
+          },
+          "anchor": {
+            "word": "二つ",
+            "reading": "ふたつ",
+            "meaning": "两个",
+            "hint": "泛用数量词，最适合记训读。"
+          },
+          "examples": [
+            {
+              "word": "二人",
+              "reading": "ふたり",
+              "meaning": "两个人",
+              "link": "人数特殊读法。"
+            },
+            {
+              "word": "二日",
+              "reading": "ふつか",
+              "meaning": "二号；两天",
+              "link": "ふた系音变后的日期词。"
+            }
+          ],
+          "takeaway": "ふた负责和语里的“两个”，二人、二日要特别背。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "二的普通读和固定读",
+          "why_it_works": "二在普通计数中读に，在少数高频和语词中读ふた系。",
+          "items": [
+            {
+              "word": "二時",
+              "reading": "にじ",
+              "meaning": "两点",
+              "relation": "时间点",
+              "note": "普通数字音に。"
+            },
+            {
+              "word": "二人",
+              "reading": "ふたり",
+              "meaning": "两个人",
+              "relation": "人数",
+              "note": "固定特殊读法。"
+            },
+            {
+              "word": "二日",
+              "reading": "ふつか",
+              "meaning": "二号；两天",
+              "relation": "日期",
+              "note": "固定日期读法。"
+            }
+          ],
+          "takeaway": "普通に，二人ふたり，二日ふつか。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "に",
+          "same_kana": "に",
+          "title": "に：二、货物、煮、像",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "数字音读与和语动词词干同音。",
+          "teaching_point": "看汉字和动作对象。",
+          "why_it_works": "に短而常见，句中角色差别大。",
+          "items": [
+            {
+              "word": "二",
+              "reading": "に",
+              "meaning": "二",
+              "relation": "目标字",
+              "note": "数字2。",
+              "source_note": "数字音读。",
+              "memory_hook": "二時にじ。"
+            },
+            {
+              "word": "荷",
+              "reading": "に",
+              "meaning": "行李；货物",
+              "relation": "同音",
+              "note": "荷物里的荷。",
+              "source_note": "和语/固定读。",
+              "memory_hook": "背着的货。"
+            },
+            {
+              "word": "煮",
+              "reading": "に",
+              "meaning": "煮",
+              "relation": "同音",
+              "note": "煮る的词干。",
+              "source_note": "和语动词。",
+              "memory_hook": "锅里煮。"
+            }
+          ],
+          "takeaway": "に看字：二是数字，荷是货，煮是动作。"
+        },
+        {
+          "target_reading": "ふた",
+          "same_kana": "ふた",
+          "title": "ふた：二、盖子、成双",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语数词和名词词根同音。",
+          "teaching_point": "看是否表示数量、盖子，还是成对。",
+          "why_it_works": "ふた既能是两个，也能是盖子。",
+          "items": [
+            {
+              "word": "二",
+              "reading": "ふた",
+              "meaning": "二的和语词根",
+              "relation": "目标字",
+              "note": "二つ、二人中出现。",
+              "source_note": "和语数词。",
+              "memory_hook": "二つふたつ。"
+            },
+            {
+              "word": "蓋",
+              "reading": "ふた",
+              "meaning": "盖子",
+              "relation": "同音",
+              "note": "锅盖、瓶盖。",
+              "source_note": "和语。",
+              "memory_hook": "盖上盖子。"
+            },
+            {
+              "word": "双",
+              "reading": "ふた",
+              "meaning": "成双的词根",
+              "relation": "同音词根",
+              "note": "双子、双葉里出现。",
+              "source_note": "和语词根。",
+              "memory_hook": "双子是一对。"
+            }
+          ],
+          "takeaway": "ふた接数量看二，指物件看盖子，成对看双。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "中文“两个”的日语分工",
+          "why_it_works": "日语要按物体形状选择计数词。",
+          "items": [
+            {
+              "word": "二つ",
+              "reading": "ふたつ",
+              "meaning": "两个",
+              "relation": "泛用",
+              "note": "不知道量词时安全。"
+            },
+            {
+              "word": "二個",
+              "reading": "にこ",
+              "meaning": "两个小物件",
+              "relation": "块状物",
+              "note": "苹果、盒子等。"
+            },
+            {
+              "word": "二枚",
+              "reading": "にまい",
+              "meaning": "两张；两片",
+              "relation": "薄片",
+              "note": "纸、票、照片等。"
+            }
+          ],
+          "takeaway": "泛用二つ，小块二個，薄片二枚。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "二从数量到次数、层次、月份",
+          "why_it_works": "二的核心是2，接不同名词就成不同计数场景。",
+          "items": [
+            {
+              "word": "二回",
+              "reading": "にかい",
+              "meaning": "两次",
+              "relation": "次数",
+              "note": "普通读に。"
+            },
+            {
+              "word": "二重",
+              "reading": "ふたえ",
+              "meaning": "双层；双眼皮",
+              "relation": "重叠",
+              "note": "和语读法，表示两层。"
+            },
+            {
+              "word": "二月",
+              "reading": "にがつ",
+              "meaning": "二月",
+              "relation": "月份",
+              "note": "月份读に。"
+            }
+          ],
+          "takeaway": "二的普通扩展读に，少数和语词读ふた系。"
+        }
+      ],
+      "pitfalls": [
+        "二人读ふたり，不读ににん。",
+        "二十歳读はたち，是特殊词，不按二的普通读法推。"
+      ],
+      "memory_chain": "两条横线就是二；二時、二月、二回走に；二つ、二人、二日走ふた系；尤其把ふたり和ふつか单独钉牢。"
+    },
+    "右": {
+      "summary": "右的核心是“右边、右手方向”。训读みぎ用于方向本体，如右、右手、右側。音读う用于右折、右翼、右岸等汉语词。音读ゆう主要记左右、座右这类固定词。",
+      "semantic_core": {
+        "core": "右边；右侧方向。",
+        "extension": "从空间右边扩展到右转、右岸、政治右派，以及左右成对的方向概念。",
+        "root_hint": "可把字形里的口想成右手拿东西送到口边，帮助记“右”。"
+      },
+      "readings": [
+        {
+          "kana": "みぎ",
+          "romaji": "migi",
+          "type": "训读",
+          "usage": "表示具体方向，如右、右手、右側。",
+          "origin_hint": "和语方向词；日常口语最高频。",
+          "mandarin_pronunciation": {
+            "pinyin": "mī gī",
+            "note": "mi、gi都短平读，辅助近似みぎ。"
+          },
+          "example_sentence": {
+            "jp_ruby": "次[つぎ]の角[かど]を右[みぎ]に曲[ま]がってください。",
+            "kana": "つぎのかどをみぎにまがってください。",
+            "zh": "请在下一个路口向右转。",
+            "note": "右に曲がる把みぎ和方向动作连起来。",
+            "mandarin_pronunciation": "tsúgi no kádo o mígi ni magátte kudasai。"
+          },
+          "anchor": {
+            "word": "右",
+            "reading": "みぎ",
+            "meaning": "右边",
+            "hint": "最基础方向词，先从它入口。"
+          },
+          "examples": [
+            {
+              "word": "右手",
+              "reading": "みぎて",
+              "meaning": "右手",
+              "link": "身体方向。"
+            },
+            {
+              "word": "右側",
+              "reading": "みぎがわ",
+              "meaning": "右侧",
+              "link": "空间一侧。"
+            }
+          ],
+          "takeaway": "具体方向和身体部位，读みぎ。"
+        },
+        {
+          "kana": "う",
+          "romaji": "u",
+          "type": "音读",
+          "usage": "用于右折、右翼、右岸等汉语词。",
+          "origin_hint": "音读；常见于交通、政治、地理词。",
+          "mandarin_pronunciation": {
+            "pinyin": "wū",
+            "note": "用wu一声弱化开头近似う，嘴型收圆。"
+          },
+          "example_sentence": {
+            "jp_ruby": "この交差点[こうさてん]で右[う]折[せつ]します。",
+            "kana": "このこうさてんでうせつします。",
+            "zh": "在这个十字路口右转。",
+            "note": "右折是う读法的高频交通词。",
+            "mandarin_pronunciation": "kòno kōsáten de úsetsu shimásu。"
+          },
+          "anchor": {
+            "word": "右折",
+            "reading": "うせつ",
+            "meaning": "右转",
+            "hint": "开车、问路都常见。"
+          },
+          "examples": [
+            {
+              "word": "右翼",
+              "reading": "うよく",
+              "meaning": "右翼；右派",
+              "link": "方向义扩展到政治或队形。"
+            },
+            {
+              "word": "右岸",
+              "reading": "うがん",
+              "meaning": "右岸",
+              "link": "地理词中读う。"
+            }
+          ],
+          "takeaway": "右折、右翼、右岸这类汉语词读う。"
+        },
+        {
+          "kana": "ゆう",
+          "romaji": "yuu",
+          "type": "音读",
+          "usage": "主要用于左右、座右等固定词。",
+          "origin_hint": "另一支音读；词不多但左右非常常见。",
+          "mandarin_pronunciation": {
+            "pinyin": "yōu",
+            "note": "用you一声拉成长音，辅助近似ゆう。"
+          },
+          "example_sentence": {
+            "jp_ruby": "左[さ]右[ゆう]を確認[かくにん]します。",
+            "kana": "さゆうをかくにんします。",
+            "zh": "确认左右两边。",
+            "note": "左右是ゆう读法最重要的锚点。",
+            "mandarin_pronunciation": "sáyū o kakú nín shimásu。"
+          },
+          "anchor": {
+            "word": "左右",
+            "reading": "さゆう",
+            "meaning": "左右；影响",
+            "hint": "频率高，还能扩展到“左右结果”。"
+          },
+          "examples": [
+            {
+              "word": "座右",
+              "reading": "ざゆう",
+              "meaning": "座右；身边",
+              "link": "座右の銘是固定表达。"
+            },
+            {
+              "word": "右筆",
+              "reading": "ゆうひつ",
+              "meaning": "代笔人；书记",
+              "link": "保留ゆう音的词，频率较低。"
+            }
+          ],
+          "takeaway": "ゆう先记左右，再顺带记座右。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "右：方向、动作、成对",
+          "why_it_works": "右从空间方向出发，进入交通动作和左右成对概念。",
+          "items": [
+            {
+              "word": "右",
+              "reading": "みぎ",
+              "meaning": "右边",
+              "relation": "方向本体",
+              "note": "口语方向词。"
+            },
+            {
+              "word": "右折",
+              "reading": "うせつ",
+              "meaning": "右转",
+              "relation": "交通动作",
+              "note": "音读う。"
+            },
+            {
+              "word": "左右",
+              "reading": "さゆう",
+              "meaning": "左右；影响",
+              "relation": "成对方向",
+              "note": "右读ゆう。"
+            }
+          ],
+          "takeaway": "方向みぎ，右转うせつ，左右さゆう。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "みぎ",
+          "same_kana": "みぎ",
+          "title": "みぎ：方向右的少同音场",
+          "origin_pattern": "不确定",
+          "same_kana_reason": "みぎ作为常用方向词，常见同音汉字很少。",
+          "teaching_point": "重点看它在句中指方向、身体部位还是位置侧。",
+          "why_it_works": "同音少，反而适合用搭配扩大记忆。",
+          "items": [
+            {
+              "word": "右",
+              "reading": "みぎ",
+              "meaning": "右边",
+              "relation": "目标字",
+              "note": "方向本体。",
+              "source_note": "和语。",
+              "memory_hook": "右に曲がる。"
+            },
+            {
+              "word": "右手",
+              "reading": "みぎて",
+              "meaning": "右手",
+              "relation": "同词根",
+              "note": "身体部位。",
+              "source_note": "复合词。",
+              "memory_hook": "右手拿筷子。"
+            },
+            {
+              "word": "右側",
+              "reading": "みぎがわ",
+              "meaning": "右侧",
+              "relation": "同词根",
+              "note": "空间侧面。",
+              "source_note": "复合词。",
+              "memory_hook": "右边那一侧。"
+            }
+          ],
+          "takeaway": "みぎ不难，直接和右手、右側一起背。"
+        },
+        {
+          "target_reading": "う",
+          "same_kana": "う",
+          "title": "う：右、宇、鵜",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "音读词素和和语名词碰到同音。",
+          "teaching_point": "看是否在汉语复合词中。",
+          "why_it_works": "う太短，必须靠后接词辨认。",
+          "items": [
+            {
+              "word": "右",
+              "reading": "う",
+              "meaning": "右的音读",
+              "relation": "目标字",
+              "note": "右折、右翼中出现。",
+              "source_note": "音读。",
+              "memory_hook": "右折うせつ。"
+            },
+            {
+              "word": "宇",
+              "reading": "う",
+              "meaning": "宇宙的宇",
+              "relation": "同音",
+              "note": "宇宙で常见。",
+              "source_note": "音读汇合。",
+              "memory_hook": "宇宙うちゅう。"
+            },
+            {
+              "word": "鵜",
+              "reading": "う",
+              "meaning": "鸬鹚",
+              "relation": "同音",
+              "note": "鵜飼い等文化词。",
+              "source_note": "和语。",
+              "memory_hook": "鸟类的鵜。"
+            }
+          ],
+          "takeaway": "う在右折里是右，在宇宙里是宇。"
+        },
+        {
+          "target_reading": "ゆう",
+          "same_kana": "ゆう",
+          "title": "ゆう：右、友、夕、優",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多组汉字音读都汇到ゆう。",
+          "teaching_point": "看汉字和搭配，不靠听音判断。",
+          "why_it_works": "ゆう同音极多，必须建立字形索引。",
+          "items": [
+            {
+              "word": "右",
+              "reading": "ゆう",
+              "meaning": "右的音读",
+              "relation": "目标字",
+              "note": "左右、座右中出现。",
+              "source_note": "音读。",
+              "memory_hook": "左右さゆう。"
+            },
+            {
+              "word": "友",
+              "reading": "ゆう",
+              "meaning": "朋友",
+              "relation": "同音",
+              "note": "友人など。",
+              "source_note": "音读汇合。",
+              "memory_hook": "友是朋友。"
+            },
+            {
+              "word": "夕",
+              "reading": "ゆう",
+              "meaning": "傍晚",
+              "relation": "同音",
+              "note": "夕方里的夕。",
+              "source_note": "和语/固定读。",
+              "memory_hook": "夕阳是傍晚。"
+            }
+          ],
+          "takeaway": "ゆう听音很多，右要靠左右、座右认出来。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "中文“右边”的日语分工",
+          "why_it_works": "中文右边可泛指方向，日语会细分方向、侧面、身体部位。",
+          "items": [
+            {
+              "word": "右",
+              "reading": "みぎ",
+              "meaning": "右边",
+              "relation": "方向",
+              "note": "最基础。"
+            },
+            {
+              "word": "右側",
+              "reading": "みぎがわ",
+              "meaning": "右侧",
+              "relation": "侧面",
+              "note": "强调某物的右边一侧。"
+            },
+            {
+              "word": "右手",
+              "reading": "みぎて",
+              "meaning": "右手",
+              "relation": "身体部位",
+              "note": "只能指手或右手方向。"
+            }
+          ],
+          "takeaway": "方向用右，侧面用右側，手部用右手。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "右从方向到动作和抽象影响",
+          "why_it_works": "右的空间方向可以扩展成转向、河岸、左右结果。",
+          "items": [
+            {
+              "word": "右手",
+              "reading": "みぎて",
+              "meaning": "右手",
+              "relation": "身体方向",
+              "note": "具体身体部位。"
+            },
+            {
+              "word": "右折",
+              "reading": "うせつ",
+              "meaning": "右转",
+              "relation": "方向动作",
+              "note": "向右转弯。"
+            },
+            {
+              "word": "左右",
+              "reading": "さゆう",
+              "meaning": "左右；影响",
+              "relation": "成对/抽象",
+              "note": "左右する可表示影响结果。"
+            }
+          ],
+          "takeaway": "右先是方向，再变成右转、左右、影响。"
+        }
+      ],
+      "pitfalls": [
+        "右折读うせつ，不读みぎせつ。",
+        "左右读さゆう，右在这里读ゆう。"
+      ],
+      "memory_chain": "先把右记成方向みぎ；问路说右に曲がる；交通词右折读うせつ；成对词左右读さゆう；三条线互不硬套。"
+    },
+    "雨": {
+      "summary": "雨的核心是天空落水，也就是雨。训读あめ表示普通的雨，最常用。训读あま常在雨戸、雨雲、雨音等复合词前半出现。音读う用于雨具、雨量、降雨等汉语词。",
+      "semantic_core": {
+        "core": "雨水；下雨。",
+        "extension": "从天气现象扩展到雨具、雨量、雨声、雨云等相关物和现象。",
+        "root_hint": "字形像云下落水点，记忆帮助很强。"
+      },
+      "readings": [
+        {
+          "kana": "あめ",
+          "romaji": "ame",
+          "type": "训读",
+          "usage": "表示普通的雨，如雨が降る、大雨。",
+          "origin_hint": "和语；天气表达最高频。",
+          "mandarin_pronunciation": {
+            "pinyin": "ā mē",
+            "note": "a、me都短平读，辅助近似あめ。"
+          },
+          "example_sentence": {
+            "jp_ruby": "雨[あめ]が降[ふ]っています。",
+            "kana": "あめがふっています。",
+            "zh": "正在下雨。",
+            "note": "雨が降る是あめ的核心句型。",
+            "mandarin_pronunciation": "áme ga fútte imasu。"
+          },
+          "anchor": {
+            "word": "雨",
+            "reading": "あめ",
+            "meaning": "雨",
+            "hint": "天气词最常用，先记这一读法。"
+          },
+          "examples": [
+            {
+              "word": "大雨",
+              "reading": "おおあめ",
+              "meaning": "大雨",
+              "link": "普通雨的强度变化。"
+            },
+            {
+              "word": "雨の日",
+              "reading": "あめのひ",
+              "meaning": "雨天",
+              "link": "生活场景常用。"
+            }
+          ],
+          "takeaway": "单说天气里的雨，读あめ。"
+        },
+        {
+          "kana": "あま",
+          "romaji": "ama",
+          "type": "训读",
+          "usage": "多作复合词前半，如雨戸、雨雲、雨音。",
+          "origin_hint": "和语复合词中的连用形；常和后词合成一个名词。",
+          "mandarin_pronunciation": {
+            "pinyin": "ā mā",
+            "note": "a、ma一声短平读，辅助近似あま。"
+          },
+          "example_sentence": {
+            "jp_ruby": "雨[あま]戸[ど]を閉[し]めました。",
+            "kana": "あまどをしめました。",
+            "zh": "关上了防雨板门。",
+            "note": "雨戸显示雨在复合词前可读あま。",
+            "mandarin_pronunciation": "amàdo o shimé māshità。"
+          },
+          "anchor": {
+            "word": "雨戸",
+            "reading": "あまど",
+            "meaning": "防雨板门",
+            "hint": "あま+ど很固定，适合记复合词读法。"
+          },
+          "examples": [
+            {
+              "word": "雨雲",
+              "reading": "あまぐも",
+              "meaning": "雨云",
+              "link": "雨在前半读あま。"
+            },
+            {
+              "word": "雨音",
+              "reading": "あまおと",
+              "meaning": "雨声",
+              "link": "雨+声音的复合词。"
+            }
+          ],
+          "takeaway": "雨在复合词前面，常变成あま。"
+        },
+        {
+          "kana": "う",
+          "romaji": "u",
+          "type": "音读",
+          "usage": "用于雨具、雨量、降雨等汉语词。",
+          "origin_hint": "汉语音读；常见于书面或正式复合词。",
+          "mandarin_pronunciation": {
+            "pinyin": "wū",
+            "note": "用wu一声弱化开头近似う，嘴型收圆。"
+          },
+          "example_sentence": {
+            "jp_ruby": "雨[う]具[ぐ]を持[も]って行[い]きます。",
+            "kana": "うぐをもっていきます。",
+            "zh": "带雨具去。",
+            "note": "雨具是う读法的生活入口。",
+            "mandarin_pronunciation": "úgu o mótte ikí masu。"
+          },
+          "anchor": {
+            "word": "雨具",
+            "reading": "うぐ",
+            "meaning": "雨具",
+            "hint": "既实用又能提示音读う。"
+          },
+          "examples": [
+            {
+              "word": "雨量",
+              "reading": "うりょう",
+              "meaning": "降雨量",
+              "link": "正式天气词读う。"
+            },
+            {
+              "word": "降雨",
+              "reading": "こうう",
+              "meaning": "降雨",
+              "link": "汉语词中雨读う。"
+            }
+          ],
+          "takeaway": "雨具、雨量、降雨这类正式词读う。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "雨的天气生活三件套",
+          "why_it_works": "从下雨本身，到挡雨物，再到正式天气数据。",
+          "items": [
+            {
+              "word": "雨",
+              "reading": "あめ",
+              "meaning": "雨",
+              "relation": "天气本体",
+              "note": "最日常。"
+            },
+            {
+              "word": "雨戸",
+              "reading": "あまど",
+              "meaning": "防雨板门",
+              "relation": "防雨物",
+              "note": "复合词前半读あま。"
+            },
+            {
+              "word": "雨量",
+              "reading": "うりょう",
+              "meaning": "降雨量",
+              "relation": "气象数据",
+              "note": "正式词读う。"
+            }
+          ],
+          "takeaway": "天气あめ，复合前半あま，正式汉语词う。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "あめ",
+          "same_kana": "あめ",
+          "title": "あめ：雨、糖、天",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语名词同音，另有古风用法。",
+          "teaching_point": "看对象是天气、食物还是文艺表达。",
+          "why_it_works": "雨和飴同音，初学很容易听错。",
+          "items": [
+            {
+              "word": "雨",
+              "reading": "あめ",
+              "meaning": "雨",
+              "relation": "目标字",
+              "note": "天气现象。",
+              "source_note": "和语。",
+              "memory_hook": "雨が降る。"
+            },
+            {
+              "word": "飴",
+              "reading": "あめ",
+              "meaning": "糖；糖果",
+              "relation": "同音",
+              "note": "食物。",
+              "source_note": "和语。",
+              "memory_hook": "吃进嘴里的是飴。"
+            },
+            {
+              "word": "天",
+              "reading": "あめ",
+              "meaning": "天；天空",
+              "relation": "同音",
+              "note": "古风、名字或固定表达中见到。",
+              "source_note": "古语/固定读。",
+              "memory_hook": "雨从天上来。"
+            }
+          ],
+          "takeaway": "あめ落下来是雨，吃的是飴，文艺天空可写天。"
+        },
+        {
+          "target_reading": "あま",
+          "same_kana": "あま",
+          "title": "あま：雨、甜、尼姑、海女",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "多个和语词根同音。",
+          "teaching_point": "看后接词和语义场：天气、味道、人。",
+          "why_it_works": "あま常作为词根出现，靠搭配辨义。",
+          "items": [
+            {
+              "word": "雨",
+              "reading": "あま",
+              "meaning": "雨的复合词前半",
+              "relation": "目标字",
+              "note": "雨戸、雨雲中出现。",
+              "source_note": "和语复合词。",
+              "memory_hook": "雨戸あまど。"
+            },
+            {
+              "word": "甘",
+              "reading": "あま",
+              "meaning": "甜；天真",
+              "relation": "同音",
+              "note": "甘い的词干。",
+              "source_note": "和语形容词。",
+              "memory_hook": "甘い是甜。"
+            },
+            {
+              "word": "海女",
+              "reading": "あま",
+              "meaning": "海女；潜水采贝女性",
+              "relation": "同音",
+              "note": "职业/文化词。",
+              "source_note": "和语。",
+              "memory_hook": "海里的あま。"
+            }
+          ],
+          "takeaway": "あま遇雨戸是雨，遇甘い是甜，遇海女是人。"
+        },
+        {
+          "target_reading": "う",
+          "same_kana": "う",
+          "title": "う：雨、宇、鵜",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "音读词素和和语名词同音。",
+          "teaching_point": "看它是否在正式汉语词中。",
+          "why_it_works": "う只有一拍，必须靠后接汉字判断。",
+          "items": [
+            {
+              "word": "雨",
+              "reading": "う",
+              "meaning": "雨的音读",
+              "relation": "目标字",
+              "note": "雨具、降雨中出现。",
+              "source_note": "音读。",
+              "memory_hook": "雨具うぐ。"
+            },
+            {
+              "word": "宇",
+              "reading": "う",
+              "meaning": "宇宙的宇",
+              "relation": "同音",
+              "note": "宇宙で常见。",
+              "source_note": "音读汇合。",
+              "memory_hook": "宇宙うちゅう。"
+            },
+            {
+              "word": "鵜",
+              "reading": "う",
+              "meaning": "鸬鹚",
+              "relation": "同音",
+              "note": "鵜飼い等词中见到。",
+              "source_note": "和语。",
+              "memory_hook": "鸟类的鵜。"
+            }
+          ],
+          "takeaway": "う在雨具里是雨，在宇宙里是宇。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "雨量强弱的分工",
+          "why_it_works": "中文都说雨，日语常按强度细分。",
+          "items": [
+            {
+              "word": "雨",
+              "reading": "あめ",
+              "meaning": "雨",
+              "relation": "普通",
+              "note": "不说明大小。"
+            },
+            {
+              "word": "小雨",
+              "reading": "こさめ",
+              "meaning": "小雨",
+              "relation": "弱",
+              "note": "雨量小。"
+            },
+            {
+              "word": "大雨",
+              "reading": "おおあめ",
+              "meaning": "大雨",
+              "relation": "强",
+              "note": "雨量大，常见天气预报。"
+            }
+          ],
+          "takeaway": "普通雨あめ，小雨こさめ，大雨おおあめ。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "雨从天气到声音、云和数据",
+          "why_it_works": "雨作为自然现象，可连接看得见、听得见、测得出的东西。",
+          "items": [
+            {
+              "word": "雨雲",
+              "reading": "あまぐも",
+              "meaning": "雨云",
+              "relation": "来源",
+              "note": "带来雨的云。"
+            },
+            {
+              "word": "雨音",
+              "reading": "あまおと",
+              "meaning": "雨声",
+              "relation": "声音",
+              "note": "雨落下的声音。"
+            },
+            {
+              "word": "雨量",
+              "reading": "うりょう",
+              "meaning": "降雨量",
+              "relation": "测量",
+              "note": "正式气象数据。"
+            }
+          ],
+          "takeaway": "雨可以看云、听声、量多少。"
+        }
+      ],
+      "pitfalls": [
+        "雨あめ和飴あめ同音，东京音调不同，但初学先靠语境辨。",
+        "雨具读うぐ，雨戸读あまど，不要都读あめ。"
+      ],
+      "memory_chain": "字形像云下落水点；下雨本身读あめ；雨在复合词前常成あま，如雨戸、雨雲；正式词雨具、雨量、降雨读う。"
+    },
+    "円": {
+      "summary": "円的核心是“圆”和“日元”。音读えん最常用，用于钱、圆形、圆满等。训读まる出现在円い等词里，但日常更常写丸い。先把円=えん记牢，再把まる当作形状补充。",
+      "semantic_core": {
+        "core": "圆形；日元。",
+        "extension": "从圆形扩展到圆满、顺利、货币单位“円”。",
+        "root_hint": "简化字形不太像圆，记忆可抓“圆形=円形、日元=円”。"
+      },
+      "readings": [
+        {
+          "kana": "えん",
+          "romaji": "en",
+          "type": "音读",
+          "usage": "用于日元、円形、円満、円滑等。",
+          "origin_hint": "汉语音读；现代最核心读法。",
+          "mandarin_pronunciation": {
+            "pinyin": "ēn",
+            "note": "用en一声短平读，辅助近似えん。"
+          },
+          "example_sentence": {
+            "jp_ruby": "百[ひゃく]円[えん]の切手[きって]を買[か]いました。",
+            "kana": "ひゃくえんのきってをかいました。",
+            "zh": "买了100日元的邮票。",
+            "note": "円作为货币单位时固定读えん。",
+            "mandarin_pronunciation": "hyáku én no kítte o kái māshità。"
+          },
+          "anchor": {
+            "word": "円",
+            "reading": "えん",
+            "meaning": "日元；圆",
+            "hint": "买东西一定会遇到，最实用。"
+          },
+          "examples": [
+            {
+              "word": "円形",
+              "reading": "えんけい",
+              "meaning": "圆形",
+              "link": "从圆的形状来。"
+            },
+            {
+              "word": "円満",
+              "reading": "えんまん",
+              "meaning": "圆满",
+              "link": "圆引申为完整和谐。"
+            }
+          ],
+          "takeaway": "钱和汉语词里的円，基本读えん。"
+        },
+        {
+          "kana": "まる",
+          "romaji": "maru",
+          "type": "训读",
+          "usage": "用于円い、円く等表示圆形的词，书写上丸い更常见。",
+          "origin_hint": "和语形状词；现代常与丸字分工。",
+          "mandarin_pronunciation": {
+            "pinyin": "mā lū",
+            "note": "ma、lu短平读，辅助近似まる。"
+          },
+          "example_sentence": {
+            "jp_ruby": "円[まる]い窓[まど]がかわいいです。",
+            "kana": "まるいまどがかわいいです。",
+            "zh": "圆圆的窗户很可爱。",
+            "note": "円い把円和圆形的まる直接连起来。",
+            "mandarin_pronunciation": "máru i mádo ga kawáii desù。"
+          },
+          "anchor": {
+            "word": "円い",
+            "reading": "まるい",
+            "meaning": "圆的",
+            "hint": "能看出円从名词“圆”变成形容。"
+          },
+          "examples": [
+            {
+              "word": "円く",
+              "reading": "まるく",
+              "meaning": "圆圆地；圆滑地",
+              "link": "円い的连用形。"
+            },
+            {
+              "word": "円み",
+              "reading": "まるみ",
+              "meaning": "圆润；圆度",
+              "link": "形状感延伸。"
+            }
+          ],
+          "takeaway": "まる表示形状，但日常多写丸い。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "円的钱、形、关系",
+          "why_it_works": "円既是货币，又是圆形，还能比喻圆满。",
+          "items": [
+            {
+              "word": "円",
+              "reading": "えん",
+              "meaning": "日元",
+              "relation": "货币",
+              "note": "生活最高频。"
+            },
+            {
+              "word": "円形",
+              "reading": "えんけい",
+              "meaning": "圆形",
+              "relation": "形状",
+              "note": "圆的本义。"
+            },
+            {
+              "word": "円満",
+              "reading": "えんまん",
+              "meaning": "圆满",
+              "relation": "抽象状态",
+              "note": "圆=完整和谐。"
+            }
+          ],
+          "takeaway": "円从日元入口，再扩到圆形和圆满。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "えん",
+          "same_kana": "えん",
+          "title": "えん：円、縁、園",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多个汉字音读同为えん。",
+          "teaching_point": "看语义：钱/圆、缘分、园地。",
+          "why_it_works": "えん同音词高频，必须按汉字分桶。",
+          "items": [
+            {
+              "word": "円",
+              "reading": "えん",
+              "meaning": "日元；圆",
+              "relation": "目标字",
+              "note": "钱和圆形。",
+              "source_note": "音读。",
+              "memory_hook": "百円ひゃくえん。"
+            },
+            {
+              "word": "縁",
+              "reading": "えん",
+              "meaning": "缘分；关系",
+              "relation": "同音",
+              "note": "ご縁など。",
+              "source_note": "音读汇合。",
+              "memory_hook": "有缘的縁。"
+            },
+            {
+              "word": "園",
+              "reading": "えん",
+              "meaning": "园；园地",
+              "relation": "同音",
+              "note": "公園、幼稚園。",
+              "source_note": "音读汇合。",
+              "memory_hook": "公園是园。"
+            }
+          ],
+          "takeaway": "えん：钱圆是円，关系是縁，园地是園。"
+        },
+        {
+          "target_reading": "まる",
+          "same_kana": "まる",
+          "title": "まる：圆、丸、圈",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "形状相关词共享まる音。",
+          "teaching_point": "看书写：円偏几何圆，丸偏圆物或符号。",
+          "why_it_works": "円い和丸い意思接近，最容易混。",
+          "items": [
+            {
+              "word": "円",
+              "reading": "まる",
+              "meaning": "圆形的圆",
+              "relation": "目标字",
+              "note": "円い中出现。",
+              "source_note": "训读。",
+              "memory_hook": "几何圆。"
+            },
+            {
+              "word": "丸",
+              "reading": "まる",
+              "meaning": "圆；丸；整颗",
+              "relation": "同音近义",
+              "note": "丸い更日常。",
+              "source_note": "和语/常用表记。",
+              "memory_hook": "圆滚滚的丸。"
+            },
+            {
+              "word": "〇",
+              "reading": "まる",
+              "meaning": "圆圈符号；正确",
+              "relation": "同音",
+              "note": "考试打圈。",
+              "source_note": "符号读法。",
+              "memory_hook": "画一个圈。"
+            }
+          ],
+          "takeaway": "まる看表记：円偏圆形概念，丸偏圆物和日常形容。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "圆、丸、轮的分工",
+          "why_it_works": "中文都可联想到圆，日语侧重点不同。",
+          "items": [
+            {
+              "word": "円形",
+              "reading": "えんけい",
+              "meaning": "圆形",
+              "relation": "几何形状",
+              "note": "强调二维圆形。"
+            },
+            {
+              "word": "丸",
+              "reading": "まる",
+              "meaning": "圆；整颗；圈",
+              "relation": "日常圆物",
+              "note": "更口语、更广。"
+            },
+            {
+              "word": "輪",
+              "reading": "わ",
+              "meaning": "环；圈",
+              "relation": "环状物",
+              "note": "强调中间可空的环。"
+            }
+          ],
+          "takeaway": "几何圆用円形，圆物用丸，环状用輪。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": "えん",
+          "title": "円从圆形到圆满顺滑",
+          "why_it_works": "圆没有棱角，所以能引申为完整、和谐、顺利。",
+          "items": [
+            {
+              "word": "円",
+              "reading": "えん",
+              "meaning": "日元；圆",
+              "relation": "核心",
+              "note": "货币和圆形。"
+            },
+            {
+              "word": "円形",
+              "reading": "えんけい",
+              "meaning": "圆形",
+              "relation": "形状",
+              "note": "圆的直接义。"
+            },
+            {
+              "word": "円滑",
+              "reading": "えんかつ",
+              "meaning": "顺利；圆滑",
+              "relation": "抽象",
+              "note": "像圆一样无阻碍。"
+            }
+          ],
+          "takeaway": "円的抽象义多从“圆润无棱角”来。"
+        }
+      ],
+      "pitfalls": [
+        "円作日元一定读えん。",
+        "円い可读まるい，但日常写丸い更常见。"
+      ],
+      "memory_chain": "先把买东西的百円记成えん；再用円形连接“圆”；圆没有棱角，所以円満、円滑表示圆满顺利；まる只作为形状读法补充。"
+    },
+    "王": {
+      "summary": "王的核心是“王、君主”。常用读音基本是音读おう，用在王様、王子、女王、王国等。现代常用语里不需要硬背低频训读。记忆时抓“王国里有王、王子、女王”这一组就够用。",
+      "semantic_core": {
+        "core": "王；君主。",
+        "extension": "从统治者扩展到王子、女王、王国，以及某领域的王者。",
+        "root_hint": "可把三横看成天地人，中间一竖贯通，像统领者；这是记忆图像，不必考据。"
+      },
+      "readings": [
+        {
+          "kana": "おう",
+          "romaji": "ou",
+          "type": "音读",
+          "usage": "用于王、王様、王子、女王、王国等。",
+          "origin_hint": "汉语音读；现代核心读法。",
+          "mandarin_pronunciation": {
+            "pinyin": "ō ū",
+            "note": "o一声后接u一声，拉成长音感，辅助近似おう。"
+          },
+          "example_sentence": {
+            "jp_ruby": "王[おう]は国[くに]を治[おさ]めました。",
+            "kana": "おうはくにをおさめました。",
+            "zh": "国王治理了国家。",
+            "note": "王和国一起出现，能稳住おう的君主义。",
+            "mandarin_pronunciation": "ō wa kúni o osáme māshità。"
+          },
+          "anchor": {
+            "word": "王様",
+            "reading": "おうさま",
+            "meaning": "国王；大王",
+            "hint": "故事和日常比喻里都常见。"
+          },
+          "examples": [
+            {
+              "word": "王子",
+              "reading": "おうじ",
+              "meaning": "王子",
+              "link": "王的儿子。"
+            },
+            {
+              "word": "女王",
+              "reading": "じょおう",
+              "meaning": "女王",
+              "link": "女性的王，注意长音。"
+            }
+          ],
+          "takeaway": "现代常用的王，基本读おう。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": "おう",
+          "title": "王室人物和国家",
+          "why_it_works": "王的核心人物关系很清楚，适合成组记。",
+          "items": [
+            {
+              "word": "王",
+              "reading": "おう",
+              "meaning": "王",
+              "relation": "君主本人",
+              "note": "核心词。"
+            },
+            {
+              "word": "王子",
+              "reading": "おうじ",
+              "meaning": "王子",
+              "relation": "王室成员",
+              "note": "王的儿子。"
+            },
+            {
+              "word": "王国",
+              "reading": "おうこく",
+              "meaning": "王国",
+              "relation": "国家",
+              "note": "王统治的国家。"
+            }
+          ],
+          "takeaway": "王、王子、王国一组背，おう很稳。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "おう",
+          "same_kana": "おう",
+          "title": "おう：王、追う、負う、応",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "音读おう和多个和语动词、音读词素同音。",
+          "teaching_point": "看词性：名词君主、动词动作、汉语词反应。",
+          "why_it_works": "おう长音常见，必须用词性快速分辨。",
+          "items": [
+            {
+              "word": "王",
+              "reading": "おう",
+              "meaning": "王",
+              "relation": "目标字",
+              "note": "君主。",
+              "source_note": "音读。",
+              "memory_hook": "王国おうこく。"
+            },
+            {
+              "word": "追う",
+              "reading": "おう",
+              "meaning": "追赶",
+              "relation": "同音",
+              "note": "动词，有う结尾。",
+              "source_note": "和语动词。",
+              "memory_hook": "追着跑。"
+            },
+            {
+              "word": "負う",
+              "reading": "おう",
+              "meaning": "背负；承担",
+              "relation": "同音",
+              "note": "动词，常见于責任を負う。",
+              "source_note": "和语动词。",
+              "memory_hook": "背负责任。"
+            }
+          ],
+          "takeaway": "おう作名词可看王，作动词要看追う、負う。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "王、国王、皇帝的分工",
+          "why_it_works": "中文都像君主，但日语称号范围不同。",
+          "items": [
+            {
+              "word": "王",
+              "reading": "おう",
+              "meaning": "王",
+              "relation": "泛称",
+              "note": "可指君主或某领域王者。"
+            },
+            {
+              "word": "国王",
+              "reading": "こくおう",
+              "meaning": "国王",
+              "relation": "正式称号",
+              "note": "强调一国君主。"
+            },
+            {
+              "word": "皇帝",
+              "reading": "こうてい",
+              "meaning": "皇帝",
+              "relation": "帝国君主",
+              "note": "等级和历史语境不同。"
+            }
+          ],
+          "takeaway": "王较泛，国王更正式，皇帝指帝国君主。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": "おう",
+          "title": "王从人物到国家和比喻",
+          "why_it_works": "王是中心人物，能扩展出家族、国家和领域第一。",
+          "items": [
+            {
+              "word": "王子",
+              "reading": "おうじ",
+              "meaning": "王子",
+              "relation": "家族",
+              "note": "王的儿子。"
+            },
+            {
+              "word": "女王",
+              "reading": "じょおう",
+              "meaning": "女王",
+              "relation": "性别/称号",
+              "note": "女性君主或某领域顶尖女性。"
+            },
+            {
+              "word": "王国",
+              "reading": "おうこく",
+              "meaning": "王国",
+              "relation": "国家",
+              "note": "王统治的国。"
+            }
+          ],
+          "takeaway": "王的扩展围绕君主、王室、王国。"
+        }
+      ],
+      "pitfalls": [
+        "女王读じょおう，注意长音，不读じょう。",
+        "现代常用里王基本读おう，不必硬背低频旧训读。"
+      ],
+      "memory_chain": "把王想成统领者；王様是入口；王子是王的孩子，女王是女性君主，王国是王统治的国家；这一串都用おう。"
+    },
+    "音": {
+      "summary": "音的核心是“声音”。音读おん用于音楽、発音、音読等学习和音乐词。训读おと表示听到的具体声音，如物音、足音。训读ね多在本音、弱音、音色里表示内心声音或音色；音读いん用于母音、子音等语言学词。",
+      "semantic_core": {
+        "core": "声音；音。",
+        "extension": "从可听见的声音扩展到音乐、发音、音色、内心话、语言音素。",
+        "root_hint": "可把“日”想成发声的口腔空间，上部像声波提示；这是记忆图像。"
+      },
+      "readings": [
+        {
+          "kana": "おん",
+          "romaji": "on",
+          "type": "音读",
+          "usage": "用于音楽、発音、音読、音読み等汉语词。",
+          "origin_hint": "汉语音读；学习日语时极高频。",
+          "mandarin_pronunciation": {
+            "pinyin": "ōn",
+            "note": "o一声加n鼻音，辅助近似おん。"
+          },
+          "example_sentence": {
+            "jp_ruby": "音[おん]楽[がく]を聞[き]きます。",
+            "kana": "おんがくをききます。",
+            "zh": "听音乐。",
+            "note": "音楽是おん最自然的入口词。",
+            "mandarin_pronunciation": "ón gaku o kikí masu。"
+          },
+          "anchor": {
+            "word": "音楽",
+            "reading": "おんがく",
+            "meaning": "音乐",
+            "hint": "声音变成艺术，意义好记。"
+          },
+          "examples": [
+            {
+              "word": "発音",
+              "reading": "はつおん",
+              "meaning": "发音",
+              "link": "学习语言必用。"
+            },
+            {
+              "word": "音読",
+              "reading": "おんどく",
+              "meaning": "朗读",
+              "link": "出声读就是音読。"
+            }
+          ],
+          "takeaway": "学习、音乐、发音相关的音，多读おん。"
+        },
+        {
+          "kana": "おと",
+          "romaji": "oto",
+          "type": "训读",
+          "usage": "表示耳朵听到的具体声音，如音、物音、足音。",
+          "origin_hint": "和语；现场感强。",
+          "mandarin_pronunciation": {
+            "pinyin": "ō tō",
+            "note": "o、to短平读，辅助近似おと。"
+          },
+          "example_sentence": {
+            "jp_ruby": "外[そと]で大[おお]きな音[おと]がしました。",
+            "kana": "そとでおおきなおとがしました。",
+            "zh": "外面响起了很大的声音。",
+            "note": "音がする是おと的核心句型。",
+            "mandarin_pronunciation": "sóto de ōkína óto ga shimáshità。"
+          },
+          "anchor": {
+            "word": "音",
+            "reading": "おと",
+            "meaning": "声音",
+            "hint": "最直接的“听到声音”。"
+          },
+          "examples": [
+            {
+              "word": "物音",
+              "reading": "ものおと",
+              "meaning": "响动",
+              "link": "某物发出的声音。"
+            },
+            {
+              "word": "足音",
+              "reading": "あしおと",
+              "meaning": "脚步声",
+              "link": "脚发出的声音。"
+            }
+          ],
+          "takeaway": "具体听见的声响，读おと。"
+        },
+        {
+          "kana": "ね",
+          "romaji": "ne",
+          "type": "训读",
+          "usage": "用于本音、弱音、音色等，偏内心声音、音色或调子。",
+          "origin_hint": "和语；多出现在固定复合词中。",
+          "mandarin_pronunciation": {
+            "pinyin": "nē",
+            "note": "用ne一声短读，辅助近似ね。"
+          },
+          "example_sentence": {
+            "jp_ruby": "友達[ともだち]の本[ほん]音[ね]を聞[き]きました。",
+            "kana": "ともだちのほんねをききました。",
+            "zh": "听到了朋友的真心话。",
+            "note": "本音把ね和“内心声音”连起来。",
+            "mandarin_pronunciation": "tomódachi no hónne o kikí māshità。"
+          },
+          "anchor": {
+            "word": "本音",
+            "reading": "ほんね",
+            "meaning": "真心话",
+            "hint": "不是外面的声音，而是心里的声音。"
+          },
+          "examples": [
+            {
+              "word": "弱音",
+              "reading": "よわね",
+              "meaning": "泄气话；软弱话",
+              "link": "心里软弱时说出的声音。"
+            },
+            {
+              "word": "音色",
+              "reading": "ねいろ",
+              "meaning": "音色",
+              "link": "声音的色彩。"
+            }
+          ],
+          "takeaway": "ね常是心声、语气、音色。"
+        },
+        {
+          "kana": "いん",
+          "romaji": "in",
+          "type": "音读",
+          "usage": "用于母音、子音、福音等固定汉语词。",
+          "origin_hint": "另一支音读；语言学习中母音、子音很重要。",
+          "mandarin_pronunciation": {
+            "pinyin": "īn",
+            "note": "用in一声短平读，辅助近似いん。"
+          },
+          "example_sentence": {
+            "jp_ruby": "母[ぼ]音[いん]を長[なが]く伸[の]ばします。",
+            "kana": "ぼいんをながくのばします。",
+            "zh": "把元音拉长。",
+            "note": "母音是いん读法在语言学习中的核心词。",
+            "mandarin_pronunciation": "bóin o nagáku nobáshi masu。"
+          },
+          "anchor": {
+            "word": "母音",
+            "reading": "ぼいん",
+            "meaning": "元音",
+            "hint": "学日语发音一定会遇到。"
+          },
+          "examples": [
+            {
+              "word": "子音",
+              "reading": "しいん",
+              "meaning": "辅音",
+              "link": "和母音成对。"
+            },
+            {
+              "word": "福音",
+              "reading": "ふくいん",
+              "meaning": "福音",
+              "link": "固定词中音读いん。"
+            }
+          ],
+          "takeaway": "母音、子音这组读いん。"
+        }
+      ],
+      "scenario_contrast_groups": [
+        {
+          "target_reading": null,
+          "title": "音：音乐、现场声、心声",
+          "why_it_works": "音可以是艺术声音、现场声响，也可以是内心话。",
+          "items": [
+            {
+              "word": "音楽",
+              "reading": "おんがく",
+              "meaning": "音乐",
+              "relation": "艺术声音",
+              "note": "读おん。"
+            },
+            {
+              "word": "物音",
+              "reading": "ものおと",
+              "meaning": "响动",
+              "relation": "现场声音",
+              "note": "读おと。"
+            },
+            {
+              "word": "本音",
+              "reading": "ほんね",
+              "meaning": "真心话",
+              "relation": "内心声音",
+              "note": "读ね。"
+            }
+          ],
+          "takeaway": "音乐おん，现场声おと，心声ね。"
+        }
+      ],
+      "homophone_groups": [
+        {
+          "target_reading": "おん",
+          "same_kana": "おん",
+          "title": "おん：音、恩、温",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多个汉字音读同为おん。",
+          "teaching_point": "看语义：声音、恩情、温度。",
+          "why_it_works": "おん常见于抽象词，必须靠汉字分辨。",
+          "items": [
+            {
+              "word": "音",
+              "reading": "おん",
+              "meaning": "声音；音",
+              "relation": "目标字",
+              "note": "音楽、発音中出现。",
+              "source_note": "音读。",
+              "memory_hook": "音楽おんがく。"
+            },
+            {
+              "word": "恩",
+              "reading": "おん",
+              "meaning": "恩情",
+              "relation": "同音",
+              "note": "恩人、恩返し。",
+              "source_note": "音读汇合。",
+              "memory_hook": "报恩的恩。"
+            },
+            {
+              "word": "温",
+              "reading": "おん",
+              "meaning": "温暖",
+              "relation": "同音",
+              "note": "温度、温泉。",
+              "source_note": "音读汇合。",
+              "memory_hook": "温泉很温。"
+            }
+          ],
+          "takeaway": "おん：声音是音，恩情是恩，温度是温。"
+        },
+        {
+          "target_reading": "おと",
+          "same_kana": "おと",
+          "title": "おと：音、乙、劣的词根",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语名词、旧词素、动词词干同音。",
+          "teaching_point": "看完整词：音、乙女、劣る。",
+          "why_it_works": "おと本身常见，但同音词多藏在复合或动词里。",
+          "items": [
+            {
+              "word": "音",
+              "reading": "おと",
+              "meaning": "声音",
+              "relation": "目标字",
+              "note": "具体听见的声音。",
+              "source_note": "和语。",
+              "memory_hook": "音がする。"
+            },
+            {
+              "word": "乙",
+              "reading": "おと",
+              "meaning": "乙女中的词素",
+              "relation": "同音词素",
+              "note": "乙女读おとめ。",
+              "source_note": "古风词素。",
+              "memory_hook": "乙女是少女。"
+            },
+            {
+              "word": "劣",
+              "reading": "おと",
+              "meaning": "劣る中的词干",
+              "relation": "同音词干",
+              "note": "劣る读おとる，表示差于。",
+              "source_note": "和语动词。",
+              "memory_hook": "劣る是落后。"
+            }
+          ],
+          "takeaway": "おと单独多是音，进词里要看乙女、劣る等完整词。"
+        },
+        {
+          "target_reading": "ね",
+          "same_kana": "ね",
+          "title": "ね：音、根、値",
+          "origin_pattern": "混合型",
+          "same_kana_reason": "和语名词同音，语义无须强连。",
+          "teaching_point": "看它指声音、根部还是价格价值。",
+          "why_it_works": "ね短而常见，本音和值段都高频。",
+          "items": [
+            {
+              "word": "音",
+              "reading": "ね",
+              "meaning": "心声；音色",
+              "relation": "目标字",
+              "note": "本音、音色中出现。",
+              "source_note": "和语。",
+              "memory_hook": "本音ほんね。"
+            },
+            {
+              "word": "根",
+              "reading": "ね",
+              "meaning": "根",
+              "relation": "同音",
+              "note": "植物根部或根源。",
+              "source_note": "和语。",
+              "memory_hook": "树根在地下。"
+            },
+            {
+              "word": "値",
+              "reading": "ね",
+              "meaning": "价格；值",
+              "relation": "同音",
+              "note": "値段里的値。",
+              "source_note": "和语。",
+              "memory_hook": "値段是价格。"
+            }
+          ],
+          "takeaway": "ね：心声是音，根部是根，价格是値。"
+        },
+        {
+          "target_reading": "いん",
+          "same_kana": "いん",
+          "title": "いん：音、印、院",
+          "origin_pattern": "音读汇合",
+          "same_kana_reason": "多个汉字音读同为いん。",
+          "teaching_point": "看搭配：语言音、印记、机构。",
+          "why_it_works": "いん常在汉语词里出现，必须看汉字。",
+          "items": [
+            {
+              "word": "音",
+              "reading": "いん",
+              "meaning": "音的音读",
+              "relation": "目标字",
+              "note": "母音、子音中出现。",
+              "source_note": "音读。",
+              "memory_hook": "母音ぼいん。"
+            },
+            {
+              "word": "印",
+              "reading": "いん",
+              "meaning": "印记；印章",
+              "relation": "同音",
+              "note": "印刷、印象。",
+              "source_note": "音读汇合。",
+              "memory_hook": "盖印的印。"
+            },
+            {
+              "word": "院",
+              "reading": "いん",
+              "meaning": "院；机构",
+              "relation": "同音",
+              "note": "病院、大学院。",
+              "source_note": "音读汇合。",
+              "memory_hook": "医院的院。"
+            }
+          ],
+          "takeaway": "いん：母音是音，印刷是印，病院是院。"
+        }
+      ],
+      "near_synonym_groups": [
+        {
+          "title": "音、声、音声的分工",
+          "why_it_works": "中文都可能叫声音，日语按来源和用途区分。",
+          "items": [
+            {
+              "word": "音",
+              "reading": "おと",
+              "meaning": "声音；声响",
+              "relation": "一般声音",
+              "note": "可来自物体、自然、机器。"
+            },
+            {
+              "word": "声",
+              "reading": "こえ",
+              "meaning": "人或动物的声音",
+              "relation": "嗓音",
+              "note": "重点是发声者。"
+            },
+            {
+              "word": "音声",
+              "reading": "おんせい",
+              "meaning": "语音；音频",
+              "relation": "技术/语言",
+              "note": "常用于系统、语言学、音频资料。"
+            }
+          ],
+          "takeaway": "物声用音，人声用声，技术语音用音声。"
+        }
+      ],
+      "same_kanji_expansion_groups": [
+        {
+          "target_reading": null,
+          "title": "音从声音到语言学习",
+          "why_it_works": "音可以是听到的声响，也可以是语言系统里的音。",
+          "items": [
+            {
+              "word": "音楽",
+              "reading": "おんがく",
+              "meaning": "音乐",
+              "relation": "艺术",
+              "note": "声音组织成音乐。"
+            },
+            {
+              "word": "発音",
+              "reading": "はつおん",
+              "meaning": "发音",
+              "relation": "语言输出",
+              "note": "发出语言声音。"
+            },
+            {
+              "word": "母音",
+              "reading": "ぼいん",
+              "meaning": "元音",
+              "relation": "语言系统",
+              "note": "语言学里的音。"
+            }
+          ],
+          "takeaway": "音从听觉声音扩展到音乐、发音和音素。"
+        }
+      ],
+      "pitfalls": [
+        "音読み读おんよみ，母音读ぼいん，不要混成ぼおん。",
+        "本音读ほんね，不读ほんおん。"
+      ],
+      "memory_chain": "先用音楽记おん；听见外面的声音就是音おと；心里的真话是本音ほんね；学发音时母音ぼいん、子音しいん走いん。"
+    }
+  }
+}

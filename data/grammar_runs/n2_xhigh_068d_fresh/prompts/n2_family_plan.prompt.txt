@@ -1,0 +1,1800 @@
+你现在要给一本《JLPT N2 语法家族全书》先做“家族分组总规划”。
+
+目标不是按五十音或词面机械排序，而是按“学习时最好记、最好对比、最好复盘”的原则，把语法条目编成若干家族。
+
+硬性要求：
+1. 输出必须满足 JSON Schema。
+2. 每个 `entry_id` 必须且只能出现一次。
+3. 优先把“近义、近形、相反、同一决策场景里容易混的”放在同一家族。
+4. 家族名字用中文，最好有一点画面感，格式接近「建议・劝诱系」「条件・假设系」这种。
+5. `family_lead` 要像这一章的导读副标题，短而有方向感。
+6. `family_hook` 要说清“这一家人为什么放在一起学”。
+7. `progression_line` 要像“从 A 到 B”“从轻到重”“从判断到落地”这种复盘线索。
+8. 家族规模通常 4~8 个；如果确实没法整齐，也可以 3 个，但尽量不要出现 1~2 个的孤岛家族。
+9. 教学顺序要自然：先基础，再变体，再容易混的，再补边角。
+10. 可以把 meta 语法概念（如 potential form、passive form、い-adjectives）也当成可学习条目来分组。
+
+风格要求：
+- 这本书面向中文学习者。
+- 不是学术分类，而是“真能帮助记忆和做题”的分类。
+- 家族名不要太死板，允许有轻微画面感，但别浮夸。
+
+源条目如下：
+[
+  {
+    "idx": 1,
+    "entry_id": "n2_001_ageku",
+    "grammar_en": "ageku",
+    "grammar_jp": "あげく",
+    "meaning": "to end up; in the end; finally; after all ~",
+    "slug": "ageku",
+    "level": "N2"
+  },
+  {
+    "idx": 2,
+    "entry_id": "n2_002_aruiwa",
+    "grammar_en": "aruiwa",
+    "grammar_jp": "あるいは",
+    "meaning": "or; either; maybe; perhaps; possibly ~",
+    "slug": "aruiwa",
+    "level": "N2"
+  },
+  {
+    "idx": 3,
+    "entry_id": "n2_003_bakari",
+    "grammar_en": "bakari",
+    "grammar_jp": "ばかり",
+    "meaning": "about, approximately ~",
+    "slug": "bakari",
+    "level": "N2"
+  },
+  {
+    "idx": 4,
+    "entry_id": "n2_004_bakari_da",
+    "grammar_en": "bakari da",
+    "grammar_jp": "ばかりだ",
+    "meaning": "continue to (go in negative direction)",
+    "slug": "bakari_da",
+    "level": "N2"
+  },
+  {
+    "idx": 5,
+    "entry_id": "n2_005_bakari_ka",
+    "grammar_en": "bakari ka",
+    "grammar_jp": "ばかりか",
+    "meaning": "not only... but also; as well as ~",
+    "slug": "bakari_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 6,
+    "entry_id": "n2_006_bakari_ni",
+    "grammar_en": "bakari ni",
+    "grammar_jp": "ばかりに",
+    "meaning": "simply because; on account of~ (negative result)",
+    "slug": "bakari_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 7,
+    "entry_id": "n2_007_chinamini",
+    "grammar_en": "chinamini",
+    "grammar_jp": "ちなみに",
+    "meaning": "by the way; in this connection; incidentally; (conjunction)",
+    "slug": "chinamini",
+    "level": "N2"
+  },
+  {
+    "idx": 8,
+    "entry_id": "n2_008_chitto_mo_nai",
+    "grammar_en": "chitto mo~nai",
+    "grammar_jp": "ちっとも～ない",
+    "meaning": "(not) at all; (not) in the least ~",
+    "slug": "chitto_mo_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 9,
+    "entry_id": "n2_009_dake_atte",
+    "grammar_en": "dake atte",
+    "grammar_jp": "だけあって",
+    "meaning": "being the case; precisely because; as expected from ~",
+    "slug": "dake_atte",
+    "level": "N2"
+  },
+  {
+    "idx": 10,
+    "entry_id": "n2_010_dake_mashi_da",
+    "grammar_en": "dake mashi da",
+    "grammar_jp": "だけましだ",
+    "meaning": "it’s better than; one should feel grateful for ~",
+    "slug": "dake_mashi_da",
+    "level": "N2"
+  },
+  {
+    "idx": 11,
+    "entry_id": "n2_011_dake_ni",
+    "grammar_en": "dake ni",
+    "grammar_jp": "だけに",
+    "meaning": "being the case; precisely because; as one would expect",
+    "slug": "dake_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 12,
+    "entry_id": "n2_012_dake_no_koto_wa_aru",
+    "grammar_en": "dake no koto wa aru",
+    "grammar_jp": "だけのことはある",
+    "meaning": "no wonder; as expected of; not ... for nothing; not ... with nothing to show for it",
+    "slug": "dake_no_koto_wa_aru",
+    "level": "N2"
+  },
+  {
+    "idx": 13,
+    "entry_id": "n2_013_dake_wa",
+    "grammar_en": "dake wa",
+    "grammar_jp": "だけは",
+    "meaning": "to do all that one can",
+    "slug": "dake_wa",
+    "level": "N2"
+  },
+  {
+    "idx": 14,
+    "entry_id": "n2_014_datte",
+    "grammar_en": "datte",
+    "grammar_jp": "だって",
+    "meaning": "because; but; after all; even; too",
+    "slug": "datte",
+    "level": "N2"
+  },
+  {
+    "idx": 15,
+    "entry_id": "n2_015_de_shika_nai",
+    "grammar_en": "de shika nai",
+    "grammar_jp": "でしかない",
+    "meaning": "merely; nothing but; no more than; there is only ~",
+    "slug": "de_shika_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 16,
+    "entry_id": "n2_016_dokoro_dewa_nai",
+    "grammar_en": "dokoro dewa nai",
+    "grammar_jp": "どころではない",
+    "meaning": "not the time for; not the place for; far from; anything but ~",
+    "slug": "dokoro_dewa_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 17,
+    "entry_id": "n2_017_dokoro_ka",
+    "grammar_en": "dokoro ka",
+    "grammar_jp": "どころか",
+    "meaning": "far from; anything but; let alone; not to mention; much less ~",
+    "slug": "dokoro_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 18,
+    "entry_id": "n2_018_dou_yara",
+    "grammar_en": "dou yara",
+    "grammar_jp": "どうやら",
+    "meaning": "possibly; apparently; seems like; somehow; barely ~",
+    "slug": "dou_yara",
+    "level": "N2"
+  },
+  {
+    "idx": 19,
+    "entry_id": "n2_019_douse",
+    "grammar_en": "douse",
+    "grammar_jp": "どうせ",
+    "meaning": "anyhow; in any case; at any rate; after all; no matter what",
+    "slug": "douse",
+    "level": "N2"
+  },
+  {
+    "idx": 20,
+    "entry_id": "n2_020_enai",
+    "grammar_en": "enai",
+    "grammar_jp": "得ない（えない）",
+    "meaning": "unable to; cannot; it is not possible to ~",
+    "slug": "enai",
+    "level": "N2"
+  },
+  {
+    "idx": 21,
+    "entry_id": "n2_021_eru_uru",
+    "grammar_en": "eru / uru",
+    "grammar_jp": "得る（える / うる）",
+    "meaning": "can; to be able to; is possible to ~",
+    "slug": "eru_uru",
+    "level": "N2"
+  },
+  {
+    "idx": 22,
+    "entry_id": "n2_022_futatabi",
+    "grammar_en": "futatabi",
+    "grammar_jp": "再び（ふたたび）",
+    "meaning": "again; once more",
+    "slug": "futatabi",
+    "level": "N2"
+  },
+  {
+    "idx": 23,
+    "entry_id": "n2_023_fuu_ni",
+    "grammar_en": "fuu ni",
+    "grammar_jp": "ふうに",
+    "meaning": "this way; that way; in such a way; how",
+    "slug": "fuu_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 24,
+    "entry_id": "n2_024_ga_kikkake_de_o_kikkake_ni",
+    "grammar_en": "ga kikkake de / o kikkake ni",
+    "grammar_jp": "がきっかけで / をきっかけに",
+    "meaning": "with… as a start; as a result of; taking advantage of ~",
+    "slug": "ga_kikkake_de_o_kikkake_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 25,
+    "entry_id": "n2_025_ge",
+    "grammar_en": "ge",
+    "grammar_jp": "げ",
+    "meaning": "looks like; seems like; appears to ~",
+    "slug": "ge",
+    "level": "N2"
+  },
+  {
+    "idx": 26,
+    "entry_id": "n2_026_gyaku_ni",
+    "grammar_en": "gyaku ni",
+    "grammar_jp": "逆に（ぎゃくに）",
+    "meaning": "conversely; on the contrary ~",
+    "slug": "gyaku_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 27,
+    "entry_id": "n2_027_hanmen",
+    "grammar_en": "hanmen",
+    "grammar_jp": "反面（はんめん）",
+    "meaning": "while, although; on the other hand~",
+    "slug": "hanmen",
+    "level": "N2"
+  },
+  {
+    "idx": 28,
+    "entry_id": "n2_028_hatashite",
+    "grammar_en": "hatashite",
+    "grammar_jp": "果たして（はたして）",
+    "meaning": "as was expected; sure enough; really; actually ~",
+    "slug": "hatashite",
+    "level": "N2"
+  },
+  {
+    "idx": 29,
+    "entry_id": "n2_029_ichiou",
+    "grammar_en": "ichiou",
+    "grammar_jp": "一応（いちおう）",
+    "meaning": "more or less; pretty much; roughly; tentatively ~",
+    "slug": "ichiou",
+    "level": "N2"
+  },
+  {
+    "idx": 30,
+    "entry_id": "n2_030_igai",
+    "grammar_en": "igai",
+    "grammar_jp": "以外（いがい）",
+    "meaning": "with the exception of; excepting ~",
+    "slug": "igai",
+    "level": "N2"
+  },
+  {
+    "idx": 31,
+    "entry_id": "n2_031_ijou_ni",
+    "grammar_en": "ijou ni",
+    "grammar_jp": "以上に（いじょうに）",
+    "meaning": "more than; not less than; beyond ~",
+    "slug": "ijou_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 32,
+    "entry_id": "n2_032_ijou_wa",
+    "grammar_en": "ijou wa",
+    "grammar_jp": "以上は（いじょうは）",
+    "meaning": "because; since; seeing that ~",
+    "slug": "ijou_wa",
+    "level": "N2"
+  },
+  {
+    "idx": 33,
+    "entry_id": "n2_033_ikinari",
+    "grammar_en": "ikinari",
+    "grammar_jp": "いきなり",
+    "meaning": "abruptly; suddenly; all of a sudden; without warning",
+    "slug": "ikinari",
+    "level": "N2"
+  },
+  {
+    "idx": 34,
+    "entry_id": "n2_034_ikki_ni",
+    "grammar_en": "ikki ni",
+    "grammar_jp": "一気に（いっきに）",
+    "meaning": "in one go; without stopping; all at once; immediately; instantly; right away ~",
+    "slug": "ikki_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 35,
+    "entry_id": "n2_035_ippou_de",
+    "grammar_en": "ippou de",
+    "grammar_jp": "一方で（いっぽうで）",
+    "meaning": "on one hand, on the other hand; although ~",
+    "slug": "ippou_de",
+    "level": "N2"
+  },
+  {
+    "idx": 36,
+    "entry_id": "n2_036_iwayuru",
+    "grammar_en": "iwayuru",
+    "grammar_jp": "いわゆる",
+    "meaning": "what is called; as it is called; the so-called; so to speak",
+    "slug": "iwayuru",
+    "level": "N2"
+  },
+  {
+    "idx": 37,
+    "entry_id": "n2_037_iyoiyo",
+    "grammar_en": "iyoiyo",
+    "grammar_jp": "いよいよ",
+    "meaning": "at last; finally; beyond doubt",
+    "slug": "iyoiyo",
+    "level": "N2"
+  },
+  {
+    "idx": 38,
+    "entry_id": "n2_038_jou",
+    "grammar_en": "jou",
+    "grammar_jp": "上（じょう）",
+    "meaning": "for the sake of; from the standpoint of; as a matter of; in terms of ~",
+    "slug": "jou",
+    "level": "N2"
+  },
+  {
+    "idx": 39,
+    "entry_id": "n2_039_ka_no_you_ni",
+    "grammar_en": "ka no you ni",
+    "grammar_jp": "かのように",
+    "meaning": "as if; just like ~",
+    "slug": "ka_no_you_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 40,
+    "entry_id": "n2_040_ka_to_omottara",
+    "grammar_en": "ka to omottara",
+    "grammar_jp": "かと思ったら（かとおもったら）",
+    "meaning": "just when; no sooner than ~",
+    "slug": "ka_to_omottara",
+    "level": "N2"
+  },
+  {
+    "idx": 41,
+    "entry_id": "n2_041_ka_nai_ka_no_uchi_ni",
+    "grammar_en": "ka~nai ka no uchi ni",
+    "grammar_jp": "か～ないかのうちに",
+    "meaning": "just as; right after; as soon as ~",
+    "slug": "ka_nai_ka_no_uchi_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 42,
+    "entry_id": "n2_042_kaette",
+    "grammar_en": "kaette",
+    "grammar_jp": "かえって",
+    "meaning": "on the contrary; rather; all the more; surprisingly ~",
+    "slug": "kaette",
+    "level": "N2"
+  },
+  {
+    "idx": 43,
+    "entry_id": "n2_043_kagiri",
+    "grammar_en": "kagiri",
+    "grammar_jp": "限り（かぎり）",
+    "meaning": "as long as; while… is the case; as far as; while ~",
+    "slug": "kagiri",
+    "level": "N2"
+  },
+  {
+    "idx": 44,
+    "entry_id": "n2_044_kai_ga_aru",
+    "grammar_en": "kai ga aru",
+    "grammar_jp": "甲斐がある（かいがある）",
+    "meaning": "it’s worth one’s efforts to do something",
+    "slug": "kai_ga_aru",
+    "level": "N2"
+  },
+  {
+    "idx": 45,
+    "entry_id": "n2_045_kanenai",
+    "grammar_en": "kanenai",
+    "grammar_jp": "かねない",
+    "meaning": "(someone) might do something; something might happen",
+    "slug": "kanenai",
+    "level": "N2"
+  },
+  {
+    "idx": 46,
+    "entry_id": "n2_046_kaneru",
+    "grammar_en": "kaneru",
+    "grammar_jp": "かねる",
+    "meaning": "unable to do something; can’t do something",
+    "slug": "kaneru",
+    "level": "N2"
+  },
+  {
+    "idx": 47,
+    "entry_id": "n2_047_kara_iu_to",
+    "grammar_en": "kara iu to",
+    "grammar_jp": "から言うと（からいうと）",
+    "meaning": "in terms of; from the point of view of ~",
+    "slug": "kara_iu_to",
+    "level": "N2"
+  },
+  {
+    "idx": 48,
+    "entry_id": "n2_048_kara_koso",
+    "grammar_en": "kara koso",
+    "grammar_jp": "からこそ",
+    "meaning": "precisely because ~",
+    "slug": "kara_koso",
+    "level": "N2"
+  },
+  {
+    "idx": 49,
+    "entry_id": "n2_049_kara_miru_to",
+    "grammar_en": "kara miru to",
+    "grammar_jp": "から見ると（からみると）",
+    "meaning": "from the point of view of; by the look of; judging from ~",
+    "slug": "kara_miru_to",
+    "level": "N2"
+  },
+  {
+    "idx": 50,
+    "entry_id": "n2_050_kara_niwa",
+    "grammar_en": "kara niwa",
+    "grammar_jp": "からには",
+    "meaning": "now that; since; so long as; because ~",
+    "slug": "kara_niwa",
+    "level": "N2"
+  },
+  {
+    "idx": 51,
+    "entry_id": "n2_051_kara_shite",
+    "grammar_en": "kara shite",
+    "grammar_jp": "からして",
+    "meaning": "judging from; based on; since; from; even ~",
+    "slug": "kara_shite",
+    "level": "N2"
+  },
+  {
+    "idx": 52,
+    "entry_id": "n2_052_kara_suru_to_kara_sureba",
+    "grammar_en": "kara suru to / kara sureba",
+    "grammar_jp": "からすると / からすれば",
+    "meaning": "judging from; considering; by the look of ~",
+    "slug": "kara_suru_to_kara_sureba",
+    "level": "N2"
+  },
+  {
+    "idx": 53,
+    "entry_id": "n2_053_kara_to_itte",
+    "grammar_en": "kara to itte",
+    "grammar_jp": "からと言って（からといって）",
+    "meaning": "just because; even if; even though ~",
+    "slug": "kara_to_itte",
+    "level": "N2"
+  },
+  {
+    "idx": 54,
+    "entry_id": "n2_054_kkonai",
+    "grammar_en": "kkonai",
+    "grammar_jp": "っこない",
+    "meaning": "no chance of; … is definitely not possible",
+    "slug": "kkonai",
+    "level": "N2"
+  },
+  {
+    "idx": 55,
+    "entry_id": "n2_055_koto_da",
+    "grammar_en": "koto da",
+    "grammar_jp": "ことだ",
+    "meaning": "should do~ (used for suggestions or giving advice)",
+    "slug": "koto_da",
+    "level": "N2"
+  },
+  {
+    "idx": 56,
+    "entry_id": "n2_056_koto_dakara",
+    "grammar_en": "koto dakara",
+    "grammar_jp": "ことだから",
+    "meaning": "because; since ~",
+    "slug": "koto_dakara",
+    "level": "N2"
+  },
+  {
+    "idx": 57,
+    "entry_id": "n2_057_koto_ka",
+    "grammar_en": "koto ka",
+    "grammar_jp": "ことか",
+    "meaning": "how…!; what…!",
+    "slug": "koto_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 58,
+    "entry_id": "n2_058_koto_naku",
+    "grammar_en": "koto naku",
+    "grammar_jp": "ことなく",
+    "meaning": "without doing something even once",
+    "slug": "koto_naku",
+    "level": "N2"
+  },
+  {
+    "idx": 59,
+    "entry_id": "n2_059_koto_ni",
+    "grammar_en": "koto ni",
+    "grammar_jp": "ことに",
+    "meaning": "emphasize speaker's feelings; to my (surprise/etc)",
+    "slug": "koto_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 60,
+    "entry_id": "n2_060_koto_niwa_naranai",
+    "grammar_en": "koto niwa naranai",
+    "grammar_jp": "ことにはならない",
+    "meaning": "just because… doesn’t mean ~",
+    "slug": "koto_niwa_naranai",
+    "level": "N2"
+  },
+  {
+    "idx": 61,
+    "entry_id": "n2_061_kuse_shite",
+    "grammar_en": "kuse shite",
+    "grammar_jp": "くせして",
+    "meaning": "although; despite the fact that; even though ~",
+    "slug": "kuse_shite",
+    "level": "N2"
+  },
+  {
+    "idx": 62,
+    "entry_id": "n2_062_madashimo",
+    "grammar_en": "madashimo",
+    "grammar_jp": "まだしも",
+    "meaning": "rather; better ~",
+    "slug": "madashimo",
+    "level": "N2"
+  },
+  {
+    "idx": 63,
+    "entry_id": "n2_063_mai",
+    "grammar_en": "mai",
+    "grammar_jp": "まい",
+    "meaning": "will not; will probably not; intend not to; must not ~",
+    "slug": "mai",
+    "level": "N2"
+  },
+  {
+    "idx": 64,
+    "entry_id": "n2_064_mama_ni",
+    "grammar_en": "mama ni",
+    "grammar_jp": "ままに",
+    "meaning": "as, to do as ~",
+    "slug": "mama_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 65,
+    "entry_id": "n2_065_mattaku_nai",
+    "grammar_en": "mattaku~nai",
+    "grammar_jp": "全く～ない（まったく～ない）",
+    "meaning": "not at all ~",
+    "slug": "mattaku_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 66,
+    "entry_id": "n2_066_mo_kamawazu",
+    "grammar_en": "mo kamawazu",
+    "grammar_jp": "もかまわず",
+    "meaning": "without caring; without worrying about ~",
+    "slug": "mo_kamawazu",
+    "level": "N2"
+  },
+  {
+    "idx": 67,
+    "entry_id": "n2_067_mo_touzen_da",
+    "grammar_en": "mo touzen da",
+    "grammar_jp": "も当然だ（もとうぜんだ）",
+    "meaning": "it’s only natural; no wonder; might as well ~",
+    "slug": "mo_touzen_da",
+    "level": "N2"
+  },
+  {
+    "idx": 68,
+    "entry_id": "n2_068_mono_mon",
+    "grammar_en": "mono / mon",
+    "grammar_jp": "もの / もん",
+    "meaning": "because; indicates reason/ excuse/ dissatisfaction",
+    "slug": "mono_mon",
+    "level": "N2"
+  },
+  {
+    "idx": 69,
+    "entry_id": "n2_069_mono_da",
+    "grammar_en": "mono da",
+    "grammar_jp": "ものだ",
+    "meaning": "describe feeling; express memories; state fact",
+    "slug": "mono_da",
+    "level": "N2"
+  },
+  {
+    "idx": 70,
+    "entry_id": "n2_070_mono_dakara",
+    "grammar_en": "mono dakara",
+    "grammar_jp": "ものだから",
+    "meaning": "so; therefore; the reason for something",
+    "slug": "mono_dakara",
+    "level": "N2"
+  },
+  {
+    "idx": 71,
+    "entry_id": "n2_071_mono_dewa_nai",
+    "grammar_en": "mono dewa nai",
+    "grammar_jp": "ものではない",
+    "meaning": "shouldn’t do something; it’s impossible to ~",
+    "slug": "mono_dewa_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 72,
+    "entry_id": "n2_072_mono_ga_aru",
+    "grammar_en": "mono ga aru",
+    "grammar_jp": "ものがある",
+    "meaning": "there is such a thing; to be the case that; feels like ~",
+    "slug": "mono_ga_aru",
+    "level": "N2"
+  },
+  {
+    "idx": 73,
+    "entry_id": "n2_073_mono_ka_mon_ka",
+    "grammar_en": "mono ka / mon ka",
+    "grammar_jp": "ものか / もんか",
+    "meaning": "as if (something untrue were actually true); there's no way ~",
+    "slug": "mono_ka_mon_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 74,
+    "entry_id": "n2_074_mono_nara",
+    "grammar_en": "mono nara",
+    "grammar_jp": "ものなら",
+    "meaning": "if I/we could; if [A] is possible, then [B]; if one can do something, then ~",
+    "slug": "mono_nara",
+    "level": "N2"
+  },
+  {
+    "idx": 75,
+    "entry_id": "n2_075_monono",
+    "grammar_en": "monono",
+    "grammar_jp": "ものの",
+    "meaning": "but; although; even though ~",
+    "slug": "monono",
+    "level": "N2"
+  },
+  {
+    "idx": 76,
+    "entry_id": "n2_076_motto_mo",
+    "grammar_en": "motto mo",
+    "grammar_jp": "もっとも",
+    "meaning": "but then; although; though ~",
+    "slug": "motto_mo",
+    "level": "N2"
+  },
+  {
+    "idx": 77,
+    "entry_id": "n2_077_mou_sukoshi_de",
+    "grammar_en": "mou sukoshi de",
+    "grammar_jp": "もう少しで（もうすこしで）",
+    "meaning": "almost; nearly, close to ~",
+    "slug": "mou_sukoshi_de",
+    "level": "N2"
+  },
+  {
+    "idx": 78,
+    "entry_id": "n2_078_nai_dewa_irarenai",
+    "grammar_en": "nai dewa irarenai",
+    "grammar_jp": "ないではいられない",
+    "meaning": "can’t help but feel; can’t help but do ~",
+    "slug": "nai_dewa_irarenai",
+    "level": "N2"
+  },
+  {
+    "idx": 79,
+    "entry_id": "n2_079_nai_koto_niwa_nai",
+    "grammar_en": "nai koto niwa~nai",
+    "grammar_jp": "ないことには～ない",
+    "meaning": "unless you ~",
+    "slug": "nai_koto_niwa_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 80,
+    "entry_id": "n2_080_naka_o_naka_dewa",
+    "grammar_en": "naka o / naka dewa",
+    "grammar_jp": "中を / 中では（なかを / なかでは）",
+    "meaning": "in; on; in the midst of; when; while ~",
+    "slug": "naka_o_naka_dewa",
+    "level": "N2"
+  },
+  {
+    "idx": 81,
+    "entry_id": "n2_081_naku_wa_nai_naku_mo_nai",
+    "grammar_en": "naku wa nai / naku mo nai",
+    "grammar_jp": "なくはない / なくもない",
+    "meaning": "it’s not that; I may (double negative)",
+    "slug": "naku_wa_nai_naku_mo_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 82,
+    "entry_id": "n2_082_nakute_sumu",
+    "grammar_en": "nakute sumu",
+    "grammar_jp": "なくて済む（なくてすむ）",
+    "meaning": "get by without doing ~",
+    "slug": "nakute_sumu",
+    "level": "N2"
+  },
+  {
+    "idx": 83,
+    "entry_id": "n2_083_nani_mo_nai",
+    "grammar_en": "nani mo~nai",
+    "grammar_jp": "何も～ない（なにも～ない）",
+    "meaning": "nothing; (not) ~ at all; there’s no need to ~",
+    "slug": "nani_mo_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 84,
+    "entry_id": "n2_084_nao",
+    "grammar_en": "nao",
+    "grammar_jp": "なお",
+    "meaning": "still; yet; furthermore; in addition ~",
+    "slug": "nao",
+    "level": "N2"
+  },
+  {
+    "idx": 85,
+    "entry_id": "n2_085_neba_naranai",
+    "grammar_en": "neba naranai",
+    "grammar_jp": "ねばならない",
+    "meaning": "have to do; must; should ~",
+    "slug": "neba_naranai",
+    "level": "N2"
+  },
+  {
+    "idx": 86,
+    "entry_id": "n2_086_ni_atatte",
+    "grammar_en": "ni atatte",
+    "grammar_jp": "にあたって",
+    "meaning": "at the time; on the occasion of ~",
+    "slug": "ni_atatte",
+    "level": "N2"
+  },
+  {
+    "idx": 87,
+    "entry_id": "n2_087_ni_hoka_naranai",
+    "grammar_en": "ni hoka naranai",
+    "grammar_jp": "にほかならない",
+    "meaning": "nothing but; none other than ~",
+    "slug": "ni_hoka_naranai",
+    "level": "N2"
+  },
+  {
+    "idx": 88,
+    "entry_id": "n2_088_ni_kagirazu",
+    "grammar_en": "ni kagirazu",
+    "grammar_jp": "に限らず（にかぎらず）",
+    "meaning": "not just; not only... but also ~",
+    "slug": "ni_kagirazu",
+    "level": "N2"
+  },
+  {
+    "idx": 89,
+    "entry_id": "n2_089_ni_kagiru",
+    "grammar_en": "ni kagiru",
+    "grammar_jp": "に限る（にかぎる）",
+    "meaning": "is best; nothing is better than ~",
+    "slug": "ni_kagiru",
+    "level": "N2"
+  },
+  {
+    "idx": 90,
+    "entry_id": "n2_090_ni_kagitte",
+    "grammar_en": "ni kagitte",
+    "grammar_jp": "に限って（にかぎって）",
+    "meaning": "only; in particular ~",
+    "slug": "ni_kagitte",
+    "level": "N2"
+  },
+  {
+    "idx": 91,
+    "entry_id": "n2_091_ni_kakawarazu",
+    "grammar_en": "ni kakawarazu",
+    "grammar_jp": "に関わらず（にかかわらず）",
+    "meaning": "in spite of; regardless of ~",
+    "slug": "ni_kakawarazu",
+    "level": "N2"
+  },
+  {
+    "idx": 92,
+    "entry_id": "n2_092_ni_kakawaru",
+    "grammar_en": "ni kakawaru",
+    "grammar_jp": "に関わる（にかかわる）",
+    "meaning": "to relate to; to have to do with; relating to ~",
+    "slug": "ni_kakawaru",
+    "level": "N2"
+  },
+  {
+    "idx": 93,
+    "entry_id": "n2_093_ni_kimatte_iru",
+    "grammar_en": "ni kimatte iru",
+    "grammar_jp": "に決まっている（にきまっている）",
+    "meaning": "certainly; I’m sure/certain that; it must be the case that ~",
+    "slug": "ni_kimatte_iru",
+    "level": "N2"
+  },
+  {
+    "idx": 94,
+    "entry_id": "n2_094_ni_koshita_koto_wa_nai",
+    "grammar_en": "ni koshita koto wa nai",
+    "grammar_jp": "に越したことはない（にこしたことはない）",
+    "meaning": "it’s best that, there’s nothing better than ~",
+    "slug": "ni_koshita_koto_wa_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 95,
+    "entry_id": "n2_095_ni_kotaete",
+    "grammar_en": "ni kotaete",
+    "grammar_jp": "に応えて（にこたえて）",
+    "meaning": "in response to ~",
+    "slug": "ni_kotaete",
+    "level": "N2"
+  },
+  {
+    "idx": 96,
+    "entry_id": "n2_096_ni_kuwaete",
+    "grammar_en": "ni kuwaete",
+    "grammar_jp": "に加えて（にくわえて）",
+    "meaning": "in addition ~",
+    "slug": "ni_kuwaete",
+    "level": "N2"
+  },
+  {
+    "idx": 97,
+    "entry_id": "n2_097_ni_motozuite",
+    "grammar_en": "ni motozuite",
+    "grammar_jp": "に基づいて（にもとづいて）",
+    "meaning": "based on; on the basis of ~",
+    "slug": "ni_motozuite",
+    "level": "N2"
+  },
+  {
+    "idx": 98,
+    "entry_id": "n2_098_ni_mukatte",
+    "grammar_en": "ni mukatte",
+    "grammar_jp": "に向かって（にむかって）",
+    "meaning": "to face; to go towards; to head to ~",
+    "slug": "ni_mukatte",
+    "level": "N2"
+  },
+  {
+    "idx": 99,
+    "entry_id": "n2_099_ni_oujite",
+    "grammar_en": "ni oujite",
+    "grammar_jp": "に応じて（におうじて）",
+    "meaning": "depending on; in accordance with ~",
+    "slug": "ni_oujite",
+    "level": "N2"
+  },
+  {
+    "idx": 100,
+    "entry_id": "n2_100_ni_saishite",
+    "grammar_en": "ni saishite",
+    "grammar_jp": "に際して（にさいして）",
+    "meaning": "on the occasion of; at the time of ~",
+    "slug": "ni_saishite",
+    "level": "N2"
+  },
+  {
+    "idx": 101,
+    "entry_id": "n2_101_ni_sakidachi",
+    "grammar_en": "ni sakidachi",
+    "grammar_jp": "に先立ち（にさきだち）",
+    "meaning": "before; prior to ~",
+    "slug": "ni_sakidachi",
+    "level": "N2"
+  },
+  {
+    "idx": 102,
+    "entry_id": "n2_102_ni_seyo_ni_shiro",
+    "grammar_en": "ni seyo/ ni shiro",
+    "grammar_jp": "にせよ/ にしろ",
+    "meaning": "even if; regardless; whether... or ~",
+    "slug": "ni_seyo_ni_shiro",
+    "level": "N2"
+  },
+  {
+    "idx": 103,
+    "entry_id": "n2_103_ni_shiro_ni_shiro",
+    "grammar_en": "ni shiro~ni shiro",
+    "grammar_jp": "にしろ～にしろ",
+    "meaning": "whether… or ~",
+    "slug": "ni_shiro_ni_shiro",
+    "level": "N2"
+  },
+  {
+    "idx": 104,
+    "entry_id": "n2_104_ni_shitara_ni_sureba",
+    "grammar_en": "ni shitara / ni sureba",
+    "grammar_jp": "にしたら / にすれば",
+    "meaning": "from one’s perspective; from the point of view of ~",
+    "slug": "ni_shitara_ni_sureba",
+    "level": "N2"
+  },
+  {
+    "idx": 105,
+    "entry_id": "n2_105_ni_shitemo_ni_shitemo",
+    "grammar_en": "ni shitemo~ni shitemo",
+    "grammar_jp": "にしても～にしても",
+    "meaning": "regardless of whether ~",
+    "slug": "ni_shitemo_ni_shitemo",
+    "level": "N2"
+  },
+  {
+    "idx": 106,
+    "entry_id": "n2_106_ni_sotte",
+    "grammar_en": "ni sotte",
+    "grammar_jp": "に沿って（にそって）",
+    "meaning": "along with; in accordance with ~",
+    "slug": "ni_sotte",
+    "level": "N2"
+  },
+  {
+    "idx": 107,
+    "entry_id": "n2_107_ni_soui_nai",
+    "grammar_en": "ni soui nai",
+    "grammar_jp": "に相違ない（にそういない）",
+    "meaning": "without a doubt; certain; sure",
+    "slug": "ni_soui_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 108,
+    "entry_id": "n2_108_ni_suginai",
+    "grammar_en": "ni suginai",
+    "grammar_jp": "に過ぎない（にすぎない）",
+    "meaning": "no more than; just; merely; only ~",
+    "slug": "ni_suginai",
+    "level": "N2"
+  },
+  {
+    "idx": 109,
+    "entry_id": "n2_109_ni_tomonatte",
+    "grammar_en": "ni tomonatte",
+    "grammar_jp": "に伴って（にともなって）",
+    "meaning": "as; due to; with; along with; following; accordingly ~",
+    "slug": "ni_tomonatte",
+    "level": "N2"
+  },
+  {
+    "idx": 110,
+    "entry_id": "n2_110_ni_tsuke",
+    "grammar_en": "ni tsuke",
+    "grammar_jp": "につけ",
+    "meaning": "every time; whenever; as; whether; in (either case)",
+    "slug": "ni_tsuke",
+    "level": "N2"
+  },
+  {
+    "idx": 111,
+    "entry_id": "n2_111_ni_tsuki",
+    "grammar_en": "ni tsuki",
+    "grammar_jp": "につき",
+    "meaning": "due to; because of; per; each",
+    "slug": "ni_tsuki",
+    "level": "N2"
+  },
+  {
+    "idx": 112,
+    "entry_id": "n2_112_ni_watatte",
+    "grammar_en": "ni watatte",
+    "grammar_jp": "にわたって",
+    "meaning": "throughout; over a period of ~",
+    "slug": "ni_watatte",
+    "level": "N2"
+  },
+  {
+    "idx": 113,
+    "entry_id": "n2_113_nimo_kakawarazu",
+    "grammar_en": "nimo kakawarazu",
+    "grammar_jp": "にも関わらず（にもかかわらず）",
+    "meaning": "despite; in spite of; nevertheless; although ~",
+    "slug": "nimo_kakawarazu",
+    "level": "N2"
+  },
+  {
+    "idx": 114,
+    "entry_id": "n2_114_nite",
+    "grammar_en": "nite",
+    "grammar_jp": "にて",
+    "meaning": "in, at, with, by (formal particle)",
+    "slug": "nite",
+    "level": "N2"
+  },
+  {
+    "idx": 115,
+    "entry_id": "n2_115_no_mo_motto_mo_da",
+    "grammar_en": "no mo motto mo da",
+    "grammar_jp": "のももっともだ",
+    "meaning": "no wonder; …is only natural",
+    "slug": "no_mo_motto_mo_da",
+    "level": "N2"
+  },
+  {
+    "idx": 116,
+    "entry_id": "n2_116_no_moto_de",
+    "grammar_en": "no moto de",
+    "grammar_jp": "の下で（のもとで）",
+    "meaning": "under; with ~",
+    "slug": "no_moto_de",
+    "level": "N2"
+  },
+  {
+    "idx": 117,
+    "entry_id": "n2_117_no_ue_de_wa",
+    "grammar_en": "no ue de wa",
+    "grammar_jp": "の上では（のうえでは）",
+    "meaning": "according to; from the viewpoint of ~",
+    "slug": "no_ue_de_wa",
+    "level": "N2"
+  },
+  {
+    "idx": 118,
+    "entry_id": "n2_118_nomi",
+    "grammar_en": "nomi",
+    "grammar_jp": "のみ",
+    "meaning": "only; nothing but",
+    "slug": "nomi",
+    "level": "N2"
+  },
+  {
+    "idx": 119,
+    "entry_id": "n2_119_nominarazu",
+    "grammar_en": "nominarazu",
+    "grammar_jp": "のみならず",
+    "meaning": "not only; besides; as well as ~",
+    "slug": "nominarazu",
+    "level": "N2"
+  },
+  {
+    "idx": 120,
+    "entry_id": "n2_120_nu",
+    "grammar_en": "nu",
+    "grammar_jp": "ぬ",
+    "meaning": "negative verb conjugation; traditional version of ない",
+    "slug": "nu",
+    "level": "N2"
+  },
+  {
+    "idx": 121,
+    "entry_id": "n2_121_nuki_ni_shite_nuki_de",
+    "grammar_en": "nuki ni shite / nuki de",
+    "grammar_jp": "抜きにして / 抜きで（ぬきにして/ ぬきで）",
+    "meaning": "without; leaving out; cutting out ~",
+    "slug": "nuki_ni_shite_nuki_de",
+    "level": "N2"
+  },
+  {
+    "idx": 122,
+    "entry_id": "n2_122_nuku",
+    "grammar_en": "nuku",
+    "grammar_jp": "抜く（ぬく）",
+    "meaning": "to do something from beginning to end; completely, extremely ~",
+    "slug": "nuku",
+    "level": "N2"
+  },
+  {
+    "idx": 123,
+    "entry_id": "n2_123_o_keiki_ni",
+    "grammar_en": "o keiki ni",
+    "grammar_jp": "を契機に（をけいきに）",
+    "meaning": "as a good opportunity/chance to; as a result of; make the best of ~",
+    "slug": "o_keiki_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 124,
+    "entry_id": "n2_124_o_megutte",
+    "grammar_en": "o megutte",
+    "grammar_jp": "をめぐって",
+    "meaning": "concerning; in regard to ~",
+    "slug": "o_megutte",
+    "level": "N2"
+  },
+  {
+    "idx": 125,
+    "entry_id": "n2_125_o_moto_ni",
+    "grammar_en": "o moto ni",
+    "grammar_jp": "をもとに",
+    "meaning": "based on; derived from; building on; beginning with ~",
+    "slug": "o_moto_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 126,
+    "entry_id": "n2_126_o_nozoite",
+    "grammar_en": "o nozoite",
+    "grammar_jp": "を除いて（をのぞいて）",
+    "meaning": "except; with the exception of; excluding ~",
+    "slug": "o_nozoite",
+    "level": "N2"
+  },
+  {
+    "idx": 127,
+    "entry_id": "n2_127_o_towazu",
+    "grammar_en": "o towazu",
+    "grammar_jp": "を問わず（をとわず）",
+    "meaning": "regardless of; irrespective of; no matter",
+    "slug": "o_towazu",
+    "level": "N2"
+  },
+  {
+    "idx": 128,
+    "entry_id": "n2_128_o_negau",
+    "grammar_en": "o~negau",
+    "grammar_jp": "お～願う（お～ねがう）",
+    "meaning": "please do; could you please…; I ask of you to ~",
+    "slug": "o_negau",
+    "level": "N2"
+  },
+  {
+    "idx": 129,
+    "entry_id": "n2_129_omake_ni",
+    "grammar_en": "omake ni",
+    "grammar_jp": "おまけに",
+    "meaning": "to make matters worse; besides; what's more; in addition; on top of that",
+    "slug": "omake_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 130,
+    "entry_id": "n2_130_osoraku",
+    "grammar_en": "osoraku",
+    "grammar_jp": "恐らく（おそらく）",
+    "meaning": "perhaps; likely; probably; I dare say ~",
+    "slug": "osoraku",
+    "level": "N2"
+  },
+  {
+    "idx": 131,
+    "entry_id": "n2_131_osore_ga_aru",
+    "grammar_en": "osore ga aru",
+    "grammar_jp": "恐れがある（おそれがある）",
+    "meaning": "it is feared that; to be in danger of; to be liable to ~",
+    "slug": "osore_ga_aru",
+    "level": "N2"
+  },
+  {
+    "idx": 132,
+    "entry_id": "n2_132_oyobi",
+    "grammar_en": "oyobi",
+    "grammar_jp": "及び（および）",
+    "meaning": "and; as well as ~",
+    "slug": "oyobi",
+    "level": "N2"
+  },
+  {
+    "idx": 133,
+    "entry_id": "n2_133_roku_ni_nai",
+    "grammar_en": "roku ni~nai",
+    "grammar_jp": "ろくに～ない",
+    "meaning": "not well; not enough; improperly; insufficiently; unsatisfactorily ~",
+    "slug": "roku_ni_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 134,
+    "entry_id": "n2_134_saiwai_na_koto_ni",
+    "grammar_en": "saiwai na koto ni",
+    "grammar_jp": "幸いなことに（さいわいなことに）",
+    "meaning": "fortunately; luckily; thankfully ~",
+    "slug": "saiwai_na_koto_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 135,
+    "entry_id": "n2_135_sei_ka",
+    "grammar_en": "sei ka",
+    "grammar_jp": "せいか",
+    "meaning": "perhaps because ~",
+    "slug": "sei_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 136,
+    "entry_id": "n2_136_sekkaku",
+    "grammar_en": "sekkaku",
+    "grammar_jp": "せっかく",
+    "meaning": "especially; (thank you for) troubling to, going to great pains for ~",
+    "slug": "sekkaku",
+    "level": "N2"
+  },
+  {
+    "idx": 137,
+    "entry_id": "n2_137_semete",
+    "grammar_en": "semete",
+    "grammar_jp": "せめて",
+    "meaning": "at least; at most ~",
+    "slug": "semete",
+    "level": "N2"
+  },
+  {
+    "idx": 138,
+    "entry_id": "n2_138_shidai",
+    "grammar_en": "shidai",
+    "grammar_jp": "次第（しだい）",
+    "meaning": "as soon as, dependent upon",
+    "slug": "shidai",
+    "level": "N2"
+  },
+  {
+    "idx": 139,
+    "entry_id": "n2_139_shidai_de",
+    "grammar_en": "shidai de",
+    "grammar_jp": "次第で（しだいで）",
+    "meaning": "depending on; so ~",
+    "slug": "shidai_de",
+    "level": "N2"
+  },
+  {
+    "idx": 140,
+    "entry_id": "n2_140_shidai_ni",
+    "grammar_en": "shidai ni",
+    "grammar_jp": "次第に（しだいに）",
+    "meaning": "gradually (progress into a state); in sequence; in order",
+    "slug": "shidai_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 141,
+    "entry_id": "n2_141_shikamo",
+    "grammar_en": "shikamo",
+    "grammar_jp": "しかも",
+    "meaning": "moreover; furthermore; and yet; what’s more ~",
+    "slug": "shikamo",
+    "level": "N2"
+  },
+  {
+    "idx": 142,
+    "entry_id": "n2_142_sono_ue",
+    "grammar_en": "sono ue",
+    "grammar_jp": "その上（そのうえ）",
+    "meaning": "besides; in addition; furthermore ~",
+    "slug": "sono_ue",
+    "level": "N2"
+  },
+  {
+    "idx": 143,
+    "entry_id": "n2_143_sore_na_noni",
+    "grammar_en": "sore na noni",
+    "grammar_jp": "それなのに",
+    "meaning": "and yet; despite this; but even so ~",
+    "slug": "sore_na_noni",
+    "level": "N2"
+  },
+  {
+    "idx": 144,
+    "entry_id": "n2_144_sore_nara",
+    "grammar_en": "sore nara",
+    "grammar_jp": "それなら",
+    "meaning": "if that’s the case; if so ~",
+    "slug": "sore_nara",
+    "level": "N2"
+  },
+  {
+    "idx": 145,
+    "entry_id": "n2_145_sore_ni_shitemo",
+    "grammar_en": "sore ni shitemo",
+    "grammar_jp": "それにしても",
+    "meaning": "nevertheless; at any rate; even so; be that as it may ~",
+    "slug": "sore_ni_shitemo",
+    "level": "N2"
+  },
+  {
+    "idx": 146,
+    "entry_id": "n2_146_sou_ieba",
+    "grammar_en": "sou ieba",
+    "grammar_jp": "そう言えば（そういえば）",
+    "meaning": "come to think of it; now that you mention it ~",
+    "slug": "sou_ieba",
+    "level": "N2"
+  },
+  {
+    "idx": 147,
+    "entry_id": "n2_147_sou_suru_to",
+    "grammar_en": "sou suru to",
+    "grammar_jp": "そうすると",
+    "meaning": "having done that; if that is done; if it is done in that way",
+    "slug": "sou_suru_to",
+    "level": "N2"
+  },
+  {
+    "idx": 148,
+    "entry_id": "n2_148_sue_ni",
+    "grammar_en": "sue ni",
+    "grammar_jp": "末に（すえに）",
+    "meaning": "finally; after; following; at the end/ conclusion of ~",
+    "slug": "sue_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 149,
+    "entry_id": "n2_149_sukoshi_mo_nai",
+    "grammar_en": "sukoshi mo~nai",
+    "grammar_jp": "少しも～ない（すこしも～ない）",
+    "meaning": "not one bit; not even a little ~",
+    "slug": "sukoshi_mo_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 150,
+    "entry_id": "n2_150_sukunaku_tomo",
+    "grammar_en": "sukunaku tomo",
+    "grammar_jp": "少なくとも（すくなくとも）",
+    "meaning": "at least ~",
+    "slug": "sukunaku_tomo",
+    "level": "N2"
+  },
+  {
+    "idx": 151,
+    "entry_id": "n2_151_tadachi_ni",
+    "grammar_en": "tadachi ni",
+    "grammar_jp": "直ちに（ただちに）",
+    "meaning": "at once; immediately; directly; in person; automatically ~",
+    "slug": "tadachi_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 152,
+    "entry_id": "n2_152_tamae",
+    "grammar_en": "tamae",
+    "grammar_jp": "たまえ",
+    "meaning": "do~; order somebody to do something",
+    "slug": "tamae",
+    "level": "N2"
+  },
+  {
+    "idx": 153,
+    "entry_id": "n2_153_te_bakari_wa_irarenai",
+    "grammar_en": "te bakari wa irarenai",
+    "grammar_jp": "てばかりはいられない",
+    "meaning": "can’t keep doing ~",
+    "slug": "te_bakari_wa_irarenai",
+    "level": "N2"
+  },
+  {
+    "idx": 154,
+    "entry_id": "n2_154_te_demo",
+    "grammar_en": "te demo",
+    "grammar_jp": "てでも",
+    "meaning": "even if I have to; by all means ~",
+    "slug": "te_demo",
+    "level": "N2"
+  },
+  {
+    "idx": 155,
+    "entry_id": "n2_155_te_irai",
+    "grammar_en": "te irai",
+    "grammar_jp": "て以来（ていらい）",
+    "meaning": "since; henceforth ~",
+    "slug": "te_irai",
+    "level": "N2"
+  },
+  {
+    "idx": 156,
+    "entry_id": "n2_156_te_ite_wa",
+    "grammar_en": "te ite wa",
+    "grammar_jp": "ていては",
+    "meaning": "if one keeps doing ~",
+    "slug": "te_ite_wa",
+    "level": "N2"
+  },
+  {
+    "idx": 157,
+    "entry_id": "n2_157_te_koso",
+    "grammar_en": "te koso",
+    "grammar_jp": "てこそ",
+    "meaning": "now that; since (something happened)",
+    "slug": "te_koso",
+    "level": "N2"
+  },
+  {
+    "idx": 158,
+    "entry_id": "n2_158_te_made",
+    "grammar_en": "te made",
+    "grammar_jp": "てまで",
+    "meaning": "even; will go far so as to ~",
+    "slug": "te_made",
+    "level": "N2"
+  },
+  {
+    "idx": 159,
+    "entry_id": "n2_159_te_naranai",
+    "grammar_en": "te naranai",
+    "grammar_jp": "てならない",
+    "meaning": "can't help but; dying to; extremely ~",
+    "slug": "te_naranai",
+    "level": "N2"
+  },
+  {
+    "idx": 160,
+    "entry_id": "n2_160_te_tamaranai",
+    "grammar_en": "te tamaranai",
+    "grammar_jp": "てたまらない",
+    "meaning": "can't help but; dying to; extremely ~",
+    "slug": "te_tamaranai",
+    "level": "N2"
+  },
+  {
+    "idx": 161,
+    "entry_id": "n2_161_te_touzen_da",
+    "grammar_en": "te touzen da",
+    "grammar_jp": "て当然だ（てとうぜんだ）",
+    "meaning": "natural; as a matter of course",
+    "slug": "te_touzen_da",
+    "level": "N2"
+  },
+  {
+    "idx": 162,
+    "entry_id": "n2_162_tewa_dewa",
+    "grammar_en": "tewa / dewa",
+    "grammar_jp": "ては / では",
+    "meaning": "whenever; if; when~; repetitive action",
+    "slug": "tewa_dewa",
+    "level": "N2"
+  },
+  {
+    "idx": 163,
+    "entry_id": "n2_163_tewa_irarenai",
+    "grammar_en": "tewa irarenai",
+    "grammar_jp": "てはいられない",
+    "meaning": "can’t afford to; unable to ~",
+    "slug": "tewa_irarenai",
+    "level": "N2"
+  },
+  {
+    "idx": 164,
+    "entry_id": "n2_164_tewa_naranai",
+    "grammar_en": "tewa naranai",
+    "grammar_jp": "てはならない",
+    "meaning": "must not; cannot; should not ~",
+    "slug": "tewa_naranai",
+    "level": "N2"
+  },
+  {
+    "idx": 165,
+    "entry_id": "n2_165_tewa_tewa",
+    "grammar_en": "tewa~tewa",
+    "grammar_jp": "ては～ては",
+    "meaning": "repetitive situations/actions",
+    "slug": "tewa_tewa",
+    "level": "N2"
+  },
+  {
+    "idx": 166,
+    "entry_id": "n2_166_to_douji_ni",
+    "grammar_en": "to douji ni",
+    "grammar_jp": "と同時に（とどうじに）",
+    "meaning": "at the same time as; while; simultaneously ~",
+    "slug": "to_douji_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 167,
+    "entry_id": "n2_167_to_itta",
+    "grammar_en": "to itta",
+    "grammar_jp": "といった",
+    "meaning": "like; such as ~",
+    "slug": "to_itta",
+    "level": "N2"
+  },
+  {
+    "idx": 168,
+    "entry_id": "n2_168_to_iu_fuu_ni",
+    "grammar_en": "to iu fuu ni",
+    "grammar_jp": "というふうに",
+    "meaning": "in such a way that ~",
+    "slug": "to_iu_fuu_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 169,
+    "entry_id": "n2_169_to_iu_koto_wa",
+    "grammar_en": "to iu koto wa",
+    "grammar_jp": "ということは",
+    "meaning": "that is to say; so that means; in other words ~",
+    "slug": "to_iu_koto_wa",
+    "level": "N2"
+  },
+  {
+    "idx": 170,
+    "entry_id": "n2_170_to_iu_mono_da",
+    "grammar_en": "to iu mono da",
+    "grammar_jp": "というものだ",
+    "meaning": "something like; something called ~",
+    "slug": "to_iu_mono_da",
+    "level": "N2"
+  },
+  {
+    "idx": 171,
+    "entry_id": "n2_171_to_iu_mono_dewa_nai",
+    "grammar_en": "to iu mono dewa nai",
+    "grammar_jp": "というものではない",
+    "meaning": "there is no guarantee that…; not necessarily ~",
+    "slug": "to_iu_mono_dewa_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 172,
+    "entry_id": "n2_172_to_kangaerareru",
+    "grammar_en": "to kangaerareru",
+    "grammar_jp": "と考えられる（とかんがえられる）",
+    "meaning": "one can think that; it is conceivable that; considered ~",
+    "slug": "to_kangaerareru",
+    "level": "N2"
+  },
+  {
+    "idx": 173,
+    "entry_id": "n2_173_toka_de",
+    "grammar_en": "toka (de)",
+    "grammar_jp": "とか（で）",
+    "meaning": "I heard that ~",
+    "slug": "toka_de",
+    "level": "N2"
+  },
+  {
+    "idx": 174,
+    "entry_id": "n2_174_tokku_ni",
+    "grammar_en": "tokku ni",
+    "grammar_jp": "とっくに",
+    "meaning": "long ago; already; a long time ago",
+    "slug": "tokku_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 175,
+    "entry_id": "n2_175_tokoro_datta",
+    "grammar_en": "tokoro datta",
+    "grammar_jp": "ところだった",
+    "meaning": "was just about to do something; something almost happened",
+    "slug": "tokoro_datta",
+    "level": "N2"
+  },
+  {
+    "idx": 176,
+    "entry_id": "n2_176_tokoro_ni",
+    "grammar_en": "tokoro ni",
+    "grammar_jp": "ところに",
+    "meaning": "at the time; just as I was ~",
+    "slug": "tokoro_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 177,
+    "entry_id": "n2_177_tokoro_o_miru_to",
+    "grammar_en": "tokoro o miru to",
+    "grammar_jp": "ところを見ると（ところをみると）",
+    "meaning": "judging from; seeing that ~",
+    "slug": "tokoro_o_miru_to",
+    "level": "N2"
+  },
+  {
+    "idx": 178,
+    "entry_id": "n2_178_tomo",
+    "grammar_en": "tomo",
+    "grammar_jp": "とも",
+    "meaning": "even if; no matter (who, what, when, where, why, how); though ~",
+    "slug": "tomo",
+    "level": "N2"
+  },
+  {
+    "idx": 179,
+    "entry_id": "n2_179_toshite_nai",
+    "grammar_en": "toshite~nai",
+    "grammar_jp": "として～ない",
+    "meaning": "not at all; there is not even one",
+    "slug": "toshite_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 180,
+    "entry_id": "n2_180_toshitemo",
+    "grammar_en": "toshitemo",
+    "grammar_jp": "としても",
+    "meaning": "assuming; even if ~",
+    "slug": "toshitemo",
+    "level": "N2"
+  },
+  {
+    "idx": 181,
+    "entry_id": "n2_181_tsutsu",
+    "grammar_en": "tsutsu",
+    "grammar_jp": "つつ",
+    "meaning": "while; even though; despite ~",
+    "slug": "tsutsu",
+    "level": "N2"
+  },
+  {
+    "idx": 182,
+    "entry_id": "n2_182_tsutsu_aru",
+    "grammar_en": "tsutsu aru",
+    "grammar_jp": "つつある",
+    "meaning": "to be doing; to be in the process of doing ~",
+    "slug": "tsutsu_aru",
+    "level": "N2"
+  },
+  {
+    "idx": 183,
+    "entry_id": "n2_183_ue_wa",
+    "grammar_en": "ue wa",
+    "grammar_jp": "上は（うえは）",
+    "meaning": "now that; since; as long as ~",
+    "slug": "ue_wa",
+    "level": "N2"
+  },
+  {
+    "idx": 184,
+    "entry_id": "n2_184_wa_moto_yori",
+    "grammar_en": "wa moto yori",
+    "grammar_jp": "はもとより",
+    "meaning": "also; let alone; from the beginning",
+    "slug": "wa_moto_yori",
+    "level": "N2"
+  },
+  {
+    "idx": 185,
+    "entry_id": "n2_185_wa_tomokaku",
+    "grammar_en": "wa tomokaku",
+    "grammar_jp": "はともかく",
+    "meaning": "anyhow; anyway; regardless; in any case; whether or not ~",
+    "slug": "wa_tomokaku",
+    "level": "N2"
+  },
+  {
+    "idx": 186,
+    "entry_id": "n2_186_wazuka_ni",
+    "grammar_en": "wazuka ni",
+    "grammar_jp": "わずかに",
+    "meaning": "slightly; only; barely; narrowly ~",
+    "slug": "wazuka_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 187,
+    "entry_id": "n2_187_yagate",
+    "grammar_en": "yagate",
+    "grammar_jp": "やがて",
+    "meaning": "before long; soon; almost; eventually ~",
+    "slug": "yagate",
+    "level": "N2"
+  },
+  {
+    "idx": 188,
+    "entry_id": "n2_188_yara_yara",
+    "grammar_en": "yara~yara",
+    "grammar_jp": "やら～やら",
+    "meaning": "such things as A and B; A and B and so on ~",
+    "slug": "yara_yara",
+    "level": "N2"
+  },
+  {
+    "idx": 189,
+    "entry_id": "n2_189_yohodo_yoppodo",
+    "grammar_en": "yohodo / yoppodo",
+    "grammar_jp": "よほど / よっぽど",
+    "meaning": "very; greatly; much; to a large extent",
+    "slug": "yohodo_yoppodo",
+    "level": "N2"
+  },
+  {
+    "idx": 190,
+    "entry_id": "n2_190_yori",
+    "grammar_en": "yori",
+    "grammar_jp": "より [2]",
+    "meaning": "from~ (a time, place, or person)",
+    "slug": "yori",
+    "level": "N2"
+  },
+  {
+    "idx": 191,
+    "entry_id": "n2_191_yori_hoka_nai",
+    "grammar_en": "yori hoka nai",
+    "grammar_jp": "よりほかない",
+    "meaning": "to have no choice but ~",
+    "slug": "yori_hoka_nai",
+    "level": "N2"
+  },
+  {
+    "idx": 192,
+    "entry_id": "n2_192_you_dewa",
+    "grammar_en": "you dewa",
+    "grammar_jp": "ようでは",
+    "meaning": "if ~ (bad result)",
+    "slug": "you_dewa",
+    "level": "N2"
+  },
+  {
+    "idx": 193,
+    "entry_id": "n2_193_you_dewa_nai_ka",
+    "grammar_en": "you dewa nai ka",
+    "grammar_jp": "ようではないか",
+    "meaning": "let’s do (something); why don’t we ~",
+    "slug": "you_dewa_nai_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 194,
+    "entry_id": "n2_194_you_ka_mai_ka",
+    "grammar_en": "you ka~mai ka",
+    "grammar_jp": "ようか～まいか",
+    "meaning": "whether or not; considering options",
+    "slug": "you_ka_mai_ka",
+    "level": "N2"
+  },
+  {
+    "idx": 195,
+    "entry_id": "n2_195_you_suru_ni",
+    "grammar_en": "you suru ni",
+    "grammar_jp": "要するに（ようするに）",
+    "meaning": "in short; in a word; to sum up; to put it simply ~",
+    "slug": "you_suru_ni",
+    "level": "N2"
+  },
+  {
+    "idx": 196,
+    "entry_id": "n2_196_zaru_o_enai",
+    "grammar_en": "zaru o enai",
+    "grammar_jp": "ざるを得ない（ざるをえない）",
+    "meaning": "cannot help (doing); have no choice but to ~",
+    "slug": "zaru_o_enai",
+    "level": "N2"
+  },
+  {
+    "idx": 197,
+    "entry_id": "n2_197_zu_ni_sumu",
+    "grammar_en": "zu ni sumu",
+    "grammar_jp": "ずに済む（ずにすむ）",
+    "meaning": "get by without doing ~",
+    "slug": "zu_ni_sumu",
+    "level": "N2"
+  }
+]
+
+上一次输出未通过校验，错误是：plan coverage error: missing=['n2_001_ageku', 'n2_002_aruiwa', 'n2_003_bakari', 'n2_004_bakari_da', 'n2_005_bakari_ka', 'n2_006_bakari_ni', 'n2_007_chinamini', 'n2_008_chitto_mo_nai', 'n2_009_dake_atte', 'n2_010_dake_mashi_da'] extra=['n4_001_ageku', 'n4_002_aruiwa', 'n4_003_bakari', 'n4_004_bakari_da', 'n4_005_bakari_ka', 'n4_006_bakari_ni', 'n4_007_chinamini', 'n4_008_chitto_mo_nai', 'n4_009_dake_atte', 'n4_010_dake_mashi_da'] duplicates=[]
+请完整重做，并确保每个 entry_id 恰好出现一次。

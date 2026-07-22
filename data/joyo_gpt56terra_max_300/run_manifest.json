@@ -1,0 +1,11 @@
+{
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "max",
+  "endpoint": "http://45.77.1.146:8310/v1",
+  "source": "joyo_2010",
+  "source_total": 2136,
+  "request_count_target": 300,
+  "batch_size": 1,
+  "concurrency": 50,
+  "retry_policy": "up to 2 retries per failed request inside batch_generate_v3"
+}

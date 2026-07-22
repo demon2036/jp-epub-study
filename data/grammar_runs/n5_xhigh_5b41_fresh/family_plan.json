@@ -1,0 +1,215 @@
+{
+  "level": "N5",
+  "families": [
+    {
+      "family_id": "n5_f01_judgement_description",
+      "family_name": "判断・描写起步系",
+      "family_lead": "先把“是什么”说清，再把“什么样”说出来",
+      "family_hook": "「だ/です」「じゃない/ではない」是判断句起点，「い-adjectives / な-adjectives」是描写句起点，「なる」则把静态判断推进成变化。把“判断+描写+变化”放在一起，初学者最容易建立整句感。",
+      "progression_line": "从是/不是，到会形容，再到变成什么样",
+      "member_ids": [
+        "n5_002_da_desu",
+        "n5_020_janai_dewa_nai",
+        "n5_016_i_adjectives",
+        "n5_036_na_adjectives",
+        "n5_045_naru"
+      ]
+    },
+    {
+      "family_id": "n5_f02_sentence_roles",
+      "family_name": "句子骨架・角色卡位系",
+      "family_lead": "先分清句子里谁站哪一格",
+      "family_hook": "「は」「が」「を」「の」是 N5 最容易混的基础骨架，「も」和「だけ」又正好形成“也/只”的对照。一起学，比零散背助词更容易做题。",
+      "progression_line": "从主题与主语，到对象，再到补充与限定",
+      "member_ids": [
+        "n5_079_wa_topic_marker",
+        "n5_011_ga",
+        "n5_060_o_wo",
+        "n5_052_no",
+        "n5_034_mo",
+        "n5_003_dake"
+      ]
+    },
+    {
+      "family_id": "n5_f03_direction_place",
+      "family_name": "去向・场所路线系",
+      "family_lead": "人往哪儿去，动作在哪儿发生，边界到哪儿停",
+      "family_hook": "「に」「へ」「で」「まで」常在同一出行情境里同时出现，再连上「に行く」和「一緒に」，正好能把“去哪里、怎么去、和谁去”放在一个画面里记。",
+      "progression_line": "从目标点，到发生地，再到目的动作与同行",
+      "member_ids": [
+        "n5_048_ni",
+        "n5_051_ni_e",
+        "n5_005_de",
+        "n5_029_made",
+        "n5_049_ni_iku",
+        "n5_018_issho_ni"
+      ]
+    },
+    {
+      "family_id": "n5_f04_timeline_progress",
+      "family_name": "时间轴・进度条系",
+      "family_lead": "把“之前、之后、已经、还没”拉成一条线",
+      "family_hook": "「とき」「前に」「てから」负责切时间点，「いつも」「もう」「まだ」「まだ〜ていません」负责看进度和频率。它们一起学，最适合做时间顺序题和会话题。",
+      "progression_line": "从时点定位，到先后顺序，再到进度状态",
+      "member_ids": [
+        "n5_076_toki",
+        "n5_030_mae_ni",
+        "n5_071_te_kara",
+        "n5_019_itsumo",
+        "n5_035_mou",
+        "n5_027_mada",
+        "n5_028_mada_te_imasen"
+      ]
+    },
+    {
+      "family_id": "n5_f05_existence_state",
+      "family_name": "有无・在状态系",
+      "family_lead": "先看东西在不在，再看动作留下了什么状态",
+      "family_hook": "「あります/います」先分无生命和有生命，「ている」看进行或当前状态，「てある」看结果残留，「たことがある」看经验有没有发生过。它们都在回答“有没有、成了什么状态”。",
+      "progression_line": "从存在，到进行，到结果，再到经验",
+      "member_ids": [
+        "n5_012_ga_arimasu",
+        "n5_014_ga_imasu",
+        "n5_070_te_iru",
+        "n5_069_te_aru",
+        "n5_066_ta_koto_ga_aru"
+      ]
+    },
+    {
+      "family_id": "n5_f06_question_patterns",
+      "family_name": "发问・问法入口系",
+      "family_lead": "不只会问“吗”，还要会问种类、原因和方法",
+      "family_hook": "「か」是问句开门键，「どんな」「どうして」「どうやって」「方」「はどうですか」则分别把问题引向“什么样、为什么、怎么做、你怎么看”。一起学最容易搭出问句模板。",
+      "progression_line": "从能发问，到问内容、问原因、问做法",
+      "member_ids": [
+        "n5_021_ka",
+        "n5_008_donna",
+        "n5_009_doushite",
+        "n5_010_douyatte",
+        "n5_024_kata",
+        "n5_081_wa_dou_desu_ka"
+      ]
+    },
+    {
+      "family_id": "n5_f07_explanation_tone",
+      "family_name": "解释・语气收尾系",
+      "family_lead": "同一句话，换个句尾，语气就完全不同",
+      "family_hook": "「んです/のです」负责补背景和解释，「ね」「よ」「なあ」负责共享、提醒和感叹，「だろう/でしょう」负责推测和确认。它们都长在句尾，最适合成组对比。",
+      "progression_line": "从说明背景，到共享确认，再到强调与推测",
+      "member_ids": [
+        "n5_046_ndesu",
+        "n5_053_no_desu",
+        "n5_047_ne",
+        "n5_083_yo",
+        "n5_037_naa",
+        "n5_004_darou",
+        "n5_007_deshou"
+      ]
+    },
+    {
+      "family_id": "n5_f08_reason_contrast",
+      "family_name": "原因・转折接话系",
+      "family_lead": "学会把理由说出来，也学会把话拐个弯",
+      "family_hook": "「から」「ので」都能说“因为”，但语气轻重不同；「けど」「けれども」「でも」「しかし」都能转折，但口语度和正式度不同。放一起最能看出层级。",
+      "progression_line": "从给理由，到轻转折，再到更正式的转折",
+      "member_ids": [
+        "n5_023_kara",
+        "n5_058_node",
+        "n5_025_kedo",
+        "n5_026_keredo_mo",
+        "n5_006_demo",
+        "n5_062_shikashi"
+      ]
+    },
+    {
+      "family_id": "n5_f09_listing_choice",
+      "family_name": "并列・选择拼盘系",
+      "family_lead": "“和、或者、然后、举几个例子”不能混着用",
+      "family_hook": "「と」「や」「か〜か」「そして」「それから」「たり〜たり」都像在“把东西接起来”，但完整并列、不完整列举、二选一、顺接、举例，各有各的路数。",
+      "progression_line": "从并列，到选择，再到顺接与动作举例",
+      "member_ids": [
+        "n5_075_to",
+        "n5_082_ya",
+        "n5_022_ka_ka",
+        "n5_064_soshite",
+        "n5_063_sore_kara",
+        "n5_068_tari_tari"
+      ]
+    },
+    {
+      "family_id": "n5_f10_request_invitation",
+      "family_name": "请求・邀请出手系",
+      "family_lead": "礼貌地开口，是 N5 会话里最常见的动作",
+      "family_hook": "「お/ご」是礼貌外壳，「をください」和「てください」是开口请求，「ませんか」「ましょう」「ましょうか」则把话推进到邀请同行或主动帮忙。整组学最有会话感。",
+      "progression_line": "从礼貌包装，到请求，到邀请与主动承担",
+      "member_ids": [
+        "n5_059_o_go",
+        "n5_061_o_kudasai",
+        "n5_072_te_kudasai",
+        "n5_031_masen_ka",
+        "n5_032_mashou",
+        "n5_033_mashouka"
+      ]
+    },
+    {
+      "family_id": "n5_f11_permission_prohibition",
+      "family_name": "许可・禁止红绿灯系",
+      "family_lead": "同样是“不要”和“可以”，力度其实一格一格不同",
+      "family_hook": "「てはいけない」「ちゃいけない」是禁止，「ないで」「ないでください」长得近又常混，「てもいい」和「なくてもいい」刚好构成“可以做 / 不做也行”的对照。",
+      "progression_line": "从强禁止，到不要做，再到允许与免除",
+      "member_ids": [
+        "n5_073_te_wa_ikenai",
+        "n5_001_cha_ikenai_ja_ikenai",
+        "n5_038_naide",
+        "n5_039_naide_kudasai",
+        "n5_074_temo_ii_desu",
+        "n5_041_naku_temo_ii"
+      ]
+    },
+    {
+      "family_id": "n5_f12_obligation_decision",
+      "family_name": "必须・建议决心系",
+      "family_lead": "从“最好这样”走到“非做不可”，最后落到自己的决定",
+      "family_hook": "「ほうがいい」和几种“必须”表达是 N5 经典易混点，再接上「つもり」「にする」，就能把“建议、义务、打算、定案”放在同一条决策线上复盘。",
+      "progression_line": "从建议，到义务强度，再到打算与定案",
+      "member_ids": [
+        "n5_015_hou_ga_ii",
+        "n5_040_naito_ikenai",
+        "n5_042_nakucha",
+        "n5_043_nakute_wa_ikenai",
+        "n5_044_nakute_wa_naranai",
+        "n5_078_tsumori",
+        "n5_050_ni_suru"
+      ]
+    },
+    {
+      "family_id": "n5_f13_desire_preference_skill",
+      "family_name": "想要・喜欢拿手系",
+      "family_lead": "人心里想什么、喜欢什么、擅长什么，形式常常很像",
+      "family_hook": "「がほしい」和「たい」要先分“想要东西”还是“想做动作”，“のが好き/上手/下手”又都靠同一套句型来评价喜好和能力。放一起最省脑力。",
+      "progression_line": "从想要，到想做，再到喜欢与能力评价",
+      "member_ids": [
+        "n5_013_ga_hoshii",
+        "n5_067_tai",
+        "n5_056_no_ga_suki",
+        "n5_055_no_ga_jouzu",
+        "n5_054_no_ga_heta"
+      ]
+    },
+    {
+      "family_id": "n5_f14_comparison_degree",
+      "family_name": "比较・程度尺子系",
+      "family_lead": "从“很”到“太”，再到“谁更……、谁最……”",
+      "family_hook": "「とても」「すぎる」「一番」「より〜ほうが」「は〜より…です」「の中で[A]が一番」正好组成一把程度尺和比较尺。一起学，最容易抓住做题时的比较方向。",
+      "progression_line": "从程度放大，到过量，再到比较与排行",
+      "member_ids": [
+        "n5_077_totemo",
+        "n5_065_sugiru",
+        "n5_080_wa_yori_desu",
+        "n5_084_yori_hou_ga",
+        "n5_017_ichiban",
+        "n5_057_no_naka_de_a_ga_ichiban"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+你现在要给一本《JLPT N5 语法家族全书》先做“家族分组总规划”。
+
+目标不是按五十音或词面机械排序，而是按“学习时最好记、最好对比、最好复盘”的原则，把语法条目编成若干家族。
+
+硬性要求：
+1. 输出必须满足 JSON Schema。
+2. 每个 `entry_id` 必须且只能出现一次。
+3. 优先把“近义、近形、相反、同一决策场景里容易混的”放在同一家族。
+4. 家族名字用中文，最好有一点画面感，格式接近「建议・劝诱系」「条件・假设系」这种。
+5. `family_lead` 要像这一章的导读副标题，短而有方向感。
+6. `family_hook` 要说清“这一家人为什么放在一起学”。
+7. `progression_line` 要像“从 A 到 B”“从轻到重”“从判断到落地”这种复盘线索。
+8. 家族规模通常 4~8 个；如果确实没法整齐，也可以 3 个，但尽量不要出现 1~2 个的孤岛家族。
+9. 教学顺序要自然：先基础，再变体，再容易混的，再补边角。
+10. 可以把 meta 语法概念（如 potential form、passive form、い-adjectives）也当成可学习条目来分组。
+
+风格要求：
+- 这本书面向中文学习者。
+- 不是学术分类，而是“真能帮助记忆和做题”的分类。
+- 家族名不要太死板，允许有轻微画面感，但别浮夸。
+
+源条目如下：
+[
+  {
+    "idx": 1,
+    "entry_id": "n5_001_cha_ikenai_ja_ikenai",
+    "grammar_en": "cha ikenai / ja ikenai",
+    "grammar_jp": "ちゃいけない・じゃいけない",
+    "meaning": "must not do (spoken Japanese)",
+    "slug": "cha_ikenai_ja_ikenai",
+    "level": "N5"
+  },
+  {
+    "idx": 2,
+    "entry_id": "n5_002_da_desu",
+    "grammar_en": "da / desu",
+    "grammar_jp": "だ / です",
+    "meaning": "to be (am, is, are, were, used to)",
+    "slug": "da_desu",
+    "level": "N5"
+  },
+  {
+    "idx": 3,
+    "entry_id": "n5_003_dake",
+    "grammar_en": "dake",
+    "grammar_jp": "だけ",
+    "meaning": "only; just; as much as ~",
+    "slug": "dake",
+    "level": "N5"
+  },
+  {
+    "idx": 4,
+    "entry_id": "n5_004_darou",
+    "grammar_en": "darou",
+    "grammar_jp": "だろう",
+    "meaning": "I think; it seems; probably; right?",
+    "slug": "darou",
+    "level": "N5"
+  },
+  {
+    "idx": 5,
+    "entry_id": "n5_005_de",
+    "grammar_en": "de",
+    "grammar_jp": "で",
+    "meaning": "in; at; on; by; with; via ~",
+    "slug": "de",
+    "level": "N5"
+  },
+  {
+    "idx": 6,
+    "entry_id": "n5_006_demo",
+    "grammar_en": "demo",
+    "grammar_jp": "でも",
+    "meaning": "but; however; though ~",
+    "slug": "demo",
+    "level": "N5"
+  },
+  {
+    "idx": 7,
+    "entry_id": "n5_007_deshou",
+    "grammar_en": "deshou",
+    "grammar_jp": "でしょう",
+    "meaning": "I think; it seems; probably; right?",
+    "slug": "deshou",
+    "level": "N5"
+  },
+  {
+    "idx": 8,
+    "entry_id": "n5_008_donna",
+    "grammar_en": "donna",
+    "grammar_jp": "どんな",
+    "meaning": "what kind of; what sort of",
+    "slug": "donna",
+    "level": "N5"
+  },
+  {
+    "idx": 9,
+    "entry_id": "n5_009_doushite",
+    "grammar_en": "doushite",
+    "grammar_jp": "どうして",
+    "meaning": "why; for what reason; how",
+    "slug": "doushite",
+    "level": "N5"
+  },
+  {
+    "idx": 10,
+    "entry_id": "n5_010_douyatte",
+    "grammar_en": "douyatte",
+    "grammar_jp": "どうやって",
+    "meaning": "how; in what way; by what means​",
+    "slug": "douyatte",
+    "level": "N5"
+  },
+  {
+    "idx": 11,
+    "entry_id": "n5_011_ga",
+    "grammar_en": "ga",
+    "grammar_jp": "が",
+    "meaning": "subject marker; however; but ~",
+    "slug": "ga",
+    "level": "N5"
+  },
+  {
+    "idx": 12,
+    "entry_id": "n5_012_ga_arimasu",
+    "grammar_en": "ga arimasu",
+    "grammar_jp": "があります",
+    "meaning": "there is; is (non-living things)",
+    "slug": "ga_arimasu",
+    "level": "N5"
+  },
+  {
+    "idx": 13,
+    "entry_id": "n5_013_ga_hoshii",
+    "grammar_en": "ga hoshii",
+    "grammar_jp": "がほしい",
+    "meaning": "to want something",
+    "slug": "ga_hoshii",
+    "level": "N5"
+  },
+  {
+    "idx": 14,
+    "entry_id": "n5_014_ga_imasu",
+    "grammar_en": "ga imasu",
+    "grammar_jp": "がいます",
+    "meaning": "there is; to be; is (living things)",
+    "slug": "ga_imasu",
+    "level": "N5"
+  },
+  {
+    "idx": 15,
+    "entry_id": "n5_015_hou_ga_ii",
+    "grammar_en": "hou ga ii",
+    "grammar_jp": "ほうがいい",
+    "meaning": "had better; it'd be better to; should ~",
+    "slug": "hou_ga_ii",
+    "level": "N5"
+  },
+  {
+    "idx": 16,
+    "entry_id": "n5_016_i_adjectives",
+    "grammar_en": "i-adjectives",
+    "grammar_jp": "い-adjectives",
+    "meaning": "i-adjectives",
+    "slug": "i_adjectives",
+    "level": "N5"
+  },
+  {
+    "idx": 17,
+    "entry_id": "n5_017_ichiban",
+    "grammar_en": "ichiban",
+    "grammar_jp": "一番（いちばん）",
+    "meaning": "the most; the best",
+    "slug": "ichiban",
+    "level": "N5"
+  },
+  {
+    "idx": 18,
+    "entry_id": "n5_018_issho_ni",
+    "grammar_en": "issho ni",
+    "grammar_jp": "一緒に（いっしょに）",
+    "meaning": "together",
+    "slug": "issho_ni",
+    "level": "N5"
+  },
+  {
+    "idx": 19,
+    "entry_id": "n5_019_itsumo",
+    "grammar_en": "itsumo",
+    "grammar_jp": "いつも",
+    "meaning": "always; usually; habitually",
+    "slug": "itsumo",
+    "level": "N5"
+  },
+  {
+    "idx": 20,
+    "entry_id": "n5_020_janai_dewa_nai",
+    "grammar_en": "janai / dewa nai",
+    "grammar_jp": "じゃない・ではない",
+    "meaning": "to not be (am not; is not; are not)",
+    "slug": "janai_dewa_nai",
+    "level": "N5"
+  },
+  {
+    "idx": 21,
+    "entry_id": "n5_021_ka",
+    "grammar_en": "ka",
+    "grammar_jp": "か",
+    "meaning": "question particle",
+    "slug": "ka",
+    "level": "N5"
+  },
+  {
+    "idx": 22,
+    "entry_id": "n5_022_ka_ka",
+    "grammar_en": "ka~ka",
+    "grammar_jp": "か～か",
+    "meaning": "or",
+    "slug": "ka_ka",
+    "level": "N5"
+  },
+  {
+    "idx": 23,
+    "entry_id": "n5_023_kara",
+    "grammar_en": "kara",
+    "grammar_jp": "から",
+    "meaning": "because; since; from",
+    "slug": "kara",
+    "level": "N5"
+  },
+  {
+    "idx": 24,
+    "entry_id": "n5_024_kata",
+    "grammar_en": "kata",
+    "grammar_jp": "方（かた）",
+    "meaning": "the way of doing something; how to do ~",
+    "slug": "kata",
+    "level": "N5"
+  },
+  {
+    "idx": 25,
+    "entry_id": "n5_025_kedo",
+    "grammar_en": "kedo",
+    "grammar_jp": "けど",
+    "meaning": "but; however; although ~",
+    "slug": "kedo",
+    "level": "N5"
+  },
+  {
+    "idx": 26,
+    "entry_id": "n5_026_keredo_mo",
+    "grammar_en": "keredo mo",
+    "grammar_jp": "けれども",
+    "meaning": "but; however; although ~",
+    "slug": "keredo_mo",
+    "level": "N5"
+  },
+  {
+    "idx": 27,
+    "entry_id": "n5_027_mada",
+    "grammar_en": "mada",
+    "grammar_jp": "まだ",
+    "meaning": "still; not yet",
+    "slug": "mada",
+    "level": "N5"
+  },
+  {
+    "idx": 28,
+    "entry_id": "n5_028_mada_te_imasen",
+    "grammar_en": "mada ~te imasen",
+    "grammar_jp": "まだ～ていません",
+    "meaning": "have not yet ~",
+    "slug": "mada_te_imasen",
+    "level": "N5"
+  },
+  {
+    "idx": 29,
+    "entry_id": "n5_029_made",
+    "grammar_en": "made",
+    "grammar_jp": "まで",
+    "meaning": "until; as far as; to (an extent); even ~",
+    "slug": "made",
+    "level": "N5"
+  },
+  {
+    "idx": 30,
+    "entry_id": "n5_030_mae_ni",
+    "grammar_en": "mae ni",
+    "grammar_jp": "前に（まえに）",
+    "meaning": "before; in front of ~",
+    "slug": "mae_ni",
+    "level": "N5"
+  },
+  {
+    "idx": 31,
+    "entry_id": "n5_031_masen_ka",
+    "grammar_en": "masen ka",
+    "grammar_jp": "ませんか",
+    "meaning": "would you; do you want to; shall we ~",
+    "slug": "masen_ka",
+    "level": "N5"
+  },
+  {
+    "idx": 32,
+    "entry_id": "n5_032_mashou",
+    "grammar_en": "mashou",
+    "grammar_jp": "ましょう",
+    "meaning": "let's ~; shall we ~",
+    "slug": "mashou",
+    "level": "N5"
+  },
+  {
+    "idx": 33,
+    "entry_id": "n5_033_mashouka",
+    "grammar_en": "mashouka",
+    "grammar_jp": "ましょうか",
+    "meaning": "shall I ~; used to offer help to the listener",
+    "slug": "mashouka",
+    "level": "N5"
+  },
+  {
+    "idx": 34,
+    "entry_id": "n5_034_mo",
+    "grammar_en": "mo",
+    "grammar_jp": "も",
+    "meaning": "too; also; as well",
+    "slug": "mo",
+    "level": "N5"
+  },
+  {
+    "idx": 35,
+    "entry_id": "n5_035_mou",
+    "grammar_en": "mou",
+    "grammar_jp": "もう",
+    "meaning": "already; anymore; again; other",
+    "slug": "mou",
+    "level": "N5"
+  },
+  {
+    "idx": 36,
+    "entry_id": "n5_036_na_adjectives",
+    "grammar_en": "na-adjectives",
+    "grammar_jp": "な-adjectives",
+    "meaning": "na-adjectives",
+    "slug": "na_adjectives",
+    "level": "N5"
+  },
+  {
+    "idx": 37,
+    "entry_id": "n5_037_naa",
+    "grammar_en": "naa",
+    "grammar_jp": "なあ",
+    "meaning": "sentence ending particle; confirmation; admiration, etc",
+    "slug": "naa",
+    "level": "N5"
+  },
+  {
+    "idx": 38,
+    "entry_id": "n5_038_naide",
+    "grammar_en": "naide",
+    "grammar_jp": "ないで",
+    "meaning": "without doing ~; to do [B] without doing [A]",
+    "slug": "naide",
+    "level": "N5"
+  },
+  {
+    "idx": 39,
+    "entry_id": "n5_039_naide_kudasai",
+    "grammar_en": "naide kudasai",
+    "grammar_jp": "ないでください",
+    "meaning": "please don't do ~",
+    "slug": "naide_kudasai",
+    "level": "N5"
+  },
+  {
+    "idx": 40,
+    "entry_id": "n5_040_naito_ikenai",
+    "grammar_en": "naito ikenai",
+    "grammar_jp": "ないといけない",
+    "meaning": "must do; have an obligation to do ~",
+    "slug": "naito_ikenai",
+    "level": "N5"
+  },
+  {
+    "idx": 41,
+    "entry_id": "n5_041_naku_temo_ii",
+    "grammar_en": "naku temo ii",
+    "grammar_jp": "なくてもいい",
+    "meaning": "don't have to",
+    "slug": "naku_temo_ii",
+    "level": "N5"
+  },
+  {
+    "idx": 42,
+    "entry_id": "n5_042_nakucha",
+    "grammar_en": "nakucha",
+    "grammar_jp": "なくちゃ",
+    "meaning": "must do; need to; gotta do ~",
+    "slug": "nakucha",
+    "level": "N5"
+  },
+  {
+    "idx": 43,
+    "entry_id": "n5_043_nakute_wa_ikenai",
+    "grammar_en": "nakute wa ikenai",
+    "grammar_jp": "なくてはいけない",
+    "meaning": "must do; need to do",
+    "slug": "nakute_wa_ikenai",
+    "level": "N5"
+  },
+  {
+    "idx": 44,
+    "entry_id": "n5_044_nakute_wa_naranai",
+    "grammar_en": "nakute wa naranai",
+    "grammar_jp": "なくてはならない",
+    "meaning": "must do; need to do ~",
+    "slug": "nakute_wa_naranai",
+    "level": "N5"
+  },
+  {
+    "idx": 45,
+    "entry_id": "n5_045_naru",
+    "grammar_en": "naru",
+    "grammar_jp": "なる",
+    "meaning": "to become",
+    "slug": "naru",
+    "level": "N5"
+  },
+  {
+    "idx": 46,
+    "entry_id": "n5_046_ndesu",
+    "grammar_en": "ndesu",
+    "grammar_jp": "んです",
+    "meaning": "to explain something; show emphasis",
+    "slug": "ndesu",
+    "level": "N5"
+  },
+  {
+    "idx": 47,
+    "entry_id": "n5_047_ne",
+    "grammar_en": "ne",
+    "grammar_jp": "ね",
+    "meaning": "isn't it? right? eh?",
+    "slug": "ne",
+    "level": "N5"
+  },
+  {
+    "idx": 48,
+    "entry_id": "n5_048_ni",
+    "grammar_en": "ni",
+    "grammar_jp": "に",
+    "meaning": "destination particle; in; at; on; to",
+    "slug": "ni",
+    "level": "N5"
+  },
+  {
+    "idx": 49,
+    "entry_id": "n5_049_ni_iku",
+    "grammar_en": "ni iku",
+    "grammar_jp": "に行く（にいく）",
+    "meaning": "go to do ~",
+    "slug": "ni_iku",
+    "level": "N5"
+  },
+  {
+    "idx": 50,
+    "entry_id": "n5_050_ni_suru",
+    "grammar_en": "ni suru",
+    "grammar_jp": "にする",
+    "meaning": "to decide on",
+    "slug": "ni_suru",
+    "level": "N5"
+  },
+  {
+    "idx": 51,
+    "entry_id": "n5_051_ni_e",
+    "grammar_en": "ni/e",
+    "grammar_jp": "に/へ",
+    "meaning": "to (indicates direction / destination)",
+    "slug": "ni_e",
+    "level": "N5"
+  },
+  {
+    "idx": 52,
+    "entry_id": "n5_052_no",
+    "grammar_en": "no",
+    "grammar_jp": "の",
+    "meaning": "possessive particle",
+    "slug": "no",
+    "level": "N5"
+  },
+  {
+    "idx": 53,
+    "entry_id": "n5_053_no_desu",
+    "grammar_en": "no desu",
+    "grammar_jp": "のです",
+    "meaning": "to explain something; show emphasis",
+    "slug": "no_desu",
+    "level": "N5"
+  },
+  {
+    "idx": 54,
+    "entry_id": "n5_054_no_ga_heta",
+    "grammar_en": "no ga heta",
+    "grammar_jp": "のが下手（のがへた）",
+    "meaning": "to be bad at doing something",
+    "slug": "no_ga_heta",
+    "level": "N5"
+  },
+  {
+    "idx": 55,
+    "entry_id": "n5_055_no_ga_jouzu",
+    "grammar_en": "no ga jouzu",
+    "grammar_jp": "のが上手（のがじょうず）",
+    "meaning": "to be good at",
+    "slug": "no_ga_jouzu",
+    "level": "N5"
+  },
+  {
+    "idx": 56,
+    "entry_id": "n5_056_no_ga_suki",
+    "grammar_en": "no ga suki",
+    "grammar_jp": "のが好き（のがすき）",
+    "meaning": "to like doing something",
+    "slug": "no_ga_suki",
+    "level": "N5"
+  },
+  {
+    "idx": 57,
+    "entry_id": "n5_057_no_naka_de_a_ga_ichiban",
+    "grammar_en": "no naka de [A] ga ichiban",
+    "grammar_jp": "の中で[A]が一番（のなかで[A]がいちばん）",
+    "meaning": "out of this group, [A] is best",
+    "slug": "no_naka_de_a_ga_ichiban",
+    "level": "N5"
+  },
+  {
+    "idx": 58,
+    "entry_id": "n5_058_node",
+    "grammar_en": "node",
+    "grammar_jp": "ので",
+    "meaning": "because of; given that; since ~",
+    "slug": "node",
+    "level": "N5"
+  },
+  {
+    "idx": 59,
+    "entry_id": "n5_059_o_go",
+    "grammar_en": "o / go",
+    "grammar_jp": "お / ご",
+    "meaning": "polite marker; honorific prefix particle",
+    "slug": "o_go",
+    "level": "N5"
+  },
+  {
+    "idx": 60,
+    "entry_id": "n5_060_o_wo",
+    "grammar_en": "o / wo",
+    "grammar_jp": "を",
+    "meaning": "object marker particle",
+    "slug": "o_wo",
+    "level": "N5"
+  },
+  {
+    "idx": 61,
+    "entry_id": "n5_061_o_kudasai",
+    "grammar_en": "o kudasai",
+    "grammar_jp": "をください",
+    "meaning": "please give me ~",
+    "slug": "o_kudasai",
+    "level": "N5"
+  },
+  {
+    "idx": 62,
+    "entry_id": "n5_062_shikashi",
+    "grammar_en": "shikashi",
+    "grammar_jp": "しかし",
+    "meaning": "but; however ~",
+    "slug": "shikashi",
+    "level": "N5"
+  },
+  {
+    "idx": 63,
+    "entry_id": "n5_063_sore_kara",
+    "grammar_en": "sore kara",
+    "grammar_jp": "それから",
+    "meaning": "and; and then; after that; since then",
+    "slug": "sore_kara",
+    "level": "N5"
+  },
+  {
+    "idx": 64,
+    "entry_id": "n5_064_soshite",
+    "grammar_en": "soshite",
+    "grammar_jp": "そして",
+    "meaning": "and; and then; thus; and now ~",
+    "slug": "soshite",
+    "level": "N5"
+  },
+  {
+    "idx": 65,
+    "entry_id": "n5_065_sugiru",
+    "grammar_en": "sugiru",
+    "grammar_jp": "すぎる",
+    "meaning": "too much",
+    "slug": "sugiru",
+    "level": "N5"
+  },
+  {
+    "idx": 66,
+    "entry_id": "n5_066_ta_koto_ga_aru",
+    "grammar_en": "ta koto ga aru",
+    "grammar_jp": "たことがある",
+    "meaning": "to have done something before",
+    "slug": "ta_koto_ga_aru",
+    "level": "N5"
+  },
+  {
+    "idx": 67,
+    "entry_id": "n5_067_tai",
+    "grammar_en": "tai",
+    "grammar_jp": "たい",
+    "meaning": "want to do something",
+    "slug": "tai",
+    "level": "N5"
+  },
+  {
+    "idx": 68,
+    "entry_id": "n5_068_tari_tari",
+    "grammar_en": "tari~tari",
+    "grammar_jp": "たり～たり",
+    "meaning": "do such things as A and B",
+    "slug": "tari_tari",
+    "level": "N5"
+  },
+  {
+    "idx": 69,
+    "entry_id": "n5_069_te_aru",
+    "grammar_en": "te aru",
+    "grammar_jp": "てある",
+    "meaning": "is/has been done (resulting state)",
+    "slug": "te_aru",
+    "level": "N5"
+  },
+  {
+    "idx": 70,
+    "entry_id": "n5_070_te_iru",
+    "grammar_en": "te iru",
+    "grammar_jp": "ている",
+    "meaning": "ongoing action or current state",
+    "slug": "te_iru",
+    "level": "N5"
+  },
+  {
+    "idx": 71,
+    "entry_id": "n5_071_te_kara",
+    "grammar_en": "te kara",
+    "grammar_jp": "てから",
+    "meaning": "after doing ~",
+    "slug": "te_kara",
+    "level": "N5"
+  },
+  {
+    "idx": 72,
+    "entry_id": "n5_072_te_kudasai",
+    "grammar_en": "te kudasai",
+    "grammar_jp": "てください",
+    "meaning": "please do",
+    "slug": "te_kudasai",
+    "level": "N5"
+  },
+  {
+    "idx": 73,
+    "entry_id": "n5_073_te_wa_ikenai",
+    "grammar_en": "te wa ikenai",
+    "grammar_jp": "てはいけない",
+    "meaning": "must not; may not; cannot",
+    "slug": "te_wa_ikenai",
+    "level": "N5"
+  },
+  {
+    "idx": 74,
+    "entry_id": "n5_074_temo_ii_desu",
+    "grammar_en": "temo ii desu",
+    "grammar_jp": "てもいいです",
+    "meaning": "is OK to ~; is alright to ~; may I ~?",
+    "slug": "temo_ii_desu",
+    "level": "N5"
+  },
+  {
+    "idx": 75,
+    "entry_id": "n5_075_to",
+    "grammar_en": "to",
+    "grammar_jp": "と",
+    "meaning": "and; with; as; connecting particle",
+    "slug": "to",
+    "level": "N5"
+  },
+  {
+    "idx": 76,
+    "entry_id": "n5_076_toki",
+    "grammar_en": "toki",
+    "grammar_jp": "とき",
+    "meaning": "when; at this time",
+    "slug": "toki",
+    "level": "N5"
+  },
+  {
+    "idx": 77,
+    "entry_id": "n5_077_totemo",
+    "grammar_en": "totemo",
+    "grammar_jp": "とても",
+    "meaning": "very; awfully; exceedingly​",
+    "slug": "totemo",
+    "level": "N5"
+  },
+  {
+    "idx": 78,
+    "entry_id": "n5_078_tsumori",
+    "grammar_en": "tsumori",
+    "grammar_jp": "つもり",
+    "meaning": "plan to ~; intend to ~",
+    "slug": "tsumori",
+    "level": "N5"
+  },
+  {
+    "idx": 79,
+    "entry_id": "n5_079_wa_topic_marker",
+    "grammar_en": "wa - topic marker",
+    "grammar_jp": "は",
+    "meaning": "topic marker",
+    "slug": "wa_topic_marker",
+    "level": "N5"
+  },
+  {
+    "idx": 80,
+    "entry_id": "n5_080_wa_yori_desu",
+    "grammar_en": "wa ~yori... desu",
+    "grammar_jp": "は〜より・・・です",
+    "meaning": "[Noun-1] is more ~ than [Noun-2]",
+    "slug": "wa_yori_desu",
+    "level": "N5"
+  },
+  {
+    "idx": 81,
+    "entry_id": "n5_081_wa_dou_desu_ka",
+    "grammar_en": "wa dou desu ka",
+    "grammar_jp": "はどうですか",
+    "meaning": "how about; how is",
+    "slug": "wa_dou_desu_ka",
+    "level": "N5"
+  },
+  {
+    "idx": 82,
+    "entry_id": "n5_082_ya",
+    "grammar_en": "ya",
+    "grammar_jp": "や",
+    "meaning": "and; or; connecting particle",
+    "slug": "ya",
+    "level": "N5"
+  },
+  {
+    "idx": 83,
+    "entry_id": "n5_083_yo",
+    "grammar_en": "yo",
+    "grammar_jp": "よ",
+    "meaning": "you know; emphasis (ending particle)",
+    "slug": "yo",
+    "level": "N5"
+  },
+  {
+    "idx": 84,
+    "entry_id": "n5_084_yori_hou_ga",
+    "grammar_en": "yori ~hou ga",
+    "grammar_jp": "より～ほうが",
+    "meaning": "[2] is more than [1]",
+    "slug": "yori_hou_ga",
+    "level": "N5"
+  }
+]
+

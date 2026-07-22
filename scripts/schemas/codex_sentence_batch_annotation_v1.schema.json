@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "codex_sentence_batch_annotation_v1.schema.json",
+  "title": "Codex Sentence Batch Annotation v1",
+  "type": "object",
+  "required": ["annotations"],
+  "properties": {
+    "annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "zh", "words", "grammar"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "zh": { "type": "string" },
+          "words": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["jp", "reading", "pos", "meaning_zh", "note"],
+              "properties": {
+                "jp": { "type": "string" },
+                "reading": { "type": "string" },
+                "pos": { "type": "string" },
+                "meaning_zh": { "type": "string" },
+                "note": { "type": ["string", "null"] }
+              },
+              "additionalProperties": false
+            }
+          },
+          "grammar": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["pattern", "meaning_zh", "usage_note", "level"],
+              "properties": {
+                "pattern": { "type": "string" },
+                "meaning_zh": { "type": "string" },
+                "usage_note": { "type": "string" },
+                "level": { "type": ["string", "null"] }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

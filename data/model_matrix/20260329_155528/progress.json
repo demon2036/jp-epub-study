@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "created_at": "2026-03-29T15:55:28",
+    "prompt_template": "scripts/prompts/kanji_explain_json.md",
+    "schema": "scripts/schemas/codex_kanji_memory_v1.schema.json",
+    "kanji": [
+      "見"
+    ],
+    "variants": [
+      {
+        "model": "gpt-5.4",
+        "effort": "xhigh",
+        "slug": "gpt-5.4-xhigh",
+        "label": "gpt-5.4 / xhigh"
+      }
+    ],
+    "completed_at": "2026-03-29T16:02:49",
+    "finalized": true
+  },
+  "done": 1,
+  "total": 1,
+  "status_counts": {
+    "completed": 1
+  },
+  "updated_at": "2026-03-29T16:02:49"
+}

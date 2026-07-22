@@ -1,0 +1,18 @@
+# Codex CLI config overrides for the local cliproxy provider.
+# Export CLI_PROXY_KEY before running.
+
+model_provider="cliproxyapi"
+disable_response_storage=true
+preferred_auth_method="apikey"
+model_instructions_file="scripts/prompts/codex_matrix_exec_instructions.md"
+
+model_providers.cliproxyapi.name="cliproxyapi"
+model_providers.cliproxyapi.base_url="http://127.0.0.1:8317/v1"
+model_providers.cliproxyapi.wire_api="responses"
+model_providers.cliproxyapi.requires_openai_auth=false
+model_providers.cliproxyapi.env_key="CLI_PROXY_KEY"
+
+features.unified_exec=true
+features.shell_snapshot=true
+model_auto_compact_token_limit=900000
+model_context_window=1000000

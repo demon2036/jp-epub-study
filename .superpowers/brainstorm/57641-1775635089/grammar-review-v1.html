@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>方案 C · 冲刺辨析型</title>
+  <style>
+    :root { --bg:#f8fafc; --paper:#fff; --line:#d8e1ef; --text:#1f2937; --muted:#64748b; --blue:#1d4b8f; --red:#b91c1c; --green:#166534; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; }
+    .wrap { max-width:1100px; margin:0 auto; padding:34px 20px 70px; }
+    .top { display:flex; justify-content:space-between; gap:20px; align-items:flex-start; }
+    h1 { margin:0 0 10px; font-size:34px; color:#173f79; }
+    .lead { color:var(--muted); line-height:1.9; font-size:17px; }
+    .back { text-decoration:none; color:#244a84; font-weight:700; }
+    .panel { margin-top:24px; background:var(--paper); border:1px solid var(--line); border-radius:22px; padding:22px; }
+    table { width:100%; border-collapse:collapse; margin-top:14px; }
+    th, td { border:1px solid #d9e2ef; padding:12px 12px; text-align:left; vertical-align:top; line-height:1.75; }
+    th { background:#f3f7fe; color:#173f79; }
+    .check { color:var(--green); font-weight:800; }
+    .warn { color:var(--red); font-weight:800; }
+    .mini { margin-top:14px; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:14px; }
+    .card { border:1px solid #e2e8f4; border-radius:16px; padding:16px; background:#fff; }
+    .card h3 { margin:0 0 8px; color:#1f4b8f; font-size:17px; }
+    ul { margin:0; padding-left:18px; line-height:1.8; }
+    code { background:#eef5ff; padding:2px 6px; border-radius:6px; }
+    @media (max-width: 860px) { .mini { grid-template-columns:1fr; } .top { flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>方案 C · 冲刺辨析型</h1>
+        <div class="lead">这个版本偏“考前工具书”：把高频误区、相近表达和做题抓手压缩在一起。效率高，但情绪价值和画面感最弱。</div>
+      </div>
+      <a class="back" href="/">← 回到对比页</a>
+    </div>
+
+    <section class="panel">
+      <h2>1. 高频语法速判表</h2>
+      <table>
+        <thead>
+          <tr><th>语法</th><th>一句话抓手</th><th>典型语境</th><th>最容易错成什么</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>ばいい</b></td>
+            <td>给办法：<b>这样做就行</b></td>
+            <td>建议、解决问题、给路子</td>
+            <td>错当成每次都很强硬的“应该”</td>
+          </tr>
+          <tr>
+            <td><b>ことになっている</b></td>
+            <td>外部既定：<b>规定/安排是这样</b></td>
+            <td>制度、规则、会议安排、约定</td>
+            <td>和 <code>ことにする</code> 混掉主语视角</td>
+          </tr>
+          <tr>
+            <td><b>わけではない</b></td>
+            <td>往回收：<b>并不是绝对如此</b></td>
+            <td>部分否定、缓和说法、反驳过度概括</td>
+            <td>直接等同于普通否定 <code>ではない</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel">
+      <h2>2. 辨析对照</h2>
+      <table>
+        <thead>
+          <tr><th>对照组</th><th>怎么区分</th><th>做题抓手</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>ばいい</b> vs <b>たらいい</b></td>
+            <td><code>ばいい</code> 更容易强调“可行方案”；<code>たらいい</code> 更口语，也更容易带“那样的话就好了”的柔软感。</td>
+            <td><span class="check">看上下文是不是在给具体操作办法</span></td>
+          </tr>
+          <tr>
+            <td><b>ことになっている</b> vs <b>ことにする</b></td>
+            <td>前者是“事情被定成这样”；后者是“我/我们决定这样做”。</td>
+            <td><span class="check">先问：谁在决定？是制度还是个人？</span></td>
+          </tr>
+          <tr>
+            <td><b>わけではない</b> vs 直接否定</td>
+            <td><code>わけではない</code> 常是否定“全面成立”；直接否定更干脆，不一定有缓和色彩。</td>
+            <td><span class="check">看句子有没有“不是……只是……”的收束感</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel">
+      <h2>3. 考场速记卡</h2>
+      <div class="mini">
+        <div class="card">
+          <h3>ばいい</h3>
+          <ul>
+            <li><span class="check">关键词：给办法</span></li>
+            <li>典型翻译：……就行</li>
+            <li class="warn">别死翻成：应该……</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>ことになっている</h3>
+          <ul>
+            <li><span class="check">关键词：外部既定</span></li>
+            <li>典型翻译：规定是 / 定的是</li>
+            <li class="warn">别错看成“我决定”</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>わけではない</h3>
+          <ul>
+            <li><span class="check">关键词：不是绝对如此</span></li>
+            <li>典型翻译：并不是…… / 倒也不是……</li>
+            <li class="warn">别翻成完全否定</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

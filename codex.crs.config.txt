@@ -1,0 +1,20 @@
+# Codex CLI config overrides for the CRS provider.
+# Usage example:
+#   codex exec -c '...'
+# This file is intended to be read by `scripts/annotate_sentences_codex.py`.
+
+model_provider="crs"
+model="gpt-5.2"
+model_reasoning_effort="xhigh"
+
+disable_response_storage=true
+preferred_auth_method="apikey"
+
+model_providers.crs.name="crs"
+model_providers.crs.base_url="http://149.28.237.200:18080/v1"
+model_providers.crs.wire_api="responses"
+model_providers.crs.requires_openai_auth=false
+model_providers.crs.env_key="CRS_OAI_KEY"
+
+features.unified_exec=true
+features.shell_snapshot=true

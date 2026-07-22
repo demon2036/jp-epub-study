@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>N3语法 EPUB 结构对比（A+C 混合）</title>
+  <style>
+    :root {
+      --bg:#f5f8fc; --card:#fff; --line:#d9e3ef; --text:#1f2937; --muted:#64748b;
+      --blue:#244a84; --green:#0f766e; --amber:#b45309; --shadow:0 18px 40px rgba(36,74,132,.12);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB",sans-serif;background:linear-gradient(180deg,#eef4fb 0%,#f8fafc 100%);color:var(--text)}
+    .wrap{max-width:1180px;margin:0 auto;padding:36px 24px 60px}
+    h1{margin:0 0 12px;font-size:36px;color:#183b72}
+    .sub{max-width:960px;color:var(--muted);font-size:17px;line-height:1.9}
+    .goal{margin-top:18px;padding:16px 18px;border-radius:16px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);line-height:1.9}
+    .goal b{color:#173f79}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:28px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+    .label{display:inline-block;padding:7px 11px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .label.one{background:#eef4ff;color:#2c5aa0}
+    .label.two{background:#eefcf7;color:#0f766e}
+    .label.three{background:#fff7ed;color:#b45309}
+    .title{margin:14px 0 10px;font-size:24px;font-weight:900;color:#173f79}
+    .desc{color:var(--muted);line-height:1.85;min-height:108px}
+    .mini{margin-top:14px;border-radius:16px;padding:16px;background:#f8fbff;border:1px solid #e1e8f4}
+    .mini h3{margin:0 0 8px;font-size:16px;color:#214a84}
+    .mini p{margin:6px 0;font-size:14px;line-height:1.7;color:#334155}
+    .pros{margin:14px 0 0;padding-left:18px;line-height:1.8;color:#334155}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800;border:1px solid #c7d6ec;color:#21406d;background:#f5f8ff}
+    .btn.primary{background:#244a84;color:#fff;border-color:#244a84}
+    .hint{margin-top:26px;border-radius:18px;padding:18px 20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);line-height:1.9;color:#475569}
+    @media (max-width:980px){.cards{grid-template-columns:1fr}.desc{min-height:0}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>N3 语法 EPUB：A + C 的 3 种结构版本</h1>
+    <div class="sub">这次不是看“页面文风”，而是看<b>整本书怎么编排</b>。你的目标已经很明确：既要 A 的生动记忆感，又要 C 的强对比辨析，让一个语法不是孤零零地记，而是连着相近、相反、同组的一起记住。</div>
+    <div class="goal"><b>你现在在选的是：</b>“整本书的骨架”——单条即对照、主条目 + 章末辨析、还是按语法家族成组记。三种我都做成可看版本了。</div>
+
+    <div class="cards">
+      <div class="card option" data-choice="v1-inline" onclick="toggleSelect(this)">
+        <div class="label one">Version 1</div>
+        <div class="title">单条里直接打对照</div>
+        <div class="desc">每条语法本身就是一节小课：先讲它的感觉和场景，再立刻把容易混的、相反的、强弱不同的表达并排放进去。读一页就能记一簇。</div>
+        <div class="mini">
+          <h3>读起来像什么</h3>
+          <p><b>ばいい</b> 这页里，马上就会见到 <b>たらいい / ほうがいい / べきだ</b>。</p>
+          <p>你不会只记一个点，而是会在脑子里形成“建议系梯度”。</p>
+        </div>
+        <ul class="pros">
+          <li>最符合你说的“强烈对比才好记”</li>
+          <li>每页都很充实，学习感最强</li>
+          <li>很像“汉字 EPUB 的语法版升级”</li>
+        </ul>
+        <div class="actions"><a class="btn primary" href="/files/grammar-structure-inline-v1.html">打开 Version 1</a></div>
+      </div>
+
+      <div class="card option" data-choice="v2-appendix" onclick="toggleSelect(this)">
+        <div class="label two">Version 2</div>
+        <div class="title">主条目 + 章末辨析页</div>
+        <div class="desc">每条语法页先生动地讲明白，尽量不打断阅读节奏；然后在一章末尾，再把这一组语法集中拉出来做“辨析复盘”。</div>
+        <div class="mini">
+          <h3>读起来像什么</h3>
+          <p>平时学的时候顺，复习时又有一张“总对照表”。</p>
+          <p>像一本主教材 + 每章后的小型总结页。</p>
+        </div>
+        <ul class="pros">
+          <li>主条目阅读体验最好</li>
+          <li>适合先学后复盘</li>
+          <li>比较像成熟教材的组织方式</li>
+        </ul>
+        <div class="actions"><a class="btn primary" href="/files/grammar-structure-appendix-v1.html">打开 Version 2</a></div>
+      </div>
+
+      <div class="card option" data-choice="v3-family" onclick="toggleSelect(this)">
+        <div class="label three">Version 3</div>
+        <div class="title">按语法家族成组记</div>
+        <div class="desc">不是按“一个语法一页”去想，而是按“建议系 / 决定系 / 缓和否定系”这些语法家族来编。对比最强，记忆网络感最明显。</div>
+        <div class="mini">
+          <h3>读起来像什么</h3>
+          <p>你看到的不是单个语法，而是一个“语法家族”的地图。</p>
+          <p>更像认一片星座，而不是认一颗星。</p>
+        </div>
+        <ul class="pros">
+          <li>对比最猛烈，最容易成组记忆</li>
+          <li>很适合你说的“相同/相反一起记”</li>
+          <li>辨析感最强</li>
+        </ul>
+        <div class="actions"><a class="btn primary" href="/files/grammar-structure-family-v1.html">打开 Version 3</a></div>
+      </div>
+    </div>
+
+    <div class="hint">看完后你可以直接回终端告诉我：<b>选 1 / 2 / 3</b>，或者像之前一样说 <b>1+3</b>、<b>2 的目录 + 1 的词条</b> 这种混搭。我会据此把最终 EPUB 结构定下来。</div>
+  </div>
+</body>
+</html>

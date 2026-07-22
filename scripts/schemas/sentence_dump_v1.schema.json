@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentence_dump_v1.schema.json",
+  "title": "Japanese EPUB Sentence Dump v1",
+  "type": "object",
+  "required": ["meta", "sentences"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "source_epub",
+        "source_opf",
+        "spine_pages_total",
+        "spine_pages_requested",
+        "spine_pages_processed",
+        "created_at",
+        "language"
+      ],
+      "properties": {
+        "source_epub": { "type": "string" },
+        "source_opf": { "type": "string" },
+        "spine_pages_total": { "type": "integer", "minimum": 0 },
+        "spine_pages_requested": { "type": "integer", "minimum": 0 },
+        "spine_pages_processed": { "type": "integer", "minimum": 0 },
+        "created_at": { "type": "string" },
+        "language": { "type": "string", "enum": ["ja"] },
+        "furigana_inlined": { "type": "boolean" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "spine_index", "spine_path", "segment_index", "sentence_index", "jp"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "spine_index": { "type": "integer", "minimum": 1 },
+          "spine_path": { "type": "string" },
+          "segment_index": { "type": "integer", "minimum": 1 },
+          "sentence_index": { "type": "integer", "minimum": 1 },
+          "jp": { "type": "string" },
+          "tokens": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["surface", "base", "pos", "reading"],
+              "properties": {
+                "surface": { "type": "string" },
+                "base": { "type": "string" },
+                "pos": { "type": "string" },
+                "reading": { "type": "string" }
+              },
+              "additionalProperties": true
+            }
+          },
+          "zh": { "type": ["string", "null"] },
+          "words": {
+            "type": "array",
+            "items": { "type": "object" }
+          },
+          "grammar": {
+            "type": "array",
+            "items": { "type": "object" }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
+

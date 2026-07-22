@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>N3 语法 EPUB 原型对比</title>
+  <style>
+    :root {
+      --bg: #f6f8fc;
+      --card: #ffffff;
+      --line: #d8e1ef;
+      --text: #1f2937;
+      --muted: #64748b;
+      --blue: #315b9c;
+      --warm: #b45309;
+      --green: #0f766e;
+      --shadow: 0 18px 44px rgba(41, 60, 102, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #eef3fb 0%, #f8fafc 100%);
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 36px 24px 60px; }
+    h1 { font-size: 34px; margin: 0 0 10px; color: #183b72; }
+    .sub { color: var(--muted); font-size: 17px; line-height: 1.8; max-width: 920px; }
+    .sample {
+      margin-top: 14px;
+      display: inline-flex; gap: 10px; flex-wrap: wrap;
+    }
+    .chip {
+      background: #e8eef9; color: #244a84; border: 1px solid #c9d7ef;
+      border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600;
+    }
+    .cards {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 28px;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 22px;
+      padding: 22px; box-shadow: var(--shadow); position: relative;
+    }
+    .label {
+      display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; padding: 7px 10px; border-radius: 999px; margin-bottom: 14px;
+      background: #eef4ff; color: #355f9a;
+    }
+    .card:nth-child(2) .label { background: #eefcf7; color: #0f766e; }
+    .card:nth-child(3) .label { background: #fff7ed; color: #b45309; }
+    .title { font-size: 24px; font-weight: 800; margin: 0 0 8px; }
+    .desc { color: var(--muted); line-height: 1.8; min-height: 96px; }
+    .mini {
+      margin: 16px 0; padding: 16px 16px 14px; border-radius: 16px;
+      background: #f8fbff; border: 1px solid #e0e8f5;
+    }
+    .mini h3 { margin: 0 0 8px; font-size: 16px; color: #1f3f72; }
+    .mini p { margin: 6px 0; line-height: 1.7; font-size: 14px; }
+    .pros { margin: 14px 0 0; padding-left: 18px; color: #334155; line-height: 1.8; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+    .btn {
+      text-decoration: none; display: inline-flex; align-items: center; justify-content: center;
+      min-width: 128px; padding: 12px 16px; border-radius: 12px; font-weight: 700;
+      border: 1px solid #c9d7ef; color: #21406d; background: #f4f8ff;
+    }
+    .btn.primary { background: #244a84; color: #fff; border-color: #244a84; }
+    .foot {
+      margin-top: 28px; background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 18px 20px;
+      color: #475569; line-height: 1.8; box-shadow: var(--shadow);
+    }
+    @media (max-width: 980px) {
+      .cards { grid-template-columns: 1fr; }
+      .desc { min-height: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>N3 语法 EPUB 原型对比</h1>
+    <div class="sub">
+      这 3 个版本都用同一批语法样本来演示：<b>ばいい</b>、<b>ことになっている</b>、<b>わけではない</b>。你比较的是“讲法、节奏、记忆感”，不是被不同内容带偏。
+    </div>
+    <div class="sample">
+      <span class="chip">ばいい：给建议 / 提出可行做法</span>
+      <span class="chip">ことになっている：规则 / 约定 / 外部决定</span>
+      <span class="chip">わけではない：部分否定 / 不是说……</span>
+    </div>
+
+    <div class="cards">
+      <div class="card option" data-choice="a-memory" onclick="toggleSelect(this)">
+        <div class="label">Option A</div>
+        <div class="title">生动记忆型</div>
+        <div class="desc">最接近《教育汉字详解》的味道。先给语法“感觉”和生活画面，再补接续和限制；强调记忆抓手、场景线、易混提醒和一句话口令。</div>
+        <div class="mini">
+          <h3>示例气质</h3>
+          <p><b>ばいい</b> 不是硬邦邦的“应该”，更像“这事这样做就行”。</p>
+          <p><b>ことになっている</b> 像“墙上的规定 / 大家的默认安排”，不是我临时起意。</p>
+          <p><b>わけではない</b> 像往回收一点：不是全盘否定，只是否定你刚刚那个过头的理解。</p>
+        </div>
+        <ul class="pros">
+          <li>最容易记住，最有“画面感”</li>
+          <li>更适合从不会到会</li>
+          <li>后续可扩成整本“语法小课书”</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="/files/grammar-memory-v1.html">打开 A 页</a>
+        </div>
+      </div>
+
+      <div class="card option" data-choice="b-balanced" onclick="toggleSelect(this)">
+        <div class="label">Option B</div>
+        <div class="title">平衡学习型</div>
+        <div class="desc">在“好懂”和“完整”之间取中间值。每条都有核心语气、接续、限制、例句、对比，但不会做得像词典那样干。</div>
+        <div class="mini">
+          <h3>示例气质</h3>
+          <p>先一句话讲清它“听起来像什么”，再给接续骨架、语气说明、2~3 个例句和一个易混对照。</p>
+          <p>读起来像一页页精炼讲义。</p>
+        </div>
+        <ul class="pros">
+          <li>学习和查阅都兼顾</li>
+          <li>后续扩写成本适中</li>
+          <li>更适合做长期主版本</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="/files/grammar-balanced-v1.html">打开 B 页</a>
+        </div>
+      </div>
+
+      <div class="card option" data-choice="c-review" onclick="toggleSelect(this)">
+        <div class="label">Option C</div>
+        <div class="title">冲刺辨析型</div>
+        <div class="desc">偏考前复习。重点不是“慢慢讲明白”，而是把高频误区和近义区别摆在一起，帮助快速扫一轮、做题时别踩坑。</div>
+        <div class="mini">
+          <h3>示例气质</h3>
+          <p>会把 <b>ばいい</b> 跟 <b>たらいい</b>、<b>わけではない</b> 跟绝对否定直接拉出来对照。</p>
+          <p>信息密度高，但没那么温柔。</p>
+        </div>
+        <ul class="pros">
+          <li>复习效率高</li>
+          <li>非常适合考前过一遍</li>
+          <li>容易做成辨析清单</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" href="/files/grammar-review-v1.html">打开 C 页</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      建议你把三页都看一下，再回终端告诉我：<b>选 A / B / C</b>，或者告诉我想要“<b>A 的生动感 + B 的完整度</b>”这种混搭版本。我就按你选的方向继续细化整本 EPUB 的结构。
+    </div>
+  </div>
+</body>
+</html>

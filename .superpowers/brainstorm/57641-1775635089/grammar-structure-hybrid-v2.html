@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>最终草案：1+3 混合版语法 EPUB</title>
+  <style>
+    :root {
+      --bg:#f5f8fd; --paper:#ffffff; --line:#d9e3ef; --text:#1f2937; --muted:#64748b;
+      --blue:#214a84; --blue2:#eef4ff; --green:#0f766e; --green2:#eefcf7;
+      --amber:#b45309; --amber2:#fff7ed; --purple:#7c3aed; --purple2:#f5f0ff;
+      --shadow:0 20px 48px rgba(33,74,132,.12);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB",sans-serif;background:linear-gradient(180deg,#eef4fb 0%,#f8fafc 100%);color:var(--text)}
+    .wrap{max-width:1160px;margin:0 auto;padding:36px 24px 72px}
+    h1{margin:0 0 12px;font-size:38px;color:#173f79}
+    .lead{max-width:980px;color:var(--muted);font-size:17px;line-height:1.95}
+    .hero{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}
+    .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .chip{padding:8px 14px;border-radius:999px;font-size:13px;font-weight:800;border:1px solid #cdd9ee;background:#f7faff;color:#214a84}
+    .section{margin-top:26px;background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}
+    .section h2{margin:0 0 12px;font-size:28px;color:#173f79}
+    .sub{color:#64748b;line-height:1.9;margin-bottom:16px}
+    .families{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .family{border:1px solid #e2e8f4;border-radius:18px;padding:18px;background:#fff}
+    .family h3{margin:0 0 10px;font-size:20px;color:#214a84}
+    .family p,.family li{line-height:1.8;color:#334155}
+    .family ul{margin:0;padding-left:18px}
+    .tone{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}
+    .step{border:1px solid #e2e8f4;border-radius:16px;padding:14px;background:#fff}
+    .step b{display:block;color:#173f79;margin-bottom:8px;font-size:17px}
+    .entry-title{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap}
+    .entry-title h3{margin:0;font-size:32px;color:#173f79}
+    .tag{display:inline-block;padding:7px 12px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#eef4ff;color:#27579b}
+    .feel{margin-top:16px;background:#f6faff;border:1px solid #dbe8f9;border-radius:16px;padding:16px 18px;font-size:21px;font-weight:800;line-height:1.75;color:#0f2f57}
+    .grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px;margin-top:18px}
+    .box{border:1px solid #e2e8f4;border-radius:18px;padding:18px;background:#fff}
+    .scene{background:linear-gradient(180deg,#fffaf2 0%,#fff 100%);border-color:#f2ddbf}
+    .box h4{margin:0 0 10px;font-size:18px;color:#214a84}
+    .scene h4{color:#b45309}
+    .formula{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#eef5ff;border:1px solid #d5e3f6;border-radius:12px;padding:10px 12px;color:#173f79}
+    .ex{margin-top:12px;padding:12px 14px;border-left:4px solid #93b4ea;background:#f8fbff;border-radius:0 12px 12px 0}
+    .jp{font-weight:800;font-size:18px;line-height:1.75}
+    .zh{margin-top:5px;color:#475569;line-height:1.75}
+    table{width:100%;border-collapse:collapse;margin-top:14px}
+    th,td{border:1px solid #d9e2ef;padding:12px;text-align:left;vertical-align:top;line-height:1.85}
+    th{background:#f4f8ff;color:#173f79}
+    .pair{border-radius:14px;padding:12px;margin-top:8px;border:1px solid #e2e8f4;background:#fbfdff}
+    .pair b{color:#173f79}
+    .memory{margin-top:16px;background:#eef7f7;border:1px solid #c8e6e3;color:#115e59;border-radius:16px;padding:16px 18px;line-height:1.95}
+    .mini-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:16px}
+    .mini{border:1px solid #e2e8f4;border-radius:16px;padding:16px;background:#fff}
+    .mini h4{margin:0 0 8px;color:#173f79;font-size:18px}
+    .mini p{margin:0;line-height:1.8;color:#334155}
+    .note{margin-top:16px;padding:16px 18px;border-radius:16px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;line-height:1.85}
+    .footer{margin-top:26px;padding:18px 20px;border-radius:18px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);line-height:1.9;color:#475569}
+    @media (max-width:980px){.families,.grid,.mini-grid,.tone{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>最终草案：1 + 3 混合版语法 EPUB</h1>
+      <div class="lead">这版已经按你的反馈重做：<b>整本书按语法家族组织</b>，但落到每一条时仍然像一节生动的小课；而且<b>所有对照都必须带例句</b>，不再只是抽象区分。你现在看到的，不是解释思路，而是接近最终成书气质的原型。</div>
+      <div class="chips">
+        <span class="chip">骨架：按语法家族组织</span>
+        <span class="chip">词条：A 的生动画风</span>
+        <span class="chip">对照：必须配例句</span>
+        <span class="chip">记忆：单点 + 成组同时发生</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>1. 整本书先按“语法家族”来组织</h2>
+      <div class="sub">读者不是平着扫 182 条，而是先进入一个“语法家族”。这样每一章天然就有对照、有梯度、有网络感。</div>
+      <div class="families">
+        <div class="family">
+          <h3>建议・劝告系</h3>
+          <ul>
+            <li>たらいい</li>
+            <li>ばいい</li>
+            <li>ほうがいい（若纳入扩展对照）</li>
+            <li>べきだ / べきではない</li>
+          </ul>
+          <p><b>这章怎么记：</b>不是死背定义，而是记“语气从柔到硬”的梯度。</p>
+        </div>
+        <div class="family">
+          <h3>决定・规则・既定系</h3>
+          <ul>
+            <li>ことにする</li>
+            <li>ことになる</li>
+            <li>ことになっている</li>
+          </ul>
+          <p><b>这章怎么记：</b>关键问题不是表面像不像，而是“谁在决定”。</p>
+        </div>
+        <div class="family">
+          <h3>部分否定・判断缓和系</h3>
+          <ul>
+            <li>わけではない</li>
+            <li>とは限らない</li>
+            <li>ないことはない</li>
+            <li>わけがない</li>
+          </ul>
+          <p><b>这章怎么记：</b>这些都和“不是把话说死”有关，但强度完全不同。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>2. 家族页先给“整体感觉”</h2>
+      <div class="sub">每一章开头先不是讲单条，而是先告诉你：这一组语法的差别主要在哪里。比如建议系，第一眼先看语气梯度。</div>
+      <div class="tone">
+        <div class="step"><b>たらいい</b>更柔，更像“那样的话就挺好”</div>
+        <div class="step"><b>ばいい</b>给办法，更像“这样做就行”</div>
+        <div class="step"><b>ほうがいい</b>带“最好这样”的评价色</div>
+        <div class="step"><b>べきだ</b>最硬，接近责任或规范要求</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="entry-title">
+        <div>
+          <span class="tag">单条展开示例</span>
+          <h3>ばいい</h3>
+        </div>
+        <div style="color:#64748b;line-height:1.8;max-width:420px">这一页就体现 Version 1 的部分：单条本身要有画面、有感觉，而且对照直接发生在这一页里。</div>
+      </div>
+      <div class="feel">它像一句非常生活化的话：<b>“这事这样做就行。”</b> 重点不在命令，而在给出一条可行路径。</div>
+      <div class="grid">
+        <div class="box scene">
+          <h4>场景镜头</h4>
+          <p>朋友说电脑又卡住了。你不是在训他，也不是在写制度，只是顺手给一个办法：<b>重启一下就行</b>。这就是 <code>ばいい</code> 的手感。</p>
+          <div class="ex"><div class="jp">分からなければ、先生に聞けばいい。</div><div class="zh">要是不懂，问老师就行。</div></div>
+          <div class="ex"><div class="jp">そんなに心配なら、電話すればいいよ。</div><div class="zh">如果你那么担心，打个电话就行呀。</div></div>
+        </div>
+        <div class="box">
+          <h4>句型骨架</h4>
+          <div class="formula">动词假定形（～ば） + いい</div>
+          <p><b>核心语气：</b>建议、给路子、提出可执行方案。</p>
+          <p><b>做题第一抓手：</b>如果上下文是在“给一个具体办法”，优先想它。</p>
+          <p><b>翻译习惯：</b>很多时候比“应该”更适合译成“……就行”。</p>
+        </div>
+      </div>
+
+      <div class="box" style="margin-top:18px">
+        <h4>对照组：不只是说明差别，而是直接放进例句里</h4>
+        <table>
+          <thead>
+            <tr><th>对照组</th><th>感觉差异</th><th>对比例句</th><th>做题抓手</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>ばいい</b> vs <b>たらいい</b></td>
+              <td><code>ばいい</code> 更像给可行方案；<code>たらいい</code> 更口语、更柔一点。</td>
+              <td>
+                <div class="pair"><b>ばいい：</b><div class="jp">分からなければ、先生に聞けばいい。</div><div class="zh">要是不懂，问老师就行。</div></div>
+                <div class="pair"><b>たらいい：</b><div class="jp">分からなかったら、先生に聞いたらいいよ。</div><div class="zh">如果没懂的话，问老师不就好了。</div></div>
+              </td>
+              <td>看句子是在给操作方案，还是在温柔提议。</td>
+            </tr>
+            <tr>
+              <td><b>ばいい</b> vs <b>ほうがいい</b></td>
+              <td><code>ほうがいい</code> 更像“最好这样”，评价色更强；<code>ばいい</code> 更像给路子。</td>
+              <td>
+                <div class="pair"><b>ばいい：</b><div class="jp">疲れているなら、今日は早く帰ればいい。</div><div class="zh">如果累了，今天早点回去就行。</div></div>
+                <div class="pair"><b>ほうがいい：</b><div class="jp">疲れているなら、今日は早く帰ったほうがいい。</div><div class="zh">如果累了，今天还是早点回去比较好。</div></div>
+              </td>
+              <td>看说话人是在“给办法”，还是在“评价哪个更好”。</td>
+            </tr>
+            <tr>
+              <td><b>ばいい</b> vs <b>べきだ</b></td>
+              <td><code>べきだ</code> 有更强的责任感、规范感；<code>ばいい</code> 轻得多，更像生活建议。</td>
+              <td>
+                <div class="pair"><b>ばいい：</b><div class="jp">嫌なら、無理に参加しなければいい。</div><div class="zh">如果不愿意，不勉强参加就行。</div></div>
+                <div class="pair"><b>べきだ：</b><div class="jp">約束した以上、参加すべきだ。</div><div class="zh">既然答应了，就应该参加。</div></div>
+              </td>
+              <td>一旦出现责任、义务、规范批评，警惕不是 <code>ばいい</code>。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="memory"><b>这页最后怎么收记忆链：</b>温柔一点是 <code>たらいい</code>；给办法是 <code>ばいい</code>；说“最好这样”是 <code>ほうがいい</code>；上升到责任要求就是 <code>べきだ</code>。—— 这样你记住的不是一个点，而是一整组建议语气。</div>
+    </section>
+
+    <section class="section">
+      <div class="entry-title">
+        <div>
+          <span class="tag">再看一组</span>
+          <h3>部分否定・判断缓和系</h3>
+        </div>
+        <div style="color:#64748b;line-height:1.8;max-width:420px">这部分用来证明：即使是“否定类语法”，也不是只写抽象说明，而是一样可以做成带对比例句的记忆网络。</div>
+      </div>
+      <div class="mini-grid">
+        <div class="mini"><h4>わけではない</h4><p>不是完全那样。是把别人的“绝对化理解”往回收一点。</p></div>
+        <div class="mini"><h4>とは限らない</h4><p>不一定。重点是否定“必然成立”。</p></div>
+        <div class="mini"><h4>わけがない</h4><p>根本不可能。反过来，是非常强的否定判断。</p></div>
+      </div>
+      <div class="box" style="margin-top:18px">
+        <h4>对照必须继续带例句</h4>
+        <table>
+          <thead>
+            <tr><th>对照组</th><th>感觉差异</th><th>对比例句</th><th>做题抓手</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>わけではない</b> vs <b>とは限らない</b></td>
+              <td>前者像“不是完全那样”；后者像“不一定总是那样”。</td>
+              <td>
+                <div class="pair"><b>わけではない：</b><div class="jp">日本語が嫌いなわけではないが、まだ自信がない。</div><div class="zh">倒也不是讨厌日语，只是还没自信。</div></div>
+                <div class="pair"><b>とは限らない：</b><div class="jp">日本語が上手な人が、教えるのも上手だとは限らない。</div><div class="zh">日语好的人，不一定也擅长教。</div></div>
+              </td>
+              <td>看句子是在“收回过头判断”，还是在“否定必然性”。</td>
+            </tr>
+            <tr>
+              <td><b>わけではない</b> vs <b>わけがない</b></td>
+              <td>前者是缓和、部分否定；后者是强烈断言“不可能”。</td>
+              <td>
+                <div class="pair"><b>わけではない：</b><div class="jp">高い店の料理が、全部おいしいわけではない。</div><div class="zh">贵店的菜并不一定都好吃。</div></div>
+                <div class="pair"><b>わけがない：</b><div class="jp">あのまじめな彼が、約束を忘れるわけがない。</div><div class="zh">那么认真的他，不可能忘记约定。</div></div>
+              </td>
+              <td>看到说话人态度非常斩钉截铁时，基本就不是 <code>わけではない</code>。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note"><b>这里就是你要的重点：</b>即使做辨析，也不再只停在“怎么区分”四个字上，而是直接把差异放进例句里。读者记住的是语感差，不只是术语差。</div>
+    </section>
+
+    <div class="footer">
+      <b>如果这版就对了，最终 EPUB 我就会按这个原则做：</b><br/>
+      1）按语法家族组织章节； 2）每条语法先讲感觉和场景； 3）所有对照都强制配例句； 4）每条最后收成一条记忆链； 5）让读者既记单条，也记一整组。
+    </div>
+  </div>
+</body>
+</html>

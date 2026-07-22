@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-05-17T18:48:24.905644",
+  "db": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_db.json",
+  "epub": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136.epub",
+  "audit_report": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_pronunciation_audit.json",
+  "manifest": "data/joyo_gpt55_2136/joyo_kanji_gpt55_2136_manifest.json",
+  "meta": {
+    "version": 2,
+    "total": 2136,
+    "completed": 2136,
+    "last_updated": "2026-05-17T18:48:09.055165",
+    "source": "joyo",
+    "source_limit": 2136
+  },
+  "status_counts": {
+    "completed": 2136
+  }
+}

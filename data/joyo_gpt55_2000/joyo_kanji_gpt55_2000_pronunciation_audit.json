@@ -1,0 +1,3969 @@
+{
+  "files": [
+    {
+      "path": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_db.json",
+      "issues": [
+        {
+          "kanji": "哀",
+          "reading": "あい",
+          "kana": "かれのこえにはあいしゅうがありました。",
+          "before": "kǎ ré nō kǒ é nī wǎ ǎi shūu gǎ ǎ rí mā shī tà",
+          "after": "kǎ ré nō kǒ é nī wǎ ǎ i shūu gǎ ǎ rí mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=a/i actual=ai"
+          ]
+        },
+        {
+          "kanji": "位",
+          "reading": "くらい",
+          "kana": "おなじくらいのおおきさです。",
+          "before": "ǒ ná jī kǔ rā ī nō ō kī sǎ dē sù",
+          "after": "ǒ ná jī kǔ rā ī nō o ō kī sǎ dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "慰",
+          "reading": "い",
+          "kana": "ゆうじんがひさいちをいもんしました。",
+          "before": "yū jīn gā hǐ sāi chī o ī mōn shī mā shī tà",
+          "after": "yū jīn gā hǐ sā i chī o ī mōn shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "遺",
+          "reading": "のこす",
+          "kana": "かれはおおくのさくひんをのこしました",
+          "before": "kǎ rē wǎ ō kū nō sǎ kū hīn ǒ nǒ kō shī mā shī tà",
+          "after": "kǎ rē wǎ o ō kū nō sǎ kū hīn ǒ nǒ kō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "逸",
+          "reading": "いつ",
+          "kana": "はなしはほんだいをいつだつしました",
+          "before": "hǎ ná shì wǎ hōn dāi o ì tsū dā tsū shī mā shī tà",
+          "after": "hǎ ná shì wǎ hōn dā i o ì tsū dā tsū shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "逸",
+          "reading": "それる",
+          "kana": "はなしがほんだいからそれました",
+          "before": "hǎ ná shì gǎ hōn dāi kā rā sǒ rē mā shī tà",
+          "after": "hǎ ná shì gǎ hōn dā i kā rā sǒ rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "梅",
+          "reading": "ばい",
+          "kana": "ばいりんをあるきます",
+          "before": "bǎi rīn ō ǎ rū kī mā sù",
+          "after": "bǎ i rīn ō ǎ rū kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ba/i actual=bai"
+          ]
+        },
+        {
+          "kanji": "媛",
+          "reading": "えん",
+          "kana": "かのじょはさいえんです",
+          "before": "kǎ nō jō wā sǎi én dē sū",
+          "after": "kǎ nō jō wā sǎ i én dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "加",
+          "reading": "か",
+          "kana": "かいぎにさんかします",
+          "before": "kǎi gī nī sǎn kā shī mā sù",
+          "after": "kǎ i gī nī sǎn kā shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "過",
+          "reading": "か",
+          "kana": "たいふうがまちをつうかしました",
+          "before": "tǎi fūu gǎ mǎ chí o tsǔu kā shī mā shī tà",
+          "after": "tǎ i fūu gǎ mǎ chí o tsǔu kā shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "箇",
+          "reading": "か",
+          "kana": "もんだいのかしょにせんをひきます",
+          "before": "mōn dāi nō kǎ shō nī sēn o hǐ kī mā sū",
+          "after": "mōn dā i nō kǎ shō nī sēn o hǐ kī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "回",
+          "reading": "かい",
+          "kana": "さんかいよみます",
+          "before": "sān kāi yǒ mí mā sū",
+          "after": "sān kā i yǒ mí mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "戒",
+          "reading": "カイ",
+          "kana": "たいふうにけいかいしてください。",
+          "before": "tǎi fū nī kēi kǎi shī tē kǔ dā sǎi",
+          "after": "tǎ i fū nī kēi kǎ i shī tē kǔ dā sǎ i",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai",
+            "combined_token_5_split expected=ka/i actual=kai",
+            "combined_token_10_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "塊",
+          "reading": "かい",
+          "kana": "きんかいがみつかりました。",
+          "before": "kīn kāi ga mǐ tsū kā rī mā shī tà",
+          "after": "kīn kā i ga mǐ tsū kā rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "かい",
+          "kana": "もんだいのかいとうをみます。",
+          "before": "mōn dāi nō kǎi tō o mǐ mā sù",
+          "after": "mōn dā i nō kǎ i tō o mǐ mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=da/i actual=dai",
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "げ",
+          "kana": "ねつにはげねつざいをつかいます。",
+          "before": "nē tsù nī wa gě nē tsū zāi o tsǔ kā ī mā sù",
+          "after": "nē tsù nī wa gě nē tsū zā i o tsǔ kā ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "とく",
+          "kana": "すうがくのもんだいをときます。",
+          "before": "sū gā kū nō mōn dāi o tǒ kī mā sù",
+          "after": "sū gā kū nō mōn dā i o tǒ kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "とける",
+          "kana": "むずかしいもんだいがとけました。",
+          "before": "mǔ zū kā shī ī mōn dāi gā tǒ kē mā shī tà",
+          "after": "mǔ zū kā shī ī mōn dā i gā tǒ kē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "懐",
+          "reading": "カイ",
+          "kana": "かいちゅうでんとうをもっています。",
+          "before": "kǎi chū dēn tō o mǒ ttē ī mā sù",
+          "after": "kǎ i chū dēn tō o mǒ ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "懐",
+          "reading": "ふところ",
+          "kana": "さいふをふところにいれました。",
+          "before": "sǎi fū o fǔ tō kō rō nī ì rē mā shī tà",
+          "after": "sǎ i fū o fǔ tō kō rō nī ì rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "諧",
+          "reading": "かい",
+          "kana": "かれのはなしにはかいぎゃくがある。",
+          "before": "kā rè nō hǎ nā shī nī wa kāi gyà kū ga ǎ rū",
+          "after": "kā rè nō hǎ nā shī nī wa kā i gyà kū ga ǎ rū",
+          "changed": true,
+          "issues": [
+            "combined_token_9_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "害",
+          "reading": "がい",
+          "kana": "ひがいがでました",
+          "before": "hǐ gái gǎ dè mā shī tà",
+          "after": "hǐ gá i gǎ dè mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "慨",
+          "reading": "がい",
+          "kana": "そつぎょうしきでかんがいぶかいきもちになりました。",
+          "before": "sǒ tsū gyō shī kì dē kān gāi bǔ kā ī kǐ mō chī nī nǎ rī mā shī tà",
+          "after": "sǒ tsū gyō shī kì dē kān gā i bǔ kā ī kǐ mō chī nī nǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "該",
+          "reading": "がい",
+          "kana": "このじょうけんにがいとうします。",
+          "before": "kō nō jō kēn nī gǎi tō shī mā sù",
+          "after": "kō nō jō kēn nī gǎ i tō shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "骸",
+          "reading": "がい",
+          "kana": "かいがんでさかなのしがいをみました。",
+          "before": "kāi gān dē sǎ kā nā nō shǐ gāi o mī mā shī tà",
+          "after": "kā i gān dē sǎ kā nā nō shǐ gā i o mī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai",
+            "combined_token_9_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "隔",
+          "reading": "へだたる",
+          "kana": "ふたりのかんがえはおおきくへだたっています。",
+          "before": "fǔ tā rí nō kǎn gā ē wa ō kī kū hē dǎ tá ttē ī mā sū",
+          "after": "fǔ tā rí nō kǎn gā ē wa o ō kī kū hē dǎ tá ttē ī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_9_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "冠",
+          "reading": "かん",
+          "kana": "かれはたいかいでえいかんをえました",
+          "before": "kǎ ré wā tāi kāi dē ēi kān ō ě mā shī tà",
+          "after": "kǎ ré wā tā i kā i dē ēi kān ō ě mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai",
+            "combined_token_5_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "岸",
+          "reading": "がん",
+          "kana": "なつにかいがんをさんぽしました。",
+          "before": "nǎ tsū nī kāi gān ō sǎn pō shī mā shī tà",
+          "after": "nǎ tsū nī kā i gān ō sǎn pō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "笑",
+          "reading": "わらう",
+          "kana": "こどもがおおきなこえでわらいます。",
+          "before": "kǒ dō mō ga ō kī nā kǒ ē dē wǎ rā ī mà sū",
+          "after": "kǒ dō mō ga o ō kī nā kǒ ē dē wǎ rā ī mà sū",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "数",
+          "reading": "かぞえる",
+          "kana": "カードをじゅうまいかぞえます",
+          "before": "kā dō ǒ jū māi kǎ zō ē mā sù",
+          "after": "kā dō ǒ jū mā i kǎ zō ē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "儀",
+          "reading": "ぎ",
+          "kana": "しきではれいぎをたいせつにします。",
+          "before": "shǐ kī dē wā rēi gì o tāi sē tsǔ nī shī mā sū",
+          "after": "shǐ kī dē wā rēi gì o tā i sē tsǔ nī shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "犠",
+          "reading": "ぎ",
+          "kana": "じゆうのためにおおくのひとがぎせいになりました",
+          "before": "jǐ yū nō tǎ mē nī ō kū nō hǐ tō gā gǐ sē ī nī nǎ rī mā shī tà",
+          "after": "jǐ yū nō tǎ mē nī o ō kū nō hǐ tō gā gǐ sē ī nī nǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "詰",
+          "reading": "きつ",
+          "kana": "きしゃがだいじんをきつもんしました。",
+          "before": "kǐ shā gā dāi jīn o kǐ tsū mōn shī mā shī tà",
+          "after": "kǐ shā gā dā i jīn o kǐ tsū mōn shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "窮",
+          "reading": "きゅう",
+          "kana": "かいしゃはしきんなんできゅうちにたたされました",
+          "before": "kǎi shā wǎ shī kīn nān dē kyū chī nī tǎ tā sā rē mā shī tà",
+          "after": "kǎ i shā wǎ shī kīn nān dē kyū chī nī tǎ tā sā rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "叫",
+          "reading": "さけぶ",
+          "kana": "こどもがおおごえでさけびました",
+          "before": "kǒ dō mō gā ō gǒ ē dē sǎ kē bī mā shī tà",
+          "after": "kǒ dō mō gā o ō gǒ ē dē sǎ kē bī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "教",
+          "reading": "おしえる",
+          "kana": "せんせいがかんじをおしえます",
+          "before": "sēn sē ǐ gā kān jǐ ǒ shī ē mā sù",
+          "after": "sēn sē ǐ gā kān jǐ o ǒ shī ē mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "響",
+          "reading": "きょう",
+          "kana": "おおきなはんきょうがありました。",
+          "before": "ō kī nā hǎn kyō gǎ á rī mā shī tà",
+          "after": "o ō kī nā hǎn kyō gǎ á rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "驚",
+          "reading": "おどろく",
+          "kana": "おおきなおとにおどろきました。",
+          "before": "ō kī nā ǒ tō nī ǒ dō rō kī mā shī tà",
+          "after": "o ō kī nā ǒ tō nī ǒ dō rō kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "苦",
+          "reading": "く",
+          "kana": "さいきん、しごとでくろうしました。",
+          "before": "sǎi kīn shǐ gō tō de kù rǒ shī mā shī tà",
+          "after": "sǎ i kīn shǐ gō tō de kù rǒ shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "兄",
+          "reading": "にい",
+          "kana": "おにいさんはやさしいです。",
+          "before": "ǒ nī sān wa yǎ sā shī ī dē sū",
+          "after": "ǒ nī i sān wa yǎ sā shī ī dē sū",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "経",
+          "reading": "きょう",
+          "kana": "そふはまいあさおきょうをよみます。",
+          "before": "sǒ fū wā mǎi ā sā ō kyō ō yǒ mī mā sù",
+          "after": "sǒ fū wā mǎ i ā sā ō kyō ō yǒ mī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "慶",
+          "reading": "けい",
+          "kana": "ふたりのけっこんはけいじです。",
+          "before": "fǔ tā rī nō kēk kōn wa kēi jì dē sū",
+          "after": "fǔ tā rī nō kē kkōn wa kēi jì dē sū",
+          "changed": true,
+          "issues": [
+            "token_5_romaji_mismatch expected=ke actual=kek",
+            "token_6_romaji_mismatch expected=kkon actual=kon"
+          ]
+        },
+        {
+          "kanji": "欠",
+          "reading": "かく",
+          "kana": "せつめいはぐたいせいをかきます",
+          "before": "sě tsū mēi wā gǔ tāi sēi ō kǎ kī mā sù",
+          "after": "sě tsū mēi wā gǔ tā i sēi ō kǎ kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "建",
+          "reading": "たつ",
+          "kana": "おかのうえにいえがたっています",
+          "before": "ǒ kā nō ú è nī í è gā tǎt tē ī mā sù",
+          "after": "ǒ kā nō ú è nī í è gā tǎ ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "token_10_romaji_mismatch expected=ta actual=tat",
+            "token_11_romaji_mismatch expected=tte actual=te"
+          ]
+        },
+        {
+          "kanji": "兼",
+          "reading": "かねる",
+          "kana": "このみせはかふぇとほんやをかねています",
+          "before": "kǒ nō mī sè wā ká fè tō hōn yā ō kǎ nē tē ī mā sù",
+          "after": "kǒ nō mī sè wā ká fu è tō hōn yā ō kǎ nē tē ī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=fu",
+            "token_7_romaji_mismatch expected=e actual=fe"
+          ]
+        },
+        {
+          "kanji": "懸",
+          "reading": "かかる",
+          "kana": "しょうはいはさいごのいちだにかかっています。",
+          "before": "shō hǎi wā sǎi gō nō ī chī dā nī kǎ kā ttē ī mā sù",
+          "after": "shō hǎ i wā sǎ i gō nō ī chī dā nī kǎ kā ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ha/i actual=hai",
+            "combined_token_4_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "公",
+          "reading": "おおやけ",
+          "kana": "そのじょうほうはおおやけになりました。",
+          "before": "sǒ nō jō hō wa ō yā kē nī nǎ rī mā shī tà",
+          "after": "sǒ nō jō hō wa o ō yā kē nī nǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "誤",
+          "reading": "ご",
+          "kana": "ともだちのはなしをごかいしました",
+          "before": "tǒ mō dā chī nō hǎ nā shī ǒ gǒ kāi shī mā shī tà",
+          "after": "tǒ mō dā chī nō hǎ nā shī ǒ gǒ kā i shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_11_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "鋼",
+          "reading": "こう",
+          "kana": "こうじょうでこうざいをはこびます。",
+          "before": "kōu jōu dē kōu zāi ō hǎ kō bī mā sù",
+          "after": "kōu jōu dē kōu zā i ō hǎ kō bī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "国",
+          "reading": "こく",
+          "kana": "がいこくではたらきます",
+          "before": "gǎi kō kū dē hǎ tā rā kī mā sū",
+          "after": "gǎ i kō kū dē hǎ tā rā kī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "穀",
+          "reading": "こく",
+          "kana": "こくもつをまいにちたべます",
+          "before": "kǒ kū mō tsǔ o māi nī chī tǎ bē mā sù",
+          "after": "kǒ kū mō tsǔ o mā i nī chī tǎ bē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "懇",
+          "reading": "コン",
+          "kana": "こんしんかいでどうりょうとはなしました。",
+          "before": "kōn shīn kǎi dē dō ryō tō hǎ nā shī mā shī tà",
+          "after": "kōn shīn kǎ i dē dō ryō tō hǎ nā shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_3_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "砂",
+          "reading": "しゃ",
+          "kana": "おおあめでどしゃがみちにながれました",
+          "before": "ō ǎ mē dē dǒ shā gà mǐ chī nī nā gā rē mā shī tà",
+          "after": "o ō ǎ mē dē dǒ shā gà mǐ chī nī nā gā rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "才",
+          "reading": "さい",
+          "kana": "かれはすうがくのてんさいです",
+          "before": "kǎ ré wa sū gā kū nō tēn sāi dē sù",
+          "after": "kǎ ré wa sū gā kū nō tēn sā i dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_9_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "砕",
+          "reading": "さい",
+          "kana": "いわをふんさいします",
+          "before": "ǐ wā o fǔn sāi shī mā sū",
+          "after": "ǐ wā o fǔn sā i shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "債",
+          "reading": "さい",
+          "kana": "ふさいがふえました。",
+          "before": "fǔ sāi gā fǔ ē mā shī tà",
+          "after": "fǔ sā i gā fǔ ē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "裁",
+          "reading": "さい",
+          "kana": "さいばんはあしたです",
+          "before": "sǎi bān wa ǎ shī tā dē sù",
+          "after": "sǎ i bān wa ǎ shī tā dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "裁",
+          "reading": "さばく",
+          "kana": "さいばんかんがじけんをさばきます",
+          "before": "sǎi bān kān gā jǐ kēn o sǎ bā kì mā sù",
+          "after": "sǎ i bān kān gā jǐ kēn o sǎ bā kì mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "塞",
+          "reading": "さい",
+          "kana": "ふるいようさいをけんがくしました。",
+          "before": "fǔ rú ī yō sāi o kēn gǎ kū shī mā shī tà",
+          "after": "fǔ rú ī yō sā i o kēn gǎ kū shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "塞",
+          "reading": "ふさぐ",
+          "kana": "おおきなはこがみちをふさぎます。",
+          "before": "ō kī na hǎ kō ga mǐ chí o fǔ sá gī mā sū",
+          "after": "o ō kī na hǎ kō ga mǐ chí o fǔ sá gī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "剤",
+          "reading": "ざい",
+          "kana": "しょっきをせんざいであらいます。",
+          "before": "shō kkī o sēn zāi dē ǎ rā ī mā sū",
+          "after": "shō kkī o sēn zā i dē ǎ rā ī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "財",
+          "reading": "ざい",
+          "kana": "このかいしゃはざいさんをまもります。",
+          "before": "kǒ nō kā ī shà wa zāi sàn o mǎ mō rī mā sù",
+          "after": "kǒ nō kā ī shà wa zā i sàn o mǎ mō rī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "殺",
+          "reading": "せつ",
+          "kana": "せっしょうはよくないといわれます。",
+          "before": "sèsshō wa yǒ kū nā ì tō ī wā rē mà sū",
+          "after": "sè sshō wa yǒ kū nā ì tō ī wā rē mà sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=se/ssho actual=sessho"
+          ]
+        },
+        {
+          "kanji": "惨",
+          "reading": "ざん",
+          "kana": "しあいでざんぱいしました。",
+          "before": "shǐ ā ī dē zǎn pāi shǐ mā shī tà",
+          "after": "shǐ ā ī dē zǎn pā i shǐ mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=pa/i actual=pai"
+          ]
+        },
+        {
+          "kanji": "酸",
+          "reading": "す",
+          "kana": "このうめぼしはすっぱいです",
+          "before": "kǒ nō ū mē bō shī wǎ sǔp pā ī dē sù",
+          "after": "kǒ nō ū mē bō shī wǎ sǔ ppā ī dē sù",
+          "changed": true,
+          "issues": [
+            "token_8_romaji_mismatch expected=su actual=sup",
+            "token_9_romaji_mismatch expected=ppa actual=pa"
+          ]
+        },
+        {
+          "kanji": "伺",
+          "reading": "うかがう",
+          "kana": "あしたせんせいのおたくにうかがいます",
+          "before": "ǎ shī tā sěn sē ī nǒ tá kū nī ǔ kā gā í mā sù",
+          "after": "ǎ shī tā sěn sē ī nǒ o tá kū nī ǔ kā gā í mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "私",
+          "reading": "わたし",
+          "kana": "わたしはまいあさこーひーをのみます",
+          "before": "wǎ tā shī wa māi ǎ sā kō hī o nǒ mī mā sù",
+          "after": "wǎ tā shī wa mā i ǎ sā kō hī o nǒ mī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "私",
+          "reading": "し",
+          "kana": "しせいかつをたいせつにします",
+          "before": "shǐ sēi kā tsǔ o tāi sē tsǔ nī shī mā sù",
+          "after": "shǐ sēi kā tsǔ o tā i sē tsǔ nī shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "姉",
+          "reading": "ねえ",
+          "kana": "おねえさんにききます。",
+          "before": "ǒ nē sān nī kī kī mā sù",
+          "after": "ǒ nē e sān nī kī kī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=e"
+          ]
+        },
+        {
+          "kanji": "詞",
+          "reading": "し",
+          "kana": "めいしとどうしをおぼえます",
+          "before": "mē ī shī tō dō shi ǒ bō ē mā sù",
+          "after": "mē ī shī tō dō shi o ǒ bō ē mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "誌",
+          "reading": "し",
+          "kana": "まいつきざっしをよみます",
+          "before": "mā ī tsū kī zǎsshī o yǒ mī mā sù",
+          "after": "mā ī tsū kī zǎ sshī o yǒ mī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=za/sshi actual=zasshi"
+          ]
+        },
+        {
+          "kanji": "賜",
+          "reading": "し",
+          "kana": "ゆうしょうしゃにしはいがおくられました",
+          "before": "yū shō shā nī shǐ hāi gā ō kū rā rē mā shī tà",
+          "after": "yū shō shā nī shǐ hā i gā ō kū rā rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ha/i actual=hai"
+          ]
+        },
+        {
+          "kanji": "諮",
+          "reading": "し",
+          "kana": "しちょうはいいんかいにしもんした。",
+          "before": "shǐ chō wa ī īn kāi nī shǐ mōn shī tà",
+          "after": "shǐ chō wa ī īn kā i nī shǐ mōn shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "諮",
+          "reading": "はかる",
+          "kana": "しゃちょうはかいぎにけいかくをはかりました。",
+          "before": "shǎ chō wa kāi gī nī kēi kā kū o hǎ kā rī mā shī tà",
+          "after": "shǎ chō wa kā i gī nī kēi kā kū o hǎ kā rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "邪",
+          "reading": "じゃ",
+          "kana": "いりぐちでおおきなにもつがじゃまです。",
+          "before": "ǐ rī gū chī dē ō kī nā nǐ mō tsū gǎ jǎ mā dē sù",
+          "after": "ǐ rī gū chī dē o ō kī nā nǐ mō tsū gǎ jǎ mā dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "種",
+          "reading": "しゅ",
+          "kana": "このしゅのもんだいはむずかしいです。",
+          "before": "kǒ nō shū nō mōn dāi wa mǔ zū kā shī dē sū",
+          "after": "kǒ nō shū nō mōn dā i wa mǔ zū kā shī i dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai",
+            "missing_token_12_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "儒",
+          "reading": "じゅ",
+          "kana": "かれはだいがくでじゅがくをまなびます。",
+          "before": "kǎ rē wā dāi gā kū dē jǔ gā kū o mǎ nā bī mā sū",
+          "after": "kǎ rē wā dā i gā kū dē jǔ gā kū o mǎ nā bī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "縦",
+          "reading": "じゅう",
+          "kana": "たいふうがしまをじゅうだんしました。",
+          "before": "tǎi fū gā shī mā o jū dān shī mā shī tà",
+          "after": "tǎ i fū gā shī mā o jū dān shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "叔",
+          "reading": "おじ",
+          "kana": "おじはおおさかにすんでいます",
+          "before": "ǒ jī wā ō sā kā nī sǔn dē ī mā sù",
+          "after": "ǒ jī wā o ō sā kā nī sǔn dē ī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "縮",
+          "reading": "しゅく",
+          "kana": "かいぎをいちじかんにたんしゅくします。",
+          "before": "kǎi gī o ǐ chī jī kān nī tān shū kù shī mā sù",
+          "after": "kǎ i gī o ǐ chī jī kān nī tān shū kù shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "緒",
+          "reading": "しょ",
+          "kana": "ともだちといっしょにかえります",
+          "before": "tǒ mō dā chī tō ǐsshō nī kǎ ē rī mā sù",
+          "after": "tǒ mō dā chī tō ǐ sshō nī kǎ ē rī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=i/ssho actual=issho"
+          ]
+        },
+        {
+          "kanji": "諸",
+          "reading": "しょ",
+          "kana": "しょがいこくのぶんかをまなびます",
+          "before": "shǒ gāi kō kù nō bǔn kā ǒ mǎ nā bī mā sū",
+          "after": "shǒ gā i kō kù nō bǔn kā ǒ mǎ nā bī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "床",
+          "reading": "しょう",
+          "kana": "まいあさろくじにきしょうします",
+          "before": "māi ā sā rò kū jī nī kǐ shō shī mā sù",
+          "after": "mā i ā sā rò kū jī nī kǐ shō shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "尚",
+          "reading": "なお",
+          "kana": "なお、かいぎはさんじからです。",
+          "before": "ná ò, kǎi gī wa sān jī kǎ rā dē sū",
+          "after": "ná ò kǎ i gī wa sān jī kǎ rā dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_3_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "祥",
+          "reading": "しょう",
+          "kana": "このまちはまつりのはっしょうちです",
+          "before": "kǒ nō mā chī wā mǎ tsū rī nō hǎs shō ō chī dē sù",
+          "after": "kǒ nō mā chī wā mǎ tsū rī nō hǎ sshō ō chī dē sù",
+          "changed": true,
+          "issues": [
+            "token_10_romaji_mismatch expected=ha actual=has",
+            "token_11_romaji_mismatch expected=ssho actual=sho"
+          ]
+        },
+        {
+          "kanji": "償",
+          "reading": "しょう",
+          "kana": "かいしゃがそんがいをほしょうします。",
+          "before": "kǎi shā gā sōn gài o hǒ shō shī mā sū",
+          "after": "kǎ i shā gā sōn gà i o hǒ shō shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai",
+            "combined_token_5_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "詳",
+          "reading": "しょう",
+          "kana": "けいさつがしょうさいをはっぴょうしました。",
+          "before": "kēi sā tsū gā shō sǎi o hāppyō shī mā shī tà",
+          "after": "kēi sā tsū gā shō sǎ i o hā ppyō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=sa/i actual=sai",
+            "combined_token_8_split expected=ha/ppyo actual=happyo"
+          ]
+        },
+        {
+          "kanji": "詳",
+          "reading": "くわしい",
+          "kana": "くわしいせつめいをおねがいします。",
+          "before": "kǔ wā shī sě tsū mēi o ǒ nē gāi shī mā sù",
+          "after": "kǔ wā shī i sě tsū mēi o ǒ nē gā i shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=i",
+            "combined_token_10_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "冗",
+          "reading": "じょう",
+          "kana": "かいぎでじょうだんをききました",
+          "before": "kǎi gī dē jō dān ō kǐ kī mā shī tà",
+          "after": "kǎ i gī dē jō dān ō kǐ kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "針",
+          "reading": "しん",
+          "kana": "あたらしいほうしんをきめます。",
+          "before": "ǎ tā rā shīi hǒu shīn ō kǐ mē mā sù",
+          "after": "ǎ tā rā shī i hǒu shīn ō kǐ mē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=shi/i actual=shii"
+          ]
+        },
+        {
+          "kanji": "震",
+          "reading": "しん",
+          "kana": "きのう、おおきなじしんがありました。",
+          "before": "kǐ nō ō kī nā jǐ shīn gǎ á rī mā shī tà",
+          "after": "kǐ nō o ō kī nā jǐ shīn gǎ á rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "新",
+          "reading": "にい",
+          "kana": "にいがたへいきます",
+          "before": "nī gǎ tā ě ì kī mā sù",
+          "after": "nī i gǎ tā ě ì kī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_2_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "素",
+          "reading": "そ",
+          "kana": "このそざいはかるくてじょうぶです。",
+          "before": "kǒ nō sǒ zāi wā kǎ rū kū tē jǒ bū dē sù",
+          "after": "kǒ nō sǒ zā i wā kǎ rū kū tē jǒ bū dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "遂",
+          "reading": "すい",
+          "kana": "けいかくをすいこうします",
+          "before": "kēi kā kū o sǔi kō shī mā sū",
+          "after": "kēi kā kū o sǔ i kō shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=su/i actual=sui"
+          ]
+        },
+        {
+          "kanji": "髄",
+          "reading": "ずい",
+          "kana": "こつずいはほねのなかにあります。",
+          "before": "kǒ tsū zūi wa hǒ nē nō nǎ kā nī à rī mā sū",
+          "after": "kǒ tsū zū i wa hǒ nē nō nǎ kā nī à rī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_3_split expected=zu/i actual=zui"
+          ]
+        },
+        {
+          "kanji": "弥",
+          "reading": "や",
+          "kana": "やよいじだいをべんきょうしました",
+          "before": "yǎ yō ī jī dāi o bēn kyō shī mā shī tà",
+          "after": "yǎ yō ī jī dā i o bēn kyō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "省",
+          "reading": "かえりみる",
+          "kana": "しっぱいをかえりみます。",
+          "before": "shī ppài o kǎ ē rī mī mà sū",
+          "after": "shī ppà i o kǎ ē rī mī mà sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ppa/i actual=ppai"
+          ]
+        },
+        {
+          "kanji": "盛",
+          "reading": "せい",
+          "kana": "せいだいなはくしゅがおきました",
+          "before": "sēi dāi nā hǎ kū shū gà ǒ kī mā shī tà",
+          "after": "sēi dā i nā hǎ kū shū gà ǒ kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "盛",
+          "reading": "もる",
+          "kana": "ごはんをおおきなさらにもります",
+          "before": "gǒ hān o ō kī nā sǎ rā nī mǒ rī mā sù",
+          "after": "gǒ hān o o ō kī nā sǎ rā nī mǒ rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "聖",
+          "reading": "しょう",
+          "kana": "しょうとくたいしはれきしのじゅぎょうにでます。",
+          "before": "shō tō kǔ tǎi shī wǎ rē kī shī nō jū gyō nī dē mā sù",
+          "after": "shō tō kǔ tǎ i shī wǎ rē kī shī nō jū gyō nī dē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "誓",
+          "reading": "ちかう",
+          "kana": "ふたりはさいかいをちかいました。",
+          "before": "fǔ tā rī wa sǎi kāi o chǐ kā ī mā shī tà",
+          "after": "fǔ tā rī wa sǎ i kā i o chǐ kā ī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai",
+            "combined_token_6_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "請",
+          "reading": "うける",
+          "kana": "かれはおおきなしごとをうけました。",
+          "before": "kā rè wa ō kì nā shǐ gō tō o ǔ kē mā shī tà",
+          "after": "kā rè wa o ō kì nā shǐ gō tō o ǔ kē mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "隻",
+          "reading": "せき",
+          "kana": "みなとにふねがいっせきいます。",
+          "before": "mǐ ná tō nī fǔ nē gā ìssē kǐ ī mā sū",
+          "after": "mǐ ná tō nī fǔ nē gā ì ssē kǐ ī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=i/sse actual=isse"
+          ]
+        },
+        {
+          "kanji": "践",
+          "reading": "せん",
+          "kana": "じっせんがだいじです。",
+          "before": "jǐs sén gā dǎi jī dē sū",
+          "after": "jǐ ssén gā dǎ i jī dē sū",
+          "changed": true,
+          "issues": [
+            "token_1_romaji_mismatch expected=ji actual=jis",
+            "token_2_romaji_mismatch expected=ssen actual=sen",
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "銭",
+          "reading": "せん",
+          "kana": "じんじゃでさいせんをいれます。",
+          "before": "jǐn jā dē sǎi sēn ō ǐ rē mā sù",
+          "after": "jǐn jā dē sǎ i sēn ō ǐ rē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "銭",
+          "reading": "ぜに",
+          "kana": "こぜにをさいふにいれます。",
+          "before": "kǒ zē nī ō sǎi fū nī ǐ rē mā sù",
+          "after": "kǒ zē nī ō sǎ i fū nī ǐ rē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "想",
+          "reading": "そう",
+          "kana": "しょうらいをそうぞうします",
+          "before": "shō rài o sō zō shī mā sū",
+          "after": "shō rà i o sō zō shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "造",
+          "reading": "つく",
+          "kana": "このくらではさけをつくります",
+          "before": "kǒ nō kǔ rā dē sǎ kē o tsǔ kú rǐ mā sù",
+          "after": "kǒ nō kǔ rā dē wa sǎ kē o tsǔ kú rǐ mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=wa"
+          ]
+        },
+        {
+          "kanji": "賊",
+          "reading": "ぞく",
+          "kana": "ものがたりにかいぞくがでます",
+          "before": "mǒ nō gā tā rī nī kāi zǒ kū gā dě mā sù",
+          "after": "mǒ nō gā tā rī nī kā i zǒ kū gā dě mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "対",
+          "reading": "たい",
+          "kana": "せんせいにたいしてしつもんします。",
+          "before": "sěn sēi nī tái shī tē shì tsū mōn shī mā sù",
+          "after": "sěn sēi nī tá i shī tē shì tsū mōn shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "対",
+          "reading": "つい",
+          "kana": "このくつはついになっています。",
+          "before": "kǒ nō kū tsù wà tsúi nī nā ttē ī mā sù",
+          "after": "kǒ nō kū tsù wà tsú i nī nā ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=tsu/i actual=tsui"
+          ]
+        },
+        {
+          "kanji": "退",
+          "reading": "たい",
+          "kana": "そふはきょねんたいしょくしました",
+          "before": "sǒ fū wǎ kyǒ nēn tǎi shō kù shī mā shī tà",
+          "after": "sǒ fū wǎ kyǒ nēn tǎ i shō kù shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "退",
+          "reading": "しりぞける",
+          "kana": "かれははんたいいけんをしりぞけました",
+          "before": "kǎ rē wǎ hǎn tāi ī kēn ǒ shǐ rī zō kē mā shī tà",
+          "after": "kǎ rē wǎ hǎn tā i ī kēn ǒ shǐ rī zō kē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "逮",
+          "reading": "たい",
+          "kana": "けいさつははんにんをたいほしました",
+          "before": "kěi sā tsū wǎ hān nīn o tǎi hō shī mā shī tà",
+          "after": "kěi sā tsū wǎ hān nīn o tǎ i hō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "滞",
+          "reading": "とどこおる",
+          "kana": "ゆきでにもつのはいそうがとどこおりました",
+          "before": "yǔ kī dē nǐ mō tsū nō hǎ ī sō gā tǒ dō kō rī mā shī tà",
+          "after": "yǔ kī dē nǐ mō tsū nō hǎ ī sō gā tǒ dō kō o rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_15_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "戴",
+          "reading": "タイ",
+          "kana": "たいかんしきはあしたです。",
+          "before": "tǎi kān shī kì wā ǎ shī tā dē sù",
+          "after": "tǎ i kān shī kì wā ǎ shī tā dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "戴",
+          "reading": "ダイ",
+          "kana": "おちゃをいっぱいちょうだい。",
+          "before": "o chǎ o ì ppǎi chō dǎi",
+          "after": "o chǎ o ì ppǎ i chō dǎ i",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ppa/i actual=ppai",
+            "combined_token_7_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "台",
+          "reading": "だい",
+          "kana": "くるまをいちだいかいました",
+          "before": "kǔ rú mā o ì chī dāi kǎ ī mā shī tà",
+          "after": "kǔ rú mā o ì chī dā i kǎ ī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "台",
+          "reading": "たい",
+          "kana": "たいふうがきます",
+          "before": "tái fū gǎ kī mā sū",
+          "after": "tá i fū gǎ kī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "知",
+          "reading": "ち",
+          "kana": "あたらしいちしきをまなびます",
+          "before": "ǎ tā rā shī chī shī kī o mǎ nā bī mā sù",
+          "after": "ǎ tā rā shī i chī shī kī o mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "遅",
+          "reading": "ち",
+          "kana": "あしたはちこくしないでください",
+          "before": "ǎ shī tā wǎ chī kó kù shī nǎ ī dē kū dā sài",
+          "after": "ǎ shī tā wǎ chī kó kù shī nǎ ī dē kū dā sà i",
+          "changed": true,
+          "issues": [
+            "combined_token_14_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "遅",
+          "reading": "おくらせる",
+          "kana": "かいぎをいちじかんおくらせます",
+          "before": "kāi gī o ì chī jī kān ǒ kū rā sē mā sū",
+          "after": "kā i gī o ì chī jī kān ǒ kū rā sē mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "窒",
+          "reading": "ちつ",
+          "kana": "ちっそくしないようにまどをあけます",
+          "before": "chǐ s sō kū shī nā ī yō nī mǎ dō o ǎ kē mā sū",
+          "after": "chǐ sso kū shī nā ī yō nī mǎ dō o ǎ kē mā sū",
+          "changed": true,
+          "issues": [
+            "token_2_romaji_mismatch expected=sso actual=s",
+            "extra_token_3_removed actual=so"
+          ]
+        },
+        {
+          "kanji": "中",
+          "reading": "なか",
+          "kana": "かばんのなかにかぎがあります",
+          "before": "kǎ bān nō nǎ kā nī kǎ gī ā rī mā sù",
+          "after": "kǎ bān nō nǎ kā nī kǎ gī ga ā rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_9_inserted expected=ga"
+          ]
+        },
+        {
+          "kanji": "懲",
+          "reading": "こりる",
+          "kana": "なんどもしっぱいしてすこしこりました。",
+          "before": "nān dō mō shì ppǎi shī tē sǔ kō shī kò rī mā shī tà",
+          "after": "nān dō mō shì ppǎ i shī tē sǔ kō shī kò rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ppa/i actual=ppai"
+          ]
+        },
+        {
+          "kanji": "賃",
+          "reading": "ちん",
+          "kana": "やちんをまいつきはらいます",
+          "before": "yǎ chīn ǒ mǎi tsū kī hǎ rā ī mā sū",
+          "after": "yǎ chīn ǒ mǎ i tsū kī hǎ rā ī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "通",
+          "reading": "とおる",
+          "kana": "このみちをとおります",
+          "before": "kǒ nō mǐ chí o tō rī mā sù",
+          "after": "kǒ nō mǐ chí o tō o rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "通",
+          "reading": "とおす",
+          "kana": "まどからかぜをとおします",
+          "before": "mǎ dō kā rā kǎ zè o tō shī mā sù",
+          "after": "mǎ dō kā rā kǎ zè o tō o shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_9_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "通",
+          "reading": "とおり",
+          "kana": "おおきなとおりをわたります",
+          "before": "ō kī nā tō rī o wǎ tā rī mā sù",
+          "after": "o ō kī nā tō o rī o wǎ tā rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o",
+            "missing_token_5_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "痛",
+          "reading": "つう",
+          "kana": "ずつうでかいしゃをやすみました",
+          "before": "zǔ tsū dē kǎi shā o yǎ sū mī mā shī tà",
+          "after": "zǔ tsū dē kǎ i shā o yǎ sū mī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "廷",
+          "reading": "てい",
+          "kana": "さいばんはほうていでおこなわれます",
+          "before": "sāi bān wa hō tē dē ǒ kō nā wā rē mā sù",
+          "after": "sā i bān wa hō tē dē ǒ kō nā wā rē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "諦",
+          "reading": "てい",
+          "kana": "かれのたいどにはていかんがある。",
+          "before": "kā rè nō tāi dō nī wa tēi kān ga ǎ rū",
+          "after": "kā rè nō tā i dō nī wa tēi kān ga ǎ rū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "哲",
+          "reading": "てつ",
+          "kana": "あにはだいがくでてつがくをまなんでいます。",
+          "before": "ǎ ní wǎ dǎi gā kū dē tě tsū gā kū ǒ mǎ nān dē ī mā sù",
+          "after": "ǎ ní wǎ dǎ i gā kū dē tě tsū gā kū ǒ mǎ nān dē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "撤",
+          "reading": "てつ",
+          "kana": "ぶたいはてったいしました。",
+          "before": "bǔ tā ī wā tě ttāi shī mà shī tà",
+          "after": "bǔ tā ī wā tě ttā i shī mà shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=tta/i actual=ttai"
+          ]
+        },
+        {
+          "kanji": "努",
+          "reading": "ど",
+          "kana": "まいにちどりょくします",
+          "before": "mǎi nī chī dò ryǒ kǔ shī mā sù",
+          "after": "mǎ i nī chī dò ryǒ kǔ shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "凍",
+          "reading": "こおる",
+          "kana": "いけのみずがこおりました",
+          "before": "ǐ kē nō mǐ zū gā kō rī mā shī tà",
+          "after": "ǐ kē nō mǐ zū gā kō o rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "糖",
+          "reading": "とう",
+          "kana": "さとうをすこしいれます",
+          "before": "sǎ tō ù ǒ sǔ kō shī ī ǐ rē mā sù",
+          "after": "sǎ tō ù ǒ sǔ kō shī ī rē mā sù",
+          "changed": true,
+          "issues": [
+            "extra_token_9_removed actual=i"
+          ]
+        },
+        {
+          "kanji": "徳",
+          "reading": "とく",
+          "kana": "どうとくをがっこうでまなびます",
+          "before": "dǒ ū tó kū o gǎk kō ū dē mǎ nā bī mā sù",
+          "after": "dǒ ū tó kū o gǎ kkō ū dē mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "token_6_romaji_mismatch expected=ga actual=gak",
+            "token_7_romaji_mismatch expected=kko actual=ko"
+          ]
+        },
+        {
+          "kanji": "難",
+          "reading": "むずかしい",
+          "kana": "このもんだいはむずかしいです。",
+          "before": "kǒ nō mōn dāi wǎ mǔ zū kā shī dē sù",
+          "after": "kǒ nō mōn dā i wǎ mǔ zū kā shī i dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai",
+            "missing_token_10_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "納",
+          "reading": "なっ",
+          "kana": "なっとうをたべます",
+          "before": "nǎt tō ū ǒ tǎ bē mā sù",
+          "after": "nǎ ttō ū ǒ tǎ bē mā sù",
+          "changed": true,
+          "issues": [
+            "token_1_romaji_mismatch expected=na actual=nat",
+            "token_2_romaji_mismatch expected=tto actual=to"
+          ]
+        },
+        {
+          "kanji": "脳",
+          "reading": "のう",
+          "kana": "すいみんはのうをやすませます。",
+          "before": "sǔi mīn wā nō o yǎ sū mā sē mā sù",
+          "after": "sǔ i mīn wā nō o yǎ sū mā sē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=su/i actual=sui"
+          ]
+        },
+        {
+          "kanji": "婆",
+          "reading": "ばあ",
+          "kana": "おばあさんはにわにいます。",
+          "before": "ǒ bāa sān wā nǐ wā nī ī mā sù",
+          "after": "ǒ bā a sān wā nǐ wā nī ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ba/a actual=baa"
+          ]
+        },
+        {
+          "kanji": "拝",
+          "reading": "はい",
+          "kana": "おてがみをはいけんします",
+          "before": "ǒ tē gā mī o hāi kēn shī mā sù",
+          "after": "ǒ tē gā mī o hā i kēn shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ha/i actual=hai"
+          ]
+        },
+        {
+          "kanji": "肺",
+          "reading": "はい",
+          "kana": "いしゃがはいのおとをききます。",
+          "before": "ǐ shā gā hā ī nǒ tō o kǐ kī mā sù",
+          "after": "ǐ shā gā hā ī nǒ o tō o kǐ kī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "背",
+          "reading": "はい",
+          "kana": "しゃしんのはいけいをぼかします。",
+          "before": "shǎ shīn nō hāi kēi o bǒ kā shī mā sù",
+          "after": "shǎ shīn nō hā i kēi o bǒ kā shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ha/i actual=hai"
+          ]
+        },
+        {
+          "kanji": "背",
+          "reading": "そむく",
+          "kana": "ともだちのしんらいにそむいてはいけません。",
+          "before": "tǒ mō dā chī nō shīn rāi nī sǒ mū ī tē wā ī kē mā sèn",
+          "after": "tǒ mō dā chī nō shīn rā i nī sǒ mū ī tē wā ī kē mā sèn",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "媒",
+          "reading": "ばい",
+          "kana": "しんぶんはたいせつなばいたいです。",
+          "before": "shīn bǔn wā tāi sē tsū nā bǎi tāi dē sù",
+          "after": "shīn bǔn wā tā i sē tsū nā bǎ i tā i dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai",
+            "combined_token_8_split expected=ba/i actual=bai",
+            "combined_token_9_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "販",
+          "reading": "はん",
+          "kana": "みせであたらしいしょうひんをはんばいします",
+          "before": "mǐ sē dē ǎ tā rā shī ī shō hīn o hǎn bāi shī mā sù",
+          "after": "mǐ sē dē ǎ tā rā shī ī shō hīn o hǎn bā i shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_13_split expected=ba/i actual=bai"
+          ]
+        },
+        {
+          "kanji": "繁",
+          "reading": "はん",
+          "kana": "このとおりははんかがいです。",
+          "before": "kǒ nō tō rí wǎ hǎn kā gā ì dē sù",
+          "after": "kǒ nō tō o rí wǎ hǎn kā gā ì dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "藩",
+          "reading": "はん",
+          "kana": "えどじだいにはおおくのはんがありました。",
+          "before": "ě dó jī dā ī nī wa ō kū nō hān gǎ ǎ rī mā shī tà",
+          "after": "ě dó jī dā ī nī wa o ō kū nō hān gǎ ǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "飛",
+          "reading": "とばす",
+          "kana": "かみひこうきをとおくへとばします。",
+          "before": "kǎ mī hī kō kī o tō kū e tǒ bā shī mā sù",
+          "after": "kǎ mī hī kō kī o tō o kū e tǒ bā shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "罷",
+          "reading": "まかり",
+          "kana": "ふせいがまかりとおる",
+          "before": "fǔ sē gā mǎ kā rī tō rù",
+          "after": "fǔ sē gā mǎ kā rī tō o rù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "賓",
+          "reading": "ひん",
+          "kana": "らいひんがかいじょうにつきました",
+          "before": "rāi hīn gā kāi jō nī tsǔ kī mā shī tà",
+          "after": "rā i hīn gā kā i jō nī tsǔ kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ra/i actual=rai",
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "府",
+          "reading": "ふ",
+          "kana": "おおさかふにともだちがいます。",
+          "before": "ǒ sā kā fū nī tǒ mō dā chí gā ǐ mā sù",
+          "after": "o ǒ sā kā fū nī tǒ mō dā chí gā ǐ mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "負",
+          "reading": "ふ",
+          "kana": "このしごとはふたんがおおきいです。",
+          "before": "kǒ nō shǐ gō tō wa fǔ tán ga ō kī ì dē sū",
+          "after": "kǒ nō shǐ gō tō wa fǔ tán ga o ō kī ì dē sū",
+          "changed": true,
+          "issues": [
+            "missing_token_10_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "副",
+          "reading": "ふく",
+          "kana": "ふくしゃちょうがかいぎにでます",
+          "before": "fǔ kū shā chō gā kǎi gī nī dě mā sù",
+          "after": "fǔ kū shā chō gā kǎ i gī nī dě mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "覆",
+          "reading": "おお",
+          "kana": "ぬのではこをおおいます。",
+          "before": "nǔ nō dē hǎ kō o ō ī mā sū",
+          "after": "nǔ nō dē hǎ kō o o ō ī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "憤",
+          "reading": "ふん",
+          "kana": "しみんはふせいにふんがいしました。",
+          "before": "shǐ mīn wa fǔ sēi nī fǔn gāi shī mā shī tà",
+          "after": "shǐ mīn wa fǔ sēi nī fǔn gā i shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "紛",
+          "reading": "まぎらわしい",
+          "kana": "このひょうしきはまぎらわしいです",
+          "before": "kǒ nō hyǒ shī kī wa mǎ gī rā wā shī dē sù",
+          "after": "kǒ nō hyǒ shī kī wa mǎ gī rā wā shī i dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_12_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "平",
+          "reading": "たいら",
+          "kana": "つくえをたいらにおきます。",
+          "before": "tsǔ kū ē ō tái rā nī ǒ kī mā sù",
+          "after": "tsǔ kū ē ō tá i rā nī ǒ kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "閉",
+          "reading": "とじる",
+          "kana": "ほんをとじてください。",
+          "before": "hón o tǒ jī tē kū dā sài",
+          "after": "hón o tǒ jī tē kū dā sà i",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "抱",
+          "reading": "いだく",
+          "kana": "かれがおおきなゆめをいだきます。",
+          "before": "kǎ rē gā ō kī nā yǔ mē o ǐ dā kī mā sū",
+          "after": "kǎ rē gā o ō kī nā yǔ mē o ǐ dā kī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "砲",
+          "reading": "ほう",
+          "kana": "むかしのたいほうをみました",
+          "before": "mǔ kā shī nō tǎi hō o mī mā shī tà",
+          "after": "mǔ kā shī nō tǎ i hō o mī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "訪",
+          "reading": "ほう",
+          "kana": "らいしゅうせんせいをほうもんします",
+          "before": "rǎi shū sēn sēi o hō mōn shī mā sù",
+          "after": "rǎ i shū sēn sēi o hō mōn shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "報",
+          "reading": "ほう",
+          "kana": "せんせいにけっかをほうこくします。",
+          "before": "sēn sē nī kēk kā o hō kō kū shī mā sù",
+          "after": "sēn sē nī kē kkā o hō kō kū shī mā sù",
+          "changed": true,
+          "issues": [
+            "token_4_romaji_mismatch expected=ke actual=kek",
+            "token_5_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "冒",
+          "reading": "おかす",
+          "kana": "かれはきけんをおかしてやまにはいりました",
+          "before": "kǎ ré wā kī kēn ō kǎ shī tē yā mǎ nī hā ì rī mā shī tà",
+          "after": "kǎ ré wā kī kēn o ō kǎ shī tē yā mǎ nī hā ì rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "防",
+          "reading": "ぼう",
+          "kana": "いえでぼうさいのじゅんびをします",
+          "before": "ǐ ē dē bǒu sāi nō jǔn bī o shī mā sù",
+          "after": "ǐ ē dē bǒu sā i nō jǔn bī o shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "房",
+          "reading": "ボウ",
+          "kana": "なつはれいぼうをつかいます。",
+          "before": "nà tsū wā rēi bō o tsǔ kāi mā sù",
+          "after": "nà tsū wā rēi bō o tsǔ kā i mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "貿",
+          "reading": "ぼう",
+          "kana": "にほんはおおくのくにとぼうえきします",
+          "before": "nǐ hōn wa ō kú nō kǔ nī tō bō é kī shī mā sù",
+          "after": "nǐ hōn wa o ō kú nō kǔ nī tō bō é kī shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "朴",
+          "reading": "ほお",
+          "kana": "ほおばみそをたべました。",
+          "before": "hō bā mǐ sō o tǎ bē mā shī tà",
+          "after": "hō o bā mǐ sō o tǎ bē mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_2_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "枚",
+          "reading": "まい",
+          "kana": "かみをさんまいください。",
+          "before": "kā mì o sān māi kǔ dā sā ì",
+          "after": "kā mì o sān mā i kǔ dā sā ì",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "盟",
+          "reading": "めい",
+          "kana": "ふたつのかいしゃがどうめいをむすびました",
+          "before": "fǔ tā tsǔ nō kǎi shā gà dō mēi o mǔ sū bī mā shī tà",
+          "after": "fǔ tā tsǔ nō kǎ i shā gà dō mēi o mǔ sū bī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "免",
+          "reading": "めん",
+          "kana": "らいねん、めんきょをとります",
+          "before": "rǎi nēn mēn kyō ō tǒ rī mā sù",
+          "after": "rǎ i nēn mēn kyō ō tǒ rī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "冶",
+          "reading": "や",
+          "kana": "かれはだいがくでやきんをまなびます",
+          "before": "kǎ ré wā dāi gā kù dē yǎ kīn ō mǎ nā bī mā sù",
+          "after": "kǎ ré wā dā i gā kù dē yǎ kīn ō mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "役",
+          "reading": "やく",
+          "kana": "かれはだいじなやくです",
+          "before": "kā rè wa dǎi jī nā yǎ kù dē sū",
+          "after": "kā rè wa dǎ i jī nā yǎ kù dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "用",
+          "reading": "もち",
+          "kana": "あたらしいどうぐをもちいます",
+          "before": "ǎ tā rā shī dō gū o mǒ chī mā sù",
+          "after": "ǎ tā rā shī i dō gū o mǒ chī i mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=i",
+            "missing_token_10_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "妖",
+          "reading": "あやしい",
+          "kana": "あやしいひかりがもりにみえます。",
+          "before": "ǎ yá shī hǐ kā rī gā mǒ rī nī mǐ ē mā sū",
+          "after": "ǎ yá shī i hǐ kā rī gā mǒ rī nī mǐ ē mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=i"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "kanji": "哀",
+          "reading": "あい",
+          "kana": "かれのこえにはあいしゅうがありました。",
+          "before": "kǎ ré nō kǒ é nī wǎ ǎi shūu gǎ ǎ rí mā shī tà",
+          "after": "kǎ ré nō kǒ é nī wǎ ǎ i shūu gǎ ǎ rí mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=a/i actual=ai"
+          ]
+        },
+        {
+          "kanji": "位",
+          "reading": "くらい",
+          "kana": "おなじくらいのおおきさです。",
+          "before": "ǒ ná jī kǔ rā ī nō ō kī sǎ dē sù",
+          "after": "ǒ ná jī kǔ rā ī nō o ō kī sǎ dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "慰",
+          "reading": "い",
+          "kana": "ゆうじんがひさいちをいもんしました。",
+          "before": "yū jīn gā hǐ sāi chī o ī mōn shī mā shī tà",
+          "after": "yū jīn gā hǐ sā i chī o ī mōn shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "遺",
+          "reading": "のこす",
+          "kana": "かれはおおくのさくひんをのこしました",
+          "before": "kǎ rē wǎ ō kū nō sǎ kū hīn ǒ nǒ kō shī mā shī tà",
+          "after": "kǎ rē wǎ o ō kū nō sǎ kū hīn ǒ nǒ kō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "逸",
+          "reading": "いつ",
+          "kana": "はなしはほんだいをいつだつしました",
+          "before": "hǎ ná shì wǎ hōn dāi o ì tsū dā tsū shī mā shī tà",
+          "after": "hǎ ná shì wǎ hōn dā i o ì tsū dā tsū shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "逸",
+          "reading": "それる",
+          "kana": "はなしがほんだいからそれました",
+          "before": "hǎ ná shì gǎ hōn dāi kā rā sǒ rē mā shī tà",
+          "after": "hǎ ná shì gǎ hōn dā i kā rā sǒ rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "梅",
+          "reading": "ばい",
+          "kana": "ばいりんをあるきます",
+          "before": "bǎi rīn ō ǎ rū kī mā sù",
+          "after": "bǎ i rīn ō ǎ rū kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ba/i actual=bai"
+          ]
+        },
+        {
+          "kanji": "媛",
+          "reading": "えん",
+          "kana": "かのじょはさいえんです",
+          "before": "kǎ nō jō wā sǎi én dē sū",
+          "after": "kǎ nō jō wā sǎ i én dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "加",
+          "reading": "か",
+          "kana": "かいぎにさんかします",
+          "before": "kǎi gī nī sǎn kā shī mā sù",
+          "after": "kǎ i gī nī sǎn kā shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "過",
+          "reading": "か",
+          "kana": "たいふうがまちをつうかしました",
+          "before": "tǎi fūu gǎ mǎ chí o tsǔu kā shī mā shī tà",
+          "after": "tǎ i fūu gǎ mǎ chí o tsǔu kā shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "箇",
+          "reading": "か",
+          "kana": "もんだいのかしょにせんをひきます",
+          "before": "mōn dāi nō kǎ shō nī sēn o hǐ kī mā sū",
+          "after": "mōn dā i nō kǎ shō nī sēn o hǐ kī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "回",
+          "reading": "かい",
+          "kana": "さんかいよみます",
+          "before": "sān kāi yǒ mí mā sū",
+          "after": "sān kā i yǒ mí mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "戒",
+          "reading": "カイ",
+          "kana": "たいふうにけいかいしてください。",
+          "before": "tǎi fū nī kēi kǎi shī tē kǔ dā sǎi",
+          "after": "tǎ i fū nī kēi kǎ i shī tē kǔ dā sǎ i",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai",
+            "combined_token_5_split expected=ka/i actual=kai",
+            "combined_token_10_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "塊",
+          "reading": "かい",
+          "kana": "きんかいがみつかりました。",
+          "before": "kīn kāi ga mǐ tsū kā rī mā shī tà",
+          "after": "kīn kā i ga mǐ tsū kā rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "かい",
+          "kana": "もんだいのかいとうをみます。",
+          "before": "mōn dāi nō kǎi tō o mǐ mā sù",
+          "after": "mōn dā i nō kǎ i tō o mǐ mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=da/i actual=dai",
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "げ",
+          "kana": "ねつにはげねつざいをつかいます。",
+          "before": "nē tsù nī wa gě nē tsū zāi o tsǔ kā ī mā sù",
+          "after": "nē tsù nī wa gě nē tsū zā i o tsǔ kā ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "とく",
+          "kana": "すうがくのもんだいをときます。",
+          "before": "sū gā kū nō mōn dāi o tǒ kī mā sù",
+          "after": "sū gā kū nō mōn dā i o tǒ kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "解",
+          "reading": "とける",
+          "kana": "むずかしいもんだいがとけました。",
+          "before": "mǔ zū kā shī ī mōn dāi gā tǒ kē mā shī tà",
+          "after": "mǔ zū kā shī ī mōn dā i gā tǒ kē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "懐",
+          "reading": "カイ",
+          "kana": "かいちゅうでんとうをもっています。",
+          "before": "kǎi chū dēn tō o mǒ ttē ī mā sù",
+          "after": "kǎ i chū dēn tō o mǒ ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "懐",
+          "reading": "ふところ",
+          "kana": "さいふをふところにいれました。",
+          "before": "sǎi fū o fǔ tō kō rō nī ì rē mā shī tà",
+          "after": "sǎ i fū o fǔ tō kō rō nī ì rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "諧",
+          "reading": "かい",
+          "kana": "かれのはなしにはかいぎゃくがある。",
+          "before": "kā rè nō hǎ nā shī nī wa kāi gyà kū ga ǎ rū",
+          "after": "kā rè nō hǎ nā shī nī wa kā i gyà kū ga ǎ rū",
+          "changed": true,
+          "issues": [
+            "combined_token_9_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "害",
+          "reading": "がい",
+          "kana": "ひがいがでました",
+          "before": "hǐ gái gǎ dè mā shī tà",
+          "after": "hǐ gá i gǎ dè mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "慨",
+          "reading": "がい",
+          "kana": "そつぎょうしきでかんがいぶかいきもちになりました。",
+          "before": "sǒ tsū gyō shī kì dē kān gāi bǔ kā ī kǐ mō chī nī nǎ rī mā shī tà",
+          "after": "sǒ tsū gyō shī kì dē kān gā i bǔ kā ī kǐ mō chī nī nǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "該",
+          "reading": "がい",
+          "kana": "このじょうけんにがいとうします。",
+          "before": "kō nō jō kēn nī gǎi tō shī mā sù",
+          "after": "kō nō jō kēn nī gǎ i tō shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "骸",
+          "reading": "がい",
+          "kana": "かいがんでさかなのしがいをみました。",
+          "before": "kāi gān dē sǎ kā nā nō shǐ gāi o mī mā shī tà",
+          "after": "kā i gān dē sǎ kā nā nō shǐ gā i o mī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai",
+            "combined_token_9_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "隔",
+          "reading": "へだたる",
+          "kana": "ふたりのかんがえはおおきくへだたっています。",
+          "before": "fǔ tā rí nō kǎn gā ē wa ō kī kū hē dǎ tá ttē ī mā sū",
+          "after": "fǔ tā rí nō kǎn gā ē wa o ō kī kū hē dǎ tá ttē ī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_9_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "冠",
+          "reading": "かん",
+          "kana": "かれはたいかいでえいかんをえました",
+          "before": "kǎ ré wā tāi kāi dē ēi kān ō ě mā shī tà",
+          "after": "kǎ ré wā tā i kā i dē ēi kān ō ě mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai",
+            "combined_token_5_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "岸",
+          "reading": "がん",
+          "kana": "なつにかいがんをさんぽしました。",
+          "before": "nǎ tsū nī kāi gān ō sǎn pō shī mā shī tà",
+          "after": "nǎ tsū nī kā i gān ō sǎn pō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "笑",
+          "reading": "わらう",
+          "kana": "こどもがおおきなこえでわらいます。",
+          "before": "kǒ dō mō ga ō kī nā kǒ ē dē wǎ rā ī mà sū",
+          "after": "kǒ dō mō ga o ō kī nā kǒ ē dē wǎ rā ī mà sū",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "数",
+          "reading": "かぞえる",
+          "kana": "カードをじゅうまいかぞえます",
+          "before": "kā dō ǒ jū māi kǎ zō ē mā sù",
+          "after": "kā dō ǒ jū mā i kǎ zō ē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "儀",
+          "reading": "ぎ",
+          "kana": "しきではれいぎをたいせつにします。",
+          "before": "shǐ kī dē wā rēi gì o tāi sē tsǔ nī shī mā sū",
+          "after": "shǐ kī dē wā rēi gì o tā i sē tsǔ nī shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "犠",
+          "reading": "ぎ",
+          "kana": "じゆうのためにおおくのひとがぎせいになりました",
+          "before": "jǐ yū nō tǎ mē nī ō kū nō hǐ tō gā gǐ sē ī nī nǎ rī mā shī tà",
+          "after": "jǐ yū nō tǎ mē nī o ō kū nō hǐ tō gā gǐ sē ī nī nǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "詰",
+          "reading": "きつ",
+          "kana": "きしゃがだいじんをきつもんしました。",
+          "before": "kǐ shā gā dāi jīn o kǐ tsū mōn shī mā shī tà",
+          "after": "kǐ shā gā dā i jīn o kǐ tsū mōn shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "窮",
+          "reading": "きゅう",
+          "kana": "かいしゃはしきんなんできゅうちにたたされました",
+          "before": "kǎi shā wǎ shī kīn nān dē kyū chī nī tǎ tā sā rē mā shī tà",
+          "after": "kǎ i shā wǎ shī kīn nān dē kyū chī nī tǎ tā sā rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "叫",
+          "reading": "さけぶ",
+          "kana": "こどもがおおごえでさけびました",
+          "before": "kǒ dō mō gā ō gǒ ē dē sǎ kē bī mā shī tà",
+          "after": "kǒ dō mō gā o ō gǒ ē dē sǎ kē bī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "教",
+          "reading": "おしえる",
+          "kana": "せんせいがかんじをおしえます",
+          "before": "sēn sē ǐ gā kān jǐ ǒ shī ē mā sù",
+          "after": "sēn sē ǐ gā kān jǐ o ǒ shī ē mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "響",
+          "reading": "きょう",
+          "kana": "おおきなはんきょうがありました。",
+          "before": "ō kī nā hǎn kyō gǎ á rī mā shī tà",
+          "after": "o ō kī nā hǎn kyō gǎ á rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "驚",
+          "reading": "おどろく",
+          "kana": "おおきなおとにおどろきました。",
+          "before": "ō kī nā ǒ tō nī ǒ dō rō kī mā shī tà",
+          "after": "o ō kī nā ǒ tō nī ǒ dō rō kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "苦",
+          "reading": "く",
+          "kana": "さいきん、しごとでくろうしました。",
+          "before": "sǎi kīn shǐ gō tō de kù rǒ shī mā shī tà",
+          "after": "sǎ i kīn shǐ gō tō de kù rǒ shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "兄",
+          "reading": "にい",
+          "kana": "おにいさんはやさしいです。",
+          "before": "ǒ nī sān wa yǎ sā shī ī dē sū",
+          "after": "ǒ nī i sān wa yǎ sā shī ī dē sū",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "経",
+          "reading": "きょう",
+          "kana": "そふはまいあさおきょうをよみます。",
+          "before": "sǒ fū wā mǎi ā sā ō kyō ō yǒ mī mā sù",
+          "after": "sǒ fū wā mǎ i ā sā ō kyō ō yǒ mī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "慶",
+          "reading": "けい",
+          "kana": "ふたりのけっこんはけいじです。",
+          "before": "fǔ tā rī nō kēk kōn wa kēi jì dē sū",
+          "after": "fǔ tā rī nō kē kkōn wa kēi jì dē sū",
+          "changed": true,
+          "issues": [
+            "token_5_romaji_mismatch expected=ke actual=kek",
+            "token_6_romaji_mismatch expected=kkon actual=kon"
+          ]
+        },
+        {
+          "kanji": "欠",
+          "reading": "かく",
+          "kana": "せつめいはぐたいせいをかきます",
+          "before": "sě tsū mēi wā gǔ tāi sēi ō kǎ kī mā sù",
+          "after": "sě tsū mēi wā gǔ tā i sēi ō kǎ kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "建",
+          "reading": "たつ",
+          "kana": "おかのうえにいえがたっています",
+          "before": "ǒ kā nō ú è nī í è gā tǎt tē ī mā sù",
+          "after": "ǒ kā nō ú è nī í è gā tǎ ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "token_10_romaji_mismatch expected=ta actual=tat",
+            "token_11_romaji_mismatch expected=tte actual=te"
+          ]
+        },
+        {
+          "kanji": "兼",
+          "reading": "かねる",
+          "kana": "このみせはかふぇとほんやをかねています",
+          "before": "kǒ nō mī sè wā ká fè tō hōn yā ō kǎ nē tē ī mā sù",
+          "after": "kǒ nō mī sè wā ká fu è tō hōn yā ō kǎ nē tē ī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=fu",
+            "token_7_romaji_mismatch expected=e actual=fe"
+          ]
+        },
+        {
+          "kanji": "懸",
+          "reading": "かかる",
+          "kana": "しょうはいはさいごのいちだにかかっています。",
+          "before": "shō hǎi wā sǎi gō nō ī chī dā nī kǎ kā ttē ī mā sù",
+          "after": "shō hǎ i wā sǎ i gō nō ī chī dā nī kǎ kā ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ha/i actual=hai",
+            "combined_token_4_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "公",
+          "reading": "おおやけ",
+          "kana": "そのじょうほうはおおやけになりました。",
+          "before": "sǒ nō jō hō wa ō yā kē nī nǎ rī mā shī tà",
+          "after": "sǒ nō jō hō wa o ō yā kē nī nǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "誤",
+          "reading": "ご",
+          "kana": "ともだちのはなしをごかいしました",
+          "before": "tǒ mō dā chī nō hǎ nā shī ǒ gǒ kāi shī mā shī tà",
+          "after": "tǒ mō dā chī nō hǎ nā shī ǒ gǒ kā i shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_11_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "鋼",
+          "reading": "こう",
+          "kana": "こうじょうでこうざいをはこびます。",
+          "before": "kōu jōu dē kōu zāi ō hǎ kō bī mā sù",
+          "after": "kōu jōu dē kōu zā i ō hǎ kō bī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "国",
+          "reading": "こく",
+          "kana": "がいこくではたらきます",
+          "before": "gǎi kō kū dē hǎ tā rā kī mā sū",
+          "after": "gǎ i kō kū dē hǎ tā rā kī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "穀",
+          "reading": "こく",
+          "kana": "こくもつをまいにちたべます",
+          "before": "kǒ kū mō tsǔ o māi nī chī tǎ bē mā sù",
+          "after": "kǒ kū mō tsǔ o mā i nī chī tǎ bē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "懇",
+          "reading": "コン",
+          "kana": "こんしんかいでどうりょうとはなしました。",
+          "before": "kōn shīn kǎi dē dō ryō tō hǎ nā shī mā shī tà",
+          "after": "kōn shīn kǎ i dē dō ryō tō hǎ nā shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_3_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "砂",
+          "reading": "しゃ",
+          "kana": "おおあめでどしゃがみちにながれました",
+          "before": "ō ǎ mē dē dǒ shā gà mǐ chī nī nā gā rē mā shī tà",
+          "after": "o ō ǎ mē dē dǒ shā gà mǐ chī nī nā gā rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "才",
+          "reading": "さい",
+          "kana": "かれはすうがくのてんさいです",
+          "before": "kǎ ré wa sū gā kū nō tēn sāi dē sù",
+          "after": "kǎ ré wa sū gā kū nō tēn sā i dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_9_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "砕",
+          "reading": "さい",
+          "kana": "いわをふんさいします",
+          "before": "ǐ wā o fǔn sāi shī mā sū",
+          "after": "ǐ wā o fǔn sā i shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "債",
+          "reading": "さい",
+          "kana": "ふさいがふえました。",
+          "before": "fǔ sāi gā fǔ ē mā shī tà",
+          "after": "fǔ sā i gā fǔ ē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "裁",
+          "reading": "さい",
+          "kana": "さいばんはあしたです",
+          "before": "sǎi bān wa ǎ shī tā dē sù",
+          "after": "sǎ i bān wa ǎ shī tā dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "裁",
+          "reading": "さばく",
+          "kana": "さいばんかんがじけんをさばきます",
+          "before": "sǎi bān kān gā jǐ kēn o sǎ bā kì mā sù",
+          "after": "sǎ i bān kān gā jǐ kēn o sǎ bā kì mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "塞",
+          "reading": "さい",
+          "kana": "ふるいようさいをけんがくしました。",
+          "before": "fǔ rú ī yō sāi o kēn gǎ kū shī mā shī tà",
+          "after": "fǔ rú ī yō sā i o kēn gǎ kū shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "塞",
+          "reading": "ふさぐ",
+          "kana": "おおきなはこがみちをふさぎます。",
+          "before": "ō kī na hǎ kō ga mǐ chí o fǔ sá gī mā sū",
+          "after": "o ō kī na hǎ kō ga mǐ chí o fǔ sá gī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "剤",
+          "reading": "ざい",
+          "kana": "しょっきをせんざいであらいます。",
+          "before": "shō kkī o sēn zāi dē ǎ rā ī mā sū",
+          "after": "shō kkī o sēn zā i dē ǎ rā ī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "財",
+          "reading": "ざい",
+          "kana": "このかいしゃはざいさんをまもります。",
+          "before": "kǒ nō kā ī shà wa zāi sàn o mǎ mō rī mā sù",
+          "after": "kǒ nō kā ī shà wa zā i sàn o mǎ mō rī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "殺",
+          "reading": "せつ",
+          "kana": "せっしょうはよくないといわれます。",
+          "before": "sèsshō wa yǒ kū nā ì tō ī wā rē mà sū",
+          "after": "sè sshō wa yǒ kū nā ì tō ī wā rē mà sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=se/ssho actual=sessho"
+          ]
+        },
+        {
+          "kanji": "惨",
+          "reading": "ざん",
+          "kana": "しあいでざんぱいしました。",
+          "before": "shǐ ā ī dē zǎn pāi shǐ mā shī tà",
+          "after": "shǐ ā ī dē zǎn pā i shǐ mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=pa/i actual=pai"
+          ]
+        },
+        {
+          "kanji": "酸",
+          "reading": "す",
+          "kana": "このうめぼしはすっぱいです",
+          "before": "kǒ nō ū mē bō shī wǎ sǔp pā ī dē sù",
+          "after": "kǒ nō ū mē bō shī wǎ sǔ ppā ī dē sù",
+          "changed": true,
+          "issues": [
+            "token_8_romaji_mismatch expected=su actual=sup",
+            "token_9_romaji_mismatch expected=ppa actual=pa"
+          ]
+        },
+        {
+          "kanji": "伺",
+          "reading": "うかがう",
+          "kana": "あしたせんせいのおたくにうかがいます",
+          "before": "ǎ shī tā sěn sē ī nǒ tá kū nī ǔ kā gā í mā sù",
+          "after": "ǎ shī tā sěn sē ī nǒ o tá kū nī ǔ kā gā í mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "私",
+          "reading": "わたし",
+          "kana": "わたしはまいあさこーひーをのみます",
+          "before": "wǎ tā shī wa māi ǎ sā kō hī o nǒ mī mā sù",
+          "after": "wǎ tā shī wa mā i ǎ sā kō hī o nǒ mī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "私",
+          "reading": "し",
+          "kana": "しせいかつをたいせつにします",
+          "before": "shǐ sēi kā tsǔ o tāi sē tsǔ nī shī mā sù",
+          "after": "shǐ sēi kā tsǔ o tā i sē tsǔ nī shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "姉",
+          "reading": "ねえ",
+          "kana": "おねえさんにききます。",
+          "before": "ǒ nē sān nī kī kī mā sù",
+          "after": "ǒ nē e sān nī kī kī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=e"
+          ]
+        },
+        {
+          "kanji": "詞",
+          "reading": "し",
+          "kana": "めいしとどうしをおぼえます",
+          "before": "mē ī shī tō dō shi ǒ bō ē mā sù",
+          "after": "mē ī shī tō dō shi o ǒ bō ē mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "誌",
+          "reading": "し",
+          "kana": "まいつきざっしをよみます",
+          "before": "mā ī tsū kī zǎsshī o yǒ mī mā sù",
+          "after": "mā ī tsū kī zǎ sshī o yǒ mī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=za/sshi actual=zasshi"
+          ]
+        },
+        {
+          "kanji": "賜",
+          "reading": "し",
+          "kana": "ゆうしょうしゃにしはいがおくられました",
+          "before": "yū shō shā nī shǐ hāi gā ō kū rā rē mā shī tà",
+          "after": "yū shō shā nī shǐ hā i gā ō kū rā rē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ha/i actual=hai"
+          ]
+        },
+        {
+          "kanji": "諮",
+          "reading": "し",
+          "kana": "しちょうはいいんかいにしもんした。",
+          "before": "shǐ chō wa ī īn kāi nī shǐ mōn shī tà",
+          "after": "shǐ chō wa ī īn kā i nī shǐ mōn shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "諮",
+          "reading": "はかる",
+          "kana": "しゃちょうはかいぎにけいかくをはかりました。",
+          "before": "shǎ chō wa kāi gī nī kēi kā kū o hǎ kā rī mā shī tà",
+          "after": "shǎ chō wa kā i gī nī kēi kā kū o hǎ kā rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "邪",
+          "reading": "じゃ",
+          "kana": "いりぐちでおおきなにもつがじゃまです。",
+          "before": "ǐ rī gū chī dē ō kī nā nǐ mō tsū gǎ jǎ mā dē sù",
+          "after": "ǐ rī gū chī dē o ō kī nā nǐ mō tsū gǎ jǎ mā dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "種",
+          "reading": "しゅ",
+          "kana": "このしゅのもんだいはむずかしいです。",
+          "before": "kǒ nō shū nō mōn dāi wa mǔ zū kā shī dē sū",
+          "after": "kǒ nō shū nō mōn dā i wa mǔ zū kā shī i dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=da/i actual=dai",
+            "missing_token_12_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "儒",
+          "reading": "じゅ",
+          "kana": "かれはだいがくでじゅがくをまなびます。",
+          "before": "kǎ rē wā dāi gā kū dē jǔ gā kū o mǎ nā bī mā sū",
+          "after": "kǎ rē wā dā i gā kū dē jǔ gā kū o mǎ nā bī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "縦",
+          "reading": "じゅう",
+          "kana": "たいふうがしまをじゅうだんしました。",
+          "before": "tǎi fū gā shī mā o jū dān shī mā shī tà",
+          "after": "tǎ i fū gā shī mā o jū dān shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "叔",
+          "reading": "おじ",
+          "kana": "おじはおおさかにすんでいます",
+          "before": "ǒ jī wā ō sā kā nī sǔn dē ī mā sù",
+          "after": "ǒ jī wā o ō sā kā nī sǔn dē ī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "縮",
+          "reading": "しゅく",
+          "kana": "かいぎをいちじかんにたんしゅくします。",
+          "before": "kǎi gī o ǐ chī jī kān nī tān shū kù shī mā sù",
+          "after": "kǎ i gī o ǐ chī jī kān nī tān shū kù shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "緒",
+          "reading": "しょ",
+          "kana": "ともだちといっしょにかえります",
+          "before": "tǒ mō dā chī tō ǐsshō nī kǎ ē rī mā sù",
+          "after": "tǒ mō dā chī tō ǐ sshō nī kǎ ē rī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=i/ssho actual=issho"
+          ]
+        },
+        {
+          "kanji": "諸",
+          "reading": "しょ",
+          "kana": "しょがいこくのぶんかをまなびます",
+          "before": "shǒ gāi kō kù nō bǔn kā ǒ mǎ nā bī mā sū",
+          "after": "shǒ gā i kō kù nō bǔn kā ǒ mǎ nā bī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "床",
+          "reading": "しょう",
+          "kana": "まいあさろくじにきしょうします",
+          "before": "māi ā sā rò kū jī nī kǐ shō shī mā sù",
+          "after": "mā i ā sā rò kū jī nī kǐ shō shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "尚",
+          "reading": "なお",
+          "kana": "なお、かいぎはさんじからです。",
+          "before": "ná ò, kǎi gī wa sān jī kǎ rā dē sū",
+          "after": "ná ò kǎ i gī wa sān jī kǎ rā dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_3_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "祥",
+          "reading": "しょう",
+          "kana": "このまちはまつりのはっしょうちです",
+          "before": "kǒ nō mā chī wā mǎ tsū rī nō hǎs shō ō chī dē sù",
+          "after": "kǒ nō mā chī wā mǎ tsū rī nō hǎ sshō ō chī dē sù",
+          "changed": true,
+          "issues": [
+            "token_10_romaji_mismatch expected=ha actual=has",
+            "token_11_romaji_mismatch expected=ssho actual=sho"
+          ]
+        },
+        {
+          "kanji": "償",
+          "reading": "しょう",
+          "kana": "かいしゃがそんがいをほしょうします。",
+          "before": "kǎi shā gā sōn gài o hǒ shō shī mā sū",
+          "after": "kǎ i shā gā sōn gà i o hǒ shō shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai",
+            "combined_token_5_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "詳",
+          "reading": "しょう",
+          "kana": "けいさつがしょうさいをはっぴょうしました。",
+          "before": "kēi sā tsū gā shō sǎi o hāppyō shī mā shī tà",
+          "after": "kēi sā tsū gā shō sǎ i o hā ppyō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=sa/i actual=sai",
+            "combined_token_8_split expected=ha/ppyo actual=happyo"
+          ]
+        },
+        {
+          "kanji": "詳",
+          "reading": "くわしい",
+          "kana": "くわしいせつめいをおねがいします。",
+          "before": "kǔ wā shī sě tsū mēi o ǒ nē gāi shī mā sù",
+          "after": "kǔ wā shī i sě tsū mēi o ǒ nē gā i shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=i",
+            "combined_token_10_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "冗",
+          "reading": "じょう",
+          "kana": "かいぎでじょうだんをききました",
+          "before": "kǎi gī dē jō dān ō kǐ kī mā shī tà",
+          "after": "kǎ i gī dē jō dān ō kǐ kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "針",
+          "reading": "しん",
+          "kana": "あたらしいほうしんをきめます。",
+          "before": "ǎ tā rā shīi hǒu shīn ō kǐ mē mā sù",
+          "after": "ǎ tā rā shī i hǒu shīn ō kǐ mē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=shi/i actual=shii"
+          ]
+        },
+        {
+          "kanji": "震",
+          "reading": "しん",
+          "kana": "きのう、おおきなじしんがありました。",
+          "before": "kǐ nō ō kī nā jǐ shīn gǎ á rī mā shī tà",
+          "after": "kǐ nō o ō kī nā jǐ shīn gǎ á rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "新",
+          "reading": "にい",
+          "kana": "にいがたへいきます",
+          "before": "nī gǎ tā ě ì kī mā sù",
+          "after": "nī i gǎ tā ě ì kī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_2_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "素",
+          "reading": "そ",
+          "kana": "このそざいはかるくてじょうぶです。",
+          "before": "kǒ nō sǒ zāi wā kǎ rū kū tē jǒ bū dē sù",
+          "after": "kǒ nō sǒ zā i wā kǎ rū kū tē jǒ bū dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=za/i actual=zai"
+          ]
+        },
+        {
+          "kanji": "遂",
+          "reading": "すい",
+          "kana": "けいかくをすいこうします",
+          "before": "kēi kā kū o sǔi kō shī mā sū",
+          "after": "kēi kā kū o sǔ i kō shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=su/i actual=sui"
+          ]
+        },
+        {
+          "kanji": "髄",
+          "reading": "ずい",
+          "kana": "こつずいはほねのなかにあります。",
+          "before": "kǒ tsū zūi wa hǒ nē nō nǎ kā nī à rī mā sū",
+          "after": "kǒ tsū zū i wa hǒ nē nō nǎ kā nī à rī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_3_split expected=zu/i actual=zui"
+          ]
+        },
+        {
+          "kanji": "弥",
+          "reading": "や",
+          "kana": "やよいじだいをべんきょうしました",
+          "before": "yǎ yō ī jī dāi o bēn kyō shī mā shī tà",
+          "after": "yǎ yō ī jī dā i o bēn kyō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "省",
+          "reading": "かえりみる",
+          "kana": "しっぱいをかえりみます。",
+          "before": "shī ppài o kǎ ē rī mī mà sū",
+          "after": "shī ppà i o kǎ ē rī mī mà sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ppa/i actual=ppai"
+          ]
+        },
+        {
+          "kanji": "盛",
+          "reading": "せい",
+          "kana": "せいだいなはくしゅがおきました",
+          "before": "sēi dāi nā hǎ kū shū gà ǒ kī mā shī tà",
+          "after": "sēi dā i nā hǎ kū shū gà ǒ kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "盛",
+          "reading": "もる",
+          "kana": "ごはんをおおきなさらにもります",
+          "before": "gǒ hān o ō kī nā sǎ rā nī mǒ rī mā sù",
+          "after": "gǒ hān o o ō kī nā sǎ rā nī mǒ rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_3_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "聖",
+          "reading": "しょう",
+          "kana": "しょうとくたいしはれきしのじゅぎょうにでます。",
+          "before": "shō tō kǔ tǎi shī wǎ rē kī shī nō jū gyō nī dē mā sù",
+          "after": "shō tō kǔ tǎ i shī wǎ rē kī shī nō jū gyō nī dē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "誓",
+          "reading": "ちかう",
+          "kana": "ふたりはさいかいをちかいました。",
+          "before": "fǔ tā rī wa sǎi kāi o chǐ kā ī mā shī tà",
+          "after": "fǔ tā rī wa sǎ i kā i o chǐ kā ī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai",
+            "combined_token_6_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "請",
+          "reading": "うける",
+          "kana": "かれはおおきなしごとをうけました。",
+          "before": "kā rè wa ō kì nā shǐ gō tō o ǔ kē mā shī tà",
+          "after": "kā rè wa o ō kì nā shǐ gō tō o ǔ kē mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "隻",
+          "reading": "せき",
+          "kana": "みなとにふねがいっせきいます。",
+          "before": "mǐ ná tō nī fǔ nē gā ìssē kǐ ī mā sū",
+          "after": "mǐ ná tō nī fǔ nē gā ì ssē kǐ ī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=i/sse actual=isse"
+          ]
+        },
+        {
+          "kanji": "践",
+          "reading": "せん",
+          "kana": "じっせんがだいじです。",
+          "before": "jǐs sén gā dǎi jī dē sū",
+          "after": "jǐ ssén gā dǎ i jī dē sū",
+          "changed": true,
+          "issues": [
+            "token_1_romaji_mismatch expected=ji actual=jis",
+            "token_2_romaji_mismatch expected=ssen actual=sen",
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "銭",
+          "reading": "せん",
+          "kana": "じんじゃでさいせんをいれます。",
+          "before": "jǐn jā dē sǎi sēn ō ǐ rē mā sù",
+          "after": "jǐn jā dē sǎ i sēn ō ǐ rē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "銭",
+          "reading": "ぜに",
+          "kana": "こぜにをさいふにいれます。",
+          "before": "kǒ zē nī ō sǎi fū nī ǐ rē mā sù",
+          "after": "kǒ zē nī ō sǎ i fū nī ǐ rē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "想",
+          "reading": "そう",
+          "kana": "しょうらいをそうぞうします",
+          "before": "shō rài o sō zō shī mā sū",
+          "after": "shō rà i o sō zō shī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "造",
+          "reading": "つく",
+          "kana": "このくらではさけをつくります",
+          "before": "kǒ nō kǔ rā dē sǎ kē o tsǔ kú rǐ mā sù",
+          "after": "kǒ nō kǔ rā dē wa sǎ kē o tsǔ kú rǐ mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=wa"
+          ]
+        },
+        {
+          "kanji": "賊",
+          "reading": "ぞく",
+          "kana": "ものがたりにかいぞくがでます",
+          "before": "mǒ nō gā tā rī nī kāi zǒ kū gā dě mā sù",
+          "after": "mǒ nō gā tā rī nī kā i zǒ kū gā dě mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "対",
+          "reading": "たい",
+          "kana": "せんせいにたいしてしつもんします。",
+          "before": "sěn sēi nī tái shī tē shì tsū mōn shī mā sù",
+          "after": "sěn sēi nī tá i shī tē shì tsū mōn shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "対",
+          "reading": "つい",
+          "kana": "このくつはついになっています。",
+          "before": "kǒ nō kū tsù wà tsúi nī nā ttē ī mā sù",
+          "after": "kǒ nō kū tsù wà tsú i nī nā ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=tsu/i actual=tsui"
+          ]
+        },
+        {
+          "kanji": "退",
+          "reading": "たい",
+          "kana": "そふはきょねんたいしょくしました",
+          "before": "sǒ fū wǎ kyǒ nēn tǎi shō kù shī mā shī tà",
+          "after": "sǒ fū wǎ kyǒ nēn tǎ i shō kù shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "退",
+          "reading": "しりぞける",
+          "kana": "かれははんたいいけんをしりぞけました",
+          "before": "kǎ rē wǎ hǎn tāi ī kēn ǒ shǐ rī zō kē mā shī tà",
+          "after": "kǎ rē wǎ hǎn tā i ī kēn ǒ shǐ rī zō kē mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "逮",
+          "reading": "たい",
+          "kana": "けいさつははんにんをたいほしました",
+          "before": "kěi sā tsū wǎ hān nīn o tǎi hō shī mā shī tà",
+          "after": "kěi sā tsū wǎ hān nīn o tǎ i hō shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "滞",
+          "reading": "とどこおる",
+          "kana": "ゆきでにもつのはいそうがとどこおりました",
+          "before": "yǔ kī dē nǐ mō tsū nō hǎ ī sō gā tǒ dō kō rī mā shī tà",
+          "after": "yǔ kī dē nǐ mō tsū nō hǎ ī sō gā tǒ dō kō o rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_15_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "戴",
+          "reading": "タイ",
+          "kana": "たいかんしきはあしたです。",
+          "before": "tǎi kān shī kì wā ǎ shī tā dē sù",
+          "after": "tǎ i kān shī kì wā ǎ shī tā dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "戴",
+          "reading": "ダイ",
+          "kana": "おちゃをいっぱいちょうだい。",
+          "before": "o chǎ o ì ppǎi chō dǎi",
+          "after": "o chǎ o ì ppǎ i chō dǎ i",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ppa/i actual=ppai",
+            "combined_token_7_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "台",
+          "reading": "だい",
+          "kana": "くるまをいちだいかいました",
+          "before": "kǔ rú mā o ì chī dāi kǎ ī mā shī tà",
+          "after": "kǔ rú mā o ì chī dā i kǎ ī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "台",
+          "reading": "たい",
+          "kana": "たいふうがきます",
+          "before": "tái fū gǎ kī mā sū",
+          "after": "tá i fū gǎ kī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "知",
+          "reading": "ち",
+          "kana": "あたらしいちしきをまなびます",
+          "before": "ǎ tā rā shī chī shī kī o mǎ nā bī mā sù",
+          "after": "ǎ tā rā shī i chī shī kī o mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "遅",
+          "reading": "ち",
+          "kana": "あしたはちこくしないでください",
+          "before": "ǎ shī tā wǎ chī kó kù shī nǎ ī dē kū dā sài",
+          "after": "ǎ shī tā wǎ chī kó kù shī nǎ ī dē kū dā sà i",
+          "changed": true,
+          "issues": [
+            "combined_token_14_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "遅",
+          "reading": "おくらせる",
+          "kana": "かいぎをいちじかんおくらせます",
+          "before": "kāi gī o ì chī jī kān ǒ kū rā sē mā sū",
+          "after": "kā i gī o ì chī jī kān ǒ kū rā sē mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "窒",
+          "reading": "ちつ",
+          "kana": "ちっそくしないようにまどをあけます",
+          "before": "chǐ s sō kū shī nā ī yō nī mǎ dō o ǎ kē mā sū",
+          "after": "chǐ sso kū shī nā ī yō nī mǎ dō o ǎ kē mā sū",
+          "changed": true,
+          "issues": [
+            "token_2_romaji_mismatch expected=sso actual=s",
+            "extra_token_3_removed actual=so"
+          ]
+        },
+        {
+          "kanji": "中",
+          "reading": "なか",
+          "kana": "かばんのなかにかぎがあります",
+          "before": "kǎ bān nō nǎ kā nī kǎ gī ā rī mā sù",
+          "after": "kǎ bān nō nǎ kā nī kǎ gī ga ā rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_9_inserted expected=ga"
+          ]
+        },
+        {
+          "kanji": "懲",
+          "reading": "こりる",
+          "kana": "なんどもしっぱいしてすこしこりました。",
+          "before": "nān dō mō shì ppǎi shī tē sǔ kō shī kò rī mā shī tà",
+          "after": "nān dō mō shì ppǎ i shī tē sǔ kō shī kò rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ppa/i actual=ppai"
+          ]
+        },
+        {
+          "kanji": "賃",
+          "reading": "ちん",
+          "kana": "やちんをまいつきはらいます",
+          "before": "yǎ chīn ǒ mǎi tsū kī hǎ rā ī mā sū",
+          "after": "yǎ chīn ǒ mǎ i tsū kī hǎ rā ī mā sū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "通",
+          "reading": "とおる",
+          "kana": "このみちをとおります",
+          "before": "kǒ nō mǐ chí o tō rī mā sù",
+          "after": "kǒ nō mǐ chí o tō o rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "通",
+          "reading": "とおす",
+          "kana": "まどからかぜをとおします",
+          "before": "mǎ dō kā rā kǎ zè o tō shī mā sù",
+          "after": "mǎ dō kā rā kǎ zè o tō o shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_9_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "通",
+          "reading": "とおり",
+          "kana": "おおきなとおりをわたります",
+          "before": "ō kī nā tō rī o wǎ tā rī mā sù",
+          "after": "o ō kī nā tō o rī o wǎ tā rī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o",
+            "missing_token_5_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "痛",
+          "reading": "つう",
+          "kana": "ずつうでかいしゃをやすみました",
+          "before": "zǔ tsū dē kǎi shā o yǎ sū mī mā shī tà",
+          "after": "zǔ tsū dē kǎ i shā o yǎ sū mī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "廷",
+          "reading": "てい",
+          "kana": "さいばんはほうていでおこなわれます",
+          "before": "sāi bān wa hō tē dē ǒ kō nā wā rē mā sù",
+          "after": "sā i bān wa hō tē dē ǒ kō nā wā rē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "諦",
+          "reading": "てい",
+          "kana": "かれのたいどにはていかんがある。",
+          "before": "kā rè nō tāi dō nī wa tēi kān ga ǎ rū",
+          "after": "kā rè nō tā i dō nī wa tēi kān ga ǎ rū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "哲",
+          "reading": "てつ",
+          "kana": "あにはだいがくでてつがくをまなんでいます。",
+          "before": "ǎ ní wǎ dǎi gā kū dē tě tsū gā kū ǒ mǎ nān dē ī mā sù",
+          "after": "ǎ ní wǎ dǎ i gā kū dē tě tsū gā kū ǒ mǎ nān dē ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "撤",
+          "reading": "てつ",
+          "kana": "ぶたいはてったいしました。",
+          "before": "bǔ tā ī wā tě ttāi shī mà shī tà",
+          "after": "bǔ tā ī wā tě ttā i shī mà shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=tta/i actual=ttai"
+          ]
+        },
+        {
+          "kanji": "努",
+          "reading": "ど",
+          "kana": "まいにちどりょくします",
+          "before": "mǎi nī chī dò ryǒ kǔ shī mā sù",
+          "after": "mǎ i nī chī dò ryǒ kǔ shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "凍",
+          "reading": "こおる",
+          "kana": "いけのみずがこおりました",
+          "before": "ǐ kē nō mǐ zū gā kō rī mā shī tà",
+          "after": "ǐ kē nō mǐ zū gā kō o rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "糖",
+          "reading": "とう",
+          "kana": "さとうをすこしいれます",
+          "before": "sǎ tō ù ǒ sǔ kō shī ī ǐ rē mā sù",
+          "after": "sǎ tō ù ǒ sǔ kō shī ī rē mā sù",
+          "changed": true,
+          "issues": [
+            "extra_token_9_removed actual=i"
+          ]
+        },
+        {
+          "kanji": "徳",
+          "reading": "とく",
+          "kana": "どうとくをがっこうでまなびます",
+          "before": "dǒ ū tó kū o gǎk kō ū dē mǎ nā bī mā sù",
+          "after": "dǒ ū tó kū o gǎ kkō ū dē mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "token_6_romaji_mismatch expected=ga actual=gak",
+            "token_7_romaji_mismatch expected=kko actual=ko"
+          ]
+        },
+        {
+          "kanji": "難",
+          "reading": "むずかしい",
+          "kana": "このもんだいはむずかしいです。",
+          "before": "kǒ nō mōn dāi wǎ mǔ zū kā shī dē sù",
+          "after": "kǒ nō mōn dā i wǎ mǔ zū kā shī i dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai",
+            "missing_token_10_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "納",
+          "reading": "なっ",
+          "kana": "なっとうをたべます",
+          "before": "nǎt tō ū ǒ tǎ bē mā sù",
+          "after": "nǎ ttō ū ǒ tǎ bē mā sù",
+          "changed": true,
+          "issues": [
+            "token_1_romaji_mismatch expected=na actual=nat",
+            "token_2_romaji_mismatch expected=tto actual=to"
+          ]
+        },
+        {
+          "kanji": "脳",
+          "reading": "のう",
+          "kana": "すいみんはのうをやすませます。",
+          "before": "sǔi mīn wā nō o yǎ sū mā sē mā sù",
+          "after": "sǔ i mīn wā nō o yǎ sū mā sē mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=su/i actual=sui"
+          ]
+        },
+        {
+          "kanji": "婆",
+          "reading": "ばあ",
+          "kana": "おばあさんはにわにいます。",
+          "before": "ǒ bāa sān wā nǐ wā nī ī mā sù",
+          "after": "ǒ bā a sān wā nǐ wā nī ī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_2_split expected=ba/a actual=baa"
+          ]
+        },
+        {
+          "kanji": "拝",
+          "reading": "はい",
+          "kana": "おてがみをはいけんします",
+          "before": "ǒ tē gā mī o hāi kēn shī mā sù",
+          "after": "ǒ tē gā mī o hā i kēn shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ha/i actual=hai"
+          ]
+        },
+        {
+          "kanji": "肺",
+          "reading": "はい",
+          "kana": "いしゃがはいのおとをききます。",
+          "before": "ǐ shā gā hā ī nǒ tō o kǐ kī mā sù",
+          "after": "ǐ shā gā hā ī nǒ o tō o kǐ kī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_7_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "背",
+          "reading": "はい",
+          "kana": "しゃしんのはいけいをぼかします。",
+          "before": "shǎ shīn nō hāi kēi o bǒ kā shī mā sù",
+          "after": "shǎ shīn nō hā i kēi o bǒ kā shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ha/i actual=hai"
+          ]
+        },
+        {
+          "kanji": "背",
+          "reading": "そむく",
+          "kana": "ともだちのしんらいにそむいてはいけません。",
+          "before": "tǒ mō dā chī nō shīn rāi nī sǒ mū ī tē wā ī kē mā sèn",
+          "after": "tǒ mō dā chī nō shīn rā i nī sǒ mū ī tē wā ī kē mā sèn",
+          "changed": true,
+          "issues": [
+            "combined_token_7_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "媒",
+          "reading": "ばい",
+          "kana": "しんぶんはたいせつなばいたいです。",
+          "before": "shīn bǔn wā tāi sē tsū nā bǎi tāi dē sù",
+          "after": "shīn bǔn wā tā i sē tsū nā bǎ i tā i dē sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=ta/i actual=tai",
+            "combined_token_8_split expected=ba/i actual=bai",
+            "combined_token_9_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "販",
+          "reading": "はん",
+          "kana": "みせであたらしいしょうひんをはんばいします",
+          "before": "mǐ sē dē ǎ tā rā shī ī shō hīn o hǎn bāi shī mā sù",
+          "after": "mǐ sē dē ǎ tā rā shī ī shō hīn o hǎn bā i shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_13_split expected=ba/i actual=bai"
+          ]
+        },
+        {
+          "kanji": "繁",
+          "reading": "はん",
+          "kana": "このとおりははんかがいです。",
+          "before": "kǒ nō tō rí wǎ hǎn kā gā ì dē sù",
+          "after": "kǒ nō tō o rí wǎ hǎn kā gā ì dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "藩",
+          "reading": "はん",
+          "kana": "えどじだいにはおおくのはんがありました。",
+          "before": "ě dó jī dā ī nī wa ō kū nō hān gǎ ǎ rī mā shī tà",
+          "after": "ě dó jī dā ī nī wa o ō kū nō hān gǎ ǎ rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "飛",
+          "reading": "とばす",
+          "kana": "かみひこうきをとおくへとばします。",
+          "before": "kǎ mī hī kō kī o tō kū e tǒ bā shī mā sù",
+          "after": "kǎ mī hī kō kī o tō o kū e tǒ bā shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "罷",
+          "reading": "まかり",
+          "kana": "ふせいがまかりとおる",
+          "before": "fǔ sē gā mǎ kā rī tō rù",
+          "after": "fǔ sē gā mǎ kā rī tō o rù",
+          "changed": true,
+          "issues": [
+            "missing_token_8_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "賓",
+          "reading": "ひん",
+          "kana": "らいひんがかいじょうにつきました",
+          "before": "rāi hīn gā kāi jō nī tsǔ kī mā shī tà",
+          "after": "rā i hīn gā kā i jō nī tsǔ kī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ra/i actual=rai",
+            "combined_token_4_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "府",
+          "reading": "ふ",
+          "kana": "おおさかふにともだちがいます。",
+          "before": "ǒ sā kā fū nī tǒ mō dā chí gā ǐ mā sù",
+          "after": "o ǒ sā kā fū nī tǒ mō dā chí gā ǐ mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_1_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "負",
+          "reading": "ふ",
+          "kana": "このしごとはふたんがおおきいです。",
+          "before": "kǒ nō shǐ gō tō wa fǔ tán ga ō kī ì dē sū",
+          "after": "kǒ nō shǐ gō tō wa fǔ tán ga o ō kī ì dē sū",
+          "changed": true,
+          "issues": [
+            "missing_token_10_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "副",
+          "reading": "ふく",
+          "kana": "ふくしゃちょうがかいぎにでます",
+          "before": "fǔ kū shā chō gā kǎi gī nī dě mā sù",
+          "after": "fǔ kū shā chō gā kǎ i gī nī dě mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_6_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "覆",
+          "reading": "おお",
+          "kana": "ぬのではこをおおいます。",
+          "before": "nǔ nō dē hǎ kō o ō ī mā sū",
+          "after": "nǔ nō dē hǎ kō o o ō ī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "憤",
+          "reading": "ふん",
+          "kana": "しみんはふせいにふんがいしました。",
+          "before": "shǐ mīn wa fǔ sēi nī fǔn gāi shī mā shī tà",
+          "after": "shǐ mīn wa fǔ sēi nī fǔn gā i shī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ga/i actual=gai"
+          ]
+        },
+        {
+          "kanji": "紛",
+          "reading": "まぎらわしい",
+          "kana": "このひょうしきはまぎらわしいです",
+          "before": "kǒ nō hyǒ shī kī wa mǎ gī rā wā shī dē sù",
+          "after": "kǒ nō hyǒ shī kī wa mǎ gī rā wā shī i dē sù",
+          "changed": true,
+          "issues": [
+            "missing_token_12_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "平",
+          "reading": "たいら",
+          "kana": "つくえをたいらにおきます。",
+          "before": "tsǔ kū ē ō tái rā nī ǒ kī mā sù",
+          "after": "tsǔ kū ē ō tá i rā nī ǒ kī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "閉",
+          "reading": "とじる",
+          "kana": "ほんをとじてください。",
+          "before": "hón o tǒ jī tē kū dā sài",
+          "after": "hón o tǒ jī tē kū dā sà i",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "抱",
+          "reading": "いだく",
+          "kana": "かれがおおきなゆめをいだきます。",
+          "before": "kǎ rē gā ō kī nā yǔ mē o ǐ dā kī mā sū",
+          "after": "kǎ rē gā o ō kī nā yǔ mē o ǐ dā kī mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "砲",
+          "reading": "ほう",
+          "kana": "むかしのたいほうをみました",
+          "before": "mǔ kā shī nō tǎi hō o mī mā shī tà",
+          "after": "mǔ kā shī nō tǎ i hō o mī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ta/i actual=tai"
+          ]
+        },
+        {
+          "kanji": "訪",
+          "reading": "ほう",
+          "kana": "らいしゅうせんせいをほうもんします",
+          "before": "rǎi shū sēn sēi o hō mōn shī mā sù",
+          "after": "rǎ i shū sēn sēi o hō mōn shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "報",
+          "reading": "ほう",
+          "kana": "せんせいにけっかをほうこくします。",
+          "before": "sēn sē nī kēk kā o hō kō kū shī mā sù",
+          "after": "sēn sē nī kē kkā o hō kō kū shī mā sù",
+          "changed": true,
+          "issues": [
+            "token_4_romaji_mismatch expected=ke actual=kek",
+            "token_5_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "冒",
+          "reading": "おかす",
+          "kana": "かれはきけんをおかしてやまにはいりました",
+          "before": "kǎ ré wā kī kēn ō kǎ shī tē yā mǎ nī hā ì rī mā shī tà",
+          "after": "kǎ ré wā kī kēn o ō kǎ shī tē yā mǎ nī hā ì rī mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_6_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "防",
+          "reading": "ぼう",
+          "kana": "いえでぼうさいのじゅんびをします",
+          "before": "ǐ ē dē bǒu sāi nō jǔn bī o shī mā sù",
+          "after": "ǐ ē dē bǒu sā i nō jǔn bī o shī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=sa/i actual=sai"
+          ]
+        },
+        {
+          "kanji": "房",
+          "reading": "ボウ",
+          "kana": "なつはれいぼうをつかいます。",
+          "before": "nà tsū wā rēi bō o tsǔ kāi mā sù",
+          "after": "nà tsū wā rēi bō o tsǔ kā i mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_8_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "貿",
+          "reading": "ぼう",
+          "kana": "にほんはおおくのくにとぼうえきします",
+          "before": "nǐ hōn wa ō kú nō kǔ nī tō bō é kī shī mā sù",
+          "after": "nǐ hōn wa o ō kú nō kǔ nī tō bō é kī shī mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "朴",
+          "reading": "ほお",
+          "kana": "ほおばみそをたべました。",
+          "before": "hō bā mǐ sō o tǎ bē mā shī tà",
+          "after": "hō o bā mǐ sō o tǎ bē mā shī tà",
+          "changed": true,
+          "issues": [
+            "missing_token_2_inserted expected=o"
+          ]
+        },
+        {
+          "kanji": "枚",
+          "reading": "まい",
+          "kana": "かみをさんまいください。",
+          "before": "kā mì o sān māi kǔ dā sā ì",
+          "after": "kā mì o sān mā i kǔ dā sā ì",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ma/i actual=mai"
+          ]
+        },
+        {
+          "kanji": "盟",
+          "reading": "めい",
+          "kana": "ふたつのかいしゃがどうめいをむすびました",
+          "before": "fǔ tā tsǔ nō kǎi shā gà dō mēi o mǔ sū bī mā shī tà",
+          "after": "fǔ tā tsǔ nō kǎ i shā gà dō mēi o mǔ sū bī mā shī tà",
+          "changed": true,
+          "issues": [
+            "combined_token_5_split expected=ka/i actual=kai"
+          ]
+        },
+        {
+          "kanji": "免",
+          "reading": "めん",
+          "kana": "らいねん、めんきょをとります",
+          "before": "rǎi nēn mēn kyō ō tǒ rī mā sù",
+          "after": "rǎ i nēn mēn kyō ō tǒ rī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_1_split expected=ra/i actual=rai"
+          ]
+        },
+        {
+          "kanji": "冶",
+          "reading": "や",
+          "kana": "かれはだいがくでやきんをまなびます",
+          "before": "kǎ ré wā dāi gā kù dē yǎ kīn ō mǎ nā bī mā sù",
+          "after": "kǎ ré wā dā i gā kù dē yǎ kīn ō mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "役",
+          "reading": "やく",
+          "kana": "かれはだいじなやくです",
+          "before": "kā rè wa dǎi jī nā yǎ kù dē sū",
+          "after": "kā rè wa dǎ i jī nā yǎ kù dē sū",
+          "changed": true,
+          "issues": [
+            "combined_token_4_split expected=da/i actual=dai"
+          ]
+        },
+        {
+          "kanji": "用",
+          "reading": "もち",
+          "kana": "あたらしいどうぐをもちいます",
+          "before": "ǎ tā rā shī dō gū o mǒ chī mā sù",
+          "after": "ǎ tā rā shī i dō gū o mǒ chī i mā sù",
+          "changed": true,
+          "issues": [
+            "missing_token_5_inserted expected=i",
+            "missing_token_10_inserted expected=i"
+          ]
+        },
+        {
+          "kanji": "妖",
+          "reading": "あやしい",
+          "kana": "あやしいひかりがもりにみえます。",
+          "before": "ǎ yá shī hǐ kā rī gā mǒ rī nī mǐ ē mā sū",
+          "after": "ǎ yá shī i hǐ kā rī gā mǒ rī nī mǐ ē mā sū",
+          "changed": true,
+          "issues": [
+            "missing_token_4_inserted expected=i"
+          ]
+        }
+      ],
+      "change_count": 177,
+      "issue_count": 177,
+      "unresolved_count": 0
+    }
+  ],
+  "total_changes": 177,
+  "total_issues": 177,
+  "total_unresolved": 0
+}

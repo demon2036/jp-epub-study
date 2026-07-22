@@ -1,0 +1,93 @@
+你要为一本《JLPT N5 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n5_066_ta_koto_ga_aru",
+  "idx": 66,
+  "grammar_en": "ta koto ga aru",
+  "grammar_jp": "たことがある",
+  "meaning": "to have done something before"
+}
+
+所属家族：
+{
+  "family_id": "n5_f05_existence_state",
+  "family_name": "有无・在状态系",
+  "family_lead": "先看东西在不在，再看动作留下了什么状态",
+  "family_hook": "「あります/います」先分无生命和有生命，「ている」看进行或当前状态，「てある」看结果残留，「たことがある」看经验有没有发生过。它们都在回答“有没有、成了什么状态”。",
+  "progression_line": "从存在，到进行，到结果，再到经验",
+  "members": [
+    {
+      "entry_id": "n5_012_ga_arimasu",
+      "grammar_jp": "があります",
+      "grammar_en": "ga arimasu",
+      "meaning": "there is; is (non-living things)"
+    },
+    {
+      "entry_id": "n5_014_ga_imasu",
+      "grammar_jp": "がいます",
+      "grammar_en": "ga imasu",
+      "meaning": "there is; to be; is (living things)"
+    },
+    {
+      "entry_id": "n5_070_te_iru",
+      "grammar_jp": "ている",
+      "grammar_en": "te iru",
+      "meaning": "ongoing action or current state"
+    },
+    {
+      "entry_id": "n5_069_te_aru",
+      "grammar_jp": "てある",
+      "grammar_en": "te aru",
+      "meaning": "is/has been done (resulting state)"
+    },
+    {
+      "entry_id": "n5_066_ta_koto_ga_aru",
+      "grammar_jp": "たことがある",
+      "grammar_en": "ta koto ga aru",
+      "meaning": "to have done something before"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

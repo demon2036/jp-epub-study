@@ -1,0 +1,157 @@
+{
+  "files": [
+    {
+      "path": "data/kanji_batch_trial/batch20_gpt55_aether_latest_generated.json",
+      "changes": [
+        {
+          "kanji": "三",
+          "reading": "み",
+          "kana": "みっかやすみます。",
+          "before": "mǐk kā yǎ sū mī mā sù",
+          "after": "mǐ kkā yǎ sū mī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=mi actual=mik",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "四",
+          "reading": "よ",
+          "kana": "よっかにあいます。",
+          "before": "yǒk kā nī ǎ ī mā sù",
+          "after": "yǒ kkā nī ǎ ī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=yo actual=yok",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "雨",
+          "reading": "あめ",
+          "kana": "あめがふります。",
+          "before": "à mǎ gǎ fǔ rī mā sù",
+          "after": "à mě gǎ fǔ rī mā sù",
+          "issues": [
+            "token_2_romaji_mismatch expected=me actual=ma"
+          ]
+        }
+      ],
+      "change_count": 3
+    },
+    {
+      "path": "data/kanji_batch_trial/batch20_gpt55_aether_latest_db.json",
+      "changes": [
+        {
+          "kanji": "三",
+          "reading": "み",
+          "kana": "みっかやすみます。",
+          "before": "mǐk kā yǎ sū mī mā sù",
+          "after": "mǐ kkā yǎ sū mī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=mi actual=mik",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "四",
+          "reading": "よ",
+          "kana": "よっかにあいます。",
+          "before": "yǒk kā nī ǎ ī mā sù",
+          "after": "yǒ kkā nī ǎ ī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=yo actual=yok",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "雨",
+          "reading": "あめ",
+          "kana": "あめがふります。",
+          "before": "à mǎ gǎ fǔ rī mā sù",
+          "after": "à mě gǎ fǔ rī mā sù",
+          "issues": [
+            "token_2_romaji_mismatch expected=me actual=ma"
+          ]
+        }
+      ],
+      "change_count": 3
+    },
+    {
+      "path": "data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_generated.json",
+      "changes": [
+        {
+          "kanji": "三",
+          "reading": "み",
+          "kana": "みっかやすみます。",
+          "before": "mǐk kā yǎ sū mī mā sù",
+          "after": "mǐ kkā yǎ sū mī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=mi actual=mik",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "四",
+          "reading": "よ",
+          "kana": "よっかにあいます。",
+          "before": "yǒk kā nī ǎ ī mā sù",
+          "after": "yǒ kkā nī ǎ ī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=yo actual=yok",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "雨",
+          "reading": "あめ",
+          "kana": "あめがふります。",
+          "before": "à mǎ gǎ fǔ rī mā sù",
+          "after": "à mě gǎ fǔ rī mā sù",
+          "issues": [
+            "token_2_romaji_mismatch expected=me actual=ma"
+          ]
+        }
+      ],
+      "change_count": 3
+    },
+    {
+      "path": "data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_db.json",
+      "changes": [
+        {
+          "kanji": "三",
+          "reading": "み",
+          "kana": "みっかやすみます。",
+          "before": "mǐk kā yǎ sū mī mā sù",
+          "after": "mǐ kkā yǎ sū mī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=mi actual=mik",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "四",
+          "reading": "よ",
+          "kana": "よっかにあいます。",
+          "before": "yǒk kā nī ǎ ī mā sù",
+          "after": "yǒ kkā nī ǎ ī mā sù",
+          "issues": [
+            "token_1_romaji_mismatch expected=yo actual=yok",
+            "token_2_romaji_mismatch expected=kka actual=ka"
+          ]
+        },
+        {
+          "kanji": "雨",
+          "reading": "あめ",
+          "kana": "あめがふります。",
+          "before": "à mǎ gǎ fǔ rī mā sù",
+          "after": "à mě gǎ fǔ rī mā sù",
+          "issues": [
+            "token_2_romaji_mismatch expected=me actual=ma"
+          ]
+        }
+      ],
+      "change_count": 3
+    }
+  ],
+  "total_changes": 12
+}

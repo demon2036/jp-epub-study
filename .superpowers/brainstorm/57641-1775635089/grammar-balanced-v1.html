@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>方案 B · 平衡学习型</title>
+  <style>
+    :root { --bg: #f8fafc; --paper: #fff; --line: #dbe3ef; --text: #1f2937; --muted: #64748b; --blue: #234a84; --green: #0f766e; --orange: #b45309; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+    .wrap { max-width: 1060px; margin: 0 auto; padding: 34px 20px 70px; }
+    h1 { margin: 0 0 10px; color: #173f79; font-size: 34px; }
+    .lead { color: var(--muted); line-height: 1.9; font-size: 17px; }
+    .back { text-decoration: none; color: #244a84; font-weight: 700; }
+    .top { display:flex; justify-content: space-between; gap: 20px; align-items: flex-start; margin-bottom: 20px; }
+    .entry { background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 24px; margin-top: 22px; }
+    .head { display:flex; justify-content: space-between; gap: 16px; align-items: baseline; flex-wrap: wrap; }
+    .head .g { font-size: 30px; font-weight: 900; color: #173f79; }
+    .head .mean { color: var(--muted); font-size: 15px; }
+    .summary { margin-top: 14px; background: #f6faff; border: 1px solid #dbe8f9; border-radius: 16px; padding: 15px 17px; line-height: 1.8; }
+    .grid { display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+    .cell { border: 1px solid #e4ebf5; border-radius: 16px; padding: 16px; background: #fff; }
+    .cell h3 { margin: 0 0 10px; font-size: 17px; }
+    .cell h3.blue { color: var(--blue); }
+    .cell h3.green { color: var(--green); }
+    .cell h3.orange { color: var(--orange); }
+    .formula { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #eef5ff; border: 1px solid #d5e3f6; padding: 10px 12px; border-radius: 12px; color: #1d3d73; }
+    .ex { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #d9e2ef; }
+    .jp { font-weight: 700; line-height: 1.7; }
+    .zh { color: #475569; margin-top: 4px; line-height: 1.7; }
+    ul { margin: 0; padding-left: 18px; line-height: 1.8; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .top { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>方案 B · 平衡学习型</h1>
+        <div class="lead">这个版本想做成长期主版本：既保留一点“好记的感觉”，又把 <b>接续、语气、限制、辨析</b> 摆清楚。读起来像一本质量不错的语法讲义。</div>
+      </div>
+      <a class="back" href="/">← 回到对比页</a>
+    </div>
+
+    <section class="entry">
+      <div class="head">
+        <div class="g">ばいい</div>
+        <div class="mean">意思：……就好 / ……就行 / 应该……</div>
+      </div>
+      <div class="summary"><b>核心感觉：</b>给出一个可行办法，语气通常比命令轻。很多时候不是在“要求”，而是在“指一条路”。</div>
+      <div class="grid">
+        <div class="cell">
+          <h3 class="blue">1. 接续</h3>
+          <div class="formula">动词假定形（～ば） + いい</div>
+          <h3 class="green" style="margin-top:14px;">2. 语气说明</h3>
+          <ul>
+            <li>给建议：你可以这样做</li>
+            <li>给解决办法：碰到这种情况，这样处理就行</li>
+            <li>有时可带一点“其实没那么复杂”的口气</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h3 class="orange">3. 例句</h3>
+          <div class="ex"><div class="jp">時間がないなら、タクシーで行けばいい。</div><div class="zh">如果没时间，坐出租车去就行。</div></div>
+          <div class="ex"><div class="jp">分からなければ、もう一度聞けばいい。</div><div class="zh">如果没听懂，再问一遍就行。</div></div>
+        </div>
+        <div class="cell">
+          <h3 class="blue">4. 易混点</h3>
+          <ul>
+            <li>和 <code>たらいい</code> 相近，但 <code>ばいい</code> 更容易带出“操作方案”感</li>
+            <li>不一定总翻成“应该”，很多时候“……就行”更自然</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h3 class="green">5. 记忆钩子</h3>
+          <ul>
+            <li>关键词：<b>给路子</b></li>
+            <li>脑中画面：朋友问你怎么办，你说“那你这样做就行”</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="entry">
+      <div class="head">
+        <div class="g">ことになっている</div>
+        <div class="mean">意思：规定 / 约定 / 安排是……</div>
+      </div>
+      <div class="summary"><b>核心感觉：</b>重点不在“我决定”，而在“外部系统已经定成这样”。常用于组织规则、正式安排、长期约定。</div>
+      <div class="grid">
+        <div class="cell">
+          <h3 class="blue">1. 接续</h3>
+          <div class="formula">普通形 + ことになっている</div>
+          <h3 class="green" style="margin-top:14px;">2. 使用场景</h3>
+          <ul>
+            <li>学校 / 公司规章</li>
+            <li>会议、比赛、值班等安排</li>
+            <li>社会制度或惯例说明</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h3 class="orange">3. 例句</h3>
+          <div class="ex"><div class="jp">この寮では、十一時までに帰ることになっている。</div><div class="zh">这个宿舍规定十一点前要回来。</div></div>
+          <div class="ex"><div class="jp">来月から新しい担当者が来ることになっています。</div><div class="zh">已经安排好从下个月起会来新的负责人。</div></div>
+        </div>
+        <div class="cell">
+          <h3 class="blue">4. 易混点</h3>
+          <ul>
+            <li><code>ことにする</code>：我决定……</li>
+            <li><code>ことになっている</code>：被定成…… / 规定是……</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h3 class="green">5. 记忆钩子</h3>
+          <ul>
+            <li>关键词：<b>公告牌</b></li>
+            <li>脑中画面：看到制度板或日程表，上面写着“本来就这么安排”</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="entry">
+      <div class="head">
+        <div class="g">わけではない</div>
+        <div class="mean">意思：并不是…… / 倒也不是……</div>
+      </div>
+      <div class="summary"><b>核心感觉：</b>这是否定“过头的理解”或“绝对化判断”。说话人往往是在把话收回来一点，而不是彻底否定整个命题。</div>
+      <div class="grid">
+        <div class="cell">
+          <h3 class="blue">1. 接续</h3>
+          <div class="formula">普通形 + わけではない</div>
+          <h3 class="green" style="margin-top:14px;">2. 语气说明</h3>
+          <ul>
+            <li>部分否定</li>
+            <li>缓和说法，避免太绝对</li>
+            <li>经常出现在“不是……只是……”结构里</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h3 class="orange">3. 例句</h3>
+          <div class="ex"><div class="jp">肉が嫌いなわけではないが、今日は魚を食べたい。</div><div class="zh">倒也不是讨厌肉，只是今天想吃鱼。</div></div>
+          <div class="ex"><div class="jp">毎日勉強すれば、必ず受かるわけではない。</div><div class="zh">就算每天学习，也不表示一定会考上。</div></div>
+        </div>
+        <div class="cell">
+          <h3 class="blue">4. 易混点</h3>
+          <ul>
+            <li>不要和普通否定 <code>ではない</code> 混成一个意思</li>
+            <li>它常带“不是完全如此”的缓冲感</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h3 class="green">5. 记忆钩子</h3>
+          <ul>
+            <li>关键词：<b>收一收</b></li>
+            <li>脑中画面：对方话说太满，你把它往回拉半步</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

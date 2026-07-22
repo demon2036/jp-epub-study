@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-05-17T14:06:29.491662",
+  "model": "gpt-5.5",
+  "reasoning_effort": "xhigh",
+  "source": "joyo_2010_first_2000",
+  "batch_size": 10,
+  "concurrency": 10,
+  "db": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_db.json",
+  "epub": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000.epub",
+  "audit_report": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_pronunciation_audit.json",
+  "status_counts": {
+    "completed": 2000
+  },
+  "meta": {
+    "version": 2,
+    "total": 2000,
+    "completed": 2000,
+    "last_updated": "2026-05-17T14:06:14.530768",
+    "source": "joyo",
+    "source_limit": 2000
+  }
+}

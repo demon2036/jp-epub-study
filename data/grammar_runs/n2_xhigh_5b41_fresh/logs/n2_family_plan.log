@@ -1,0 +1,13 @@
+STDOUT:
+{"type":"thread.started","thread_id":"019d7279-849c-7190-bd0e-ab594104ad3b"}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 1/5 (unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99ed66296e1f56-LAX)"}
+{"type":"error","message":"Reconnecting... 2/5 (unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99ed754863cb96-LAX)"}
+{"type":"error","message":"Reconnecting... 3/5 (unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99ed88ca19fbf8-LAX)"}
+{"type":"error","message":"Reconnecting... 4/5 (unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99ed9a290bc621-LAX)"}
+{"type":"error","message":"Reconnecting... 5/5 (unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99edb98d7d27d8-LAX)"}
+{"type":"error","message":"unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99ededdd0ccbaf-LAX"}
+{"type":"turn.failed","error":{"message":"unexpected status 403 Forbidden: 您的套餐已经到期或者额度用完，请去https://codex-for.me/dashboard.html 上购买套餐或者额度（可叠加），原有的小红书渠道已被官方下架，请去dashboard购买。, url: https://api-vip.codex-for.me/v1/responses, cf-ray: 9e99ededdd0ccbaf-LAX"}}
+
+
+STDERR:

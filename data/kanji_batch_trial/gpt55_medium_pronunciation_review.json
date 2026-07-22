@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": "三-さん",
+      "kana": "さんにんでひるごはんをたべました。",
+      "pronunciation": "sān nīn dē hī rū gǒ hǎn o tǎ bē mā shī tà。",
+      "notes": "按音高辅助线规则修正：たべ=低起 tǎ bē，ごはん=gǒ hǎn，并按拍拆开。"
+    },
+    {
+      "id": "三-み",
+      "kana": "かのじょはみつごのひとりです。",
+      "pronunciation": "kàno jó wa mítsū gǒ no hítóri desù。",
+      "notes": "みつご保留tsu/go；ひとり保留hi/ri。"
+    },
+    {
+      "id": "五-ご",
+      "kana": "ごじにおきます。",
+      "pronunciation": "gǒ ji ni óki māsu。",
+      "notes": "ご写go，不写guo。"
+    },
+    {
+      "id": "五-いつ",
+      "kana": "りんごをいつつかいました。",
+      "pronunciation": "rín gǒ o ítsūtsu kái māshità。",
+      "notes": "りんご的ん合并；いつつ保留tsu。"
+    },
+    {
+      "id": "一-いち",
+      "kana": "いちねんにほんごをべんきょうしました。",
+      "pronunciation": "íchi nén nihón gǒ o bénkyō shimáshità。",
+      "notes": "にほんご保留hon/go；shi保留。"
+    },
+    {
+      "id": "一-いつ",
+      "kana": "これがゆいいつのこたえです。",
+      "pronunciation": "kòre ga yúi ítsū no kotáe desù。",
+      "notes": "いつ保留tsu。"
+    },
+    {
+      "id": "一-ひと",
+      "kana": "ひとつしつもんがあります。",
+      "pronunciation": "híto tsū shítsumón ga arimásu。",
+      "notes": "ひ写hi；し写shi；つ写tsu。"
+    },
+    {
+      "id": "四-し",
+      "kana": "しがつにさくらがさきます。",
+      "pronunciation": "shí gàtsu ni sakúra ga sakí masu。",
+      "notes": "し写shi；がつ保留tsu。"
+    },
+    {
+      "id": "四-よん",
+      "kana": "よんかいれんしゅうしました。",
+      "pronunciation": "yón kai rénshū shimáshità。",
+      "notes": "よん、れん的ん合并；shi保留。"
+    },
+    {
+      "id": "四-よ",
+      "kana": "よにんでえきへいきました。",
+      "pronunciation": "yó nín de éki e ikí māshità。",
+      "notes": "にん的ん合并。"
+    },
+    {
+      "id": "二-に",
+      "kana": "にじにひるごはんをたべます。",
+      "pronunciation": "nī jī nī hī rū gǒ hǎn o tǎ bē mā sū。",
+      "notes": "按音高辅助线规则修正：たべ=低起 tǎ bē，ごはん=gǒ hǎn，并按拍拆开。"
+    },
+    {
+      "id": "二-ふた",
+      "kana": "ふたつのみちがあります。",
+      "pronunciation": "fúta tsū no míchi ga arimásu。",
+      "notes": "ふ为fu；つ保留tsu。"
+    },
+    {
+      "id": "右-みぎ",
+      "kana": "つぎのかどをみぎにまがってください。",
+      "pronunciation": "tsúgi no kádo o mígi ni magátte kudasai。",
+      "notes": "つぎ保留tsu。"
+    },
+    {
+      "id": "右-う",
+      "kana": "このこうさてんでうせつします。",
+      "pronunciation": "kòno kōsáten de úsetsu shimásu。",
+      "notes": "うせつ保留u/tsu；し写shi。"
+    },
+    {
+      "id": "右-ゆう",
+      "kana": "さゆうをかくにんします。",
+      "pronunciation": "sáyū o kakú nín shimásu。",
+      "notes": "にん的ん合并；shi保留。"
+    },
+    {
+      "id": "雨-あめ",
+      "kana": "あめがふっています。",
+      "pronunciation": "áme ga fútte imasu。",
+      "notes": "ふ写fu。"
+    },
+    {
+      "id": "雨-あま",
+      "kana": "あまどをしめました。",
+      "pronunciation": "amàdo o shimé māshità。",
+      "notes": "しめ写shime，保留shi。"
+    },
+    {
+      "id": "雨-う",
+      "kana": "うぐをもっていきます。",
+      "pronunciation": "úgu o mótte ikí masu。",
+      "notes": "うぐ保留u/gu。"
+    },
+    {
+      "id": "円-えん",
+      "kana": "ひゃくえんのきってをかいました。",
+      "pronunciation": "hyáku én no kítte o kái māshità。",
+      "notes": "ひゃ写hya；えん的ん合并。"
+    },
+    {
+      "id": "円-まる",
+      "kana": "まるいまどがかわいいです。",
+      "pronunciation": "máru i mádo ga kawáii desù。",
+      "notes": "る写ru，不写lu。"
+    },
+    {
+      "id": "王-おう",
+      "kana": "おうはくにをおさめました。",
+      "pronunciation": "ō wa kúni o osáme māshità。",
+      "notes": "おう按长音ō处理；くにを保留kuni o。"
+    },
+    {
+      "id": "音-おん",
+      "kana": "おんがくをききます。",
+      "pronunciation": "ón gaku o kikí masu。",
+      "notes": "おん的ん合并。"
+    },
+    {
+      "id": "音-おと",
+      "kana": "そとでおおきなおとがしました。",
+      "pronunciation": "sóto de ōkína óto ga shimáshità。",
+      "notes": "おお按长音ō；し写shi。"
+    },
+    {
+      "id": "音-ね",
+      "kana": "ともだちのほんねをききました。",
+      "pronunciation": "tomódachi no hónne o kikí māshità。",
+      "notes": "ほんね的ん合并到hon。"
+    },
+    {
+      "id": "音-いん",
+      "kana": "ぼいんをながくのばします。",
+      "pronunciation": "bóin o nagáku nobáshi masu。",
+      "notes": "ぼいん的ん合并；のばします保留shi。"
+    }
+  ]
+}

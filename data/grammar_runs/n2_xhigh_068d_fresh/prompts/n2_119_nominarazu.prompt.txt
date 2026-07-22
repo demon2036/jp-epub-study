@@ -1,0 +1,112 @@
+你要为一本《JLPT N2 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n2_119_nominarazu",
+  "idx": 119,
+  "grammar_en": "nominarazu",
+  "grammar_jp": "のみならず",
+  "meaning": "not only; besides; as well as ~"
+}
+
+所属家族：
+{
+  "family_id": "f22",
+  "family_name": "添加・不止如此系",
+  "family_lead": "内容往上叠，语气也在变重",
+  "family_hook": "这家人都在做追加：有中性补充，也有“更糟的是”“更别说”的递进，层次差别很关键。",
+  "progression_line": "从并列添加到递进添加，再到压轴加码",
+  "members": [
+    {
+      "entry_id": "n2_132_oyobi",
+      "grammar_jp": "及び（および）",
+      "grammar_en": "oyobi",
+      "meaning": "and; as well as ~"
+    },
+    {
+      "entry_id": "n2_096_ni_kuwaete",
+      "grammar_jp": "に加えて（にくわえて）",
+      "grammar_en": "ni kuwaete",
+      "meaning": "in addition ~"
+    },
+    {
+      "entry_id": "n2_119_nominarazu",
+      "grammar_jp": "のみならず",
+      "grammar_en": "nominarazu",
+      "meaning": "not only; besides; as well as ~"
+    },
+    {
+      "entry_id": "n2_141_shikamo",
+      "grammar_jp": "しかも",
+      "grammar_en": "shikamo",
+      "meaning": "moreover; furthermore; and yet; what’s more ~"
+    },
+    {
+      "entry_id": "n2_142_sono_ue",
+      "grammar_jp": "その上（そのうえ）",
+      "grammar_en": "sono ue",
+      "meaning": "besides; in addition; furthermore ~"
+    },
+    {
+      "entry_id": "n2_084_nao",
+      "grammar_jp": "なお",
+      "grammar_en": "nao",
+      "meaning": "still; yet; furthermore; in addition ~"
+    },
+    {
+      "entry_id": "n2_129_omake_ni",
+      "grammar_jp": "おまけに",
+      "grammar_en": "omake ni",
+      "meaning": "to make matters worse; besides; what's more; in addition; on top of that"
+    },
+    {
+      "entry_id": "n2_184_wa_moto_yori",
+      "grammar_jp": "はもとより",
+      "grammar_en": "wa moto yori",
+      "meaning": "also; let alone; from the beginning"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `entry_id` 和 `other_entry_id` 都必须逐字照抄提供给你的真实 id，绝对不要把 `n2_...` 改成 `n4_...` 或别的 level 前缀。
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

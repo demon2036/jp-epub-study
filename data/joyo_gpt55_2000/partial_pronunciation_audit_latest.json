@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "path": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_db.json",
+      "issues": [
+        {
+          "kanji": "建",
+          "reading": "たつ",
+          "kana": "おかのうえにいえがたっています",
+          "before": "ǒ kā nō ú è nī í è gā tǎt tē ī mā sù",
+          "after": "ǒ kā nō ú è nī í è gā tǎ ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "token_10_romaji_mismatch expected=ta actual=tat",
+            "token_11_romaji_mismatch expected=tte actual=te"
+          ]
+        },
+        {
+          "kanji": "中",
+          "reading": "なか",
+          "kana": "かばんのなかにかぎがあります",
+          "before": "kǎ bān nō nǎ kā nī kǎ gī ā rī mā sù",
+          "after": "kǎ bān nō nǎ kā nī kǎ gī gā rī mā sù",
+          "changed": true,
+          "issues": [
+            "token_9_romaji_mismatch expected=ga actual=a"
+          ]
+        },
+        {
+          "kanji": "徳",
+          "reading": "とく",
+          "kana": "どうとくをがっこうでまなびます",
+          "before": "dǒ ū tó kū o gǎk kō ū dē mǎ nā bī mā sù",
+          "after": "dǒ ū tó kū o gǎ kkō ū dē mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "token_6_romaji_mismatch expected=ga actual=gak",
+            "token_7_romaji_mismatch expected=kko actual=ko"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "kanji": "建",
+          "reading": "たつ",
+          "kana": "おかのうえにいえがたっています",
+          "before": "ǒ kā nō ú è nī í è gā tǎt tē ī mā sù",
+          "after": "ǒ kā nō ú è nī í è gā tǎ ttē ī mā sù",
+          "changed": true,
+          "issues": [
+            "token_10_romaji_mismatch expected=ta actual=tat",
+            "token_11_romaji_mismatch expected=tte actual=te"
+          ]
+        },
+        {
+          "kanji": "中",
+          "reading": "なか",
+          "kana": "かばんのなかにかぎがあります",
+          "before": "kǎ bān nō nǎ kā nī kǎ gī ā rī mā sù",
+          "after": "kǎ bān nō nǎ kā nī kǎ gī gā rī mā sù",
+          "changed": true,
+          "issues": [
+            "token_9_romaji_mismatch expected=ga actual=a"
+          ]
+        },
+        {
+          "kanji": "徳",
+          "reading": "とく",
+          "kana": "どうとくをがっこうでまなびます",
+          "before": "dǒ ū tó kū o gǎk kō ū dē mǎ nā bī mā sù",
+          "after": "dǒ ū tó kū o gǎ kkō ū dē mǎ nā bī mā sù",
+          "changed": true,
+          "issues": [
+            "token_6_romaji_mismatch expected=ga actual=gak",
+            "token_7_romaji_mismatch expected=kko actual=ko"
+          ]
+        }
+      ],
+      "change_count": 3,
+      "issue_count": 3,
+      "unresolved_count": 0
+    }
+  ],
+  "total_changes": 3,
+  "total_issues": 3,
+  "total_unresolved": 0
+}

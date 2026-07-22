@@ -1,0 +1,18 @@
+{
+  "model": "gpt-5.5",
+  "reasoning_effort": "xhigh",
+  "base_url": "https://aether.fawney.fun/v1",
+  "kanji": "三五一四二右雨円王音下火花貝学気九休玉金",
+  "count": 20,
+  "elapsed_seconds": 1811.285017,
+  "generated_json": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_generated.json",
+  "generated_db": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_db.json",
+  "generated_epub": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348.epub",
+  "latest_json": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_latest_generated.json",
+  "latest_db": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_latest_db.json",
+  "latest_epub": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_latest.epub",
+  "raw_stdout": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_codex_stdout.jsonl",
+  "raw_stderr": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_codex_stderr.log",
+  "agent_message": "/home/john/jp/data/kanji_batch_trial/batch20_gpt55_aether_20260517_074348_agent_message.txt",
+  "html_preview": "/home/john/jp/data/kanji_batch_trial/html_preview_from_epub/batch20_gpt55_aether_latest_preview.html"
+}

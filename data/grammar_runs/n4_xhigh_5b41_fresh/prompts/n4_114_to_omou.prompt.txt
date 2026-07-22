@@ -1,0 +1,93 @@
+你要为一本《JLPT N4 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n4_114_to_omou",
+  "idx": 114,
+  "grammar_en": "to omou",
+  "grammar_jp": "と思う（とおもう）",
+  "meaning": "to think…; I think…; you think…"
+}
+
+所属家族：
+{
+  "family_id": "f10_quotation_outputs",
+  "family_name": "引用・说法出口系",
+  "family_lead": "让整句话有个“出口”",
+  "family_hook": "想到什么、叫作什么、算不算这么说、是否如此，这一组都是把前面整句接出去的高频接口。",
+  "progression_line": "从命名到引用，从判断到包进“是否”",
+  "members": [
+    {
+      "entry_id": "n4_110_to_iu",
+      "grammar_jp": "という",
+      "grammar_en": "to iu",
+      "meaning": "called; named; that ~"
+    },
+    {
+      "entry_id": "n4_118_tte",
+      "grammar_jp": "って",
+      "grammar_en": "tte",
+      "meaning": "named; called ~"
+    },
+    {
+      "entry_id": "n4_114_to_omou",
+      "grammar_jp": "と思う（とおもう）",
+      "grammar_en": "to omou",
+      "meaning": "to think…; I think…; you think…"
+    },
+    {
+      "entry_id": "n4_109_to_ittemo_ii",
+      "grammar_jp": "と言ってもいい（といってもいい）",
+      "grammar_en": "to ittemo ii",
+      "meaning": "you could say; one might say; I'd say ~"
+    },
+    {
+      "entry_id": "n4_026_ka_dou_ka",
+      "grammar_jp": "かどうか",
+      "grammar_en": "ka dou ka",
+      "meaning": "whether or not ~"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

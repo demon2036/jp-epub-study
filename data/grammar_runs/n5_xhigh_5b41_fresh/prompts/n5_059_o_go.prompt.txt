@@ -1,0 +1,99 @@
+你要为一本《JLPT N5 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n5_059_o_go",
+  "idx": 59,
+  "grammar_en": "o / go",
+  "grammar_jp": "お / ご",
+  "meaning": "polite marker; honorific prefix particle"
+}
+
+所属家族：
+{
+  "family_id": "n5_f10_request_invitation",
+  "family_name": "请求・邀请出手系",
+  "family_lead": "礼貌地开口，是 N5 会话里最常见的动作",
+  "family_hook": "「お/ご」是礼貌外壳，「をください」和「てください」是开口请求，「ませんか」「ましょう」「ましょうか」则把话推进到邀请同行或主动帮忙。整组学最有会话感。",
+  "progression_line": "从礼貌包装，到请求，到邀请与主动承担",
+  "members": [
+    {
+      "entry_id": "n5_059_o_go",
+      "grammar_jp": "お / ご",
+      "grammar_en": "o / go",
+      "meaning": "polite marker; honorific prefix particle"
+    },
+    {
+      "entry_id": "n5_061_o_kudasai",
+      "grammar_jp": "をください",
+      "grammar_en": "o kudasai",
+      "meaning": "please give me ~"
+    },
+    {
+      "entry_id": "n5_072_te_kudasai",
+      "grammar_jp": "てください",
+      "grammar_en": "te kudasai",
+      "meaning": "please do"
+    },
+    {
+      "entry_id": "n5_031_masen_ka",
+      "grammar_jp": "ませんか",
+      "grammar_en": "masen ka",
+      "meaning": "would you; do you want to; shall we ~"
+    },
+    {
+      "entry_id": "n5_032_mashou",
+      "grammar_jp": "ましょう",
+      "grammar_en": "mashou",
+      "meaning": "let's ~; shall we ~"
+    },
+    {
+      "entry_id": "n5_033_mashouka",
+      "grammar_jp": "ましょうか",
+      "grammar_en": "mashouka",
+      "meaning": "shall I ~; used to offer help to the listener"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

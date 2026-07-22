@@ -1,0 +1,13 @@
+{"updated_at": "2026-05-17T08:39:03.841399", "db": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_db.json", "epub": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000.epub", "audit_report": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_pronunciation_audit.json", "manifest": "data/joyo_gpt55_2000/joyo_kanji_gpt55_2000_manifest.json"}
+=== generation round 1/5: 2026-05-17T08:39:03-07:00 ===
+待生成: 2000 个汉字，批大小: 10, 批数: 200, 并发: 10, backend: codex
+[批 1/200] 生成中: 一七三上下中九二五人
+[批 2/200] 生成中: 休先入八円出十千口右
+[批 3/200] 生成中: 名四土夕大天女子字学
+[批 4/200] 生成中: 小山川左年手文日早月
+[批 5/200] 生成中: 木本村校森正気水火犬
+[批 6/200] 生成中: 玉王生田男町白百目石
+[批 7/200] 生成中: 空立竹糸耳花草虫見貝
+[批 8/200] 生成中: 赤足車金雨青音万丸交
+[批 9/200] 生成中: 京今会体何作元兄光公
+[批 10/200] 生成中: 内冬刀分切前北午半南

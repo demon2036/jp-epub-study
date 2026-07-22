@@ -1,0 +1,111 @@
+你要为一本《JLPT N4 语法家族全书》生成单个语法条目的正文数据。
+
+这本书的目标：
+- 面向中文学习者
+- 不是死记定义，而是让人“靠场景 + 对比 + 例句”记住语感
+- 每个条目都要放进家族里理解
+
+当前条目：
+{
+  "entry_id": "n4_046_mitai_ni",
+  "idx": 46,
+  "grammar_en": "mitai ni",
+  "grammar_jp": "みたいに",
+  "meaning": "like; similar to ~"
+}
+
+所属家族：
+{
+  "family_id": "f14_seeming_lookalike",
+  "family_name": "像・看起来判断系",
+  "family_lead": "把“像”这件事一次学透",
+  "family_hook": "`そうだ`、`みたい`、`ようだ`、`に見える`这一大组最容易串形又串义，放在一起最适合做横向对比。",
+  "progression_line": "从外观直感到类比描写，再到较书面的推定",
+  "members": [
+    {
+      "entry_id": "n4_082_sou_da_2",
+      "grammar_jp": "そうだ",
+      "grammar_en": "sou da [2]",
+      "meaning": "looks like; appears like; seeming ~"
+    },
+    {
+      "entry_id": "n4_083_sou_ni_sou_na",
+      "grammar_jp": "そうに / そうな",
+      "grammar_en": "sou ni / sou na",
+      "meaning": "seems like; looks like ~"
+    },
+    {
+      "entry_id": "n4_044_mitai_da",
+      "grammar_jp": "みたいだ",
+      "grammar_en": "mitai da",
+      "meaning": "like; similar to; resembling ~"
+    },
+    {
+      "entry_id": "n4_045_mitai_na",
+      "grammar_jp": "みたいな",
+      "grammar_en": "mitai na",
+      "meaning": "like, similar to ~"
+    },
+    {
+      "entry_id": "n4_046_mitai_ni",
+      "grammar_jp": "みたいに",
+      "grammar_en": "mitai ni",
+      "meaning": "like; similar to ~"
+    },
+    {
+      "entry_id": "n4_125_you_da",
+      "grammar_jp": "ようだ",
+      "grammar_en": "you da",
+      "meaning": "appears; seems; looks as if ~"
+    },
+    {
+      "entry_id": "n4_126_you_ni_you_na",
+      "grammar_jp": "ように / ような",
+      "grammar_en": "you ni / you na",
+      "meaning": "like; as; similar to ~"
+    },
+    {
+      "entry_id": "n4_058_ni_mieru",
+      "grammar_jp": "に見える（にみえる）",
+      "grammar_en": "ni mieru",
+      "meaning": "to look; to seem; to appear"
+    }
+  ]
+}
+
+必须遵守的写作要求：
+1. 输出必须满足 JSON Schema。
+2. 文字风格要自然、生动、具体，别写成僵硬教科书。
+3. 例句一定要自然，像真实会话或真实场景，不要空洞模板句。
+4. `feel` 要写“这句听起来像什么”。
+5. `family_position` 要写“它在本家族里站哪一格”。
+6. `scene_paragraph` 要像一个小镜头，把语法放进人会遇到的场景里。
+7. `scene_examples` 给 3 个不同场景的例句，每个都要有中文和一句短短的说明。
+8. `structure_cards` 给 3 个骨架/变体例句，帮助拆句型，不要只写公式。
+9. `usage_points` 写 4~6 条真正有帮助的观察点，避免空话。
+10. `contrasts` 给 3 组对照；至少 2 组要跟同一家族的别的成员对比。
+11. `exam_handle` 要像做题抓手，告诉学习者空格里怎么判断。
+12. `memory_chain` 要把它放回整个家族里，形成一条记忆链。
+13. 对比里的 paired examples 必须真的成对，不能只讲概念不举例。
+
+`jp_ruby` 的硬规则：
+- 所有日语例句都放在 `jp_ruby` 字段里。
+- 用方括号写注音，只给“汉字块”标注：例如 `早[はや]く寝[ね]たほうがいい。`
+- 如果是混写词，必须拆开标：
+  - 正确：`口[くち]コミ`
+  - 错误：`口コミ[くちこみ]`
+  - 正确：`申[もう]し込[こ]み`
+  - 正确：`取[と]り消[け]し`
+  - 正确：`使[つか]いやすい`
+- 纯假名部分不要放进方括号。
+- 不要输出 `<ruby>` HTML。
+
+对照组规则：
+- `other_entry_id` 必须写成真实的 `entry_id`。
+- `title` 直接写成 `A vs B` 的样子。
+- `self_label` / `other_label` 要跟 paired example 对应。
+- `difference` 讲核心语感差别。
+- `example_self` / `example_other` 要是一对能拿来直接比的自然句子。
+
+请把“这个条目”和“它的家族邻居”真正连起来写，不要像孤立词条。
+

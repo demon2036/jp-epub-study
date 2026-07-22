@@ -1,0 +1,24 @@
+待生成: 1026 个汉字，并发: 10, backend: codex, 配置分配: vip-key-1=5, vip-key-2=5
+[1/1026] 生成中: 一 @ vip-key-1
+[2/1026] 生成中: 七 @ vip-key-1
+[3/1026] 生成中: 三 @ vip-key-1
+[4/1026] 生成中: 上 @ vip-key-1
+[5/1026] 生成中: 下 @ vip-key-1
+[6/1026] 生成中: 中 @ vip-key-2
+[7/1026] 生成中: 九 @ vip-key-2
+[8/1026] 生成中: 二 @ vip-key-2
+[9/1026] 生成中: 五 @ vip-key-2
+[10/1026] 生成中: 人 @ vip-key-2
+[1/1026] 完成: 中
+[11/1026] 生成中: 休 @ vip-key-2
+  [重试 1/2] 九: timeout_after=180s
+  [重试 1/2] 二: timeout_after=180s
+  [重试 1/2] 一: timeout_after=180s
+  [重试 1/2] 休: timeout_after=180s
+  [重试 1/2] 三: timeout_after=180s
+  [重试 2/2] 二: timeout_after=180s
+  [重试 1/2] 五: timeout_after=180s
+  [重试 2/2] 一: timeout_after=180s
+  [重试 1/2] 人: timeout_after=180s
+  [重试 2/2] 休: timeout_after=180s
+  [重试 1/2] 下: timeout_after=180s

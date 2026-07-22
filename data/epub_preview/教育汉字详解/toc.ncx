@@ -1,0 +1,6206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="kyoiku-kanji-guide" name="dtb:uid"/>
+    <meta content="0" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>教育汉字详解</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="sep_0">
+      <navLabel>
+        <text>第1学年 (80字)</text>
+      </navLabel>
+      <content src="grade1.xhtml#三"/>
+      <navPoint id="kanji-三">
+        <navLabel>
+          <text>三</text>
+        </navLabel>
+        <content src="grade1.xhtml#三"/>
+      </navPoint>
+      <navPoint id="kanji-五">
+        <navLabel>
+          <text>五</text>
+        </navLabel>
+        <content src="grade1.xhtml#五"/>
+      </navPoint>
+      <navPoint id="kanji-一">
+        <navLabel>
+          <text>一</text>
+        </navLabel>
+        <content src="grade1.xhtml#一"/>
+      </navPoint>
+      <navPoint id="kanji-四">
+        <navLabel>
+          <text>四</text>
+        </navLabel>
+        <content src="grade1.xhtml#四"/>
+      </navPoint>
+      <navPoint id="kanji-二">
+        <navLabel>
+          <text>二</text>
+        </navLabel>
+        <content src="grade1.xhtml#二"/>
+      </navPoint>
+      <navPoint id="kanji-右">
+        <navLabel>
+          <text>右</text>
+        </navLabel>
+        <content src="grade1.xhtml#右"/>
+      </navPoint>
+      <navPoint id="kanji-雨">
+        <navLabel>
+          <text>雨</text>
+        </navLabel>
+        <content src="grade1.xhtml#雨"/>
+      </navPoint>
+      <navPoint id="kanji-円">
+        <navLabel>
+          <text>円</text>
+        </navLabel>
+        <content src="grade1.xhtml#円"/>
+      </navPoint>
+      <navPoint id="kanji-王">
+        <navLabel>
+          <text>王</text>
+        </navLabel>
+        <content src="grade1.xhtml#王"/>
+      </navPoint>
+      <navPoint id="kanji-音">
+        <navLabel>
+          <text>音</text>
+        </navLabel>
+        <content src="grade1.xhtml#音"/>
+      </navPoint>
+      <navPoint id="kanji-下">
+        <navLabel>
+          <text>下</text>
+        </navLabel>
+        <content src="grade1.xhtml#下"/>
+      </navPoint>
+      <navPoint id="kanji-火">
+        <navLabel>
+          <text>火</text>
+        </navLabel>
+        <content src="grade1.xhtml#火"/>
+      </navPoint>
+      <navPoint id="kanji-花">
+        <navLabel>
+          <text>花</text>
+        </navLabel>
+        <content src="grade1.xhtml#花"/>
+      </navPoint>
+      <navPoint id="kanji-貝">
+        <navLabel>
+          <text>貝</text>
+        </navLabel>
+        <content src="grade1.xhtml#貝"/>
+      </navPoint>
+      <navPoint id="kanji-学">
+        <navLabel>
+          <text>学</text>
+        </navLabel>
+        <content src="grade1.xhtml#学"/>
+      </navPoint>
+      <navPoint id="kanji-気">
+        <navLabel>
+          <text>気</text>
+        </navLabel>
+        <content src="grade1.xhtml#気"/>
+      </navPoint>
+      <navPoint id="kanji-九">
+        <navLabel>
+          <text>九</text>
+        </navLabel>
+        <content src="grade1.xhtml#九"/>
+      </navPoint>
+      <navPoint id="kanji-休">
+        <navLabel>
+          <text>休</text>
+        </navLabel>
+        <content src="grade1.xhtml#休"/>
+      </navPoint>
+      <navPoint id="kanji-玉">
+        <navLabel>
+          <text>玉</text>
+        </navLabel>
+        <content src="grade1.xhtml#玉"/>
+      </navPoint>
+      <navPoint id="kanji-金">
+        <navLabel>
+          <text>金</text>
+        </navLabel>
+        <content src="grade1.xhtml#金"/>
+      </navPoint>
+      <navPoint id="kanji-空">
+        <navLabel>
+          <text>空</text>
+        </navLabel>
+        <content src="grade1.xhtml#空"/>
+      </navPoint>
+      <navPoint id="kanji-月">
+        <navLabel>
+          <text>月</text>
+        </navLabel>
+        <content src="grade1.xhtml#月"/>
+      </navPoint>
+      <navPoint id="kanji-犬">
+        <navLabel>
+          <text>犬</text>
+        </navLabel>
+        <content src="grade1.xhtml#犬"/>
+      </navPoint>
+      <navPoint id="kanji-見">
+        <navLabel>
+          <text>見</text>
+        </navLabel>
+        <content src="grade1.xhtml#見"/>
+      </navPoint>
+      <navPoint id="kanji-口">
+        <navLabel>
+          <text>口</text>
+        </navLabel>
+        <content src="grade1.xhtml#口"/>
+      </navPoint>
+      <navPoint id="kanji-校">
+        <navLabel>
+          <text>校</text>
+        </navLabel>
+        <content src="grade1.xhtml#校"/>
+      </navPoint>
+      <navPoint id="kanji-左">
+        <navLabel>
+          <text>左</text>
+        </navLabel>
+        <content src="grade1.xhtml#左"/>
+      </navPoint>
+      <navPoint id="kanji-山">
+        <navLabel>
+          <text>山</text>
+        </navLabel>
+        <content src="grade1.xhtml#山"/>
+      </navPoint>
+      <navPoint id="kanji-子">
+        <navLabel>
+          <text>子</text>
+        </navLabel>
+        <content src="grade1.xhtml#子"/>
+      </navPoint>
+      <navPoint id="kanji-糸">
+        <navLabel>
+          <text>糸</text>
+        </navLabel>
+        <content src="grade1.xhtml#糸"/>
+      </navPoint>
+      <navPoint id="kanji-字">
+        <navLabel>
+          <text>字</text>
+        </navLabel>
+        <content src="grade1.xhtml#字"/>
+      </navPoint>
+      <navPoint id="kanji-耳">
+        <navLabel>
+          <text>耳</text>
+        </navLabel>
+        <content src="grade1.xhtml#耳"/>
+      </navPoint>
+      <navPoint id="kanji-七">
+        <navLabel>
+          <text>七</text>
+        </navLabel>
+        <content src="grade1.xhtml#七"/>
+      </navPoint>
+      <navPoint id="kanji-車">
+        <navLabel>
+          <text>車</text>
+        </navLabel>
+        <content src="grade1.xhtml#車"/>
+      </navPoint>
+      <navPoint id="kanji-手">
+        <navLabel>
+          <text>手</text>
+        </navLabel>
+        <content src="grade1.xhtml#手"/>
+      </navPoint>
+      <navPoint id="kanji-十">
+        <navLabel>
+          <text>十</text>
+        </navLabel>
+        <content src="grade1.xhtml#十"/>
+      </navPoint>
+      <navPoint id="kanji-出">
+        <navLabel>
+          <text>出</text>
+        </navLabel>
+        <content src="grade1.xhtml#出"/>
+      </navPoint>
+      <navPoint id="kanji-女">
+        <navLabel>
+          <text>女</text>
+        </navLabel>
+        <content src="grade1.xhtml#女"/>
+      </navPoint>
+      <navPoint id="kanji-小">
+        <navLabel>
+          <text>小</text>
+        </navLabel>
+        <content src="grade1.xhtml#小"/>
+      </navPoint>
+      <navPoint id="kanji-上">
+        <navLabel>
+          <text>上</text>
+        </navLabel>
+        <content src="grade1.xhtml#上"/>
+      </navPoint>
+      <navPoint id="kanji-森">
+        <navLabel>
+          <text>森</text>
+        </navLabel>
+        <content src="grade1.xhtml#森"/>
+      </navPoint>
+      <navPoint id="kanji-人">
+        <navLabel>
+          <text>人</text>
+        </navLabel>
+        <content src="grade1.xhtml#人"/>
+      </navPoint>
+      <navPoint id="kanji-水">
+        <navLabel>
+          <text>水</text>
+        </navLabel>
+        <content src="grade1.xhtml#水"/>
+      </navPoint>
+      <navPoint id="kanji-正">
+        <navLabel>
+          <text>正</text>
+        </navLabel>
+        <content src="grade1.xhtml#正"/>
+      </navPoint>
+      <navPoint id="kanji-生">
+        <navLabel>
+          <text>生</text>
+        </navLabel>
+        <content src="grade1.xhtml#生"/>
+      </navPoint>
+      <navPoint id="kanji-青">
+        <navLabel>
+          <text>青</text>
+        </navLabel>
+        <content src="grade1.xhtml#青"/>
+      </navPoint>
+      <navPoint id="kanji-夕">
+        <navLabel>
+          <text>夕</text>
+        </navLabel>
+        <content src="grade1.xhtml#夕"/>
+      </navPoint>
+      <navPoint id="kanji-石">
+        <navLabel>
+          <text>石</text>
+        </navLabel>
+        <content src="grade1.xhtml#石"/>
+      </navPoint>
+      <navPoint id="kanji-赤">
+        <navLabel>
+          <text>赤</text>
+        </navLabel>
+        <content src="grade1.xhtml#赤"/>
+      </navPoint>
+      <navPoint id="kanji-千">
+        <navLabel>
+          <text>千</text>
+        </navLabel>
+        <content src="grade1.xhtml#千"/>
+      </navPoint>
+      <navPoint id="kanji-川">
+        <navLabel>
+          <text>川</text>
+        </navLabel>
+        <content src="grade1.xhtml#川"/>
+      </navPoint>
+      <navPoint id="kanji-先">
+        <navLabel>
+          <text>先</text>
+        </navLabel>
+        <content src="grade1.xhtml#先"/>
+      </navPoint>
+      <navPoint id="kanji-早">
+        <navLabel>
+          <text>早</text>
+        </navLabel>
+        <content src="grade1.xhtml#早"/>
+      </navPoint>
+      <navPoint id="kanji-草">
+        <navLabel>
+          <text>草</text>
+        </navLabel>
+        <content src="grade1.xhtml#草"/>
+      </navPoint>
+      <navPoint id="kanji-足">
+        <navLabel>
+          <text>足</text>
+        </navLabel>
+        <content src="grade1.xhtml#足"/>
+      </navPoint>
+      <navPoint id="kanji-村">
+        <navLabel>
+          <text>村</text>
+        </navLabel>
+        <content src="grade1.xhtml#村"/>
+      </navPoint>
+      <navPoint id="kanji-大">
+        <navLabel>
+          <text>大</text>
+        </navLabel>
+        <content src="grade1.xhtml#大"/>
+      </navPoint>
+      <navPoint id="kanji-男">
+        <navLabel>
+          <text>男</text>
+        </navLabel>
+        <content src="grade1.xhtml#男"/>
+      </navPoint>
+      <navPoint id="kanji-竹">
+        <navLabel>
+          <text>竹</text>
+        </navLabel>
+        <content src="grade1.xhtml#竹"/>
+      </navPoint>
+      <navPoint id="kanji-中">
+        <navLabel>
+          <text>中</text>
+        </navLabel>
+        <content src="grade1.xhtml#中"/>
+      </navPoint>
+      <navPoint id="kanji-虫">
+        <navLabel>
+          <text>虫</text>
+        </navLabel>
+        <content src="grade1.xhtml#虫"/>
+      </navPoint>
+      <navPoint id="kanji-町">
+        <navLabel>
+          <text>町</text>
+        </navLabel>
+        <content src="grade1.xhtml#町"/>
+      </navPoint>
+      <navPoint id="kanji-天">
+        <navLabel>
+          <text>天</text>
+        </navLabel>
+        <content src="grade1.xhtml#天"/>
+      </navPoint>
+      <navPoint id="kanji-田">
+        <navLabel>
+          <text>田</text>
+        </navLabel>
+        <content src="grade1.xhtml#田"/>
+      </navPoint>
+      <navPoint id="kanji-土">
+        <navLabel>
+          <text>土</text>
+        </navLabel>
+        <content src="grade1.xhtml#土"/>
+      </navPoint>
+      <navPoint id="kanji-日">
+        <navLabel>
+          <text>日</text>
+        </navLabel>
+        <content src="grade1.xhtml#日"/>
+      </navPoint>
+      <navPoint id="kanji-入">
+        <navLabel>
+          <text>入</text>
+        </navLabel>
+        <content src="grade1.xhtml#入"/>
+      </navPoint>
+      <navPoint id="kanji-年">
+        <navLabel>
+          <text>年</text>
+        </navLabel>
+        <content src="grade1.xhtml#年"/>
+      </navPoint>
+      <navPoint id="kanji-白">
+        <navLabel>
+          <text>白</text>
+        </navLabel>
+        <content src="grade1.xhtml#白"/>
+      </navPoint>
+      <navPoint id="kanji-八">
+        <navLabel>
+          <text>八</text>
+        </navLabel>
+        <content src="grade1.xhtml#八"/>
+      </navPoint>
+      <navPoint id="kanji-百">
+        <navLabel>
+          <text>百</text>
+        </navLabel>
+        <content src="grade1.xhtml#百"/>
+      </navPoint>
+      <navPoint id="kanji-文">
+        <navLabel>
+          <text>文</text>
+        </navLabel>
+        <content src="grade1.xhtml#文"/>
+      </navPoint>
+      <navPoint id="kanji-木">
+        <navLabel>
+          <text>木</text>
+        </navLabel>
+        <content src="grade1.xhtml#木"/>
+      </navPoint>
+      <navPoint id="kanji-本">
+        <navLabel>
+          <text>本</text>
+        </navLabel>
+        <content src="grade1.xhtml#本"/>
+      </navPoint>
+      <navPoint id="kanji-名">
+        <navLabel>
+          <text>名</text>
+        </navLabel>
+        <content src="grade1.xhtml#名"/>
+      </navPoint>
+      <navPoint id="kanji-目">
+        <navLabel>
+          <text>目</text>
+        </navLabel>
+        <content src="grade1.xhtml#目"/>
+      </navPoint>
+      <navPoint id="kanji-立">
+        <navLabel>
+          <text>立</text>
+        </navLabel>
+        <content src="grade1.xhtml#立"/>
+      </navPoint>
+      <navPoint id="kanji-力">
+        <navLabel>
+          <text>力</text>
+        </navLabel>
+        <content src="grade1.xhtml#力"/>
+      </navPoint>
+      <navPoint id="kanji-林">
+        <navLabel>
+          <text>林</text>
+        </navLabel>
+        <content src="grade1.xhtml#林"/>
+      </navPoint>
+      <navPoint id="kanji-六">
+        <navLabel>
+          <text>六</text>
+        </navLabel>
+        <content src="grade1.xhtml#六"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="sep_1">
+      <navLabel>
+        <text>第2学年 (160字)</text>
+      </navLabel>
+      <content src="grade2.xhtml#引"/>
+      <navPoint id="kanji-引">
+        <navLabel>
+          <text>引</text>
+        </navLabel>
+        <content src="grade2.xhtml#引"/>
+      </navPoint>
+      <navPoint id="kanji-羽">
+        <navLabel>
+          <text>羽</text>
+        </navLabel>
+        <content src="grade2.xhtml#羽"/>
+      </navPoint>
+      <navPoint id="kanji-雲">
+        <navLabel>
+          <text>雲</text>
+        </navLabel>
+        <content src="grade2.xhtml#雲"/>
+      </navPoint>
+      <navPoint id="kanji-園">
+        <navLabel>
+          <text>園</text>
+        </navLabel>
+        <content src="grade2.xhtml#園"/>
+      </navPoint>
+      <navPoint id="kanji-遠">
+        <navLabel>
+          <text>遠</text>
+        </navLabel>
+        <content src="grade2.xhtml#遠"/>
+      </navPoint>
+      <navPoint id="kanji-何">
+        <navLabel>
+          <text>何</text>
+        </navLabel>
+        <content src="grade2.xhtml#何"/>
+      </navPoint>
+      <navPoint id="kanji-科">
+        <navLabel>
+          <text>科</text>
+        </navLabel>
+        <content src="grade2.xhtml#科"/>
+      </navPoint>
+      <navPoint id="kanji-夏">
+        <navLabel>
+          <text>夏</text>
+        </navLabel>
+        <content src="grade2.xhtml#夏"/>
+      </navPoint>
+      <navPoint id="kanji-家">
+        <navLabel>
+          <text>家</text>
+        </navLabel>
+        <content src="grade2.xhtml#家"/>
+      </navPoint>
+      <navPoint id="kanji-歌">
+        <navLabel>
+          <text>歌</text>
+        </navLabel>
+        <content src="grade2.xhtml#歌"/>
+      </navPoint>
+      <navPoint id="kanji-画">
+        <navLabel>
+          <text>画</text>
+        </navLabel>
+        <content src="grade2.xhtml#画"/>
+      </navPoint>
+      <navPoint id="kanji-回">
+        <navLabel>
+          <text>回</text>
+        </navLabel>
+        <content src="grade2.xhtml#回"/>
+      </navPoint>
+      <navPoint id="kanji-会">
+        <navLabel>
+          <text>会</text>
+        </navLabel>
+        <content src="grade2.xhtml#会"/>
+      </navPoint>
+      <navPoint id="kanji-海">
+        <navLabel>
+          <text>海</text>
+        </navLabel>
+        <content src="grade2.xhtml#海"/>
+      </navPoint>
+      <navPoint id="kanji-絵">
+        <navLabel>
+          <text>絵</text>
+        </navLabel>
+        <content src="grade2.xhtml#絵"/>
+      </navPoint>
+      <navPoint id="kanji-外">
+        <navLabel>
+          <text>外</text>
+        </navLabel>
+        <content src="grade2.xhtml#外"/>
+      </navPoint>
+      <navPoint id="kanji-角">
+        <navLabel>
+          <text>角</text>
+        </navLabel>
+        <content src="grade2.xhtml#角"/>
+      </navPoint>
+      <navPoint id="kanji-楽">
+        <navLabel>
+          <text>楽</text>
+        </navLabel>
+        <content src="grade2.xhtml#楽"/>
+      </navPoint>
+      <navPoint id="kanji-活">
+        <navLabel>
+          <text>活</text>
+        </navLabel>
+        <content src="grade2.xhtml#活"/>
+      </navPoint>
+      <navPoint id="kanji-間">
+        <navLabel>
+          <text>間</text>
+        </navLabel>
+        <content src="grade2.xhtml#間"/>
+      </navPoint>
+      <navPoint id="kanji-丸">
+        <navLabel>
+          <text>丸</text>
+        </navLabel>
+        <content src="grade2.xhtml#丸"/>
+      </navPoint>
+      <navPoint id="kanji-岩">
+        <navLabel>
+          <text>岩</text>
+        </navLabel>
+        <content src="grade2.xhtml#岩"/>
+      </navPoint>
+      <navPoint id="kanji-顔">
+        <navLabel>
+          <text>顔</text>
+        </navLabel>
+        <content src="grade2.xhtml#顔"/>
+      </navPoint>
+      <navPoint id="kanji-汽">
+        <navLabel>
+          <text>汽</text>
+        </navLabel>
+        <content src="grade2.xhtml#汽"/>
+      </navPoint>
+      <navPoint id="kanji-記">
+        <navLabel>
+          <text>記</text>
+        </navLabel>
+        <content src="grade2.xhtml#記"/>
+      </navPoint>
+      <navPoint id="kanji-帰">
+        <navLabel>
+          <text>帰</text>
+        </navLabel>
+        <content src="grade2.xhtml#帰"/>
+      </navPoint>
+      <navPoint id="kanji-弓">
+        <navLabel>
+          <text>弓</text>
+        </navLabel>
+        <content src="grade2.xhtml#弓"/>
+      </navPoint>
+      <navPoint id="kanji-牛">
+        <navLabel>
+          <text>牛</text>
+        </navLabel>
+        <content src="grade2.xhtml#牛"/>
+      </navPoint>
+      <navPoint id="kanji-魚">
+        <navLabel>
+          <text>魚</text>
+        </navLabel>
+        <content src="grade2.xhtml#魚"/>
+      </navPoint>
+      <navPoint id="kanji-京">
+        <navLabel>
+          <text>京</text>
+        </navLabel>
+        <content src="grade2.xhtml#京"/>
+      </navPoint>
+      <navPoint id="kanji-強">
+        <navLabel>
+          <text>強</text>
+        </navLabel>
+        <content src="grade2.xhtml#強"/>
+      </navPoint>
+      <navPoint id="kanji-教">
+        <navLabel>
+          <text>教</text>
+        </navLabel>
+        <content src="grade2.xhtml#教"/>
+      </navPoint>
+      <navPoint id="kanji-近">
+        <navLabel>
+          <text>近</text>
+        </navLabel>
+        <content src="grade2.xhtml#近"/>
+      </navPoint>
+      <navPoint id="kanji-兄">
+        <navLabel>
+          <text>兄</text>
+        </navLabel>
+        <content src="grade2.xhtml#兄"/>
+      </navPoint>
+      <navPoint id="kanji-形">
+        <navLabel>
+          <text>形</text>
+        </navLabel>
+        <content src="grade2.xhtml#形"/>
+      </navPoint>
+      <navPoint id="kanji-計">
+        <navLabel>
+          <text>計</text>
+        </navLabel>
+        <content src="grade2.xhtml#計"/>
+      </navPoint>
+      <navPoint id="kanji-元">
+        <navLabel>
+          <text>元</text>
+        </navLabel>
+        <content src="grade2.xhtml#元"/>
+      </navPoint>
+      <navPoint id="kanji-言">
+        <navLabel>
+          <text>言</text>
+        </navLabel>
+        <content src="grade2.xhtml#言"/>
+      </navPoint>
+      <navPoint id="kanji-原">
+        <navLabel>
+          <text>原</text>
+        </navLabel>
+        <content src="grade2.xhtml#原"/>
+      </navPoint>
+      <navPoint id="kanji-戸">
+        <navLabel>
+          <text>戸</text>
+        </navLabel>
+        <content src="grade2.xhtml#戸"/>
+      </navPoint>
+      <navPoint id="kanji-古">
+        <navLabel>
+          <text>古</text>
+        </navLabel>
+        <content src="grade2.xhtml#古"/>
+      </navPoint>
+      <navPoint id="kanji-午">
+        <navLabel>
+          <text>午</text>
+        </navLabel>
+        <content src="grade2.xhtml#午"/>
+      </navPoint>
+      <navPoint id="kanji-後">
+        <navLabel>
+          <text>後</text>
+        </navLabel>
+        <content src="grade2.xhtml#後"/>
+      </navPoint>
+      <navPoint id="kanji-語">
+        <navLabel>
+          <text>語</text>
+        </navLabel>
+        <content src="grade2.xhtml#語"/>
+      </navPoint>
+      <navPoint id="kanji-工">
+        <navLabel>
+          <text>工</text>
+        </navLabel>
+        <content src="grade2.xhtml#工"/>
+      </navPoint>
+      <navPoint id="kanji-公">
+        <navLabel>
+          <text>公</text>
+        </navLabel>
+        <content src="grade2.xhtml#公"/>
+      </navPoint>
+      <navPoint id="kanji-広">
+        <navLabel>
+          <text>広</text>
+        </navLabel>
+        <content src="grade2.xhtml#広"/>
+      </navPoint>
+      <navPoint id="kanji-交">
+        <navLabel>
+          <text>交</text>
+        </navLabel>
+        <content src="grade2.xhtml#交"/>
+      </navPoint>
+      <navPoint id="kanji-光">
+        <navLabel>
+          <text>光</text>
+        </navLabel>
+        <content src="grade2.xhtml#光"/>
+      </navPoint>
+      <navPoint id="kanji-考">
+        <navLabel>
+          <text>考</text>
+        </navLabel>
+        <content src="grade2.xhtml#考"/>
+      </navPoint>
+      <navPoint id="kanji-行">
+        <navLabel>
+          <text>行</text>
+        </navLabel>
+        <content src="grade2.xhtml#行"/>
+      </navPoint>
+      <navPoint id="kanji-高">
+        <navLabel>
+          <text>高</text>
+        </navLabel>
+        <content src="grade2.xhtml#高"/>
+      </navPoint>
+      <navPoint id="kanji-黄">
+        <navLabel>
+          <text>黄</text>
+        </navLabel>
+        <content src="grade2.xhtml#黄"/>
+      </navPoint>
+      <navPoint id="kanji-合">
+        <navLabel>
+          <text>合</text>
+        </navLabel>
+        <content src="grade2.xhtml#合"/>
+      </navPoint>
+      <navPoint id="kanji-谷">
+        <navLabel>
+          <text>谷</text>
+        </navLabel>
+        <content src="grade2.xhtml#谷"/>
+      </navPoint>
+      <navPoint id="kanji-国">
+        <navLabel>
+          <text>国</text>
+        </navLabel>
+        <content src="grade2.xhtml#国"/>
+      </navPoint>
+      <navPoint id="kanji-黒">
+        <navLabel>
+          <text>黒</text>
+        </navLabel>
+        <content src="grade2.xhtml#黒"/>
+      </navPoint>
+      <navPoint id="kanji-今">
+        <navLabel>
+          <text>今</text>
+        </navLabel>
+        <content src="grade2.xhtml#今"/>
+      </navPoint>
+      <navPoint id="kanji-才">
+        <navLabel>
+          <text>才</text>
+        </navLabel>
+        <content src="grade2.xhtml#才"/>
+      </navPoint>
+      <navPoint id="kanji-細">
+        <navLabel>
+          <text>細</text>
+        </navLabel>
+        <content src="grade2.xhtml#細"/>
+      </navPoint>
+      <navPoint id="kanji-作">
+        <navLabel>
+          <text>作</text>
+        </navLabel>
+        <content src="grade2.xhtml#作"/>
+      </navPoint>
+      <navPoint id="kanji-算">
+        <navLabel>
+          <text>算</text>
+        </navLabel>
+        <content src="grade2.xhtml#算"/>
+      </navPoint>
+      <navPoint id="kanji-止">
+        <navLabel>
+          <text>止</text>
+        </navLabel>
+        <content src="grade2.xhtml#止"/>
+      </navPoint>
+      <navPoint id="kanji-市">
+        <navLabel>
+          <text>市</text>
+        </navLabel>
+        <content src="grade2.xhtml#市"/>
+      </navPoint>
+      <navPoint id="kanji-矢">
+        <navLabel>
+          <text>矢</text>
+        </navLabel>
+        <content src="grade2.xhtml#矢"/>
+      </navPoint>
+      <navPoint id="kanji-姉">
+        <navLabel>
+          <text>姉</text>
+        </navLabel>
+        <content src="grade2.xhtml#姉"/>
+      </navPoint>
+      <navPoint id="kanji-思">
+        <navLabel>
+          <text>思</text>
+        </navLabel>
+        <content src="grade2.xhtml#思"/>
+      </navPoint>
+      <navPoint id="kanji-紙">
+        <navLabel>
+          <text>紙</text>
+        </navLabel>
+        <content src="grade2.xhtml#紙"/>
+      </navPoint>
+      <navPoint id="kanji-寺">
+        <navLabel>
+          <text>寺</text>
+        </navLabel>
+        <content src="grade2.xhtml#寺"/>
+      </navPoint>
+      <navPoint id="kanji-自">
+        <navLabel>
+          <text>自</text>
+        </navLabel>
+        <content src="grade2.xhtml#自"/>
+      </navPoint>
+      <navPoint id="kanji-時">
+        <navLabel>
+          <text>時</text>
+        </navLabel>
+        <content src="grade2.xhtml#時"/>
+      </navPoint>
+      <navPoint id="kanji-室">
+        <navLabel>
+          <text>室</text>
+        </navLabel>
+        <content src="grade2.xhtml#室"/>
+      </navPoint>
+      <navPoint id="kanji-社">
+        <navLabel>
+          <text>社</text>
+        </navLabel>
+        <content src="grade2.xhtml#社"/>
+      </navPoint>
+      <navPoint id="kanji-弱">
+        <navLabel>
+          <text>弱</text>
+        </navLabel>
+        <content src="grade2.xhtml#弱"/>
+      </navPoint>
+      <navPoint id="kanji-首">
+        <navLabel>
+          <text>首</text>
+        </navLabel>
+        <content src="grade2.xhtml#首"/>
+      </navPoint>
+      <navPoint id="kanji-秋">
+        <navLabel>
+          <text>秋</text>
+        </navLabel>
+        <content src="grade2.xhtml#秋"/>
+      </navPoint>
+      <navPoint id="kanji-週">
+        <navLabel>
+          <text>週</text>
+        </navLabel>
+        <content src="grade2.xhtml#週"/>
+      </navPoint>
+      <navPoint id="kanji-春">
+        <navLabel>
+          <text>春</text>
+        </navLabel>
+        <content src="grade2.xhtml#春"/>
+      </navPoint>
+      <navPoint id="kanji-書">
+        <navLabel>
+          <text>書</text>
+        </navLabel>
+        <content src="grade2.xhtml#書"/>
+      </navPoint>
+      <navPoint id="kanji-少">
+        <navLabel>
+          <text>少</text>
+        </navLabel>
+        <content src="grade2.xhtml#少"/>
+      </navPoint>
+      <navPoint id="kanji-場">
+        <navLabel>
+          <text>場</text>
+        </navLabel>
+        <content src="grade2.xhtml#場"/>
+      </navPoint>
+      <navPoint id="kanji-色">
+        <navLabel>
+          <text>色</text>
+        </navLabel>
+        <content src="grade2.xhtml#色"/>
+      </navPoint>
+      <navPoint id="kanji-食">
+        <navLabel>
+          <text>食</text>
+        </navLabel>
+        <content src="grade2.xhtml#食"/>
+      </navPoint>
+      <navPoint id="kanji-心">
+        <navLabel>
+          <text>心</text>
+        </navLabel>
+        <content src="grade2.xhtml#心"/>
+      </navPoint>
+      <navPoint id="kanji-新">
+        <navLabel>
+          <text>新</text>
+        </navLabel>
+        <content src="grade2.xhtml#新"/>
+      </navPoint>
+      <navPoint id="kanji-親">
+        <navLabel>
+          <text>親</text>
+        </navLabel>
+        <content src="grade2.xhtml#親"/>
+      </navPoint>
+      <navPoint id="kanji-図">
+        <navLabel>
+          <text>図</text>
+        </navLabel>
+        <content src="grade2.xhtml#図"/>
+      </navPoint>
+      <navPoint id="kanji-数">
+        <navLabel>
+          <text>数</text>
+        </navLabel>
+        <content src="grade2.xhtml#数"/>
+      </navPoint>
+      <navPoint id="kanji-西">
+        <navLabel>
+          <text>西</text>
+        </navLabel>
+        <content src="grade2.xhtml#西"/>
+      </navPoint>
+      <navPoint id="kanji-声">
+        <navLabel>
+          <text>声</text>
+        </navLabel>
+        <content src="grade2.xhtml#声"/>
+      </navPoint>
+      <navPoint id="kanji-星">
+        <navLabel>
+          <text>星</text>
+        </navLabel>
+        <content src="grade2.xhtml#星"/>
+      </navPoint>
+      <navPoint id="kanji-晴">
+        <navLabel>
+          <text>晴</text>
+        </navLabel>
+        <content src="grade2.xhtml#晴"/>
+      </navPoint>
+      <navPoint id="kanji-切">
+        <navLabel>
+          <text>切</text>
+        </navLabel>
+        <content src="grade2.xhtml#切"/>
+      </navPoint>
+      <navPoint id="kanji-雪">
+        <navLabel>
+          <text>雪</text>
+        </navLabel>
+        <content src="grade2.xhtml#雪"/>
+      </navPoint>
+      <navPoint id="kanji-船">
+        <navLabel>
+          <text>船</text>
+        </navLabel>
+        <content src="grade2.xhtml#船"/>
+      </navPoint>
+      <navPoint id="kanji-線">
+        <navLabel>
+          <text>線</text>
+        </navLabel>
+        <content src="grade2.xhtml#線"/>
+      </navPoint>
+      <navPoint id="kanji-前">
+        <navLabel>
+          <text>前</text>
+        </navLabel>
+        <content src="grade2.xhtml#前"/>
+      </navPoint>
+      <navPoint id="kanji-組">
+        <navLabel>
+          <text>組</text>
+        </navLabel>
+        <content src="grade2.xhtml#組"/>
+      </navPoint>
+      <navPoint id="kanji-走">
+        <navLabel>
+          <text>走</text>
+        </navLabel>
+        <content src="grade2.xhtml#走"/>
+      </navPoint>
+      <navPoint id="kanji-多">
+        <navLabel>
+          <text>多</text>
+        </navLabel>
+        <content src="grade2.xhtml#多"/>
+      </navPoint>
+      <navPoint id="kanji-太">
+        <navLabel>
+          <text>太</text>
+        </navLabel>
+        <content src="grade2.xhtml#太"/>
+      </navPoint>
+      <navPoint id="kanji-体">
+        <navLabel>
+          <text>体</text>
+        </navLabel>
+        <content src="grade2.xhtml#体"/>
+      </navPoint>
+      <navPoint id="kanji-台">
+        <navLabel>
+          <text>台</text>
+        </navLabel>
+        <content src="grade2.xhtml#台"/>
+      </navPoint>
+      <navPoint id="kanji-地">
+        <navLabel>
+          <text>地</text>
+        </navLabel>
+        <content src="grade2.xhtml#地"/>
+      </navPoint>
+      <navPoint id="kanji-池">
+        <navLabel>
+          <text>池</text>
+        </navLabel>
+        <content src="grade2.xhtml#池"/>
+      </navPoint>
+      <navPoint id="kanji-知">
+        <navLabel>
+          <text>知</text>
+        </navLabel>
+        <content src="grade2.xhtml#知"/>
+      </navPoint>
+      <navPoint id="kanji-茶">
+        <navLabel>
+          <text>茶</text>
+        </navLabel>
+        <content src="grade2.xhtml#茶"/>
+      </navPoint>
+      <navPoint id="kanji-昼">
+        <navLabel>
+          <text>昼</text>
+        </navLabel>
+        <content src="grade2.xhtml#昼"/>
+      </navPoint>
+      <navPoint id="kanji-長">
+        <navLabel>
+          <text>長</text>
+        </navLabel>
+        <content src="grade2.xhtml#長"/>
+      </navPoint>
+      <navPoint id="kanji-鳥">
+        <navLabel>
+          <text>鳥</text>
+        </navLabel>
+        <content src="grade2.xhtml#鳥"/>
+      </navPoint>
+      <navPoint id="kanji-朝">
+        <navLabel>
+          <text>朝</text>
+        </navLabel>
+        <content src="grade2.xhtml#朝"/>
+      </navPoint>
+      <navPoint id="kanji-直">
+        <navLabel>
+          <text>直</text>
+        </navLabel>
+        <content src="grade2.xhtml#直"/>
+      </navPoint>
+      <navPoint id="kanji-通">
+        <navLabel>
+          <text>通</text>
+        </navLabel>
+        <content src="grade2.xhtml#通"/>
+      </navPoint>
+      <navPoint id="kanji-弟">
+        <navLabel>
+          <text>弟</text>
+        </navLabel>
+        <content src="grade2.xhtml#弟"/>
+      </navPoint>
+      <navPoint id="kanji-店">
+        <navLabel>
+          <text>店</text>
+        </navLabel>
+        <content src="grade2.xhtml#店"/>
+      </navPoint>
+      <navPoint id="kanji-点">
+        <navLabel>
+          <text>点</text>
+        </navLabel>
+        <content src="grade2.xhtml#点"/>
+      </navPoint>
+      <navPoint id="kanji-電">
+        <navLabel>
+          <text>電</text>
+        </navLabel>
+        <content src="grade2.xhtml#電"/>
+      </navPoint>
+      <navPoint id="kanji-刀">
+        <navLabel>
+          <text>刀</text>
+        </navLabel>
+        <content src="grade2.xhtml#刀"/>
+      </navPoint>
+      <navPoint id="kanji-冬">
+        <navLabel>
+          <text>冬</text>
+        </navLabel>
+        <content src="grade2.xhtml#冬"/>
+      </navPoint>
+      <navPoint id="kanji-当">
+        <navLabel>
+          <text>当</text>
+        </navLabel>
+        <content src="grade2.xhtml#当"/>
+      </navPoint>
+      <navPoint id="kanji-東">
+        <navLabel>
+          <text>東</text>
+        </navLabel>
+        <content src="grade2.xhtml#東"/>
+      </navPoint>
+      <navPoint id="kanji-答">
+        <navLabel>
+          <text>答</text>
+        </navLabel>
+        <content src="grade2.xhtml#答"/>
+      </navPoint>
+      <navPoint id="kanji-頭">
+        <navLabel>
+          <text>頭</text>
+        </navLabel>
+        <content src="grade2.xhtml#頭"/>
+      </navPoint>
+      <navPoint id="kanji-同">
+        <navLabel>
+          <text>同</text>
+        </navLabel>
+        <content src="grade2.xhtml#同"/>
+      </navPoint>
+      <navPoint id="kanji-道">
+        <navLabel>
+          <text>道</text>
+        </navLabel>
+        <content src="grade2.xhtml#道"/>
+      </navPoint>
+      <navPoint id="kanji-読">
+        <navLabel>
+          <text>読</text>
+        </navLabel>
+        <content src="grade2.xhtml#読"/>
+      </navPoint>
+      <navPoint id="kanji-内">
+        <navLabel>
+          <text>内</text>
+        </navLabel>
+        <content src="grade2.xhtml#内"/>
+      </navPoint>
+      <navPoint id="kanji-南">
+        <navLabel>
+          <text>南</text>
+        </navLabel>
+        <content src="grade2.xhtml#南"/>
+      </navPoint>
+      <navPoint id="kanji-肉">
+        <navLabel>
+          <text>肉</text>
+        </navLabel>
+        <content src="grade2.xhtml#肉"/>
+      </navPoint>
+      <navPoint id="kanji-馬">
+        <navLabel>
+          <text>馬</text>
+        </navLabel>
+        <content src="grade2.xhtml#馬"/>
+      </navPoint>
+      <navPoint id="kanji-売">
+        <navLabel>
+          <text>売</text>
+        </navLabel>
+        <content src="grade2.xhtml#売"/>
+      </navPoint>
+      <navPoint id="kanji-買">
+        <navLabel>
+          <text>買</text>
+        </navLabel>
+        <content src="grade2.xhtml#買"/>
+      </navPoint>
+      <navPoint id="kanji-麦">
+        <navLabel>
+          <text>麦</text>
+        </navLabel>
+        <content src="grade2.xhtml#麦"/>
+      </navPoint>
+      <navPoint id="kanji-半">
+        <navLabel>
+          <text>半</text>
+        </navLabel>
+        <content src="grade2.xhtml#半"/>
+      </navPoint>
+      <navPoint id="kanji-番">
+        <navLabel>
+          <text>番</text>
+        </navLabel>
+        <content src="grade2.xhtml#番"/>
+      </navPoint>
+      <navPoint id="kanji-父">
+        <navLabel>
+          <text>父</text>
+        </navLabel>
+        <content src="grade2.xhtml#父"/>
+      </navPoint>
+      <navPoint id="kanji-風">
+        <navLabel>
+          <text>風</text>
+        </navLabel>
+        <content src="grade2.xhtml#風"/>
+      </navPoint>
+      <navPoint id="kanji-分">
+        <navLabel>
+          <text>分</text>
+        </navLabel>
+        <content src="grade2.xhtml#分"/>
+      </navPoint>
+      <navPoint id="kanji-聞">
+        <navLabel>
+          <text>聞</text>
+        </navLabel>
+        <content src="grade2.xhtml#聞"/>
+      </navPoint>
+      <navPoint id="kanji-米">
+        <navLabel>
+          <text>米</text>
+        </navLabel>
+        <content src="grade2.xhtml#米"/>
+      </navPoint>
+      <navPoint id="kanji-歩">
+        <navLabel>
+          <text>歩</text>
+        </navLabel>
+        <content src="grade2.xhtml#歩"/>
+      </navPoint>
+      <navPoint id="kanji-母">
+        <navLabel>
+          <text>母</text>
+        </navLabel>
+        <content src="grade2.xhtml#母"/>
+      </navPoint>
+      <navPoint id="kanji-方">
+        <navLabel>
+          <text>方</text>
+        </navLabel>
+        <content src="grade2.xhtml#方"/>
+      </navPoint>
+      <navPoint id="kanji-北">
+        <navLabel>
+          <text>北</text>
+        </navLabel>
+        <content src="grade2.xhtml#北"/>
+      </navPoint>
+      <navPoint id="kanji-毎">
+        <navLabel>
+          <text>毎</text>
+        </navLabel>
+        <content src="grade2.xhtml#毎"/>
+      </navPoint>
+      <navPoint id="kanji-妹">
+        <navLabel>
+          <text>妹</text>
+        </navLabel>
+        <content src="grade2.xhtml#妹"/>
+      </navPoint>
+      <navPoint id="kanji-万">
+        <navLabel>
+          <text>万</text>
+        </navLabel>
+        <content src="grade2.xhtml#万"/>
+      </navPoint>
+      <navPoint id="kanji-明">
+        <navLabel>
+          <text>明</text>
+        </navLabel>
+        <content src="grade2.xhtml#明"/>
+      </navPoint>
+      <navPoint id="kanji-鳴">
+        <navLabel>
+          <text>鳴</text>
+        </navLabel>
+        <content src="grade2.xhtml#鳴"/>
+      </navPoint>
+      <navPoint id="kanji-毛">
+        <navLabel>
+          <text>毛</text>
+        </navLabel>
+        <content src="grade2.xhtml#毛"/>
+      </navPoint>
+      <navPoint id="kanji-門">
+        <navLabel>
+          <text>門</text>
+        </navLabel>
+        <content src="grade2.xhtml#門"/>
+      </navPoint>
+      <navPoint id="kanji-夜">
+        <navLabel>
+          <text>夜</text>
+        </navLabel>
+        <content src="grade2.xhtml#夜"/>
+      </navPoint>
+      <navPoint id="kanji-野">
+        <navLabel>
+          <text>野</text>
+        </navLabel>
+        <content src="grade2.xhtml#野"/>
+      </navPoint>
+      <navPoint id="kanji-友">
+        <navLabel>
+          <text>友</text>
+        </navLabel>
+        <content src="grade2.xhtml#友"/>
+      </navPoint>
+      <navPoint id="kanji-用">
+        <navLabel>
+          <text>用</text>
+        </navLabel>
+        <content src="grade2.xhtml#用"/>
+      </navPoint>
+      <navPoint id="kanji-曜">
+        <navLabel>
+          <text>曜</text>
+        </navLabel>
+        <content src="grade2.xhtml#曜"/>
+      </navPoint>
+      <navPoint id="kanji-来">
+        <navLabel>
+          <text>来</text>
+        </navLabel>
+        <content src="grade2.xhtml#来"/>
+      </navPoint>
+      <navPoint id="kanji-里">
+        <navLabel>
+          <text>里</text>
+        </navLabel>
+        <content src="grade2.xhtml#里"/>
+      </navPoint>
+      <navPoint id="kanji-理">
+        <navLabel>
+          <text>理</text>
+        </navLabel>
+        <content src="grade2.xhtml#理"/>
+      </navPoint>
+      <navPoint id="kanji-話">
+        <navLabel>
+          <text>話</text>
+        </navLabel>
+        <content src="grade2.xhtml#話"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="sep_2">
+      <navLabel>
+        <text>第3学年 (200字)</text>
+      </navLabel>
+      <content src="grade3.xhtml#悪"/>
+      <navPoint id="kanji-悪">
+        <navLabel>
+          <text>悪</text>
+        </navLabel>
+        <content src="grade3.xhtml#悪"/>
+      </navPoint>
+      <navPoint id="kanji-安">
+        <navLabel>
+          <text>安</text>
+        </navLabel>
+        <content src="grade3.xhtml#安"/>
+      </navPoint>
+      <navPoint id="kanji-暗">
+        <navLabel>
+          <text>暗</text>
+        </navLabel>
+        <content src="grade3.xhtml#暗"/>
+      </navPoint>
+      <navPoint id="kanji-医">
+        <navLabel>
+          <text>医</text>
+        </navLabel>
+        <content src="grade3.xhtml#医"/>
+      </navPoint>
+      <navPoint id="kanji-委">
+        <navLabel>
+          <text>委</text>
+        </navLabel>
+        <content src="grade3.xhtml#委"/>
+      </navPoint>
+      <navPoint id="kanji-意">
+        <navLabel>
+          <text>意</text>
+        </navLabel>
+        <content src="grade3.xhtml#意"/>
+      </navPoint>
+      <navPoint id="kanji-育">
+        <navLabel>
+          <text>育</text>
+        </navLabel>
+        <content src="grade3.xhtml#育"/>
+      </navPoint>
+      <navPoint id="kanji-員">
+        <navLabel>
+          <text>員</text>
+        </navLabel>
+        <content src="grade3.xhtml#員"/>
+      </navPoint>
+      <navPoint id="kanji-院">
+        <navLabel>
+          <text>院</text>
+        </navLabel>
+        <content src="grade3.xhtml#院"/>
+      </navPoint>
+      <navPoint id="kanji-飲">
+        <navLabel>
+          <text>飲</text>
+        </navLabel>
+        <content src="grade3.xhtml#飲"/>
+      </navPoint>
+      <navPoint id="kanji-運">
+        <navLabel>
+          <text>運</text>
+        </navLabel>
+        <content src="grade3.xhtml#運"/>
+      </navPoint>
+      <navPoint id="kanji-泳">
+        <navLabel>
+          <text>泳</text>
+        </navLabel>
+        <content src="grade3.xhtml#泳"/>
+      </navPoint>
+      <navPoint id="kanji-駅">
+        <navLabel>
+          <text>駅</text>
+        </navLabel>
+        <content src="grade3.xhtml#駅"/>
+      </navPoint>
+      <navPoint id="kanji-央">
+        <navLabel>
+          <text>央</text>
+        </navLabel>
+        <content src="grade3.xhtml#央"/>
+      </navPoint>
+      <navPoint id="kanji-横">
+        <navLabel>
+          <text>横</text>
+        </navLabel>
+        <content src="grade3.xhtml#横"/>
+      </navPoint>
+      <navPoint id="kanji-屋">
+        <navLabel>
+          <text>屋</text>
+        </navLabel>
+        <content src="grade3.xhtml#屋"/>
+      </navPoint>
+      <navPoint id="kanji-温">
+        <navLabel>
+          <text>温</text>
+        </navLabel>
+        <content src="grade3.xhtml#温"/>
+      </navPoint>
+      <navPoint id="kanji-化">
+        <navLabel>
+          <text>化</text>
+        </navLabel>
+        <content src="grade3.xhtml#化"/>
+      </navPoint>
+      <navPoint id="kanji-荷">
+        <navLabel>
+          <text>荷</text>
+        </navLabel>
+        <content src="grade3.xhtml#荷"/>
+      </navPoint>
+      <navPoint id="kanji-界">
+        <navLabel>
+          <text>界</text>
+        </navLabel>
+        <content src="grade3.xhtml#界"/>
+      </navPoint>
+      <navPoint id="kanji-開">
+        <navLabel>
+          <text>開</text>
+        </navLabel>
+        <content src="grade3.xhtml#開"/>
+      </navPoint>
+      <navPoint id="kanji-階">
+        <navLabel>
+          <text>階</text>
+        </navLabel>
+        <content src="grade3.xhtml#階"/>
+      </navPoint>
+      <navPoint id="kanji-寒">
+        <navLabel>
+          <text>寒</text>
+        </navLabel>
+        <content src="grade3.xhtml#寒"/>
+      </navPoint>
+      <navPoint id="kanji-感">
+        <navLabel>
+          <text>感</text>
+        </navLabel>
+        <content src="grade3.xhtml#感"/>
+      </navPoint>
+      <navPoint id="kanji-漢">
+        <navLabel>
+          <text>漢</text>
+        </navLabel>
+        <content src="grade3.xhtml#漢"/>
+      </navPoint>
+      <navPoint id="kanji-館">
+        <navLabel>
+          <text>館</text>
+        </navLabel>
+        <content src="grade3.xhtml#館"/>
+      </navPoint>
+      <navPoint id="kanji-岸">
+        <navLabel>
+          <text>岸</text>
+        </navLabel>
+        <content src="grade3.xhtml#岸"/>
+      </navPoint>
+      <navPoint id="kanji-起">
+        <navLabel>
+          <text>起</text>
+        </navLabel>
+        <content src="grade3.xhtml#起"/>
+      </navPoint>
+      <navPoint id="kanji-期">
+        <navLabel>
+          <text>期</text>
+        </navLabel>
+        <content src="grade3.xhtml#期"/>
+      </navPoint>
+      <navPoint id="kanji-客">
+        <navLabel>
+          <text>客</text>
+        </navLabel>
+        <content src="grade3.xhtml#客"/>
+      </navPoint>
+      <navPoint id="kanji-究">
+        <navLabel>
+          <text>究</text>
+        </navLabel>
+        <content src="grade3.xhtml#究"/>
+      </navPoint>
+      <navPoint id="kanji-急">
+        <navLabel>
+          <text>急</text>
+        </navLabel>
+        <content src="grade3.xhtml#急"/>
+      </navPoint>
+      <navPoint id="kanji-級">
+        <navLabel>
+          <text>級</text>
+        </navLabel>
+        <content src="grade3.xhtml#級"/>
+      </navPoint>
+      <navPoint id="kanji-宮">
+        <navLabel>
+          <text>宮</text>
+        </navLabel>
+        <content src="grade3.xhtml#宮"/>
+      </navPoint>
+      <navPoint id="kanji-球">
+        <navLabel>
+          <text>球</text>
+        </navLabel>
+        <content src="grade3.xhtml#球"/>
+      </navPoint>
+      <navPoint id="kanji-去">
+        <navLabel>
+          <text>去</text>
+        </navLabel>
+        <content src="grade3.xhtml#去"/>
+      </navPoint>
+      <navPoint id="kanji-橋">
+        <navLabel>
+          <text>橋</text>
+        </navLabel>
+        <content src="grade3.xhtml#橋"/>
+      </navPoint>
+      <navPoint id="kanji-業">
+        <navLabel>
+          <text>業</text>
+        </navLabel>
+        <content src="grade3.xhtml#業"/>
+      </navPoint>
+      <navPoint id="kanji-曲">
+        <navLabel>
+          <text>曲</text>
+        </navLabel>
+        <content src="grade3.xhtml#曲"/>
+      </navPoint>
+      <navPoint id="kanji-局">
+        <navLabel>
+          <text>局</text>
+        </navLabel>
+        <content src="grade3.xhtml#局"/>
+      </navPoint>
+      <navPoint id="kanji-銀">
+        <navLabel>
+          <text>銀</text>
+        </navLabel>
+        <content src="grade3.xhtml#銀"/>
+      </navPoint>
+      <navPoint id="kanji-区">
+        <navLabel>
+          <text>区</text>
+        </navLabel>
+        <content src="grade3.xhtml#区"/>
+      </navPoint>
+      <navPoint id="kanji-苦">
+        <navLabel>
+          <text>苦</text>
+        </navLabel>
+        <content src="grade3.xhtml#苦"/>
+      </navPoint>
+      <navPoint id="kanji-具">
+        <navLabel>
+          <text>具</text>
+        </navLabel>
+        <content src="grade3.xhtml#具"/>
+      </navPoint>
+      <navPoint id="kanji-君">
+        <navLabel>
+          <text>君</text>
+        </navLabel>
+        <content src="grade3.xhtml#君"/>
+      </navPoint>
+      <navPoint id="kanji-係">
+        <navLabel>
+          <text>係</text>
+        </navLabel>
+        <content src="grade3.xhtml#係"/>
+      </navPoint>
+      <navPoint id="kanji-軽">
+        <navLabel>
+          <text>軽</text>
+        </navLabel>
+        <content src="grade3.xhtml#軽"/>
+      </navPoint>
+      <navPoint id="kanji-血">
+        <navLabel>
+          <text>血</text>
+        </navLabel>
+        <content src="grade3.xhtml#血"/>
+      </navPoint>
+      <navPoint id="kanji-決">
+        <navLabel>
+          <text>決</text>
+        </navLabel>
+        <content src="grade3.xhtml#決"/>
+      </navPoint>
+      <navPoint id="kanji-研">
+        <navLabel>
+          <text>研</text>
+        </navLabel>
+        <content src="grade3.xhtml#研"/>
+      </navPoint>
+      <navPoint id="kanji-県">
+        <navLabel>
+          <text>県</text>
+        </navLabel>
+        <content src="grade3.xhtml#県"/>
+      </navPoint>
+      <navPoint id="kanji-庫">
+        <navLabel>
+          <text>庫</text>
+        </navLabel>
+        <content src="grade3.xhtml#庫"/>
+      </navPoint>
+      <navPoint id="kanji-湖">
+        <navLabel>
+          <text>湖</text>
+        </navLabel>
+        <content src="grade3.xhtml#湖"/>
+      </navPoint>
+      <navPoint id="kanji-向">
+        <navLabel>
+          <text>向</text>
+        </navLabel>
+        <content src="grade3.xhtml#向"/>
+      </navPoint>
+      <navPoint id="kanji-幸">
+        <navLabel>
+          <text>幸</text>
+        </navLabel>
+        <content src="grade3.xhtml#幸"/>
+      </navPoint>
+      <navPoint id="kanji-港">
+        <navLabel>
+          <text>港</text>
+        </navLabel>
+        <content src="grade3.xhtml#港"/>
+      </navPoint>
+      <navPoint id="kanji-号">
+        <navLabel>
+          <text>号</text>
+        </navLabel>
+        <content src="grade3.xhtml#号"/>
+      </navPoint>
+      <navPoint id="kanji-根">
+        <navLabel>
+          <text>根</text>
+        </navLabel>
+        <content src="grade3.xhtml#根"/>
+      </navPoint>
+      <navPoint id="kanji-祭">
+        <navLabel>
+          <text>祭</text>
+        </navLabel>
+        <content src="grade3.xhtml#祭"/>
+      </navPoint>
+      <navPoint id="kanji-皿">
+        <navLabel>
+          <text>皿</text>
+        </navLabel>
+        <content src="grade3.xhtml#皿"/>
+      </navPoint>
+      <navPoint id="kanji-仕">
+        <navLabel>
+          <text>仕</text>
+        </navLabel>
+        <content src="grade3.xhtml#仕"/>
+      </navPoint>
+      <navPoint id="kanji-死">
+        <navLabel>
+          <text>死</text>
+        </navLabel>
+        <content src="grade3.xhtml#死"/>
+      </navPoint>
+      <navPoint id="kanji-使">
+        <navLabel>
+          <text>使</text>
+        </navLabel>
+        <content src="grade3.xhtml#使"/>
+      </navPoint>
+      <navPoint id="kanji-始">
+        <navLabel>
+          <text>始</text>
+        </navLabel>
+        <content src="grade3.xhtml#始"/>
+      </navPoint>
+      <navPoint id="kanji-指">
+        <navLabel>
+          <text>指</text>
+        </navLabel>
+        <content src="grade3.xhtml#指"/>
+      </navPoint>
+      <navPoint id="kanji-歯">
+        <navLabel>
+          <text>歯</text>
+        </navLabel>
+        <content src="grade3.xhtml#歯"/>
+      </navPoint>
+      <navPoint id="kanji-詩">
+        <navLabel>
+          <text>詩</text>
+        </navLabel>
+        <content src="grade3.xhtml#詩"/>
+      </navPoint>
+      <navPoint id="kanji-次">
+        <navLabel>
+          <text>次</text>
+        </navLabel>
+        <content src="grade3.xhtml#次"/>
+      </navPoint>
+      <navPoint id="kanji-事">
+        <navLabel>
+          <text>事</text>
+        </navLabel>
+        <content src="grade3.xhtml#事"/>
+      </navPoint>
+      <navPoint id="kanji-持">
+        <navLabel>
+          <text>持</text>
+        </navLabel>
+        <content src="grade3.xhtml#持"/>
+      </navPoint>
+      <navPoint id="kanji-式">
+        <navLabel>
+          <text>式</text>
+        </navLabel>
+        <content src="grade3.xhtml#式"/>
+      </navPoint>
+      <navPoint id="kanji-実">
+        <navLabel>
+          <text>実</text>
+        </navLabel>
+        <content src="grade3.xhtml#実"/>
+      </navPoint>
+      <navPoint id="kanji-写">
+        <navLabel>
+          <text>写</text>
+        </navLabel>
+        <content src="grade3.xhtml#写"/>
+      </navPoint>
+      <navPoint id="kanji-者">
+        <navLabel>
+          <text>者</text>
+        </navLabel>
+        <content src="grade3.xhtml#者"/>
+      </navPoint>
+      <navPoint id="kanji-主">
+        <navLabel>
+          <text>主</text>
+        </navLabel>
+        <content src="grade3.xhtml#主"/>
+      </navPoint>
+      <navPoint id="kanji-守">
+        <navLabel>
+          <text>守</text>
+        </navLabel>
+        <content src="grade3.xhtml#守"/>
+      </navPoint>
+      <navPoint id="kanji-取">
+        <navLabel>
+          <text>取</text>
+        </navLabel>
+        <content src="grade3.xhtml#取"/>
+      </navPoint>
+      <navPoint id="kanji-酒">
+        <navLabel>
+          <text>酒</text>
+        </navLabel>
+        <content src="grade3.xhtml#酒"/>
+      </navPoint>
+      <navPoint id="kanji-受">
+        <navLabel>
+          <text>受</text>
+        </navLabel>
+        <content src="grade3.xhtml#受"/>
+      </navPoint>
+      <navPoint id="kanji-州">
+        <navLabel>
+          <text>州</text>
+        </navLabel>
+        <content src="grade3.xhtml#州"/>
+      </navPoint>
+      <navPoint id="kanji-拾">
+        <navLabel>
+          <text>拾</text>
+        </navLabel>
+        <content src="grade3.xhtml#拾"/>
+      </navPoint>
+      <navPoint id="kanji-終">
+        <navLabel>
+          <text>終</text>
+        </navLabel>
+        <content src="grade3.xhtml#終"/>
+      </navPoint>
+      <navPoint id="kanji-習">
+        <navLabel>
+          <text>習</text>
+        </navLabel>
+        <content src="grade3.xhtml#習"/>
+      </navPoint>
+      <navPoint id="kanji-集">
+        <navLabel>
+          <text>集</text>
+        </navLabel>
+        <content src="grade3.xhtml#集"/>
+      </navPoint>
+      <navPoint id="kanji-住">
+        <navLabel>
+          <text>住</text>
+        </navLabel>
+        <content src="grade3.xhtml#住"/>
+      </navPoint>
+      <navPoint id="kanji-重">
+        <navLabel>
+          <text>重</text>
+        </navLabel>
+        <content src="grade3.xhtml#重"/>
+      </navPoint>
+      <navPoint id="kanji-宿">
+        <navLabel>
+          <text>宿</text>
+        </navLabel>
+        <content src="grade3.xhtml#宿"/>
+      </navPoint>
+      <navPoint id="kanji-所">
+        <navLabel>
+          <text>所</text>
+        </navLabel>
+        <content src="grade3.xhtml#所"/>
+      </navPoint>
+      <navPoint id="kanji-暑">
+        <navLabel>
+          <text>暑</text>
+        </navLabel>
+        <content src="grade3.xhtml#暑"/>
+      </navPoint>
+      <navPoint id="kanji-助">
+        <navLabel>
+          <text>助</text>
+        </navLabel>
+        <content src="grade3.xhtml#助"/>
+      </navPoint>
+      <navPoint id="kanji-昭">
+        <navLabel>
+          <text>昭</text>
+        </navLabel>
+        <content src="grade3.xhtml#昭"/>
+      </navPoint>
+      <navPoint id="kanji-消">
+        <navLabel>
+          <text>消</text>
+        </navLabel>
+        <content src="grade3.xhtml#消"/>
+      </navPoint>
+      <navPoint id="kanji-商">
+        <navLabel>
+          <text>商</text>
+        </navLabel>
+        <content src="grade3.xhtml#商"/>
+      </navPoint>
+      <navPoint id="kanji-章">
+        <navLabel>
+          <text>章</text>
+        </navLabel>
+        <content src="grade3.xhtml#章"/>
+      </navPoint>
+      <navPoint id="kanji-勝">
+        <navLabel>
+          <text>勝</text>
+        </navLabel>
+        <content src="grade3.xhtml#勝"/>
+      </navPoint>
+      <navPoint id="kanji-乗">
+        <navLabel>
+          <text>乗</text>
+        </navLabel>
+        <content src="grade3.xhtml#乗"/>
+      </navPoint>
+      <navPoint id="kanji-植">
+        <navLabel>
+          <text>植</text>
+        </navLabel>
+        <content src="grade3.xhtml#植"/>
+      </navPoint>
+      <navPoint id="kanji-申">
+        <navLabel>
+          <text>申</text>
+        </navLabel>
+        <content src="grade3.xhtml#申"/>
+      </navPoint>
+      <navPoint id="kanji-身">
+        <navLabel>
+          <text>身</text>
+        </navLabel>
+        <content src="grade3.xhtml#身"/>
+      </navPoint>
+      <navPoint id="kanji-神">
+        <navLabel>
+          <text>神</text>
+        </navLabel>
+        <content src="grade3.xhtml#神"/>
+      </navPoint>
+      <navPoint id="kanji-真">
+        <navLabel>
+          <text>真</text>
+        </navLabel>
+        <content src="grade3.xhtml#真"/>
+      </navPoint>
+      <navPoint id="kanji-深">
+        <navLabel>
+          <text>深</text>
+        </navLabel>
+        <content src="grade3.xhtml#深"/>
+      </navPoint>
+      <navPoint id="kanji-進">
+        <navLabel>
+          <text>進</text>
+        </navLabel>
+        <content src="grade3.xhtml#進"/>
+      </navPoint>
+      <navPoint id="kanji-世">
+        <navLabel>
+          <text>世</text>
+        </navLabel>
+        <content src="grade3.xhtml#世"/>
+      </navPoint>
+      <navPoint id="kanji-整">
+        <navLabel>
+          <text>整</text>
+        </navLabel>
+        <content src="grade3.xhtml#整"/>
+      </navPoint>
+      <navPoint id="kanji-昔">
+        <navLabel>
+          <text>昔</text>
+        </navLabel>
+        <content src="grade3.xhtml#昔"/>
+      </navPoint>
+      <navPoint id="kanji-全">
+        <navLabel>
+          <text>全</text>
+        </navLabel>
+        <content src="grade3.xhtml#全"/>
+      </navPoint>
+      <navPoint id="kanji-相">
+        <navLabel>
+          <text>相</text>
+        </navLabel>
+        <content src="grade3.xhtml#相"/>
+      </navPoint>
+      <navPoint id="kanji-送">
+        <navLabel>
+          <text>送</text>
+        </navLabel>
+        <content src="grade3.xhtml#送"/>
+      </navPoint>
+      <navPoint id="kanji-想">
+        <navLabel>
+          <text>想</text>
+        </navLabel>
+        <content src="grade3.xhtml#想"/>
+      </navPoint>
+      <navPoint id="kanji-息">
+        <navLabel>
+          <text>息</text>
+        </navLabel>
+        <content src="grade3.xhtml#息"/>
+      </navPoint>
+      <navPoint id="kanji-速">
+        <navLabel>
+          <text>速</text>
+        </navLabel>
+        <content src="grade3.xhtml#速"/>
+      </navPoint>
+      <navPoint id="kanji-族">
+        <navLabel>
+          <text>族</text>
+        </navLabel>
+        <content src="grade3.xhtml#族"/>
+      </navPoint>
+      <navPoint id="kanji-他">
+        <navLabel>
+          <text>他</text>
+        </navLabel>
+        <content src="grade3.xhtml#他"/>
+      </navPoint>
+      <navPoint id="kanji-打">
+        <navLabel>
+          <text>打</text>
+        </navLabel>
+        <content src="grade3.xhtml#打"/>
+      </navPoint>
+      <navPoint id="kanji-対">
+        <navLabel>
+          <text>対</text>
+        </navLabel>
+        <content src="grade3.xhtml#対"/>
+      </navPoint>
+      <navPoint id="kanji-待">
+        <navLabel>
+          <text>待</text>
+        </navLabel>
+        <content src="grade3.xhtml#待"/>
+      </navPoint>
+      <navPoint id="kanji-代">
+        <navLabel>
+          <text>代</text>
+        </navLabel>
+        <content src="grade3.xhtml#代"/>
+      </navPoint>
+      <navPoint id="kanji-第">
+        <navLabel>
+          <text>第</text>
+        </navLabel>
+        <content src="grade3.xhtml#第"/>
+      </navPoint>
+      <navPoint id="kanji-題">
+        <navLabel>
+          <text>題</text>
+        </navLabel>
+        <content src="grade3.xhtml#題"/>
+      </navPoint>
+      <navPoint id="kanji-炭">
+        <navLabel>
+          <text>炭</text>
+        </navLabel>
+        <content src="grade3.xhtml#炭"/>
+      </navPoint>
+      <navPoint id="kanji-短">
+        <navLabel>
+          <text>短</text>
+        </navLabel>
+        <content src="grade3.xhtml#短"/>
+      </navPoint>
+      <navPoint id="kanji-談">
+        <navLabel>
+          <text>談</text>
+        </navLabel>
+        <content src="grade3.xhtml#談"/>
+      </navPoint>
+      <navPoint id="kanji-着">
+        <navLabel>
+          <text>着</text>
+        </navLabel>
+        <content src="grade3.xhtml#着"/>
+      </navPoint>
+      <navPoint id="kanji-注">
+        <navLabel>
+          <text>注</text>
+        </navLabel>
+        <content src="grade3.xhtml#注"/>
+      </navPoint>
+      <navPoint id="kanji-柱">
+        <navLabel>
+          <text>柱</text>
+        </navLabel>
+        <content src="grade3.xhtml#柱"/>
+      </navPoint>
+      <navPoint id="kanji-丁">
+        <navLabel>
+          <text>丁</text>
+        </navLabel>
+        <content src="grade3.xhtml#丁"/>
+      </navPoint>
+      <navPoint id="kanji-帳">
+        <navLabel>
+          <text>帳</text>
+        </navLabel>
+        <content src="grade3.xhtml#帳"/>
+      </navPoint>
+      <navPoint id="kanji-調">
+        <navLabel>
+          <text>調</text>
+        </navLabel>
+        <content src="grade3.xhtml#調"/>
+      </navPoint>
+      <navPoint id="kanji-追">
+        <navLabel>
+          <text>追</text>
+        </navLabel>
+        <content src="grade3.xhtml#追"/>
+      </navPoint>
+      <navPoint id="kanji-定">
+        <navLabel>
+          <text>定</text>
+        </navLabel>
+        <content src="grade3.xhtml#定"/>
+      </navPoint>
+      <navPoint id="kanji-庭">
+        <navLabel>
+          <text>庭</text>
+        </navLabel>
+        <content src="grade3.xhtml#庭"/>
+      </navPoint>
+      <navPoint id="kanji-笛">
+        <navLabel>
+          <text>笛</text>
+        </navLabel>
+        <content src="grade3.xhtml#笛"/>
+      </navPoint>
+      <navPoint id="kanji-鉄">
+        <navLabel>
+          <text>鉄</text>
+        </navLabel>
+        <content src="grade3.xhtml#鉄"/>
+      </navPoint>
+      <navPoint id="kanji-転">
+        <navLabel>
+          <text>転</text>
+        </navLabel>
+        <content src="grade3.xhtml#転"/>
+      </navPoint>
+      <navPoint id="kanji-都">
+        <navLabel>
+          <text>都</text>
+        </navLabel>
+        <content src="grade3.xhtml#都"/>
+      </navPoint>
+      <navPoint id="kanji-度">
+        <navLabel>
+          <text>度</text>
+        </navLabel>
+        <content src="grade3.xhtml#度"/>
+      </navPoint>
+      <navPoint id="kanji-投">
+        <navLabel>
+          <text>投</text>
+        </navLabel>
+        <content src="grade3.xhtml#投"/>
+      </navPoint>
+      <navPoint id="kanji-豆">
+        <navLabel>
+          <text>豆</text>
+        </navLabel>
+        <content src="grade3.xhtml#豆"/>
+      </navPoint>
+      <navPoint id="kanji-島">
+        <navLabel>
+          <text>島</text>
+        </navLabel>
+        <content src="grade3.xhtml#島"/>
+      </navPoint>
+      <navPoint id="kanji-湯">
+        <navLabel>
+          <text>湯</text>
+        </navLabel>
+        <content src="grade3.xhtml#湯"/>
+      </navPoint>
+      <navPoint id="kanji-登">
+        <navLabel>
+          <text>登</text>
+        </navLabel>
+        <content src="grade3.xhtml#登"/>
+      </navPoint>
+      <navPoint id="kanji-等">
+        <navLabel>
+          <text>等</text>
+        </navLabel>
+        <content src="grade3.xhtml#等"/>
+      </navPoint>
+      <navPoint id="kanji-動">
+        <navLabel>
+          <text>動</text>
+        </navLabel>
+        <content src="grade3.xhtml#動"/>
+      </navPoint>
+      <navPoint id="kanji-童">
+        <navLabel>
+          <text>童</text>
+        </navLabel>
+        <content src="grade3.xhtml#童"/>
+      </navPoint>
+      <navPoint id="kanji-農">
+        <navLabel>
+          <text>農</text>
+        </navLabel>
+        <content src="grade3.xhtml#農"/>
+      </navPoint>
+      <navPoint id="kanji-波">
+        <navLabel>
+          <text>波</text>
+        </navLabel>
+        <content src="grade3.xhtml#波"/>
+      </navPoint>
+      <navPoint id="kanji-配">
+        <navLabel>
+          <text>配</text>
+        </navLabel>
+        <content src="grade3.xhtml#配"/>
+      </navPoint>
+      <navPoint id="kanji-倍">
+        <navLabel>
+          <text>倍</text>
+        </navLabel>
+        <content src="grade3.xhtml#倍"/>
+      </navPoint>
+      <navPoint id="kanji-箱">
+        <navLabel>
+          <text>箱</text>
+        </navLabel>
+        <content src="grade3.xhtml#箱"/>
+      </navPoint>
+      <navPoint id="kanji-畑">
+        <navLabel>
+          <text>畑</text>
+        </navLabel>
+        <content src="grade3.xhtml#畑"/>
+      </navPoint>
+      <navPoint id="kanji-発">
+        <navLabel>
+          <text>発</text>
+        </navLabel>
+        <content src="grade3.xhtml#発"/>
+      </navPoint>
+      <navPoint id="kanji-反">
+        <navLabel>
+          <text>反</text>
+        </navLabel>
+        <content src="grade3.xhtml#反"/>
+      </navPoint>
+      <navPoint id="kanji-坂">
+        <navLabel>
+          <text>坂</text>
+        </navLabel>
+        <content src="grade3.xhtml#坂"/>
+      </navPoint>
+      <navPoint id="kanji-板">
+        <navLabel>
+          <text>板</text>
+        </navLabel>
+        <content src="grade3.xhtml#板"/>
+      </navPoint>
+      <navPoint id="kanji-皮">
+        <navLabel>
+          <text>皮</text>
+        </navLabel>
+        <content src="grade3.xhtml#皮"/>
+      </navPoint>
+      <navPoint id="kanji-悲">
+        <navLabel>
+          <text>悲</text>
+        </navLabel>
+        <content src="grade3.xhtml#悲"/>
+      </navPoint>
+      <navPoint id="kanji-美">
+        <navLabel>
+          <text>美</text>
+        </navLabel>
+        <content src="grade3.xhtml#美"/>
+      </navPoint>
+      <navPoint id="kanji-鼻">
+        <navLabel>
+          <text>鼻</text>
+        </navLabel>
+        <content src="grade3.xhtml#鼻"/>
+      </navPoint>
+      <navPoint id="kanji-筆">
+        <navLabel>
+          <text>筆</text>
+        </navLabel>
+        <content src="grade3.xhtml#筆"/>
+      </navPoint>
+      <navPoint id="kanji-氷">
+        <navLabel>
+          <text>氷</text>
+        </navLabel>
+        <content src="grade3.xhtml#氷"/>
+      </navPoint>
+      <navPoint id="kanji-表">
+        <navLabel>
+          <text>表</text>
+        </navLabel>
+        <content src="grade3.xhtml#表"/>
+      </navPoint>
+      <navPoint id="kanji-秒">
+        <navLabel>
+          <text>秒</text>
+        </navLabel>
+        <content src="grade3.xhtml#秒"/>
+      </navPoint>
+      <navPoint id="kanji-病">
+        <navLabel>
+          <text>病</text>
+        </navLabel>
+        <content src="grade3.xhtml#病"/>
+      </navPoint>
+      <navPoint id="kanji-品">
+        <navLabel>
+          <text>品</text>
+        </navLabel>
+        <content src="grade3.xhtml#品"/>
+      </navPoint>
+      <navPoint id="kanji-負">
+        <navLabel>
+          <text>負</text>
+        </navLabel>
+        <content src="grade3.xhtml#負"/>
+      </navPoint>
+      <navPoint id="kanji-部">
+        <navLabel>
+          <text>部</text>
+        </navLabel>
+        <content src="grade3.xhtml#部"/>
+      </navPoint>
+      <navPoint id="kanji-服">
+        <navLabel>
+          <text>服</text>
+        </navLabel>
+        <content src="grade3.xhtml#服"/>
+      </navPoint>
+      <navPoint id="kanji-福">
+        <navLabel>
+          <text>福</text>
+        </navLabel>
+        <content src="grade3.xhtml#福"/>
+      </navPoint>
+      <navPoint id="kanji-物">
+        <navLabel>
+          <text>物</text>
+        </navLabel>
+        <content src="grade3.xhtml#物"/>
+      </navPoint>
+      <navPoint id="kanji-平">
+        <navLabel>
+          <text>平</text>
+        </navLabel>
+        <content src="grade3.xhtml#平"/>
+      </navPoint>
+      <navPoint id="kanji-返">
+        <navLabel>
+          <text>返</text>
+        </navLabel>
+        <content src="grade3.xhtml#返"/>
+      </navPoint>
+      <navPoint id="kanji-勉">
+        <navLabel>
+          <text>勉</text>
+        </navLabel>
+        <content src="grade3.xhtml#勉"/>
+      </navPoint>
+      <navPoint id="kanji-放">
+        <navLabel>
+          <text>放</text>
+        </navLabel>
+        <content src="grade3.xhtml#放"/>
+      </navPoint>
+      <navPoint id="kanji-味">
+        <navLabel>
+          <text>味</text>
+        </navLabel>
+        <content src="grade3.xhtml#味"/>
+      </navPoint>
+      <navPoint id="kanji-命">
+        <navLabel>
+          <text>命</text>
+        </navLabel>
+        <content src="grade3.xhtml#命"/>
+      </navPoint>
+      <navPoint id="kanji-面">
+        <navLabel>
+          <text>面</text>
+        </navLabel>
+        <content src="grade3.xhtml#面"/>
+      </navPoint>
+      <navPoint id="kanji-問">
+        <navLabel>
+          <text>問</text>
+        </navLabel>
+        <content src="grade3.xhtml#問"/>
+      </navPoint>
+      <navPoint id="kanji-役">
+        <navLabel>
+          <text>役</text>
+        </navLabel>
+        <content src="grade3.xhtml#役"/>
+      </navPoint>
+      <navPoint id="kanji-薬">
+        <navLabel>
+          <text>薬</text>
+        </navLabel>
+        <content src="grade3.xhtml#薬"/>
+      </navPoint>
+      <navPoint id="kanji-由">
+        <navLabel>
+          <text>由</text>
+        </navLabel>
+        <content src="grade3.xhtml#由"/>
+      </navPoint>
+      <navPoint id="kanji-油">
+        <navLabel>
+          <text>油</text>
+        </navLabel>
+        <content src="grade3.xhtml#油"/>
+      </navPoint>
+      <navPoint id="kanji-有">
+        <navLabel>
+          <text>有</text>
+        </navLabel>
+        <content src="grade3.xhtml#有"/>
+      </navPoint>
+      <navPoint id="kanji-遊">
+        <navLabel>
+          <text>遊</text>
+        </navLabel>
+        <content src="grade3.xhtml#遊"/>
+      </navPoint>
+      <navPoint id="kanji-予">
+        <navLabel>
+          <text>予</text>
+        </navLabel>
+        <content src="grade3.xhtml#予"/>
+      </navPoint>
+      <navPoint id="kanji-羊">
+        <navLabel>
+          <text>羊</text>
+        </navLabel>
+        <content src="grade3.xhtml#羊"/>
+      </navPoint>
+      <navPoint id="kanji-洋">
+        <navLabel>
+          <text>洋</text>
+        </navLabel>
+        <content src="grade3.xhtml#洋"/>
+      </navPoint>
+      <navPoint id="kanji-葉">
+        <navLabel>
+          <text>葉</text>
+        </navLabel>
+        <content src="grade3.xhtml#葉"/>
+      </navPoint>
+      <navPoint id="kanji-陽">
+        <navLabel>
+          <text>陽</text>
+        </navLabel>
+        <content src="grade3.xhtml#陽"/>
+      </navPoint>
+      <navPoint id="kanji-様">
+        <navLabel>
+          <text>様</text>
+        </navLabel>
+        <content src="grade3.xhtml#様"/>
+      </navPoint>
+      <navPoint id="kanji-落">
+        <navLabel>
+          <text>落</text>
+        </navLabel>
+        <content src="grade3.xhtml#落"/>
+      </navPoint>
+      <navPoint id="kanji-流">
+        <navLabel>
+          <text>流</text>
+        </navLabel>
+        <content src="grade3.xhtml#流"/>
+      </navPoint>
+      <navPoint id="kanji-旅">
+        <navLabel>
+          <text>旅</text>
+        </navLabel>
+        <content src="grade3.xhtml#旅"/>
+      </navPoint>
+      <navPoint id="kanji-両">
+        <navLabel>
+          <text>両</text>
+        </navLabel>
+        <content src="grade3.xhtml#両"/>
+      </navPoint>
+      <navPoint id="kanji-緑">
+        <navLabel>
+          <text>緑</text>
+        </navLabel>
+        <content src="grade3.xhtml#緑"/>
+      </navPoint>
+      <navPoint id="kanji-礼">
+        <navLabel>
+          <text>礼</text>
+        </navLabel>
+        <content src="grade3.xhtml#礼"/>
+      </navPoint>
+      <navPoint id="kanji-列">
+        <navLabel>
+          <text>列</text>
+        </navLabel>
+        <content src="grade3.xhtml#列"/>
+      </navPoint>
+      <navPoint id="kanji-練">
+        <navLabel>
+          <text>練</text>
+        </navLabel>
+        <content src="grade3.xhtml#練"/>
+      </navPoint>
+      <navPoint id="kanji-路">
+        <navLabel>
+          <text>路</text>
+        </navLabel>
+        <content src="grade3.xhtml#路"/>
+      </navPoint>
+      <navPoint id="kanji-和">
+        <navLabel>
+          <text>和</text>
+        </navLabel>
+        <content src="grade3.xhtml#和"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="sep_3">
+      <navLabel>
+        <text>第4学年 (202字)</text>
+      </navLabel>
+      <content src="grade4.xhtml#愛"/>
+      <navPoint id="kanji-愛">
+        <navLabel>
+          <text>愛</text>
+        </navLabel>
+        <content src="grade4.xhtml#愛"/>
+      </navPoint>
+      <navPoint id="kanji-案">
+        <navLabel>
+          <text>案</text>
+        </navLabel>
+        <content src="grade4.xhtml#案"/>
+      </navPoint>
+      <navPoint id="kanji-以">
+        <navLabel>
+          <text>以</text>
+        </navLabel>
+        <content src="grade4.xhtml#以"/>
+      </navPoint>
+      <navPoint id="kanji-衣">
+        <navLabel>
+          <text>衣</text>
+        </navLabel>
+        <content src="grade4.xhtml#衣"/>
+      </navPoint>
+      <navPoint id="kanji-位">
+        <navLabel>
+          <text>位</text>
+        </navLabel>
+        <content src="grade4.xhtml#位"/>
+      </navPoint>
+      <navPoint id="kanji-茨">
+        <navLabel>
+          <text>茨</text>
+        </navLabel>
+        <content src="grade4.xhtml#茨"/>
+      </navPoint>
+      <navPoint id="kanji-印">
+        <navLabel>
+          <text>印</text>
+        </navLabel>
+        <content src="grade4.xhtml#印"/>
+      </navPoint>
+      <navPoint id="kanji-英">
+        <navLabel>
+          <text>英</text>
+        </navLabel>
+        <content src="grade4.xhtml#英"/>
+      </navPoint>
+      <navPoint id="kanji-栄">
+        <navLabel>
+          <text>栄</text>
+        </navLabel>
+        <content src="grade4.xhtml#栄"/>
+      </navPoint>
+      <navPoint id="kanji-媛">
+        <navLabel>
+          <text>媛</text>
+        </navLabel>
+        <content src="grade4.xhtml#媛"/>
+      </navPoint>
+      <navPoint id="kanji-塩">
+        <navLabel>
+          <text>塩</text>
+        </navLabel>
+        <content src="grade4.xhtml#塩"/>
+      </navPoint>
+      <navPoint id="kanji-岡">
+        <navLabel>
+          <text>岡</text>
+        </navLabel>
+        <content src="grade4.xhtml#岡"/>
+      </navPoint>
+      <navPoint id="kanji-億">
+        <navLabel>
+          <text>億</text>
+        </navLabel>
+        <content src="grade4.xhtml#億"/>
+      </navPoint>
+      <navPoint id="kanji-加">
+        <navLabel>
+          <text>加</text>
+        </navLabel>
+        <content src="grade4.xhtml#加"/>
+      </navPoint>
+      <navPoint id="kanji-果">
+        <navLabel>
+          <text>果</text>
+        </navLabel>
+        <content src="grade4.xhtml#果"/>
+      </navPoint>
+      <navPoint id="kanji-貨">
+        <navLabel>
+          <text>貨</text>
+        </navLabel>
+        <content src="grade4.xhtml#貨"/>
+      </navPoint>
+      <navPoint id="kanji-課">
+        <navLabel>
+          <text>課</text>
+        </navLabel>
+        <content src="grade4.xhtml#課"/>
+      </navPoint>
+      <navPoint id="kanji-芽">
+        <navLabel>
+          <text>芽</text>
+        </navLabel>
+        <content src="grade4.xhtml#芽"/>
+      </navPoint>
+      <navPoint id="kanji-賀">
+        <navLabel>
+          <text>賀</text>
+        </navLabel>
+        <content src="grade4.xhtml#賀"/>
+      </navPoint>
+      <navPoint id="kanji-改">
+        <navLabel>
+          <text>改</text>
+        </navLabel>
+        <content src="grade4.xhtml#改"/>
+      </navPoint>
+      <navPoint id="kanji-械">
+        <navLabel>
+          <text>械</text>
+        </navLabel>
+        <content src="grade4.xhtml#械"/>
+      </navPoint>
+      <navPoint id="kanji-害">
+        <navLabel>
+          <text>害</text>
+        </navLabel>
+        <content src="grade4.xhtml#害"/>
+      </navPoint>
+      <navPoint id="kanji-街">
+        <navLabel>
+          <text>街</text>
+        </navLabel>
+        <content src="grade4.xhtml#街"/>
+      </navPoint>
+      <navPoint id="kanji-各">
+        <navLabel>
+          <text>各</text>
+        </navLabel>
+        <content src="grade4.xhtml#各"/>
+      </navPoint>
+      <navPoint id="kanji-覚">
+        <navLabel>
+          <text>覚</text>
+        </navLabel>
+        <content src="grade4.xhtml#覚"/>
+      </navPoint>
+      <navPoint id="kanji-潟">
+        <navLabel>
+          <text>潟</text>
+        </navLabel>
+        <content src="grade4.xhtml#潟"/>
+      </navPoint>
+      <navPoint id="kanji-完">
+        <navLabel>
+          <text>完</text>
+        </navLabel>
+        <content src="grade4.xhtml#完"/>
+      </navPoint>
+      <navPoint id="kanji-官">
+        <navLabel>
+          <text>官</text>
+        </navLabel>
+        <content src="grade4.xhtml#官"/>
+      </navPoint>
+      <navPoint id="kanji-管">
+        <navLabel>
+          <text>管</text>
+        </navLabel>
+        <content src="grade4.xhtml#管"/>
+      </navPoint>
+      <navPoint id="kanji-関">
+        <navLabel>
+          <text>関</text>
+        </navLabel>
+        <content src="grade4.xhtml#関"/>
+      </navPoint>
+      <navPoint id="kanji-観">
+        <navLabel>
+          <text>観</text>
+        </navLabel>
+        <content src="grade4.xhtml#観"/>
+      </navPoint>
+      <navPoint id="kanji-願">
+        <navLabel>
+          <text>願</text>
+        </navLabel>
+        <content src="grade4.xhtml#願"/>
+      </navPoint>
+      <navPoint id="kanji-岐">
+        <navLabel>
+          <text>岐</text>
+        </navLabel>
+        <content src="grade4.xhtml#岐"/>
+      </navPoint>
+      <navPoint id="kanji-希">
+        <navLabel>
+          <text>希</text>
+        </navLabel>
+        <content src="grade4.xhtml#希"/>
+      </navPoint>
+      <navPoint id="kanji-季">
+        <navLabel>
+          <text>季</text>
+        </navLabel>
+        <content src="grade4.xhtml#季"/>
+      </navPoint>
+      <navPoint id="kanji-旗">
+        <navLabel>
+          <text>旗</text>
+        </navLabel>
+        <content src="grade4.xhtml#旗"/>
+      </navPoint>
+      <navPoint id="kanji-器">
+        <navLabel>
+          <text>器</text>
+        </navLabel>
+        <content src="grade4.xhtml#器"/>
+      </navPoint>
+      <navPoint id="kanji-機">
+        <navLabel>
+          <text>機</text>
+        </navLabel>
+        <content src="grade4.xhtml#機"/>
+      </navPoint>
+      <navPoint id="kanji-議">
+        <navLabel>
+          <text>議</text>
+        </navLabel>
+        <content src="grade4.xhtml#議"/>
+      </navPoint>
+      <navPoint id="kanji-求">
+        <navLabel>
+          <text>求</text>
+        </navLabel>
+        <content src="grade4.xhtml#求"/>
+      </navPoint>
+      <navPoint id="kanji-泣">
+        <navLabel>
+          <text>泣</text>
+        </navLabel>
+        <content src="grade4.xhtml#泣"/>
+      </navPoint>
+      <navPoint id="kanji-給">
+        <navLabel>
+          <text>給</text>
+        </navLabel>
+        <content src="grade4.xhtml#給"/>
+      </navPoint>
+      <navPoint id="kanji-挙">
+        <navLabel>
+          <text>挙</text>
+        </navLabel>
+        <content src="grade4.xhtml#挙"/>
+      </navPoint>
+      <navPoint id="kanji-漁">
+        <navLabel>
+          <text>漁</text>
+        </navLabel>
+        <content src="grade4.xhtml#漁"/>
+      </navPoint>
+      <navPoint id="kanji-共">
+        <navLabel>
+          <text>共</text>
+        </navLabel>
+        <content src="grade4.xhtml#共"/>
+      </navPoint>
+      <navPoint id="kanji-協">
+        <navLabel>
+          <text>協</text>
+        </navLabel>
+        <content src="grade4.xhtml#協"/>
+      </navPoint>
+      <navPoint id="kanji-鏡">
+        <navLabel>
+          <text>鏡</text>
+        </navLabel>
+        <content src="grade4.xhtml#鏡"/>
+      </navPoint>
+      <navPoint id="kanji-競">
+        <navLabel>
+          <text>競</text>
+        </navLabel>
+        <content src="grade4.xhtml#競"/>
+      </navPoint>
+      <navPoint id="kanji-極">
+        <navLabel>
+          <text>極</text>
+        </navLabel>
+        <content src="grade4.xhtml#極"/>
+      </navPoint>
+      <navPoint id="kanji-熊">
+        <navLabel>
+          <text>熊</text>
+        </navLabel>
+        <content src="grade4.xhtml#熊"/>
+      </navPoint>
+      <navPoint id="kanji-訓">
+        <navLabel>
+          <text>訓</text>
+        </navLabel>
+        <content src="grade4.xhtml#訓"/>
+      </navPoint>
+      <navPoint id="kanji-軍">
+        <navLabel>
+          <text>軍</text>
+        </navLabel>
+        <content src="grade4.xhtml#軍"/>
+      </navPoint>
+      <navPoint id="kanji-郡">
+        <navLabel>
+          <text>郡</text>
+        </navLabel>
+        <content src="grade4.xhtml#郡"/>
+      </navPoint>
+      <navPoint id="kanji-群">
+        <navLabel>
+          <text>群</text>
+        </navLabel>
+        <content src="grade4.xhtml#群"/>
+      </navPoint>
+      <navPoint id="kanji-径">
+        <navLabel>
+          <text>径</text>
+        </navLabel>
+        <content src="grade4.xhtml#径"/>
+      </navPoint>
+      <navPoint id="kanji-景">
+        <navLabel>
+          <text>景</text>
+        </navLabel>
+        <content src="grade4.xhtml#景"/>
+      </navPoint>
+      <navPoint id="kanji-芸">
+        <navLabel>
+          <text>芸</text>
+        </navLabel>
+        <content src="grade4.xhtml#芸"/>
+      </navPoint>
+      <navPoint id="kanji-欠">
+        <navLabel>
+          <text>欠</text>
+        </navLabel>
+        <content src="grade4.xhtml#欠"/>
+      </navPoint>
+      <navPoint id="kanji-結">
+        <navLabel>
+          <text>結</text>
+        </navLabel>
+        <content src="grade4.xhtml#結"/>
+      </navPoint>
+      <navPoint id="kanji-建">
+        <navLabel>
+          <text>建</text>
+        </navLabel>
+        <content src="grade4.xhtml#建"/>
+      </navPoint>
+      <navPoint id="kanji-健">
+        <navLabel>
+          <text>健</text>
+        </navLabel>
+        <content src="grade4.xhtml#健"/>
+      </navPoint>
+      <navPoint id="kanji-験">
+        <navLabel>
+          <text>験</text>
+        </navLabel>
+        <content src="grade4.xhtml#験"/>
+      </navPoint>
+      <navPoint id="kanji-固">
+        <navLabel>
+          <text>固</text>
+        </navLabel>
+        <content src="grade4.xhtml#固"/>
+      </navPoint>
+      <navPoint id="kanji-功">
+        <navLabel>
+          <text>功</text>
+        </navLabel>
+        <content src="grade4.xhtml#功"/>
+      </navPoint>
+      <navPoint id="kanji-好">
+        <navLabel>
+          <text>好</text>
+        </navLabel>
+        <content src="grade4.xhtml#好"/>
+      </navPoint>
+      <navPoint id="kanji-香">
+        <navLabel>
+          <text>香</text>
+        </navLabel>
+        <content src="grade4.xhtml#香"/>
+      </navPoint>
+      <navPoint id="kanji-候">
+        <navLabel>
+          <text>候</text>
+        </navLabel>
+        <content src="grade4.xhtml#候"/>
+      </navPoint>
+      <navPoint id="kanji-康">
+        <navLabel>
+          <text>康</text>
+        </navLabel>
+        <content src="grade4.xhtml#康"/>
+      </navPoint>
+      <navPoint id="kanji-佐">
+        <navLabel>
+          <text>佐</text>
+        </navLabel>
+        <content src="grade4.xhtml#佐"/>
+      </navPoint>
+      <navPoint id="kanji-差">
+        <navLabel>
+          <text>差</text>
+        </navLabel>
+        <content src="grade4.xhtml#差"/>
+      </navPoint>
+      <navPoint id="kanji-菜">
+        <navLabel>
+          <text>菜</text>
+        </navLabel>
+        <content src="grade4.xhtml#菜"/>
+      </navPoint>
+      <navPoint id="kanji-最">
+        <navLabel>
+          <text>最</text>
+        </navLabel>
+        <content src="grade4.xhtml#最"/>
+      </navPoint>
+      <navPoint id="kanji-埼">
+        <navLabel>
+          <text>埼</text>
+        </navLabel>
+        <content src="grade4.xhtml#埼"/>
+      </navPoint>
+      <navPoint id="kanji-材">
+        <navLabel>
+          <text>材</text>
+        </navLabel>
+        <content src="grade4.xhtml#材"/>
+      </navPoint>
+      <navPoint id="kanji-崎">
+        <navLabel>
+          <text>崎</text>
+        </navLabel>
+        <content src="grade4.xhtml#崎"/>
+      </navPoint>
+      <navPoint id="kanji-昨">
+        <navLabel>
+          <text>昨</text>
+        </navLabel>
+        <content src="grade4.xhtml#昨"/>
+      </navPoint>
+      <navPoint id="kanji-札">
+        <navLabel>
+          <text>札</text>
+        </navLabel>
+        <content src="grade4.xhtml#札"/>
+      </navPoint>
+      <navPoint id="kanji-刷">
+        <navLabel>
+          <text>刷</text>
+        </navLabel>
+        <content src="grade4.xhtml#刷"/>
+      </navPoint>
+      <navPoint id="kanji-察">
+        <navLabel>
+          <text>察</text>
+        </navLabel>
+        <content src="grade4.xhtml#察"/>
+      </navPoint>
+      <navPoint id="kanji-参">
+        <navLabel>
+          <text>参</text>
+        </navLabel>
+        <content src="grade4.xhtml#参"/>
+      </navPoint>
+      <navPoint id="kanji-産">
+        <navLabel>
+          <text>産</text>
+        </navLabel>
+        <content src="grade4.xhtml#産"/>
+      </navPoint>
+      <navPoint id="kanji-散">
+        <navLabel>
+          <text>散</text>
+        </navLabel>
+        <content src="grade4.xhtml#散"/>
+      </navPoint>
+      <navPoint id="kanji-残">
+        <navLabel>
+          <text>残</text>
+        </navLabel>
+        <content src="grade4.xhtml#残"/>
+      </navPoint>
+      <navPoint id="kanji-氏">
+        <navLabel>
+          <text>氏</text>
+        </navLabel>
+        <content src="grade4.xhtml#氏"/>
+      </navPoint>
+      <navPoint id="kanji-司">
+        <navLabel>
+          <text>司</text>
+        </navLabel>
+        <content src="grade4.xhtml#司"/>
+      </navPoint>
+      <navPoint id="kanji-試">
+        <navLabel>
+          <text>試</text>
+        </navLabel>
+        <content src="grade4.xhtml#試"/>
+      </navPoint>
+      <navPoint id="kanji-児">
+        <navLabel>
+          <text>児</text>
+        </navLabel>
+        <content src="grade4.xhtml#児"/>
+      </navPoint>
+      <navPoint id="kanji-治">
+        <navLabel>
+          <text>治</text>
+        </navLabel>
+        <content src="grade4.xhtml#治"/>
+      </navPoint>
+      <navPoint id="kanji-滋">
+        <navLabel>
+          <text>滋</text>
+        </navLabel>
+        <content src="grade4.xhtml#滋"/>
+      </navPoint>
+      <navPoint id="kanji-辞">
+        <navLabel>
+          <text>辞</text>
+        </navLabel>
+        <content src="grade4.xhtml#辞"/>
+      </navPoint>
+      <navPoint id="kanji-鹿">
+        <navLabel>
+          <text>鹿</text>
+        </navLabel>
+        <content src="grade4.xhtml#鹿"/>
+      </navPoint>
+      <navPoint id="kanji-失">
+        <navLabel>
+          <text>失</text>
+        </navLabel>
+        <content src="grade4.xhtml#失"/>
+      </navPoint>
+      <navPoint id="kanji-借">
+        <navLabel>
+          <text>借</text>
+        </navLabel>
+        <content src="grade4.xhtml#借"/>
+      </navPoint>
+      <navPoint id="kanji-種">
+        <navLabel>
+          <text>種</text>
+        </navLabel>
+        <content src="grade4.xhtml#種"/>
+      </navPoint>
+      <navPoint id="kanji-周">
+        <navLabel>
+          <text>周</text>
+        </navLabel>
+        <content src="grade4.xhtml#周"/>
+      </navPoint>
+      <navPoint id="kanji-祝">
+        <navLabel>
+          <text>祝</text>
+        </navLabel>
+        <content src="grade4.xhtml#祝"/>
+      </navPoint>
+      <navPoint id="kanji-順">
+        <navLabel>
+          <text>順</text>
+        </navLabel>
+        <content src="grade4.xhtml#順"/>
+      </navPoint>
+      <navPoint id="kanji-初">
+        <navLabel>
+          <text>初</text>
+        </navLabel>
+        <content src="grade4.xhtml#初"/>
+      </navPoint>
+      <navPoint id="kanji-松">
+        <navLabel>
+          <text>松</text>
+        </navLabel>
+        <content src="grade4.xhtml#松"/>
+      </navPoint>
+      <navPoint id="kanji-笑">
+        <navLabel>
+          <text>笑</text>
+        </navLabel>
+        <content src="grade4.xhtml#笑"/>
+      </navPoint>
+      <navPoint id="kanji-唱">
+        <navLabel>
+          <text>唱</text>
+        </navLabel>
+        <content src="grade4.xhtml#唱"/>
+      </navPoint>
+      <navPoint id="kanji-焼">
+        <navLabel>
+          <text>焼</text>
+        </navLabel>
+        <content src="grade4.xhtml#焼"/>
+      </navPoint>
+      <navPoint id="kanji-照">
+        <navLabel>
+          <text>照</text>
+        </navLabel>
+        <content src="grade4.xhtml#照"/>
+      </navPoint>
+      <navPoint id="kanji-城">
+        <navLabel>
+          <text>城</text>
+        </navLabel>
+        <content src="grade4.xhtml#城"/>
+      </navPoint>
+      <navPoint id="kanji-縄">
+        <navLabel>
+          <text>縄</text>
+        </navLabel>
+        <content src="grade4.xhtml#縄"/>
+      </navPoint>
+      <navPoint id="kanji-臣">
+        <navLabel>
+          <text>臣</text>
+        </navLabel>
+        <content src="grade4.xhtml#臣"/>
+      </navPoint>
+      <navPoint id="kanji-信">
+        <navLabel>
+          <text>信</text>
+        </navLabel>
+        <content src="grade4.xhtml#信"/>
+      </navPoint>
+      <navPoint id="kanji-井">
+        <navLabel>
+          <text>井</text>
+        </navLabel>
+        <content src="grade4.xhtml#井"/>
+      </navPoint>
+      <navPoint id="kanji-成">
+        <navLabel>
+          <text>成</text>
+        </navLabel>
+        <content src="grade4.xhtml#成"/>
+      </navPoint>
+      <navPoint id="kanji-省">
+        <navLabel>
+          <text>省</text>
+        </navLabel>
+        <content src="grade4.xhtml#省"/>
+      </navPoint>
+      <navPoint id="kanji-清">
+        <navLabel>
+          <text>清</text>
+        </navLabel>
+        <content src="grade4.xhtml#清"/>
+      </navPoint>
+      <navPoint id="kanji-静">
+        <navLabel>
+          <text>静</text>
+        </navLabel>
+        <content src="grade4.xhtml#静"/>
+      </navPoint>
+      <navPoint id="kanji-席">
+        <navLabel>
+          <text>席</text>
+        </navLabel>
+        <content src="grade4.xhtml#席"/>
+      </navPoint>
+      <navPoint id="kanji-積">
+        <navLabel>
+          <text>積</text>
+        </navLabel>
+        <content src="grade4.xhtml#積"/>
+      </navPoint>
+      <navPoint id="kanji-折">
+        <navLabel>
+          <text>折</text>
+        </navLabel>
+        <content src="grade4.xhtml#折"/>
+      </navPoint>
+      <navPoint id="kanji-節">
+        <navLabel>
+          <text>節</text>
+        </navLabel>
+        <content src="grade4.xhtml#節"/>
+      </navPoint>
+      <navPoint id="kanji-説">
+        <navLabel>
+          <text>説</text>
+        </navLabel>
+        <content src="grade4.xhtml#説"/>
+      </navPoint>
+      <navPoint id="kanji-浅">
+        <navLabel>
+          <text>浅</text>
+        </navLabel>
+        <content src="grade4.xhtml#浅"/>
+      </navPoint>
+      <navPoint id="kanji-戦">
+        <navLabel>
+          <text>戦</text>
+        </navLabel>
+        <content src="grade4.xhtml#戦"/>
+      </navPoint>
+      <navPoint id="kanji-選">
+        <navLabel>
+          <text>選</text>
+        </navLabel>
+        <content src="grade4.xhtml#選"/>
+      </navPoint>
+      <navPoint id="kanji-然">
+        <navLabel>
+          <text>然</text>
+        </navLabel>
+        <content src="grade4.xhtml#然"/>
+      </navPoint>
+      <navPoint id="kanji-争">
+        <navLabel>
+          <text>争</text>
+        </navLabel>
+        <content src="grade4.xhtml#争"/>
+      </navPoint>
+      <navPoint id="kanji-倉">
+        <navLabel>
+          <text>倉</text>
+        </navLabel>
+        <content src="grade4.xhtml#倉"/>
+      </navPoint>
+      <navPoint id="kanji-巣">
+        <navLabel>
+          <text>巣</text>
+        </navLabel>
+        <content src="grade4.xhtml#巣"/>
+      </navPoint>
+      <navPoint id="kanji-束">
+        <navLabel>
+          <text>束</text>
+        </navLabel>
+        <content src="grade4.xhtml#束"/>
+      </navPoint>
+      <navPoint id="kanji-側">
+        <navLabel>
+          <text>側</text>
+        </navLabel>
+        <content src="grade4.xhtml#側"/>
+      </navPoint>
+      <navPoint id="kanji-続">
+        <navLabel>
+          <text>続</text>
+        </navLabel>
+        <content src="grade4.xhtml#続"/>
+      </navPoint>
+      <navPoint id="kanji-卒">
+        <navLabel>
+          <text>卒</text>
+        </navLabel>
+        <content src="grade4.xhtml#卒"/>
+      </navPoint>
+      <navPoint id="kanji-孫">
+        <navLabel>
+          <text>孫</text>
+        </navLabel>
+        <content src="grade4.xhtml#孫"/>
+      </navPoint>
+      <navPoint id="kanji-帯">
+        <navLabel>
+          <text>帯</text>
+        </navLabel>
+        <content src="grade4.xhtml#帯"/>
+      </navPoint>
+      <navPoint id="kanji-隊">
+        <navLabel>
+          <text>隊</text>
+        </navLabel>
+        <content src="grade4.xhtml#隊"/>
+      </navPoint>
+      <navPoint id="kanji-達">
+        <navLabel>
+          <text>達</text>
+        </navLabel>
+        <content src="grade4.xhtml#達"/>
+      </navPoint>
+      <navPoint id="kanji-単">
+        <navLabel>
+          <text>単</text>
+        </navLabel>
+        <content src="grade4.xhtml#単"/>
+      </navPoint>
+      <navPoint id="kanji-置">
+        <navLabel>
+          <text>置</text>
+        </navLabel>
+        <content src="grade4.xhtml#置"/>
+      </navPoint>
+      <navPoint id="kanji-仲">
+        <navLabel>
+          <text>仲</text>
+        </navLabel>
+        <content src="grade4.xhtml#仲"/>
+      </navPoint>
+      <navPoint id="kanji-沖">
+        <navLabel>
+          <text>沖</text>
+        </navLabel>
+        <content src="grade4.xhtml#沖"/>
+      </navPoint>
+      <navPoint id="kanji-兆">
+        <navLabel>
+          <text>兆</text>
+        </navLabel>
+        <content src="grade4.xhtml#兆"/>
+      </navPoint>
+      <navPoint id="kanji-低">
+        <navLabel>
+          <text>低</text>
+        </navLabel>
+        <content src="grade4.xhtml#低"/>
+      </navPoint>
+      <navPoint id="kanji-底">
+        <navLabel>
+          <text>底</text>
+        </navLabel>
+        <content src="grade4.xhtml#底"/>
+      </navPoint>
+      <navPoint id="kanji-的">
+        <navLabel>
+          <text>的</text>
+        </navLabel>
+        <content src="grade4.xhtml#的"/>
+      </navPoint>
+      <navPoint id="kanji-典">
+        <navLabel>
+          <text>典</text>
+        </navLabel>
+        <content src="grade4.xhtml#典"/>
+      </navPoint>
+      <navPoint id="kanji-伝">
+        <navLabel>
+          <text>伝</text>
+        </navLabel>
+        <content src="grade4.xhtml#伝"/>
+      </navPoint>
+      <navPoint id="kanji-徒">
+        <navLabel>
+          <text>徒</text>
+        </navLabel>
+        <content src="grade4.xhtml#徒"/>
+      </navPoint>
+      <navPoint id="kanji-努">
+        <navLabel>
+          <text>努</text>
+        </navLabel>
+        <content src="grade4.xhtml#努"/>
+      </navPoint>
+      <navPoint id="kanji-灯">
+        <navLabel>
+          <text>灯</text>
+        </navLabel>
+        <content src="grade4.xhtml#灯"/>
+      </navPoint>
+      <navPoint id="kanji-働">
+        <navLabel>
+          <text>働</text>
+        </navLabel>
+        <content src="grade4.xhtml#働"/>
+      </navPoint>
+      <navPoint id="kanji-特">
+        <navLabel>
+          <text>特</text>
+        </navLabel>
+        <content src="grade4.xhtml#特"/>
+      </navPoint>
+      <navPoint id="kanji-徳">
+        <navLabel>
+          <text>徳</text>
+        </navLabel>
+        <content src="grade4.xhtml#徳"/>
+      </navPoint>
+      <navPoint id="kanji-栃">
+        <navLabel>
+          <text>栃</text>
+        </navLabel>
+        <content src="grade4.xhtml#栃"/>
+      </navPoint>
+      <navPoint id="kanji-奈">
+        <navLabel>
+          <text>奈</text>
+        </navLabel>
+        <content src="grade4.xhtml#奈"/>
+      </navPoint>
+      <navPoint id="kanji-梨">
+        <navLabel>
+          <text>梨</text>
+        </navLabel>
+        <content src="grade4.xhtml#梨"/>
+      </navPoint>
+      <navPoint id="kanji-熱">
+        <navLabel>
+          <text>熱</text>
+        </navLabel>
+        <content src="grade4.xhtml#熱"/>
+      </navPoint>
+      <navPoint id="kanji-念">
+        <navLabel>
+          <text>念</text>
+        </navLabel>
+        <content src="grade4.xhtml#念"/>
+      </navPoint>
+      <navPoint id="kanji-敗">
+        <navLabel>
+          <text>敗</text>
+        </navLabel>
+        <content src="grade4.xhtml#敗"/>
+      </navPoint>
+      <navPoint id="kanji-梅">
+        <navLabel>
+          <text>梅</text>
+        </navLabel>
+        <content src="grade4.xhtml#梅"/>
+      </navPoint>
+      <navPoint id="kanji-博">
+        <navLabel>
+          <text>博</text>
+        </navLabel>
+        <content src="grade4.xhtml#博"/>
+      </navPoint>
+      <navPoint id="kanji-阪">
+        <navLabel>
+          <text>阪</text>
+        </navLabel>
+        <content src="grade4.xhtml#阪"/>
+      </navPoint>
+      <navPoint id="kanji-飯">
+        <navLabel>
+          <text>飯</text>
+        </navLabel>
+        <content src="grade4.xhtml#飯"/>
+      </navPoint>
+      <navPoint id="kanji-飛">
+        <navLabel>
+          <text>飛</text>
+        </navLabel>
+        <content src="grade4.xhtml#飛"/>
+      </navPoint>
+      <navPoint id="kanji-必">
+        <navLabel>
+          <text>必</text>
+        </navLabel>
+        <content src="grade4.xhtml#必"/>
+      </navPoint>
+      <navPoint id="kanji-票">
+        <navLabel>
+          <text>票</text>
+        </navLabel>
+        <content src="grade4.xhtml#票"/>
+      </navPoint>
+      <navPoint id="kanji-標">
+        <navLabel>
+          <text>標</text>
+        </navLabel>
+        <content src="grade4.xhtml#標"/>
+      </navPoint>
+      <navPoint id="kanji-不">
+        <navLabel>
+          <text>不</text>
+        </navLabel>
+        <content src="grade4.xhtml#不"/>
+      </navPoint>
+      <navPoint id="kanji-夫">
+        <navLabel>
+          <text>夫</text>
+        </navLabel>
+        <content src="grade4.xhtml#夫"/>
+      </navPoint>
+      <navPoint id="kanji-付">
+        <navLabel>
+          <text>付</text>
+        </navLabel>
+        <content src="grade4.xhtml#付"/>
+      </navPoint>
+      <navPoint id="kanji-府">
+        <navLabel>
+          <text>府</text>
+        </navLabel>
+        <content src="grade4.xhtml#府"/>
+      </navPoint>
+      <navPoint id="kanji-阜">
+        <navLabel>
+          <text>阜</text>
+        </navLabel>
+        <content src="grade4.xhtml#阜"/>
+      </navPoint>
+      <navPoint id="kanji-富">
+        <navLabel>
+          <text>富</text>
+        </navLabel>
+        <content src="grade4.xhtml#富"/>
+      </navPoint>
+      <navPoint id="kanji-副">
+        <navLabel>
+          <text>副</text>
+        </navLabel>
+        <content src="grade4.xhtml#副"/>
+      </navPoint>
+      <navPoint id="kanji-兵">
+        <navLabel>
+          <text>兵</text>
+        </navLabel>
+        <content src="grade4.xhtml#兵"/>
+      </navPoint>
+      <navPoint id="kanji-別">
+        <navLabel>
+          <text>別</text>
+        </navLabel>
+        <content src="grade4.xhtml#別"/>
+      </navPoint>
+      <navPoint id="kanji-辺">
+        <navLabel>
+          <text>辺</text>
+        </navLabel>
+        <content src="grade4.xhtml#辺"/>
+      </navPoint>
+      <navPoint id="kanji-変">
+        <navLabel>
+          <text>変</text>
+        </navLabel>
+        <content src="grade4.xhtml#変"/>
+      </navPoint>
+      <navPoint id="kanji-便">
+        <navLabel>
+          <text>便</text>
+        </navLabel>
+        <content src="grade4.xhtml#便"/>
+      </navPoint>
+      <navPoint id="kanji-包">
+        <navLabel>
+          <text>包</text>
+        </navLabel>
+        <content src="grade4.xhtml#包"/>
+      </navPoint>
+      <navPoint id="kanji-法">
+        <navLabel>
+          <text>法</text>
+        </navLabel>
+        <content src="grade4.xhtml#法"/>
+      </navPoint>
+      <navPoint id="kanji-望">
+        <navLabel>
+          <text>望</text>
+        </navLabel>
+        <content src="grade4.xhtml#望"/>
+      </navPoint>
+      <navPoint id="kanji-牧">
+        <navLabel>
+          <text>牧</text>
+        </navLabel>
+        <content src="grade4.xhtml#牧"/>
+      </navPoint>
+      <navPoint id="kanji-末">
+        <navLabel>
+          <text>末</text>
+        </navLabel>
+        <content src="grade4.xhtml#末"/>
+      </navPoint>
+      <navPoint id="kanji-満">
+        <navLabel>
+          <text>満</text>
+        </navLabel>
+        <content src="grade4.xhtml#満"/>
+      </navPoint>
+      <navPoint id="kanji-未">
+        <navLabel>
+          <text>未</text>
+        </navLabel>
+        <content src="grade4.xhtml#未"/>
+      </navPoint>
+      <navPoint id="kanji-民">
+        <navLabel>
+          <text>民</text>
+        </navLabel>
+        <content src="grade4.xhtml#民"/>
+      </navPoint>
+      <navPoint id="kanji-無">
+        <navLabel>
+          <text>無</text>
+        </navLabel>
+        <content src="grade4.xhtml#無"/>
+      </navPoint>
+      <navPoint id="kanji-約">
+        <navLabel>
+          <text>約</text>
+        </navLabel>
+        <content src="grade4.xhtml#約"/>
+      </navPoint>
+      <navPoint id="kanji-勇">
+        <navLabel>
+          <text>勇</text>
+        </navLabel>
+        <content src="grade4.xhtml#勇"/>
+      </navPoint>
+      <navPoint id="kanji-要">
+        <navLabel>
+          <text>要</text>
+        </navLabel>
+        <content src="grade4.xhtml#要"/>
+      </navPoint>
+      <navPoint id="kanji-養">
+        <navLabel>
+          <text>養</text>
+        </navLabel>
+        <content src="grade4.xhtml#養"/>
+      </navPoint>
+      <navPoint id="kanji-浴">
+        <navLabel>
+          <text>浴</text>
+        </navLabel>
+        <content src="grade4.xhtml#浴"/>
+      </navPoint>
+      <navPoint id="kanji-利">
+        <navLabel>
+          <text>利</text>
+        </navLabel>
+        <content src="grade4.xhtml#利"/>
+      </navPoint>
+      <navPoint id="kanji-陸">
+        <navLabel>
+          <text>陸</text>
+        </navLabel>
+        <content src="grade4.xhtml#陸"/>
+      </navPoint>
+      <navPoint id="kanji-良">
+        <navLabel>
+          <text>良</text>
+        </navLabel>
+        <content src="grade4.xhtml#良"/>
+      </navPoint>
+      <navPoint id="kanji-料">
+        <navLabel>
+          <text>料</text>
+        </navLabel>
+        <content src="grade4.xhtml#料"/>
+      </navPoint>
+      <navPoint id="kanji-量">
+        <navLabel>
+          <text>量</text>
+        </navLabel>
+        <content src="grade4.xhtml#量"/>
+      </navPoint>
+      <navPoint id="kanji-輪">
+        <navLabel>
+          <text>輪</text>
+        </navLabel>
+        <content src="grade4.xhtml#輪"/>
+      </navPoint>
+      <navPoint id="kanji-類">
+        <navLabel>
+          <text>類</text>
+        </navLabel>
+        <content src="grade4.xhtml#類"/>
+      </navPoint>
+      <navPoint id="kanji-令">
+        <navLabel>
+          <text>令</text>
+        </navLabel>
+        <content src="grade4.xhtml#令"/>
+      </navPoint>
+      <navPoint id="kanji-冷">
+        <navLabel>
+          <text>冷</text>
+        </navLabel>
+        <content src="grade4.xhtml#冷"/>
+      </navPoint>
+      <navPoint id="kanji-例">
+        <navLabel>
+          <text>例</text>
+        </navLabel>
+        <content src="grade4.xhtml#例"/>
+      </navPoint>
+      <navPoint id="kanji-連">
+        <navLabel>
+          <text>連</text>
+        </navLabel>
+        <content src="grade4.xhtml#連"/>
+      </navPoint>
+      <navPoint id="kanji-老">
+        <navLabel>
+          <text>老</text>
+        </navLabel>
+        <content src="grade4.xhtml#老"/>
+      </navPoint>
+      <navPoint id="kanji-労">
+        <navLabel>
+          <text>労</text>
+        </navLabel>
+        <content src="grade4.xhtml#労"/>
+      </navPoint>
+      <navPoint id="kanji-録">
+        <navLabel>
+          <text>録</text>
+        </navLabel>
+        <content src="grade4.xhtml#録"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="sep_4">
+      <navLabel>
+        <text>第5学年 (193字)</text>
+      </navLabel>
+      <content src="grade5.xhtml#圧"/>
+      <navPoint id="kanji-圧">
+        <navLabel>
+          <text>圧</text>
+        </navLabel>
+        <content src="grade5.xhtml#圧"/>
+      </navPoint>
+      <navPoint id="kanji-囲">
+        <navLabel>
+          <text>囲</text>
+        </navLabel>
+        <content src="grade5.xhtml#囲"/>
+      </navPoint>
+      <navPoint id="kanji-移">
+        <navLabel>
+          <text>移</text>
+        </navLabel>
+        <content src="grade5.xhtml#移"/>
+      </navPoint>
+      <navPoint id="kanji-因">
+        <navLabel>
+          <text>因</text>
+        </navLabel>
+        <content src="grade5.xhtml#因"/>
+      </navPoint>
+      <navPoint id="kanji-永">
+        <navLabel>
+          <text>永</text>
+        </navLabel>
+        <content src="grade5.xhtml#永"/>
+      </navPoint>
+      <navPoint id="kanji-営">
+        <navLabel>
+          <text>営</text>
+        </navLabel>
+        <content src="grade5.xhtml#営"/>
+      </navPoint>
+      <navPoint id="kanji-衛">
+        <navLabel>
+          <text>衛</text>
+        </navLabel>
+        <content src="grade5.xhtml#衛"/>
+      </navPoint>
+      <navPoint id="kanji-易">
+        <navLabel>
+          <text>易</text>
+        </navLabel>
+        <content src="grade5.xhtml#易"/>
+      </navPoint>
+      <navPoint id="kanji-益">
+        <navLabel>
+          <text>益</text>
+        </navLabel>
+        <content src="grade5.xhtml#益"/>
+      </navPoint>
+      <navPoint id="kanji-液">
+        <navLabel>
+          <text>液</text>
+        </navLabel>
+        <content src="grade5.xhtml#液"/>
+      </navPoint>
+      <navPoint id="kanji-演">
+        <navLabel>
+          <text>演</text>
+        </navLabel>
+        <content src="grade5.xhtml#演"/>
+      </navPoint>
+      <navPoint id="kanji-応">
+        <navLabel>
+          <text>応</text>
+        </navLabel>
+        <content src="grade5.xhtml#応"/>
+      </navPoint>
+      <navPoint id="kanji-往">
+        <navLabel>
+          <text>往</text>
+        </navLabel>
+        <content src="grade5.xhtml#往"/>
+      </navPoint>
+      <navPoint id="kanji-桜">
+        <navLabel>
+          <text>桜</text>
+        </navLabel>
+        <content src="grade5.xhtml#桜"/>
+      </navPoint>
+      <navPoint id="kanji-可">
+        <navLabel>
+          <text>可</text>
+        </navLabel>
+        <content src="grade5.xhtml#可"/>
+      </navPoint>
+      <navPoint id="kanji-仮">
+        <navLabel>
+          <text>仮</text>
+        </navLabel>
+        <content src="grade5.xhtml#仮"/>
+      </navPoint>
+      <navPoint id="kanji-価">
+        <navLabel>
+          <text>価</text>
+        </navLabel>
+        <content src="grade5.xhtml#価"/>
+      </navPoint>
+      <navPoint id="kanji-河">
+        <navLabel>
+          <text>河</text>
+        </navLabel>
+        <content src="grade5.xhtml#河"/>
+      </navPoint>
+      <navPoint id="kanji-過">
+        <navLabel>
+          <text>過</text>
+        </navLabel>
+        <content src="grade5.xhtml#過"/>
+      </navPoint>
+      <navPoint id="kanji-快">
+        <navLabel>
+          <text>快</text>
+        </navLabel>
+        <content src="grade5.xhtml#快"/>
+      </navPoint>
+      <navPoint id="kanji-解">
+        <navLabel>
+          <text>解</text>
+        </navLabel>
+        <content src="grade5.xhtml#解"/>
+      </navPoint>
+      <navPoint id="kanji-格">
+        <navLabel>
+          <text>格</text>
+        </navLabel>
+        <content src="grade5.xhtml#格"/>
+      </navPoint>
+      <navPoint id="kanji-確">
+        <navLabel>
+          <text>確</text>
+        </navLabel>
+        <content src="grade5.xhtml#確"/>
+      </navPoint>
+      <navPoint id="kanji-額">
+        <navLabel>
+          <text>額</text>
+        </navLabel>
+        <content src="grade5.xhtml#額"/>
+      </navPoint>
+      <navPoint id="kanji-刊">
+        <navLabel>
+          <text>刊</text>
+        </navLabel>
+        <content src="grade5.xhtml#刊"/>
+      </navPoint>
+      <navPoint id="kanji-幹">
+        <navLabel>
+          <text>幹</text>
+        </navLabel>
+        <content src="grade5.xhtml#幹"/>
+      </navPoint>
+      <navPoint id="kanji-慣">
+        <navLabel>
+          <text>慣</text>
+        </navLabel>
+        <content src="grade5.xhtml#慣"/>
+      </navPoint>
+      <navPoint id="kanji-眼">
+        <navLabel>
+          <text>眼</text>
+        </navLabel>
+        <content src="grade5.xhtml#眼"/>
+      </navPoint>
+      <navPoint id="kanji-紀">
+        <navLabel>
+          <text>紀</text>
+        </navLabel>
+        <content src="grade5.xhtml#紀"/>
+      </navPoint>
+      <navPoint id="kanji-基">
+        <navLabel>
+          <text>基</text>
+        </navLabel>
+        <content src="grade5.xhtml#基"/>
+      </navPoint>
+      <navPoint id="kanji-寄">
+        <navLabel>
+          <text>寄</text>
+        </navLabel>
+        <content src="grade5.xhtml#寄"/>
+      </navPoint>
+      <navPoint id="kanji-規">
+        <navLabel>
+          <text>規</text>
+        </navLabel>
+        <content src="grade5.xhtml#規"/>
+      </navPoint>
+      <navPoint id="kanji-喜">
+        <navLabel>
+          <text>喜</text>
+        </navLabel>
+        <content src="grade5.xhtml#喜"/>
+      </navPoint>
+      <navPoint id="kanji-技">
+        <navLabel>
+          <text>技</text>
+        </navLabel>
+        <content src="grade5.xhtml#技"/>
+      </navPoint>
+      <navPoint id="kanji-義">
+        <navLabel>
+          <text>義</text>
+        </navLabel>
+        <content src="grade5.xhtml#義"/>
+      </navPoint>
+      <navPoint id="kanji-逆">
+        <navLabel>
+          <text>逆</text>
+        </navLabel>
+        <content src="grade5.xhtml#逆"/>
+      </navPoint>
+      <navPoint id="kanji-久">
+        <navLabel>
+          <text>久</text>
+        </navLabel>
+        <content src="grade5.xhtml#久"/>
+      </navPoint>
+      <navPoint id="kanji-旧">
+        <navLabel>
+          <text>旧</text>
+        </navLabel>
+        <content src="grade5.xhtml#旧"/>
+      </navPoint>
+      <navPoint id="kanji-救">
+        <navLabel>
+          <text>救</text>
+        </navLabel>
+        <content src="grade5.xhtml#救"/>
+      </navPoint>
+      <navPoint id="kanji-居">
+        <navLabel>
+          <text>居</text>
+        </navLabel>
+        <content src="grade5.xhtml#居"/>
+      </navPoint>
+      <navPoint id="kanji-許">
+        <navLabel>
+          <text>許</text>
+        </navLabel>
+        <content src="grade5.xhtml#許"/>
+      </navPoint>
+      <navPoint id="kanji-境">
+        <navLabel>
+          <text>境</text>
+        </navLabel>
+        <content src="grade5.xhtml#境"/>
+      </navPoint>
+      <navPoint id="kanji-均">
+        <navLabel>
+          <text>均</text>
+        </navLabel>
+        <content src="grade5.xhtml#均"/>
+      </navPoint>
+      <navPoint id="kanji-禁">
+        <navLabel>
+          <text>禁</text>
+        </navLabel>
+        <content src="grade5.xhtml#禁"/>
+      </navPoint>
+      <navPoint id="kanji-句">
+        <navLabel>
+          <text>句</text>
+        </navLabel>
+        <content src="grade5.xhtml#句"/>
+      </navPoint>
+      <navPoint id="kanji-型">
+        <navLabel>
+          <text>型</text>
+        </navLabel>
+        <content src="grade5.xhtml#型"/>
+      </navPoint>
+      <navPoint id="kanji-経">
+        <navLabel>
+          <text>経</text>
+        </navLabel>
+        <content src="grade5.xhtml#経"/>
+      </navPoint>
+      <navPoint id="kanji-潔">
+        <navLabel>
+          <text>潔</text>
+        </navLabel>
+        <content src="grade5.xhtml#潔"/>
+      </navPoint>
+      <navPoint id="kanji-件">
+        <navLabel>
+          <text>件</text>
+        </navLabel>
+        <content src="grade5.xhtml#件"/>
+      </navPoint>
+      <navPoint id="kanji-険">
+        <navLabel>
+          <text>険</text>
+        </navLabel>
+        <content src="grade5.xhtml#険"/>
+      </navPoint>
+      <navPoint id="kanji-検">
+        <navLabel>
+          <text>検</text>
+        </navLabel>
+        <content src="grade5.xhtml#検"/>
+      </navPoint>
+      <navPoint id="kanji-限">
+        <navLabel>
+          <text>限</text>
+        </navLabel>
+        <content src="grade5.xhtml#限"/>
+      </navPoint>
+      <navPoint id="kanji-現">
+        <navLabel>
+          <text>現</text>
+        </navLabel>
+        <content src="grade5.xhtml#現"/>
+      </navPoint>
+      <navPoint id="kanji-減">
+        <navLabel>
+          <text>減</text>
+        </navLabel>
+        <content src="grade5.xhtml#減"/>
+      </navPoint>
+      <navPoint id="kanji-故">
+        <navLabel>
+          <text>故</text>
+        </navLabel>
+        <content src="grade5.xhtml#故"/>
+      </navPoint>
+      <navPoint id="kanji-個">
+        <navLabel>
+          <text>個</text>
+        </navLabel>
+        <content src="grade5.xhtml#個"/>
+      </navPoint>
+      <navPoint id="kanji-護">
+        <navLabel>
+          <text>護</text>
+        </navLabel>
+        <content src="grade5.xhtml#護"/>
+      </navPoint>
+      <navPoint id="kanji-効">
+        <navLabel>
+          <text>効</text>
+        </navLabel>
+        <content src="grade5.xhtml#効"/>
+      </navPoint>
+      <navPoint id="kanji-厚">
+        <navLabel>
+          <text>厚</text>
+        </navLabel>
+        <content src="grade5.xhtml#厚"/>
+      </navPoint>
+      <navPoint id="kanji-耕">
+        <navLabel>
+          <text>耕</text>
+        </navLabel>
+        <content src="grade5.xhtml#耕"/>
+      </navPoint>
+      <navPoint id="kanji-航">
+        <navLabel>
+          <text>航</text>
+        </navLabel>
+        <content src="grade5.xhtml#航"/>
+      </navPoint>
+      <navPoint id="kanji-鉱">
+        <navLabel>
+          <text>鉱</text>
+        </navLabel>
+        <content src="grade5.xhtml#鉱"/>
+      </navPoint>
+      <navPoint id="kanji-構">
+        <navLabel>
+          <text>構</text>
+        </navLabel>
+        <content src="grade5.xhtml#構"/>
+      </navPoint>
+      <navPoint id="kanji-興">
+        <navLabel>
+          <text>興</text>
+        </navLabel>
+        <content src="grade5.xhtml#興"/>
+      </navPoint>
+      <navPoint id="kanji-講">
+        <navLabel>
+          <text>講</text>
+        </navLabel>
+        <content src="grade5.xhtml#講"/>
+      </navPoint>
+      <navPoint id="kanji-告">
+        <navLabel>
+          <text>告</text>
+        </navLabel>
+        <content src="grade5.xhtml#告"/>
+      </navPoint>
+      <navPoint id="kanji-混">
+        <navLabel>
+          <text>混</text>
+        </navLabel>
+        <content src="grade5.xhtml#混"/>
+      </navPoint>
+      <navPoint id="kanji-査">
+        <navLabel>
+          <text>査</text>
+        </navLabel>
+        <content src="grade5.xhtml#査"/>
+      </navPoint>
+      <navPoint id="kanji-再">
+        <navLabel>
+          <text>再</text>
+        </navLabel>
+        <content src="grade5.xhtml#再"/>
+      </navPoint>
+      <navPoint id="kanji-災">
+        <navLabel>
+          <text>災</text>
+        </navLabel>
+        <content src="grade5.xhtml#災"/>
+      </navPoint>
+      <navPoint id="kanji-妻">
+        <navLabel>
+          <text>妻</text>
+        </navLabel>
+        <content src="grade5.xhtml#妻"/>
+      </navPoint>
+      <navPoint id="kanji-採">
+        <navLabel>
+          <text>採</text>
+        </navLabel>
+        <content src="grade5.xhtml#採"/>
+      </navPoint>
+      <navPoint id="kanji-際">
+        <navLabel>
+          <text>際</text>
+        </navLabel>
+        <content src="grade5.xhtml#際"/>
+      </navPoint>
+      <navPoint id="kanji-在">
+        <navLabel>
+          <text>在</text>
+        </navLabel>
+        <content src="grade5.xhtml#在"/>
+      </navPoint>
+      <navPoint id="kanji-財">
+        <navLabel>
+          <text>財</text>
+        </navLabel>
+        <content src="grade5.xhtml#財"/>
+      </navPoint>
+      <navPoint id="kanji-罪">
+        <navLabel>
+          <text>罪</text>
+        </navLabel>
+        <content src="grade5.xhtml#罪"/>
+      </navPoint>
+      <navPoint id="kanji-殺">
+        <navLabel>
+          <text>殺</text>
+        </navLabel>
+        <content src="grade5.xhtml#殺"/>
+      </navPoint>
+      <navPoint id="kanji-雑">
+        <navLabel>
+          <text>雑</text>
+        </navLabel>
+        <content src="grade5.xhtml#雑"/>
+      </navPoint>
+      <navPoint id="kanji-酸">
+        <navLabel>
+          <text>酸</text>
+        </navLabel>
+        <content src="grade5.xhtml#酸"/>
+      </navPoint>
+      <navPoint id="kanji-賛">
+        <navLabel>
+          <text>賛</text>
+        </navLabel>
+        <content src="grade5.xhtml#賛"/>
+      </navPoint>
+      <navPoint id="kanji-士">
+        <navLabel>
+          <text>士</text>
+        </navLabel>
+        <content src="grade5.xhtml#士"/>
+      </navPoint>
+      <navPoint id="kanji-支">
+        <navLabel>
+          <text>支</text>
+        </navLabel>
+        <content src="grade5.xhtml#支"/>
+      </navPoint>
+      <navPoint id="kanji-史">
+        <navLabel>
+          <text>史</text>
+        </navLabel>
+        <content src="grade5.xhtml#史"/>
+      </navPoint>
+      <navPoint id="kanji-志">
+        <navLabel>
+          <text>志</text>
+        </navLabel>
+        <content src="grade5.xhtml#志"/>
+      </navPoint>
+      <navPoint id="kanji-枝">
+        <navLabel>
+          <text>枝</text>
+        </navLabel>
+        <content src="grade5.xhtml#枝"/>
+      </navPoint>
+      <navPoint id="kanji-師">
+        <navLabel>
+          <text>師</text>
+        </navLabel>
+        <content src="grade5.xhtml#師"/>
+      </navPoint>
+      <navPoint id="kanji-資">
+        <navLabel>
+          <text>資</text>
+        </navLabel>
+        <content src="grade5.xhtml#資"/>
+      </navPoint>
+      <navPoint id="kanji-飼">
+        <navLabel>
+          <text>飼</text>
+        </navLabel>
+        <content src="grade5.xhtml#飼"/>
+      </navPoint>
+      <navPoint id="kanji-示">
+        <navLabel>
+          <text>示</text>
+        </navLabel>
+        <content src="grade5.xhtml#示"/>
+      </navPoint>
+      <navPoint id="kanji-似">
+        <navLabel>
+          <text>似</text>
+        </navLabel>
+        <content src="grade5.xhtml#似"/>
+      </navPoint>
+      <navPoint id="kanji-識">
+        <navLabel>
+          <text>識</text>
+        </navLabel>
+        <content src="grade5.xhtml#識"/>
+      </navPoint>
+      <navPoint id="kanji-質">
+        <navLabel>
+          <text>質</text>
+        </navLabel>
+        <content src="grade5.xhtml#質"/>
+      </navPoint>
+      <navPoint id="kanji-舎">
+        <navLabel>
+          <text>舎</text>
+        </navLabel>
+        <content src="grade5.xhtml#舎"/>
+      </navPoint>
+      <navPoint id="kanji-謝">
+        <navLabel>
+          <text>謝</text>
+        </navLabel>
+        <content src="grade5.xhtml#謝"/>
+      </navPoint>
+      <navPoint id="kanji-授">
+        <navLabel>
+          <text>授</text>
+        </navLabel>
+        <content src="grade5.xhtml#授"/>
+      </navPoint>
+      <navPoint id="kanji-修">
+        <navLabel>
+          <text>修</text>
+        </navLabel>
+        <content src="grade5.xhtml#修"/>
+      </navPoint>
+      <navPoint id="kanji-述">
+        <navLabel>
+          <text>述</text>
+        </navLabel>
+        <content src="grade5.xhtml#述"/>
+      </navPoint>
+      <navPoint id="kanji-術">
+        <navLabel>
+          <text>術</text>
+        </navLabel>
+        <content src="grade5.xhtml#術"/>
+      </navPoint>
+      <navPoint id="kanji-準">
+        <navLabel>
+          <text>準</text>
+        </navLabel>
+        <content src="grade5.xhtml#準"/>
+      </navPoint>
+      <navPoint id="kanji-序">
+        <navLabel>
+          <text>序</text>
+        </navLabel>
+        <content src="grade5.xhtml#序"/>
+      </navPoint>
+      <navPoint id="kanji-招">
+        <navLabel>
+          <text>招</text>
+        </navLabel>
+        <content src="grade5.xhtml#招"/>
+      </navPoint>
+      <navPoint id="kanji-証">
+        <navLabel>
+          <text>証</text>
+        </navLabel>
+        <content src="grade5.xhtml#証"/>
+      </navPoint>
+      <navPoint id="kanji-象">
+        <navLabel>
+          <text>象</text>
+        </navLabel>
+        <content src="grade5.xhtml#象"/>
+      </navPoint>
+      <navPoint id="kanji-賞">
+        <navLabel>
+          <text>賞</text>
+        </navLabel>
+        <content src="grade5.xhtml#賞"/>
+      </navPoint>
+      <navPoint id="kanji-条">
+        <navLabel>
+          <text>条</text>
+        </navLabel>
+        <content src="grade5.xhtml#条"/>
+      </navPoint>
+      <navPoint id="kanji-状">
+        <navLabel>
+          <text>状</text>
+        </navLabel>
+        <content src="grade5.xhtml#状"/>
+      </navPoint>
+      <navPoint id="kanji-常">
+        <navLabel>
+          <text>常</text>
+        </navLabel>
+        <content src="grade5.xhtml#常"/>
+      </navPoint>
+      <navPoint id="kanji-情">
+        <navLabel>
+          <text>情</text>
+        </navLabel>
+        <content src="grade5.xhtml#情"/>
+      </navPoint>
+      <navPoint id="kanji-織">
+        <navLabel>
+          <text>織</text>
+        </navLabel>
+        <content src="grade5.xhtml#織"/>
+      </navPoint>
+      <navPoint id="kanji-職">
+        <navLabel>
+          <text>職</text>
+        </navLabel>
+        <content src="grade5.xhtml#職"/>
+      </navPoint>
+      <navPoint id="kanji-制">
+        <navLabel>
+          <text>制</text>
+        </navLabel>
+        <content src="grade5.xhtml#制"/>
+      </navPoint>
+      <navPoint id="kanji-性">
+        <navLabel>
+          <text>性</text>
+        </navLabel>
+        <content src="grade5.xhtml#性"/>
+      </navPoint>
+      <navPoint id="kanji-政">
+        <navLabel>
+          <text>政</text>
+        </navLabel>
+        <content src="grade5.xhtml#政"/>
+      </navPoint>
+      <navPoint id="kanji-勢">
+        <navLabel>
+          <text>勢</text>
+        </navLabel>
+        <content src="grade5.xhtml#勢"/>
+      </navPoint>
+      <navPoint id="kanji-精">
+        <navLabel>
+          <text>精</text>
+        </navLabel>
+        <content src="grade5.xhtml#精"/>
+      </navPoint>
+      <navPoint id="kanji-製">
+        <navLabel>
+          <text>製</text>
+        </navLabel>
+        <content src="grade5.xhtml#製"/>
+      </navPoint>
+      <navPoint id="kanji-税">
+        <navLabel>
+          <text>税</text>
+        </navLabel>
+        <content src="grade5.xhtml#税"/>
+      </navPoint>
+      <navPoint id="kanji-責">
+        <navLabel>
+          <text>責</text>
+        </navLabel>
+        <content src="grade5.xhtml#責"/>
+      </navPoint>
+      <navPoint id="kanji-績">
+        <navLabel>
+          <text>績</text>
+        </navLabel>
+        <content src="grade5.xhtml#績"/>
+      </navPoint>
+      <navPoint id="kanji-接">
+        <navLabel>
+          <text>接</text>
+        </navLabel>
+        <content src="grade5.xhtml#接"/>
+      </navPoint>
+      <navPoint id="kanji-設">
+        <navLabel>
+          <text>設</text>
+        </navLabel>
+        <content src="grade5.xhtml#設"/>
+      </navPoint>
+      <navPoint id="kanji-絶">
+        <navLabel>
+          <text>絶</text>
+        </navLabel>
+        <content src="grade5.xhtml#絶"/>
+      </navPoint>
+      <navPoint id="kanji-祖">
+        <navLabel>
+          <text>祖</text>
+        </navLabel>
+        <content src="grade5.xhtml#祖"/>
+      </navPoint>
+      <navPoint id="kanji-素">
+        <navLabel>
+          <text>素</text>
+        </navLabel>
+        <content src="grade5.xhtml#素"/>
+      </navPoint>
+      <navPoint id="kanji-総">
+        <navLabel>
+          <text>総</text>
+        </navLabel>
+        <content src="grade5.xhtml#総"/>
+      </navPoint>
+      <navPoint id="kanji-造">
+        <navLabel>
+          <text>造</text>
+        </navLabel>
+        <content src="grade5.xhtml#造"/>
+      </navPoint>
+      <navPoint id="kanji-像">
+        <navLabel>
+          <text>像</text>
+        </navLabel>
+        <content src="grade5.xhtml#像"/>
+      </navPoint>
+      <navPoint id="kanji-増">
+        <navLabel>
+          <text>増</text>
+        </navLabel>
+        <content src="grade5.xhtml#増"/>
+      </navPoint>
+      <navPoint id="kanji-則">
+        <navLabel>
+          <text>則</text>
+        </navLabel>
+        <content src="grade5.xhtml#則"/>
+      </navPoint>
+      <navPoint id="kanji-測">
+        <navLabel>
+          <text>測</text>
+        </navLabel>
+        <content src="grade5.xhtml#測"/>
+      </navPoint>
+      <navPoint id="kanji-属">
+        <navLabel>
+          <text>属</text>
+        </navLabel>
+        <content src="grade5.xhtml#属"/>
+      </navPoint>
+      <navPoint id="kanji-率">
+        <navLabel>
+          <text>率</text>
+        </navLabel>
+        <content src="grade5.xhtml#率"/>
+      </navPoint>
+      <navPoint id="kanji-損">
+        <navLabel>
+          <text>損</text>
+        </navLabel>
+        <content src="grade5.xhtml#損"/>
+      </navPoint>
+      <navPoint id="kanji-貸">
+        <navLabel>
+          <text>貸</text>
+        </navLabel>
+        <content src="grade5.xhtml#貸"/>
+      </navPoint>
+      <navPoint id="kanji-態">
+        <navLabel>
+          <text>態</text>
+        </navLabel>
+        <content src="grade5.xhtml#態"/>
+      </navPoint>
+      <navPoint id="kanji-団">
+        <navLabel>
+          <text>団</text>
+        </navLabel>
+        <content src="grade5.xhtml#団"/>
+      </navPoint>
+      <navPoint id="kanji-断">
+        <navLabel>
+          <text>断</text>
+        </navLabel>
+        <content src="grade5.xhtml#断"/>
+      </navPoint>
+      <navPoint id="kanji-築">
+        <navLabel>
+          <text>築</text>
+        </navLabel>
+        <content src="grade5.xhtml#築"/>
+      </navPoint>
+      <navPoint id="kanji-貯">
+        <navLabel>
+          <text>貯</text>
+        </navLabel>
+        <content src="grade5.xhtml#貯"/>
+      </navPoint>
+      <navPoint id="kanji-張">
+        <navLabel>
+          <text>張</text>
+        </navLabel>
+        <content src="grade5.xhtml#張"/>
+      </navPoint>
+      <navPoint id="kanji-停">
+        <navLabel>
+          <text>停</text>
+        </navLabel>
+        <content src="grade5.xhtml#停"/>
+      </navPoint>
+      <navPoint id="kanji-提">
+        <navLabel>
+          <text>提</text>
+        </navLabel>
+        <content src="grade5.xhtml#提"/>
+      </navPoint>
+      <navPoint id="kanji-程">
+        <navLabel>
+          <text>程</text>
+        </navLabel>
+        <content src="grade5.xhtml#程"/>
+      </navPoint>
+      <navPoint id="kanji-適">
+        <navLabel>
+          <text>適</text>
+        </navLabel>
+        <content src="grade5.xhtml#適"/>
+      </navPoint>
+      <navPoint id="kanji-統">
+        <navLabel>
+          <text>統</text>
+        </navLabel>
+        <content src="grade5.xhtml#統"/>
+      </navPoint>
+      <navPoint id="kanji-堂">
+        <navLabel>
+          <text>堂</text>
+        </navLabel>
+        <content src="grade5.xhtml#堂"/>
+      </navPoint>
+      <navPoint id="kanji-銅">
+        <navLabel>
+          <text>銅</text>
+        </navLabel>
+        <content src="grade5.xhtml#銅"/>
+      </navPoint>
+      <navPoint id="kanji-導">
+        <navLabel>
+          <text>導</text>
+        </navLabel>
+        <content src="grade5.xhtml#導"/>
+      </navPoint>
+      <navPoint id="kanji-得">
+        <navLabel>
+          <text>得</text>
+        </navLabel>
+        <content src="grade5.xhtml#得"/>
+      </navPoint>
+      <navPoint id="kanji-毒">
+        <navLabel>
+          <text>毒</text>
+        </navLabel>
+        <content src="grade5.xhtml#毒"/>
+      </navPoint>
+      <navPoint id="kanji-独">
+        <navLabel>
+          <text>独</text>
+        </navLabel>
+        <content src="grade5.xhtml#独"/>
+      </navPoint>
+      <navPoint id="kanji-任">
+        <navLabel>
+          <text>任</text>
+        </navLabel>
+        <content src="grade5.xhtml#任"/>
+      </navPoint>
+      <navPoint id="kanji-燃">
+        <navLabel>
+          <text>燃</text>
+        </navLabel>
+        <content src="grade5.xhtml#燃"/>
+      </navPoint>
+      <navPoint id="kanji-能">
+        <navLabel>
+          <text>能</text>
+        </navLabel>
+        <content src="grade5.xhtml#能"/>
+      </navPoint>
+      <navPoint id="kanji-破">
+        <navLabel>
+          <text>破</text>
+        </navLabel>
+        <content src="grade5.xhtml#破"/>
+      </navPoint>
+      <navPoint id="kanji-犯">
+        <navLabel>
+          <text>犯</text>
+        </navLabel>
+        <content src="grade5.xhtml#犯"/>
+      </navPoint>
+      <navPoint id="kanji-判">
+        <navLabel>
+          <text>判</text>
+        </navLabel>
+        <content src="grade5.xhtml#判"/>
+      </navPoint>
+      <navPoint id="kanji-版">
+        <navLabel>
+          <text>版</text>
+        </navLabel>
+        <content src="grade5.xhtml#版"/>
+      </navPoint>
+      <navPoint id="kanji-比">
+        <navLabel>
+          <text>比</text>
+        </navLabel>
+        <content src="grade5.xhtml#比"/>
+      </navPoint>
+      <navPoint id="kanji-肥">
+        <navLabel>
+          <text>肥</text>
+        </navLabel>
+        <content src="grade5.xhtml#肥"/>
+      </navPoint>
+      <navPoint id="kanji-非">
+        <navLabel>
+          <text>非</text>
+        </navLabel>
+        <content src="grade5.xhtml#非"/>
+      </navPoint>
+      <navPoint id="kanji-費">
+        <navLabel>
+          <text>費</text>
+        </navLabel>
+        <content src="grade5.xhtml#費"/>
+      </navPoint>
+      <navPoint id="kanji-備">
+        <navLabel>
+          <text>備</text>
+        </navLabel>
+        <content src="grade5.xhtml#備"/>
+      </navPoint>
+      <navPoint id="kanji-評">
+        <navLabel>
+          <text>評</text>
+        </navLabel>
+        <content src="grade5.xhtml#評"/>
+      </navPoint>
+      <navPoint id="kanji-貧">
+        <navLabel>
+          <text>貧</text>
+        </navLabel>
+        <content src="grade5.xhtml#貧"/>
+      </navPoint>
+      <navPoint id="kanji-布">
+        <navLabel>
+          <text>布</text>
+        </navLabel>
+        <content src="grade5.xhtml#布"/>
+      </navPoint>
+      <navPoint id="kanji-婦">
+        <navLabel>
+          <text>婦</text>
+        </navLabel>
+        <content src="grade5.xhtml#婦"/>
+      </navPoint>
+      <navPoint id="kanji-武">
+        <navLabel>
+          <text>武</text>
+        </navLabel>
+        <content src="grade5.xhtml#武"/>
+      </navPoint>
+      <navPoint id="kanji-復">
+        <navLabel>
+          <text>復</text>
+        </navLabel>
+        <content src="grade5.xhtml#復"/>
+      </navPoint>
+      <navPoint id="kanji-複">
+        <navLabel>
+          <text>複</text>
+        </navLabel>
+        <content src="grade5.xhtml#複"/>
+      </navPoint>
+      <navPoint id="kanji-仏">
+        <navLabel>
+          <text>仏</text>
+        </navLabel>
+        <content src="grade5.xhtml#仏"/>
+      </navPoint>
+      <navPoint id="kanji-粉">
+        <navLabel>
+          <text>粉</text>
+        </navLabel>
+        <content src="grade5.xhtml#粉"/>
+      </navPoint>
+      <navPoint id="kanji-編">
+        <navLabel>
+          <text>編</text>
+        </navLabel>
+        <content src="grade5.xhtml#編"/>
+      </navPoint>
+      <navPoint id="kanji-弁">
+        <navLabel>
+          <text>弁</text>
+        </navLabel>
+        <content src="grade5.xhtml#弁"/>
+      </navPoint>
+      <navPoint id="kanji-保">
+        <navLabel>
+          <text>保</text>
+        </navLabel>
+        <content src="grade5.xhtml#保"/>
+      </navPoint>
+      <navPoint id="kanji-墓">
+        <navLabel>
+          <text>墓</text>
+        </navLabel>
+        <content src="grade5.xhtml#墓"/>
+      </navPoint>
+      <navPoint id="kanji-報">
+        <navLabel>
+          <text>報</text>
+        </navLabel>
+        <content src="grade5.xhtml#報"/>
+      </navPoint>
+      <navPoint id="kanji-豊">
+        <navLabel>
+          <text>豊</text>
+        </navLabel>
+        <content src="grade5.xhtml#豊"/>
+      </navPoint>
+      <navPoint id="kanji-防">
+        <navLabel>
+          <text>防</text>
+        </navLabel>
+        <content src="grade5.xhtml#防"/>
+      </navPoint>
+      <navPoint id="kanji-貿">
+        <navLabel>
+          <text>貿</text>
+        </navLabel>
+        <content src="grade5.xhtml#貿"/>
+      </navPoint>
+      <navPoint id="kanji-暴">
+        <navLabel>
+          <text>暴</text>
+        </navLabel>
+        <content src="grade5.xhtml#暴"/>
+      </navPoint>
+      <navPoint id="kanji-脈">
+        <navLabel>
+          <text>脈</text>
+        </navLabel>
+        <content src="grade5.xhtml#脈"/>
+      </navPoint>
+      <navPoint id="kanji-務">
+        <navLabel>
+          <text>務</text>
+        </navLabel>
+        <content src="grade5.xhtml#務"/>
+      </navPoint>
+      <navPoint id="kanji-夢">
+        <navLabel>
+          <text>夢</text>
+        </navLabel>
+        <content src="grade5.xhtml#夢"/>
+      </navPoint>
+      <navPoint id="kanji-迷">
+        <navLabel>
+          <text>迷</text>
+        </navLabel>
+        <content src="grade5.xhtml#迷"/>
+      </navPoint>
+      <navPoint id="kanji-綿">
+        <navLabel>
+          <text>綿</text>
+        </navLabel>
+        <content src="grade5.xhtml#綿"/>
+      </navPoint>
+      <navPoint id="kanji-輸">
+        <navLabel>
+          <text>輸</text>
+        </navLabel>
+        <content src="grade5.xhtml#輸"/>
+      </navPoint>
+      <navPoint id="kanji-余">
+        <navLabel>
+          <text>余</text>
+        </navLabel>
+        <content src="grade5.xhtml#余"/>
+      </navPoint>
+      <navPoint id="kanji-容">
+        <navLabel>
+          <text>容</text>
+        </navLabel>
+        <content src="grade5.xhtml#容"/>
+      </navPoint>
+      <navPoint id="kanji-略">
+        <navLabel>
+          <text>略</text>
+        </navLabel>
+        <content src="grade5.xhtml#略"/>
+      </navPoint>
+      <navPoint id="kanji-留">
+        <navLabel>
+          <text>留</text>
+        </navLabel>
+        <content src="grade5.xhtml#留"/>
+      </navPoint>
+      <navPoint id="kanji-領">
+        <navLabel>
+          <text>領</text>
+        </navLabel>
+        <content src="grade5.xhtml#領"/>
+      </navPoint>
+      <navPoint id="kanji-歴">
+        <navLabel>
+          <text>歴</text>
+        </navLabel>
+        <content src="grade5.xhtml#歴"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="sep_5">
+      <navLabel>
+        <text>第6学年 (191字)</text>
+      </navLabel>
+      <content src="grade6.xhtml#胃"/>
+      <navPoint id="kanji-胃">
+        <navLabel>
+          <text>胃</text>
+        </navLabel>
+        <content src="grade6.xhtml#胃"/>
+      </navPoint>
+      <navPoint id="kanji-異">
+        <navLabel>
+          <text>異</text>
+        </navLabel>
+        <content src="grade6.xhtml#異"/>
+      </navPoint>
+      <navPoint id="kanji-遺">
+        <navLabel>
+          <text>遺</text>
+        </navLabel>
+        <content src="grade6.xhtml#遺"/>
+      </navPoint>
+      <navPoint id="kanji-域">
+        <navLabel>
+          <text>域</text>
+        </navLabel>
+        <content src="grade6.xhtml#域"/>
+      </navPoint>
+      <navPoint id="kanji-宇">
+        <navLabel>
+          <text>宇</text>
+        </navLabel>
+        <content src="grade6.xhtml#宇"/>
+      </navPoint>
+      <navPoint id="kanji-映">
+        <navLabel>
+          <text>映</text>
+        </navLabel>
+        <content src="grade6.xhtml#映"/>
+      </navPoint>
+      <navPoint id="kanji-延">
+        <navLabel>
+          <text>延</text>
+        </navLabel>
+        <content src="grade6.xhtml#延"/>
+      </navPoint>
+      <navPoint id="kanji-沿">
+        <navLabel>
+          <text>沿</text>
+        </navLabel>
+        <content src="grade6.xhtml#沿"/>
+      </navPoint>
+      <navPoint id="kanji-恩">
+        <navLabel>
+          <text>恩</text>
+        </navLabel>
+        <content src="grade6.xhtml#恩"/>
+      </navPoint>
+      <navPoint id="kanji-我">
+        <navLabel>
+          <text>我</text>
+        </navLabel>
+        <content src="grade6.xhtml#我"/>
+      </navPoint>
+      <navPoint id="kanji-灰">
+        <navLabel>
+          <text>灰</text>
+        </navLabel>
+        <content src="grade6.xhtml#灰"/>
+      </navPoint>
+      <navPoint id="kanji-拡">
+        <navLabel>
+          <text>拡</text>
+        </navLabel>
+        <content src="grade6.xhtml#拡"/>
+      </navPoint>
+      <navPoint id="kanji-革">
+        <navLabel>
+          <text>革</text>
+        </navLabel>
+        <content src="grade6.xhtml#革"/>
+      </navPoint>
+      <navPoint id="kanji-閣">
+        <navLabel>
+          <text>閣</text>
+        </navLabel>
+        <content src="grade6.xhtml#閣"/>
+      </navPoint>
+      <navPoint id="kanji-割">
+        <navLabel>
+          <text>割</text>
+        </navLabel>
+        <content src="grade6.xhtml#割"/>
+      </navPoint>
+      <navPoint id="kanji-株">
+        <navLabel>
+          <text>株</text>
+        </navLabel>
+        <content src="grade6.xhtml#株"/>
+      </navPoint>
+      <navPoint id="kanji-干">
+        <navLabel>
+          <text>干</text>
+        </navLabel>
+        <content src="grade6.xhtml#干"/>
+      </navPoint>
+      <navPoint id="kanji-巻">
+        <navLabel>
+          <text>巻</text>
+        </navLabel>
+        <content src="grade6.xhtml#巻"/>
+      </navPoint>
+      <navPoint id="kanji-看">
+        <navLabel>
+          <text>看</text>
+        </navLabel>
+        <content src="grade6.xhtml#看"/>
+      </navPoint>
+      <navPoint id="kanji-簡">
+        <navLabel>
+          <text>簡</text>
+        </navLabel>
+        <content src="grade6.xhtml#簡"/>
+      </navPoint>
+      <navPoint id="kanji-危">
+        <navLabel>
+          <text>危</text>
+        </navLabel>
+        <content src="grade6.xhtml#危"/>
+      </navPoint>
+      <navPoint id="kanji-机">
+        <navLabel>
+          <text>机</text>
+        </navLabel>
+        <content src="grade6.xhtml#机"/>
+      </navPoint>
+      <navPoint id="kanji-揮">
+        <navLabel>
+          <text>揮</text>
+        </navLabel>
+        <content src="grade6.xhtml#揮"/>
+      </navPoint>
+      <navPoint id="kanji-貴">
+        <navLabel>
+          <text>貴</text>
+        </navLabel>
+        <content src="grade6.xhtml#貴"/>
+      </navPoint>
+      <navPoint id="kanji-疑">
+        <navLabel>
+          <text>疑</text>
+        </navLabel>
+        <content src="grade6.xhtml#疑"/>
+      </navPoint>
+      <navPoint id="kanji-吸">
+        <navLabel>
+          <text>吸</text>
+        </navLabel>
+        <content src="grade6.xhtml#吸"/>
+      </navPoint>
+      <navPoint id="kanji-供">
+        <navLabel>
+          <text>供</text>
+        </navLabel>
+        <content src="grade6.xhtml#供"/>
+      </navPoint>
+      <navPoint id="kanji-胸">
+        <navLabel>
+          <text>胸</text>
+        </navLabel>
+        <content src="grade6.xhtml#胸"/>
+      </navPoint>
+      <navPoint id="kanji-郷">
+        <navLabel>
+          <text>郷</text>
+        </navLabel>
+        <content src="grade6.xhtml#郷"/>
+      </navPoint>
+      <navPoint id="kanji-勤">
+        <navLabel>
+          <text>勤</text>
+        </navLabel>
+        <content src="grade6.xhtml#勤"/>
+      </navPoint>
+      <navPoint id="kanji-筋">
+        <navLabel>
+          <text>筋</text>
+        </navLabel>
+        <content src="grade6.xhtml#筋"/>
+      </navPoint>
+      <navPoint id="kanji-系">
+        <navLabel>
+          <text>系</text>
+        </navLabel>
+        <content src="grade6.xhtml#系"/>
+      </navPoint>
+      <navPoint id="kanji-敬">
+        <navLabel>
+          <text>敬</text>
+        </navLabel>
+        <content src="grade6.xhtml#敬"/>
+      </navPoint>
+      <navPoint id="kanji-警">
+        <navLabel>
+          <text>警</text>
+        </navLabel>
+        <content src="grade6.xhtml#警"/>
+      </navPoint>
+      <navPoint id="kanji-劇">
+        <navLabel>
+          <text>劇</text>
+        </navLabel>
+        <content src="grade6.xhtml#劇"/>
+      </navPoint>
+      <navPoint id="kanji-激">
+        <navLabel>
+          <text>激</text>
+        </navLabel>
+        <content src="grade6.xhtml#激"/>
+      </navPoint>
+      <navPoint id="kanji-穴">
+        <navLabel>
+          <text>穴</text>
+        </navLabel>
+        <content src="grade6.xhtml#穴"/>
+      </navPoint>
+      <navPoint id="kanji-券">
+        <navLabel>
+          <text>券</text>
+        </navLabel>
+        <content src="grade6.xhtml#券"/>
+      </navPoint>
+      <navPoint id="kanji-絹">
+        <navLabel>
+          <text>絹</text>
+        </navLabel>
+        <content src="grade6.xhtml#絹"/>
+      </navPoint>
+      <navPoint id="kanji-権">
+        <navLabel>
+          <text>権</text>
+        </navLabel>
+        <content src="grade6.xhtml#権"/>
+      </navPoint>
+      <navPoint id="kanji-憲">
+        <navLabel>
+          <text>憲</text>
+        </navLabel>
+        <content src="grade6.xhtml#憲"/>
+      </navPoint>
+      <navPoint id="kanji-源">
+        <navLabel>
+          <text>源</text>
+        </navLabel>
+        <content src="grade6.xhtml#源"/>
+      </navPoint>
+      <navPoint id="kanji-厳">
+        <navLabel>
+          <text>厳</text>
+        </navLabel>
+        <content src="grade6.xhtml#厳"/>
+      </navPoint>
+      <navPoint id="kanji-己">
+        <navLabel>
+          <text>己</text>
+        </navLabel>
+        <content src="grade6.xhtml#己"/>
+      </navPoint>
+      <navPoint id="kanji-呼">
+        <navLabel>
+          <text>呼</text>
+        </navLabel>
+        <content src="grade6.xhtml#呼"/>
+      </navPoint>
+      <navPoint id="kanji-誤">
+        <navLabel>
+          <text>誤</text>
+        </navLabel>
+        <content src="grade6.xhtml#誤"/>
+      </navPoint>
+      <navPoint id="kanji-后">
+        <navLabel>
+          <text>后</text>
+        </navLabel>
+        <content src="grade6.xhtml#后"/>
+      </navPoint>
+      <navPoint id="kanji-孝">
+        <navLabel>
+          <text>孝</text>
+        </navLabel>
+        <content src="grade6.xhtml#孝"/>
+      </navPoint>
+      <navPoint id="kanji-皇">
+        <navLabel>
+          <text>皇</text>
+        </navLabel>
+        <content src="grade6.xhtml#皇"/>
+      </navPoint>
+      <navPoint id="kanji-紅">
+        <navLabel>
+          <text>紅</text>
+        </navLabel>
+        <content src="grade6.xhtml#紅"/>
+      </navPoint>
+      <navPoint id="kanji-降">
+        <navLabel>
+          <text>降</text>
+        </navLabel>
+        <content src="grade6.xhtml#降"/>
+      </navPoint>
+      <navPoint id="kanji-鋼">
+        <navLabel>
+          <text>鋼</text>
+        </navLabel>
+        <content src="grade6.xhtml#鋼"/>
+      </navPoint>
+      <navPoint id="kanji-刻">
+        <navLabel>
+          <text>刻</text>
+        </navLabel>
+        <content src="grade6.xhtml#刻"/>
+      </navPoint>
+      <navPoint id="kanji-穀">
+        <navLabel>
+          <text>穀</text>
+        </navLabel>
+        <content src="grade6.xhtml#穀"/>
+      </navPoint>
+      <navPoint id="kanji-骨">
+        <navLabel>
+          <text>骨</text>
+        </navLabel>
+        <content src="grade6.xhtml#骨"/>
+      </navPoint>
+      <navPoint id="kanji-困">
+        <navLabel>
+          <text>困</text>
+        </navLabel>
+        <content src="grade6.xhtml#困"/>
+      </navPoint>
+      <navPoint id="kanji-砂">
+        <navLabel>
+          <text>砂</text>
+        </navLabel>
+        <content src="grade6.xhtml#砂"/>
+      </navPoint>
+      <navPoint id="kanji-座">
+        <navLabel>
+          <text>座</text>
+        </navLabel>
+        <content src="grade6.xhtml#座"/>
+      </navPoint>
+      <navPoint id="kanji-済">
+        <navLabel>
+          <text>済</text>
+        </navLabel>
+        <content src="grade6.xhtml#済"/>
+      </navPoint>
+      <navPoint id="kanji-裁">
+        <navLabel>
+          <text>裁</text>
+        </navLabel>
+        <content src="grade6.xhtml#裁"/>
+      </navPoint>
+      <navPoint id="kanji-策">
+        <navLabel>
+          <text>策</text>
+        </navLabel>
+        <content src="grade6.xhtml#策"/>
+      </navPoint>
+      <navPoint id="kanji-冊">
+        <navLabel>
+          <text>冊</text>
+        </navLabel>
+        <content src="grade6.xhtml#冊"/>
+      </navPoint>
+      <navPoint id="kanji-蚕">
+        <navLabel>
+          <text>蚕</text>
+        </navLabel>
+        <content src="grade6.xhtml#蚕"/>
+      </navPoint>
+      <navPoint id="kanji-至">
+        <navLabel>
+          <text>至</text>
+        </navLabel>
+        <content src="grade6.xhtml#至"/>
+      </navPoint>
+      <navPoint id="kanji-私">
+        <navLabel>
+          <text>私</text>
+        </navLabel>
+        <content src="grade6.xhtml#私"/>
+      </navPoint>
+      <navPoint id="kanji-姿">
+        <navLabel>
+          <text>姿</text>
+        </navLabel>
+        <content src="grade6.xhtml#姿"/>
+      </navPoint>
+      <navPoint id="kanji-視">
+        <navLabel>
+          <text>視</text>
+        </navLabel>
+        <content src="grade6.xhtml#視"/>
+      </navPoint>
+      <navPoint id="kanji-詞">
+        <navLabel>
+          <text>詞</text>
+        </navLabel>
+        <content src="grade6.xhtml#詞"/>
+      </navPoint>
+      <navPoint id="kanji-誌">
+        <navLabel>
+          <text>誌</text>
+        </navLabel>
+        <content src="grade6.xhtml#誌"/>
+      </navPoint>
+      <navPoint id="kanji-磁">
+        <navLabel>
+          <text>磁</text>
+        </navLabel>
+        <content src="grade6.xhtml#磁"/>
+      </navPoint>
+      <navPoint id="kanji-射">
+        <navLabel>
+          <text>射</text>
+        </navLabel>
+        <content src="grade6.xhtml#射"/>
+      </navPoint>
+      <navPoint id="kanji-捨">
+        <navLabel>
+          <text>捨</text>
+        </navLabel>
+        <content src="grade6.xhtml#捨"/>
+      </navPoint>
+      <navPoint id="kanji-尺">
+        <navLabel>
+          <text>尺</text>
+        </navLabel>
+        <content src="grade6.xhtml#尺"/>
+      </navPoint>
+      <navPoint id="kanji-若">
+        <navLabel>
+          <text>若</text>
+        </navLabel>
+        <content src="grade6.xhtml#若"/>
+      </navPoint>
+      <navPoint id="kanji-樹">
+        <navLabel>
+          <text>樹</text>
+        </navLabel>
+        <content src="grade6.xhtml#樹"/>
+      </navPoint>
+      <navPoint id="kanji-収">
+        <navLabel>
+          <text>収</text>
+        </navLabel>
+        <content src="grade6.xhtml#収"/>
+      </navPoint>
+      <navPoint id="kanji-宗">
+        <navLabel>
+          <text>宗</text>
+        </navLabel>
+        <content src="grade6.xhtml#宗"/>
+      </navPoint>
+      <navPoint id="kanji-就">
+        <navLabel>
+          <text>就</text>
+        </navLabel>
+        <content src="grade6.xhtml#就"/>
+      </navPoint>
+      <navPoint id="kanji-衆">
+        <navLabel>
+          <text>衆</text>
+        </navLabel>
+        <content src="grade6.xhtml#衆"/>
+      </navPoint>
+      <navPoint id="kanji-従">
+        <navLabel>
+          <text>従</text>
+        </navLabel>
+        <content src="grade6.xhtml#従"/>
+      </navPoint>
+      <navPoint id="kanji-縦">
+        <navLabel>
+          <text>縦</text>
+        </navLabel>
+        <content src="grade6.xhtml#縦"/>
+      </navPoint>
+      <navPoint id="kanji-縮">
+        <navLabel>
+          <text>縮</text>
+        </navLabel>
+        <content src="grade6.xhtml#縮"/>
+      </navPoint>
+      <navPoint id="kanji-熟">
+        <navLabel>
+          <text>熟</text>
+        </navLabel>
+        <content src="grade6.xhtml#熟"/>
+      </navPoint>
+      <navPoint id="kanji-純">
+        <navLabel>
+          <text>純</text>
+        </navLabel>
+        <content src="grade6.xhtml#純"/>
+      </navPoint>
+      <navPoint id="kanji-処">
+        <navLabel>
+          <text>処</text>
+        </navLabel>
+        <content src="grade6.xhtml#処"/>
+      </navPoint>
+      <navPoint id="kanji-署">
+        <navLabel>
+          <text>署</text>
+        </navLabel>
+        <content src="grade6.xhtml#署"/>
+      </navPoint>
+      <navPoint id="kanji-諸">
+        <navLabel>
+          <text>諸</text>
+        </navLabel>
+        <content src="grade6.xhtml#諸"/>
+      </navPoint>
+      <navPoint id="kanji-除">
+        <navLabel>
+          <text>除</text>
+        </navLabel>
+        <content src="grade6.xhtml#除"/>
+      </navPoint>
+      <navPoint id="kanji-承">
+        <navLabel>
+          <text>承</text>
+        </navLabel>
+        <content src="grade6.xhtml#承"/>
+      </navPoint>
+      <navPoint id="kanji-将">
+        <navLabel>
+          <text>将</text>
+        </navLabel>
+        <content src="grade6.xhtml#将"/>
+      </navPoint>
+      <navPoint id="kanji-傷">
+        <navLabel>
+          <text>傷</text>
+        </navLabel>
+        <content src="grade6.xhtml#傷"/>
+      </navPoint>
+      <navPoint id="kanji-障">
+        <navLabel>
+          <text>障</text>
+        </navLabel>
+        <content src="grade6.xhtml#障"/>
+      </navPoint>
+      <navPoint id="kanji-蒸">
+        <navLabel>
+          <text>蒸</text>
+        </navLabel>
+        <content src="grade6.xhtml#蒸"/>
+      </navPoint>
+      <navPoint id="kanji-針">
+        <navLabel>
+          <text>針</text>
+        </navLabel>
+        <content src="grade6.xhtml#針"/>
+      </navPoint>
+      <navPoint id="kanji-仁">
+        <navLabel>
+          <text>仁</text>
+        </navLabel>
+        <content src="grade6.xhtml#仁"/>
+      </navPoint>
+      <navPoint id="kanji-垂">
+        <navLabel>
+          <text>垂</text>
+        </navLabel>
+        <content src="grade6.xhtml#垂"/>
+      </navPoint>
+      <navPoint id="kanji-推">
+        <navLabel>
+          <text>推</text>
+        </navLabel>
+        <content src="grade6.xhtml#推"/>
+      </navPoint>
+      <navPoint id="kanji-寸">
+        <navLabel>
+          <text>寸</text>
+        </navLabel>
+        <content src="grade6.xhtml#寸"/>
+      </navPoint>
+      <navPoint id="kanji-盛">
+        <navLabel>
+          <text>盛</text>
+        </navLabel>
+        <content src="grade6.xhtml#盛"/>
+      </navPoint>
+      <navPoint id="kanji-聖">
+        <navLabel>
+          <text>聖</text>
+        </navLabel>
+        <content src="grade6.xhtml#聖"/>
+      </navPoint>
+      <navPoint id="kanji-誠">
+        <navLabel>
+          <text>誠</text>
+        </navLabel>
+        <content src="grade6.xhtml#誠"/>
+      </navPoint>
+      <navPoint id="kanji-舌">
+        <navLabel>
+          <text>舌</text>
+        </navLabel>
+        <content src="grade6.xhtml#舌"/>
+      </navPoint>
+      <navPoint id="kanji-宣">
+        <navLabel>
+          <text>宣</text>
+        </navLabel>
+        <content src="grade6.xhtml#宣"/>
+      </navPoint>
+      <navPoint id="kanji-専">
+        <navLabel>
+          <text>専</text>
+        </navLabel>
+        <content src="grade6.xhtml#専"/>
+      </navPoint>
+      <navPoint id="kanji-泉">
+        <navLabel>
+          <text>泉</text>
+        </navLabel>
+        <content src="grade6.xhtml#泉"/>
+      </navPoint>
+      <navPoint id="kanji-洗">
+        <navLabel>
+          <text>洗</text>
+        </navLabel>
+        <content src="grade6.xhtml#洗"/>
+      </navPoint>
+      <navPoint id="kanji-染">
+        <navLabel>
+          <text>染</text>
+        </navLabel>
+        <content src="grade6.xhtml#染"/>
+      </navPoint>
+      <navPoint id="kanji-銭">
+        <navLabel>
+          <text>銭</text>
+        </navLabel>
+        <content src="grade6.xhtml#銭"/>
+      </navPoint>
+      <navPoint id="kanji-善">
+        <navLabel>
+          <text>善</text>
+        </navLabel>
+        <content src="grade6.xhtml#善"/>
+      </navPoint>
+      <navPoint id="kanji-奏">
+        <navLabel>
+          <text>奏</text>
+        </navLabel>
+        <content src="grade6.xhtml#奏"/>
+      </navPoint>
+      <navPoint id="kanji-窓">
+        <navLabel>
+          <text>窓</text>
+        </navLabel>
+        <content src="grade6.xhtml#窓"/>
+      </navPoint>
+      <navPoint id="kanji-創">
+        <navLabel>
+          <text>創</text>
+        </navLabel>
+        <content src="grade6.xhtml#創"/>
+      </navPoint>
+      <navPoint id="kanji-装">
+        <navLabel>
+          <text>装</text>
+        </navLabel>
+        <content src="grade6.xhtml#装"/>
+      </navPoint>
+      <navPoint id="kanji-層">
+        <navLabel>
+          <text>層</text>
+        </navLabel>
+        <content src="grade6.xhtml#層"/>
+      </navPoint>
+      <navPoint id="kanji-操">
+        <navLabel>
+          <text>操</text>
+        </navLabel>
+        <content src="grade6.xhtml#操"/>
+      </navPoint>
+      <navPoint id="kanji-蔵">
+        <navLabel>
+          <text>蔵</text>
+        </navLabel>
+        <content src="grade6.xhtml#蔵"/>
+      </navPoint>
+      <navPoint id="kanji-臓">
+        <navLabel>
+          <text>臓</text>
+        </navLabel>
+        <content src="grade6.xhtml#臓"/>
+      </navPoint>
+      <navPoint id="kanji-存">
+        <navLabel>
+          <text>存</text>
+        </navLabel>
+        <content src="grade6.xhtml#存"/>
+      </navPoint>
+      <navPoint id="kanji-尊">
+        <navLabel>
+          <text>尊</text>
+        </navLabel>
+        <content src="grade6.xhtml#尊"/>
+      </navPoint>
+      <navPoint id="kanji-退">
+        <navLabel>
+          <text>退</text>
+        </navLabel>
+        <content src="grade6.xhtml#退"/>
+      </navPoint>
+      <navPoint id="kanji-宅">
+        <navLabel>
+          <text>宅</text>
+        </navLabel>
+        <content src="grade6.xhtml#宅"/>
+      </navPoint>
+      <navPoint id="kanji-担">
+        <navLabel>
+          <text>担</text>
+        </navLabel>
+        <content src="grade6.xhtml#担"/>
+      </navPoint>
+      <navPoint id="kanji-探">
+        <navLabel>
+          <text>探</text>
+        </navLabel>
+        <content src="grade6.xhtml#探"/>
+      </navPoint>
+      <navPoint id="kanji-誕">
+        <navLabel>
+          <text>誕</text>
+        </navLabel>
+        <content src="grade6.xhtml#誕"/>
+      </navPoint>
+      <navPoint id="kanji-段">
+        <navLabel>
+          <text>段</text>
+        </navLabel>
+        <content src="grade6.xhtml#段"/>
+      </navPoint>
+      <navPoint id="kanji-暖">
+        <navLabel>
+          <text>暖</text>
+        </navLabel>
+        <content src="grade6.xhtml#暖"/>
+      </navPoint>
+      <navPoint id="kanji-値">
+        <navLabel>
+          <text>値</text>
+        </navLabel>
+        <content src="grade6.xhtml#値"/>
+      </navPoint>
+      <navPoint id="kanji-宙">
+        <navLabel>
+          <text>宙</text>
+        </navLabel>
+        <content src="grade6.xhtml#宙"/>
+      </navPoint>
+      <navPoint id="kanji-忠">
+        <navLabel>
+          <text>忠</text>
+        </navLabel>
+        <content src="grade6.xhtml#忠"/>
+      </navPoint>
+      <navPoint id="kanji-著">
+        <navLabel>
+          <text>著</text>
+        </navLabel>
+        <content src="grade6.xhtml#著"/>
+      </navPoint>
+      <navPoint id="kanji-庁">
+        <navLabel>
+          <text>庁</text>
+        </navLabel>
+        <content src="grade6.xhtml#庁"/>
+      </navPoint>
+      <navPoint id="kanji-頂">
+        <navLabel>
+          <text>頂</text>
+        </navLabel>
+        <content src="grade6.xhtml#頂"/>
+      </navPoint>
+      <navPoint id="kanji-腸">
+        <navLabel>
+          <text>腸</text>
+        </navLabel>
+        <content src="grade6.xhtml#腸"/>
+      </navPoint>
+      <navPoint id="kanji-潮">
+        <navLabel>
+          <text>潮</text>
+        </navLabel>
+        <content src="grade6.xhtml#潮"/>
+      </navPoint>
+      <navPoint id="kanji-賃">
+        <navLabel>
+          <text>賃</text>
+        </navLabel>
+        <content src="grade6.xhtml#賃"/>
+      </navPoint>
+      <navPoint id="kanji-痛">
+        <navLabel>
+          <text>痛</text>
+        </navLabel>
+        <content src="grade6.xhtml#痛"/>
+      </navPoint>
+      <navPoint id="kanji-敵">
+        <navLabel>
+          <text>敵</text>
+        </navLabel>
+        <content src="grade6.xhtml#敵"/>
+      </navPoint>
+      <navPoint id="kanji-展">
+        <navLabel>
+          <text>展</text>
+        </navLabel>
+        <content src="grade6.xhtml#展"/>
+      </navPoint>
+      <navPoint id="kanji-討">
+        <navLabel>
+          <text>討</text>
+        </navLabel>
+        <content src="grade6.xhtml#討"/>
+      </navPoint>
+      <navPoint id="kanji-党">
+        <navLabel>
+          <text>党</text>
+        </navLabel>
+        <content src="grade6.xhtml#党"/>
+      </navPoint>
+      <navPoint id="kanji-糖">
+        <navLabel>
+          <text>糖</text>
+        </navLabel>
+        <content src="grade6.xhtml#糖"/>
+      </navPoint>
+      <navPoint id="kanji-届">
+        <navLabel>
+          <text>届</text>
+        </navLabel>
+        <content src="grade6.xhtml#届"/>
+      </navPoint>
+      <navPoint id="kanji-難">
+        <navLabel>
+          <text>難</text>
+        </navLabel>
+        <content src="grade6.xhtml#難"/>
+      </navPoint>
+      <navPoint id="kanji-乳">
+        <navLabel>
+          <text>乳</text>
+        </navLabel>
+        <content src="grade6.xhtml#乳"/>
+      </navPoint>
+      <navPoint id="kanji-認">
+        <navLabel>
+          <text>認</text>
+        </navLabel>
+        <content src="grade6.xhtml#認"/>
+      </navPoint>
+      <navPoint id="kanji-納">
+        <navLabel>
+          <text>納</text>
+        </navLabel>
+        <content src="grade6.xhtml#納"/>
+      </navPoint>
+      <navPoint id="kanji-脳">
+        <navLabel>
+          <text>脳</text>
+        </navLabel>
+        <content src="grade6.xhtml#脳"/>
+      </navPoint>
+      <navPoint id="kanji-派">
+        <navLabel>
+          <text>派</text>
+        </navLabel>
+        <content src="grade6.xhtml#派"/>
+      </navPoint>
+      <navPoint id="kanji-拝">
+        <navLabel>
+          <text>拝</text>
+        </navLabel>
+        <content src="grade6.xhtml#拝"/>
+      </navPoint>
+      <navPoint id="kanji-背">
+        <navLabel>
+          <text>背</text>
+        </navLabel>
+        <content src="grade6.xhtml#背"/>
+      </navPoint>
+      <navPoint id="kanji-肺">
+        <navLabel>
+          <text>肺</text>
+        </navLabel>
+        <content src="grade6.xhtml#肺"/>
+      </navPoint>
+      <navPoint id="kanji-俳">
+        <navLabel>
+          <text>俳</text>
+        </navLabel>
+        <content src="grade6.xhtml#俳"/>
+      </navPoint>
+      <navPoint id="kanji-班">
+        <navLabel>
+          <text>班</text>
+        </navLabel>
+        <content src="grade6.xhtml#班"/>
+      </navPoint>
+      <navPoint id="kanji-晩">
+        <navLabel>
+          <text>晩</text>
+        </navLabel>
+        <content src="grade6.xhtml#晩"/>
+      </navPoint>
+      <navPoint id="kanji-否">
+        <navLabel>
+          <text>否</text>
+        </navLabel>
+        <content src="grade6.xhtml#否"/>
+      </navPoint>
+      <navPoint id="kanji-批">
+        <navLabel>
+          <text>批</text>
+        </navLabel>
+        <content src="grade6.xhtml#批"/>
+      </navPoint>
+      <navPoint id="kanji-秘">
+        <navLabel>
+          <text>秘</text>
+        </navLabel>
+        <content src="grade6.xhtml#秘"/>
+      </navPoint>
+      <navPoint id="kanji-俵">
+        <navLabel>
+          <text>俵</text>
+        </navLabel>
+        <content src="grade6.xhtml#俵"/>
+      </navPoint>
+      <navPoint id="kanji-腹">
+        <navLabel>
+          <text>腹</text>
+        </navLabel>
+        <content src="grade6.xhtml#腹"/>
+      </navPoint>
+      <navPoint id="kanji-奮">
+        <navLabel>
+          <text>奮</text>
+        </navLabel>
+        <content src="grade6.xhtml#奮"/>
+      </navPoint>
+      <navPoint id="kanji-並">
+        <navLabel>
+          <text>並</text>
+        </navLabel>
+        <content src="grade6.xhtml#並"/>
+      </navPoint>
+      <navPoint id="kanji-陛">
+        <navLabel>
+          <text>陛</text>
+        </navLabel>
+        <content src="grade6.xhtml#陛"/>
+      </navPoint>
+      <navPoint id="kanji-閉">
+        <navLabel>
+          <text>閉</text>
+        </navLabel>
+        <content src="grade6.xhtml#閉"/>
+      </navPoint>
+      <navPoint id="kanji-片">
+        <navLabel>
+          <text>片</text>
+        </navLabel>
+        <content src="grade6.xhtml#片"/>
+      </navPoint>
+      <navPoint id="kanji-補">
+        <navLabel>
+          <text>補</text>
+        </navLabel>
+        <content src="grade6.xhtml#補"/>
+      </navPoint>
+      <navPoint id="kanji-暮">
+        <navLabel>
+          <text>暮</text>
+        </navLabel>
+        <content src="grade6.xhtml#暮"/>
+      </navPoint>
+      <navPoint id="kanji-宝">
+        <navLabel>
+          <text>宝</text>
+        </navLabel>
+        <content src="grade6.xhtml#宝"/>
+      </navPoint>
+      <navPoint id="kanji-訪">
+        <navLabel>
+          <text>訪</text>
+        </navLabel>
+        <content src="grade6.xhtml#訪"/>
+      </navPoint>
+      <navPoint id="kanji-亡">
+        <navLabel>
+          <text>亡</text>
+        </navLabel>
+        <content src="grade6.xhtml#亡"/>
+      </navPoint>
+      <navPoint id="kanji-忘">
+        <navLabel>
+          <text>忘</text>
+        </navLabel>
+        <content src="grade6.xhtml#忘"/>
+      </navPoint>
+      <navPoint id="kanji-棒">
+        <navLabel>
+          <text>棒</text>
+        </navLabel>
+        <content src="grade6.xhtml#棒"/>
+      </navPoint>
+      <navPoint id="kanji-枚">
+        <navLabel>
+          <text>枚</text>
+        </navLabel>
+        <content src="grade6.xhtml#枚"/>
+      </navPoint>
+      <navPoint id="kanji-幕">
+        <navLabel>
+          <text>幕</text>
+        </navLabel>
+        <content src="grade6.xhtml#幕"/>
+      </navPoint>
+      <navPoint id="kanji-密">
+        <navLabel>
+          <text>密</text>
+        </navLabel>
+        <content src="grade6.xhtml#密"/>
+      </navPoint>
+      <navPoint id="kanji-盟">
+        <navLabel>
+          <text>盟</text>
+        </navLabel>
+        <content src="grade6.xhtml#盟"/>
+      </navPoint>
+      <navPoint id="kanji-模">
+        <navLabel>
+          <text>模</text>
+        </navLabel>
+        <content src="grade6.xhtml#模"/>
+      </navPoint>
+      <navPoint id="kanji-訳">
+        <navLabel>
+          <text>訳</text>
+        </navLabel>
+        <content src="grade6.xhtml#訳"/>
+      </navPoint>
+      <navPoint id="kanji-郵">
+        <navLabel>
+          <text>郵</text>
+        </navLabel>
+        <content src="grade6.xhtml#郵"/>
+      </navPoint>
+      <navPoint id="kanji-優">
+        <navLabel>
+          <text>優</text>
+        </navLabel>
+        <content src="grade6.xhtml#優"/>
+      </navPoint>
+      <navPoint id="kanji-預">
+        <navLabel>
+          <text>預</text>
+        </navLabel>
+        <content src="grade6.xhtml#預"/>
+      </navPoint>
+      <navPoint id="kanji-幼">
+        <navLabel>
+          <text>幼</text>
+        </navLabel>
+        <content src="grade6.xhtml#幼"/>
+      </navPoint>
+      <navPoint id="kanji-欲">
+        <navLabel>
+          <text>欲</text>
+        </navLabel>
+        <content src="grade6.xhtml#欲"/>
+      </navPoint>
+      <navPoint id="kanji-翌">
+        <navLabel>
+          <text>翌</text>
+        </navLabel>
+        <content src="grade6.xhtml#翌"/>
+      </navPoint>
+      <navPoint id="kanji-乱">
+        <navLabel>
+          <text>乱</text>
+        </navLabel>
+        <content src="grade6.xhtml#乱"/>
+      </navPoint>
+      <navPoint id="kanji-卵">
+        <navLabel>
+          <text>卵</text>
+        </navLabel>
+        <content src="grade6.xhtml#卵"/>
+      </navPoint>
+      <navPoint id="kanji-覧">
+        <navLabel>
+          <text>覧</text>
+        </navLabel>
+        <content src="grade6.xhtml#覧"/>
+      </navPoint>
+      <navPoint id="kanji-裏">
+        <navLabel>
+          <text>裏</text>
+        </navLabel>
+        <content src="grade6.xhtml#裏"/>
+      </navPoint>
+      <navPoint id="kanji-律">
+        <navLabel>
+          <text>律</text>
+        </navLabel>
+        <content src="grade6.xhtml#律"/>
+      </navPoint>
+      <navPoint id="kanji-臨">
+        <navLabel>
+          <text>臨</text>
+        </navLabel>
+        <content src="grade6.xhtml#臨"/>
+      </navPoint>
+      <navPoint id="kanji-朗">
+        <navLabel>
+          <text>朗</text>
+        </navLabel>
+        <content src="grade6.xhtml#朗"/>
+      </navPoint>
+      <navPoint id="kanji-論">
+        <navLabel>
+          <text>論</text>
+        </navLabel>
+        <content src="grade6.xhtml#論"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

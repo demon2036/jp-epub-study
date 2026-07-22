@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Version 3 · 按语法家族成组记</title>
+  <style>
+    :root { --bg:#f6f9fd; --paper:#fff; --line:#d9e3ef; --text:#1f2937; --muted:#64748b; --blue:#1f4b8f; --amber:#b45309; --green:#0f766e; --purple:#7c3aed; --shadow:0 18px 42px rgba(31,75,143,.12); }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1120px;margin:0 auto;padding:34px 20px 72px}
+    .top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
+    h1{margin:0 0 10px;font-size:34px;color:#173f79}.lead{color:var(--muted);font-size:17px;line-height:1.9;max-width:880px}.back{color:#244a84;text-decoration:none;font-weight:800}
+    .family{margin-top:24px;background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}
+    .family h2{margin:0 0 10px;font-size:26px;color:#173f79}.family p{line-height:1.85;color:#334155}
+    .map{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:16px}
+    .node{border:1px solid #e2e8f4;border-radius:16px;padding:16px;background:#fff;min-height:170px}
+    .node b{display:block;font-size:18px;margin-bottom:8px;color:#173f79}
+    .node small{display:block;color:#64748b;margin-bottom:10px}
+    .node.blue{background:#f8fbff}.node.green{background:#f0fdf7}.node.amber{background:#fffaf2}.node.purple{background:#faf7ff}
+    .summary{margin-top:16px;border-radius:16px;padding:16px 18px;background:#f8fbff;border:1px solid #e0e8f5;line-height:1.9}
+    @media (max-width:960px){.map{grid-template-columns:1fr}.top{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Version 3 · 按语法家族成组记</h1>
+        <div class="lead">这个版本不是“一个语法一页”的思路，而是“一个语法家族就是一个记忆单元”。它最符合你说的：<b>同样的、相反的、容易混的要一起记</b>。下面直接看 3 个家族原型。</div>
+      </div>
+      <a class="back" href="/files/grammar-structure-options-v2.html">← 回到结构对比</a>
+    </div>
+
+    <section class="family">
+      <h2>家族 1：建议与劝告</h2>
+      <p>这一组不是分别背，而是按“语气强弱”成排记。这样一看到题目语气，你就能顺着梯度选。</p>
+      <div class="map">
+        <div class="node purple"><b>たらいい</b><small>更柔</small>像“那样的话就挺好”。口语感强，带点温柔建议。</div>
+        <div class="node blue"><b>ばいい</b><small>给办法</small>像“这样做就行”。最有解决问题的操作感。</div>
+        <div class="node green"><b>ほうがいい</b><small>较优选择</small>像“最好这样”。比较与建议感更明显。</div>
+        <div class="node amber"><b>べきだ</b><small>最硬</small>像“理应如此”。责任、规范、义务感最强。</div>
+      </div>
+      <div class="summary"><b>这一家怎么记：</b>从左到右越来越硬。做题时先别急着认词形，先问自己：这句话是在轻轻建议、给办法、说较优、还是讲责任？</div>
+    </section>
+
+    <section class="family">
+      <h2>家族 2：决定 / 既定 / 结果</h2>
+      <p>这一组的关键不是表面像不像，而是“谁在推动这件事”。</p>
+      <div class="map">
+        <div class="node blue"><b>ことにする</b><small>主动决定</small>我/我们决定这么做。</div>
+        <div class="node green"><b>ことになる</b><small>结果变成</small>事情发展到最后变成这样。</div>
+        <div class="node amber"><b>ことになっている</b><small>既定安排</small>规则、制度、预先安排本来就这样。</div>
+        <div class="node purple"><b>予定だ</b><small>计划安排</small>日程上的计划，不一定带制度感。</div>
+      </div>
+      <div class="summary"><b>这一家怎么记：</b>先问“谁在决定”。是我决定？事情自然/客观地变成？还是外部制度已经定好？问题一问，答案往往就出来了。</div>
+    </section>
+
+    <section class="family">
+      <h2>家族 3：否定绝对化</h2>
+      <p>这一组都不是单纯说“不”，而是在拆掉“太满的判断”。</p>
+      <div class="map">
+        <div class="node blue"><b>わけではない</b><small>不是完全那样</small>部分否定，把话收回来一点。</div>
+        <div class="node green"><b>とは限らない</b><small>不一定</small>否定必然性，说“不总是如此”。</div>
+        <div class="node amber"><b>ないことはない</b><small>也不是不……</small>保留一点可能，语气绕但很实用。</div>
+        <div class="node purple"><b>わけがない</b><small>绝不可能</small>反过来，是非常强的否定判断。</div>
+      </div>
+      <div class="summary"><b>这一家怎么记：</b><code>わけではない</code> 是“收一收”，<code>とは限らない</code> 是“别说满”，<code>ないことはない</code> 是“也不是完全没有”，<code>わけがない</code> 则是“根本不可能”。</div>
+    </section>
+  </div>
+</body>
+</html>

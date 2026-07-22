@@ -1,0 +1,13 @@
+{
+  "created_for": "batch10 kanji GPT-5.5 Aether pronunciation prompt check",
+  "model": "gpt-5.5",
+  "reasoning_effort": "xhigh",
+  "base_url": "https://aether.fawney.fun/v1",
+  "kanji": "三五一四二右雨円王音",
+  "generated_json": "/home/john/jp/data/kanji_batch_trial/batch10_gpt55_aether_latest_generated.json",
+  "generated_db": "/home/john/jp/data/kanji_batch_trial/batch10_gpt55_aether_latest_db.json",
+  "generated_epub": "/home/john/jp/data/kanji_batch_trial/batch10_gpt55_aether_latest.epub",
+  "html_preview": "/home/john/jp/data/kanji_batch_trial/html_preview_from_epub/batch10_gpt55_aether_latest_preview.html",
+  "raw_stdout": "/home/john/jp/data/kanji_batch_trial/batch10_gpt55_aether_20260517_071744_codex_stdout.jsonl",
+  "raw_stderr": "/home/john/jp/data/kanji_batch_trial/batch10_gpt55_aether_20260517_071744_codex_stderr.log"
+}
