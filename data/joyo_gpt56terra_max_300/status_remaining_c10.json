@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-07-22T23:49:05.602807+00:00",
+  "db": "data/joyo_gpt56terra_max_300/joyo_gpt56terra_max_300_db.json",
+  "meta": {
+    "version": 2,
+    "total": 2136,
+    "completed": 823,
+    "last_updated": "2026-07-22T16:49:01.329826",
+    "source": "joyo",
+    "source_limit": 2136
+  },
+  "status_counts": {
+    "pending": 1313,
+    "completed": 823
+  }
+}
