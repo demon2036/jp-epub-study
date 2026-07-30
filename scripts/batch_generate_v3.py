@@ -152,7 +152,10 @@ def _build_initial_db_from_kanji_list(
 
 def save_db(db: dict):
     db["meta"]["last_updated"] = datetime.now().isoformat()
-    DB_FILE.write_text(json.dumps(db, ensure_ascii=False, indent=2), encoding="utf-8")
+    payload = json.dumps(db, ensure_ascii=False, indent=2)
+    temp_path = DB_FILE.with_name(f".{DB_FILE.name}.{os.getpid()}.tmp")
+    temp_path.write_text(payload, encoding="utf-8")
+    os.replace(temp_path, DB_FILE)
 
 
 def load_prompt(kanji: str) -> str:

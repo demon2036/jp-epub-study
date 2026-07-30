@@ -62,12 +62,27 @@ def _grade_title(grade: int) -> str:
     return f"分组{grade}"
 
 
-def create_epub(db_path: Path, output: Path):
+def create_epub(
+    db_path: Path,
+    output: Path,
+    include_kanji: set[str] | None = None,
+    title: str = "教育汉字详解",
+    identifier: str = "kyoiku-kanji-guide",
+):
     db = json.loads(db_path.read_text(encoding="utf-8"))
+    if include_kanji is not None:
+        db = {
+            **db,
+            "kanji": {
+                kanji: entry
+                for kanji, entry in db["kanji"].items()
+                if kanji in include_kanji
+            },
+        }
 
     book = epub.EpubBook()
-    book.set_identifier('kyoiku-kanji-guide')
-    book.set_title('教育汉字详解')
+    book.set_identifier(identifier)
+    book.set_title(title)
     book.set_language('ja')
     book.add_author('AI 日语教师')
 
@@ -118,5 +133,20 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", type=Path, default=DB_FILE, help="Input kanji DB JSON")
     parser.add_argument("--output", type=Path, default=DATA_DIR / "教育汉字详解.epub")
+    parser.add_argument(
+        "--include-kanji",
+        help="Only include these literal kanji in the EPUB (for example: 逆酸銅防限険際雑非領)",
+    )
+    parser.add_argument("--title", default="教育汉字详解", help="EPUB title")
+    parser.add_argument(
+        "--identifier", default="kyoiku-kanji-guide", help="EPUB identifier"
+    )
     args = parser.parse_args()
-    create_epub(args.db, args.output)
+    selected = set(args.include_kanji) if args.include_kanji is not None else None
+    create_epub(
+        args.db,
+        args.output,
+        include_kanji=selected,
+        title=args.title,
+        identifier=args.identifier,
+    )

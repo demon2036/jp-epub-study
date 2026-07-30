@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-07-30T23:55:44.494058+00:00",
+  "database": "data/joyo_gpt56terra_max_300/joyo_gpt56terra_max_300_db.json",
+  "database_sha256": "ad8c3974a1371fd2a73a14f44a850a19dfcf210e184a297787d289b6a1be6a96",
+  "source": "joyo_2010_all_2136",
+  "model_segments": [
+    {
+      "model": "gpt-5.6-terra",
+      "reasoning_effort": "max",
+      "count": 823,
+      "checkpoint_tag": "joyo-terra-max-823"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "max",
+      "count": 1313,
+      "endpoint": "http://45.77.1.146:8338/v1",
+      "batch_size": 1,
+      "concurrency_history": [
+        {
+          "concurrency": 10,
+          "completed": 10
+        },
+        {
+          "concurrency": 30,
+          "completed": 95
+        },
+        {
+          "concurrency": 60,
+          "completed": 1208
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "version": 2,
+    "total": 2136,
+    "completed": 2136,
+    "last_updated": "2026-07-30T09:38:39.255488",
+    "source": "joyo",
+    "source_limit": 2136
+  },
+  "epub": "data/joyo_gpt56terra_max_300/joyo_terra823_sol1313_max_2136.epub",
+  "epub_sha256": "873f2107a03d3f9b892c1d63fe8b85b5f60ba72ac8e9f9ef943e47d206d73f70",
+  "sol_only_epub": "data/joyo_gpt56terra_max_300/joyo_gpt56sol_max_1313.epub",
+  "sol_only_epub_sha256": "d95a8a3b3de5ee713ab88d14275e84055420b5c2a499f4fbb34da341db4c749c",
+  "pronunciation_audit": "data/joyo_gpt56terra_max_300/joyo_terra823_sol1313_max_2136_pronunciation_audit.json"
+}

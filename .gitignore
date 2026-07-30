@@ -22,6 +22,12 @@ venv/
 data/*.log
 data/*.epub
 data/*.pdf
+data/**/*.log
+data/**/*.pid
+data/**/*.lock
+data/**/status_*.json
+data/**/*preview*.epub
+data/**/*preview*_pronunciation_audit.json
 data/extracted_text/
 data/kanji_explanations/
 scripts/__pycache__/

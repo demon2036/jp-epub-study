@@ -16,6 +16,23 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## 常用汉字 2136 字成果
+
+`data/joyo_gpt56terra_max_300/` 保存了完整的 2136 字结构化数据库和可直接阅读的 EPUB：
+
+- `joyo_gpt56terra_max_300_db.json`：2136/2136 条完整数据
+- `joyo_terra823_sol1313_max_2136.epub`：Terra Max 823 字与 Sol Max 1313 字合订版
+- `joyo_gpt56sol_max_1313.epub`：只包含 Sol Max 完成的 1313 字
+- `joyo_terra823_sol1313_max_2136_pronunciation_audit.json`：发音审计结果
+- `joyo_terra823_sol1313_max_2136_manifest.json`：模型分段、并发记录与文件校验值
+
+Terra Max 的前 823 字由 Git 标签 `joyo-terra-max-823` 固定。续跑脚本会逐项验证该检查点未被改动，密钥只从环境变量读取：
+
+```bash
+CRS_OAI_KEY=... CONCURRENCY=60 \
+  bash data/joyo_gpt56terra_max_300/run_remaining_sol_max.sh
+```
+
 ### 抓取数据
 
 ```bash
