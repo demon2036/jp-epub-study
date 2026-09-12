@@ -1,0 +1,138 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>筆｜拿来书写的工具，つ与h都可能在接合处变化 · 日语为什么这样读</title><style>
+body {font-family:"Noto Serif CJK SC","Source Han Serif SC","Songti SC",serif;
+ color:#233a38;background:#fff;line-height:1.95;margin:5%;}
+p {margin:.85em 0;orphans:2;widows:2;}
+h1,h2,h3 {font-family:"Noto Sans CJK SC","PingFang SC",sans-serif;
+ color:#164f47;line-height:1.5;page-break-after:avoid;break-after:avoid;}
+h1 {font-size:1.6em;margin:.55em 0 1.1em;}
+h2 {font-size:1.28em;margin:1.8em 0 .7em;}
+h3 {font-size:1.15em;margin:1.9em 0 .7em;}
+strong {font-weight:700;color:#184d45;}
+a {color:#1c7062;text-decoration:underline;text-underline-offset:.17em;}
+li {margin:.7em 0;} ul,ol {padding-left:1.55em;}
+table {border-collapse:collapse;width:100%;table-layout:fixed;font-size:.86em;
+ line-height:1.75;margin:1.2em 0;}
+th,td {text-align:left;vertical-align:top;padding:.6em .45em;border-bottom:1px solid #d8e2dc;
+ overflow-wrap:anywhere;}
+th {background:#eef3ef;color:#164f47;}
+tr {page-break-inside:avoid;break-inside:avoid;}
+blockquote {margin:1.1em 0;padding:.7em 1em;border-left:3px solid #80a591;
+ background:#f2f6f2;page-break-inside:avoid;break-inside:avoid;}
+blockquote p {margin:.35em 0;}
+.example {padding:1em 1.05em;}
+.example .jp {font-family:"Noto Serif CJK JP","Noto Serif CJK SC",serif;
+ font-size:1.18em;line-height:1.65;font-weight:bold;color:#164f47;}
+.example .reading {font-family:"Noto Sans CJK JP","Noto Sans CJK SC",sans-serif;
+ font-size:.82em;line-height:1.7;color:#526a62;}
+.example .translation {font-size:.95em;color:#344a44;}
+.formula,.concept {margin:1.25em 0;padding:.85em 1em;border:1px solid #d9d4c4;
+ background:#faf7ee;page-break-inside:avoid;break-inside:avoid;}
+.formula p,.concept p {margin:.5em 0;}
+.formula {font-family:"Noto Sans CJK SC",sans-serif;font-size:.95em;line-height:1.8;}
+.label {font-family:sans-serif;font-size:.72em;color:#886b42;letter-spacing:.08em;}
+.eyebrow {font: .75em/1.7 sans-serif;color:#667c70;letter-spacing:.1em;margin:0;}
+.hero {font:700 3.7em/1.2 "Noto Serif CJK SC",serif;color:#164f47;margin:.18em 0;}
+.localtoc {font-size:.83em;line-height:1.85;border-top:1px solid #d9e3dc;
+ border-bottom:1px solid #d9e3dc;padding:.75em 0;margin:1.4em 0 1.8em;}
+.localtoc p {margin:.25em 0;}
+.readingmap {margin:1.4em 0;padding:1em;border:1px solid #d9e3dc;background:#f5f8f3;}
+.readingmap h2 {margin:0 0 .25em;font-size:1em;}
+.readingmap .maphint {margin:.25em 0 .7em;font-size:.78em;color:#587066;}
+.readinggrid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,7em),1fr));gap:.55em;}
+.readinglink {display:block;min-width:0;padding:.55em .65em;background:white;
+ border:1px solid #dce5da;text-decoration:none;line-height:1.6;}
+.readinglink .kana {display:block;font-family:"Noto Sans CJK JP",sans-serif;font-size:1.05em;font-weight:700;}
+.readinglink .word {display:block;font-size:.73em;color:#526a62;}
+.readinglink .kind {display:block;font: .65em/1.7 sans-serif;color:#847051;}
+.pager {font-family:sans-serif;font-size:.8em;border-top:1px solid #d9e3dc;
+ padding-top:1em;margin-top:2.5em;line-height:2;}
+.cover-page {margin:0;padding:0;text-align:center;}
+.cover-page img {width:100%;height:auto;}
+body,p,li {overflow-wrap:break-word;}
+
+.indexgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12em),1fr));gap:.8em;}
+.indexcard{display:block;padding:.7em .9em;border:1px solid #dce5da;text-decoration:none;line-height:1.65;}
+.indexcard .glyph{float:left;font-size:1.8em;margin-right:.45em;line-height:1.5;}
+.indexcard .title{font-size:.82em;display:block;}.indexcard .meta{font-size:.7em;color:#657970;display:block;}
+.group-heading{clear:both;} .smallprint{font-size:.8em;color:#63796b;}
+
+:root{--reading-size:19px}body{margin:0;font-size:var(--reading-size);background:#f3f1e9;}
+.topbar{position:sticky;top:0;z-index:5;background:#164f47;color:white;display:flex;
+ align-items:center;flex-wrap:wrap;gap:8px 18px;padding:12px 4%;font:14px/1.65 sans-serif;}
+.topbar a{color:white;text-decoration:none}.tools{display:flex;gap:7px;margin-left:auto;}
+button{border:1px solid #9ab9aa;background:transparent;color:white;padding:5px 10px;border-radius:3px;
+font:14px/1.6 sans-serif;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #bd843e;outline-offset:3px;}
+.shell{max-width:1160px;margin:auto;display:grid;grid-template-columns:230px minmax(0,1fr);}
+.side{position:sticky;top:90px;align-self:start;padding:25px 20px;max-height:77vh;overflow-y:auto;font:14px/1.8 sans-serif;}
+.side a{text-decoration:none;color:#45634f}.side li{margin:.6em 0;}.side ol{padding-left:1.45em}
+main{min-width:0;padding:32px 48px 70px;background:white;}h1,h2,h3,[id]{scroll-margin-top:120px;}
+.hide-kana .reading{visibility:hidden;}.bookhead{text-align:center;margin:0 0 2em;}
+.webcover{display:block;width:235px;max-width:70%;margin:0 auto 25px;box-shadow:0 7px 24px #213f3722;}
+.download{display:inline-block;background:#164f47;color:white;padding:10px 20px;font:15px/1.8 sans-serif;text-decoration:none;border-radius:3px;}
+#search{display:block;box-sizing:border-box;width:100%;border:1px solid #92af9d;padding:12px 14px;background:#fbfcf8;
+ color:#263c32;font:17px/1.6 sans-serif;margin:1.2em 0 .4em;border-radius:3px;}
+[hidden]{display:none!important}.searchcount{font:14px/1.8 sans-serif;color:#607464;}
+@media(max-width:820px){.shell{display:block}.side{display:none}main{padding:26px 6% 55px;}
+ .topbar{padding:10px 5%;gap:7px 13px}.tools{margin-left:0}.example{padding:.75em .85em}
+ h1,h2,h3,[id]{scroll-margin-top:140px;}.hero{font-size:3.4em}.webcover{width:220px;}}
+@media(max-width:360px){.readinggrid,.indexgrid{grid-template-columns:minmax(0,1fr)}}
+@media print{.side,.topbar,.download,#search,.searchcount{display:none}.shell{display:block}main{padding:0}.pager{display:none}}
+</style></head><body><header class="topbar"><a href="../阅读预览.html">全书目录</a><a href="../日语为什么这样读_226字完整理解版.epub" download>下载 EPUB</a><div class="tools"><button id="smaller" aria-label="减小字号">A−</button><button id="larger" aria-label="增大字号">A＋</button><button id="kana-toggle" aria-pressed="false">隐藏假名</button></div></header><div class="shell"><aside class="side" aria-label="全书章节"><p><a href="../阅读预览.html">全部章节</a></p><ol><li><a href="char-97f3.html">音｜从听见一声响，到听出声音的质地</a></li><li><a href="char-4e0b.html">下｜位置、方向、动作：十三项读音怎样连起来</a></li><li><a href="char-706b.html">火｜火焰、热感和火曜日，沿着三条线记</a></li><li><a href="char-8c9d.html">貝｜从一枚贝壳，读懂かい怎样进入复合词</a></li><li><a href="char-6c17.html">気｜身体里的状态，与隐约感觉到的气息</a></li><li><a href="char-4e5d.html">九｜九个、九天与九点，先找数量再找计数框架</a></li><li><a href="char-91d1.html">金｜钱、金属与金色，让两套声音各有归处</a></li><li><a href="char-7a7a.html">空｜天空、空容器与腾出位置，是三种观察方式</a></li><li><a href="char-4e94.html">五｜いつ加上不同结尾，就有五个和五天</a></li><li><a href="char-5b50.html">子｜孩子、物品词尾和鼠年，各有一套组成</a></li><li><a href="char-56db.html">四｜把月份、时刻、数量排成一张小日历</a></li><li><a href="char-5b57.html">字｜文字的一笔一画，与地址里的一片区域</a></li><li><a href="char-4e03.html">七｜なな的数量，与なのか的日期</a></li><li><a href="char-5341.html">十｜十个、十天、十分钟，声音的长度也有来路</a></li><li><a href="char-51fa.html">出｜从抽屉拿出钥匙，到想起一个答案</a></li><li><a href="char-5973.html">女｜女性称谓、复合成分与历史词汇</a></li><li><a href="char-5c0f.html">小｜形容词说大小，こ与お把小放进名字里</a></li><li><a href="char-751f.html">生｜把活着、出生、长出来，放进三组不同的动作</a></li><li><a href="char-77f3.html">石｜脚边的石头、磁铁与一石米，各自怎样成词</a></li><li><a href="char-65e9.html">早｜时间点在前、时间点前移、把时间点前移</a></li><li><a href="char-8349.html">草｜地上的植物，也能成为话题和草稿的材料</a></li><li><a href="char-8db3.html">足｜脚让人站稳，数量足够让事情办成</a></li><li><a href="char-7af9.html">竹｜たけ组织眼前的竹，ちく进入字音复合</a></li><li><a href="char-4e2d.html">中｜在里面、在进行、遍及整个范围</a></li><li><a href="char-866b.html">虫｜从小动物到爱哭鬼，むし怎样变成构词材料</a></li><li><a href="char-753a.html">町｜走在街上与阅读社区名称，是两种用词视角</a></li><li><a href="char-5929.html">天｜抬头看天空，也看见あめ／あま的两种形式</a></li><li><a href="char-65e5.html">日｜太阳、一整天与日历日期，怎样共用这个字</a></li><li><a href="char-767d.html">白｜白色的しろ，复合词中的しら，与字音はく／びゃく</a></li><li><a href="char-516b.html">八｜やっつ的停顿，与ようか的长音</a></li><li><a href="char-6587.html">文｜书信的ふみ，文章的ぶん，注文的もん</a></li><li><a href="char-6728.html">木｜き／こ先选词形，复合词再连接声音</a></li><li><a href="char-76ee.html">目｜眼睛、眼前、目光所指的目标</a></li><li><a href="char-5f15.html">引｜拉过来、退回去，以及“能够拉”的不同关系</a></li><li><a href="char-7fbd.html">羽｜从翅膀的形状，到数鸟的单位</a></li><li><a href="char-96f2.html">雲｜雨的意义部件，与云的声音线索</a></li><li><a href="char-5712.html">園｜一片有边界的园地，怎样长出两套名字</a></li><li><a href="char-79d1.html">科｜分成一项、划成一科，也按规则判定过错</a></li><li><a href="char-590f.html">夏｜一个夏季，生活词和历法词各有声音</a></li><li><a href="char-5bb6.html">家｜建筑、自己这一方、家族与行家</a></li><li><a href="char-4f1a.html">会｜自己见到人，与安排两人相见</a></li><li><a href="char-6d77.html">海｜うみ是海，かい造复合词，あま命名海边职业</a></li><li><a href="char-5916.html">外｜外部的位置、范围之外，以及脱离原位的动作</a></li><li><a href="char-89d2.html">角｜桌边的棱角、头上的角与几何角度</a></li><li><a href="char-8a18.html">記｜把信息留下来，き与しるす各怎样组成词</a></li><li><a href="char-5f13.html">弓｜手里的弓，与弓道里的长音</a></li><li><a href="char-725b.html">牛｜从牧场上的うし，到餐桌上的ぎゅう与ご</a></li><li><a href="char-9b5a.html">魚｜さかな怎样从下酒菜成为普通的鱼</a></li><li><a href="char-5f37.html">強｜强的性质、增强的变化与强迫的作用</a></li><li><a href="char-5144.html">兄｜向外人说哥哥，与面对哥哥叫一声</a></li><li><a href="char-8a00.html">言｜说的动作、说出的内容，与字音组成的言语词</a></li><li><a href="char-53e4.html">古｜旧的性质，与“已经过去的那一方”</a></li><li><a href="char-5348.html">午｜马年的名称，与中午这一时间坐标</a></li><li><a href="char-5f8c.html">後｜时间之后、身体后方与走得落后</a></li><li><a href="char-8a9e.html">語｜讲出一个故事，与持续相互畅谈</a></li><li><a href="char-516c.html">公｜从大宅与朝廷，走向公共空间</a></li><li><a href="char-4ea4.html">交｜混入、相交和互换，把不同的动作关系排清</a></li><li><a href="char-5149.html">光｜发亮的动作，怎样成为“光”这个名词</a></li><li><a href="char-884c.html">行｜去、举行与一行文字，先认完整的动作或名词</a></li><li><a href="char-9ad8.html">高｜从高度到程度，用同一根刻度理解一组词</a></li><li><a href="char-9ec4.html">黄｜き与こ怎样组成颜色词，こう与おう怎样进入字音词</a></li><li><a href="char-7d30.html">細｜细长的尺度，与细小单位的尺度</a></li><li><a href="char-7b97.html">算｜一个运算动作，怎样成为一种算法的名称</a></li><li><a href="char-6b62.html">止｜车停住、雨停了、我不做了：停止的对象不同</a></li><li><a href="char-81ea.html">自｜本人亲自做，与事情自然显明</a></li><li><a href="char-793e.html">社｜祭神的一片地方，如何成为やしろ</a></li><li><a href="char-9996.html">首｜颈部的动作，与站在组织前端的人</a></li><li><a href="char-79cb.html">秋｜あき组织生活，しゅう标记季节的阶段</a></li><li><a href="char-66f8.html">書｜从写，到写法，再到手写与草稿</a></li><li><a href="char-98df.html">食｜普通地吃、粗略地说吃，以及承受一记打击</a></li><li><a href="char-65b0.html">新｜あらた与あたらしい，真的留下了词形换位</a></li><li><a href="char-89aa.html">親｜亲近的关系，怎样长出亲近的活动与感觉</a></li><li><a href="char-6570.html">数｜数目是结果，数える是逐个点过去的动作</a></li><li><a href="char-4f53.html">体｜身体、整体与外在体裁，为什么有三条声音</a></li><li><a href="char-5730.html">地｜地面这块土地，和地图、地元中的两套字音</a></li><li><a href="char-9577.html">長｜长度的尺度，也能带出时间与领头的位置</a></li><li><a href="char-76f4.html">直｜恢复原状、重新做，以及直接到达</a></li><li><a href="char-901a.html">通｜让东西穿过，与自己反复往来</a></li><li><a href="char-70b9.html">点｜灯光出现、把灯点亮，与调制一碗茶</a></li><li><a href="char-5200.html">刀｜一把刀的大小与部位，如何组成新名称</a></li><li><a href="char-982d.html">頭｜头部、头痛、领头者与低首的姿态</a></li><li><a href="char-8aad.html">読｜读的动作、阅读的类别与句子的停顿</a></li><li><a href="char-534a.html">半｜切成两半，与走到一段路的中间</a></li><li><a href="char-756a.html">番｜轮到谁，与两只鸟配成一对</a></li><li><a href="char-98a8.html">風｜风从哪里来，风格像什么，以及風呂这一固定词</a></li><li><a href="char-6b69.html">歩｜走路的脚步、人生的进程与棋盘上的一歩</a></li><li><a href="char-6bce.html">毎｜每一轮来到时，用前接或后接两种办法表达</a></li><li><a href="char-4e07.html">万｜一万的数量，与万事、无数的范围</a></li><li><a href="char-660e.html">明｜亮起来、把真相照明，以及一夜的结束</a></li><li><a href="char-7528.html">用｜把东西持来供某种用途，もちいる为何较长</a></li><li><a href="char-6765.html">来｜くる、きます、こない，是同一个动词保存的三种接合</a></li><li><a href="char-7406.html">理｜顺着纹理处理，怎样走向事物的道理</a></li><li><a href="char-60aa.html">悪｜先认词干，再认旧词和另一套字音</a></li><li><a href="char-6697.html">暗｜光变弱、视线被遮住，与心里的不明白</a></li><li><a href="char-59d4.html">委｜把决定权交出去，长词ゆだねる便有了完整动作</a></li><li><a href="char-80b2.html">育｜成长者自己长大，照料者给成长加上条件</a></li><li><a href="char-958b.html">開｜门开一道口，书向两边展开</a></li><li><a href="char-9928.html">館｜接待人、容纳物，一座建筑怎样进入两套词汇</a></li><li><a href="char-671f.html">期｜日期的一格，与生命走到最后一刻</a></li><li><a href="char-6025.html">急｜自己赶路、催别人赶路，以及突然逼近的事情</a></li><li><a href="char-7403.html">球｜求提供声音，圆球把大小不同的物体连起来</a></li><li><a href="char-53bb.html">去｜从这里离开，空间的远去也能变成时间过去</a></li><li><a href="char-696d.html">業｜做出来的事情，怎样成为行业、技艺和后果</a></li><li><a href="char-66f2.html">曲｜弯曲发生在物体上，也可以由人把它弄弯</a></li><li><a href="char-9280.html">銀｜白色的金属，しろがね其实可以分开看</a></li><li><a href="char-82e6.html">苦｜身体受苦、让人受苦，与舌头尝到的苦</a></li><li><a href="char-5177.html">具｜东西配齐了，才好拿来用、说清楚</a></li><li><a href="char-7814.html">研｜把刀锋磨出来，也把问题一点点磨清楚</a></li><li><a href="char-5eab.html">庫｜把物品收进一个专门存放的空间</a></li><li><a href="char-5e78.html">幸｜事情恰好相合、难处中仍有好运，以及自然的馈赠</a></li><li><a href="char-4ed5.html">仕｜仕事中的し，先接回“做”这个动作</a></li><li><a href="char-6b7b.html">死｜しぬ的n藏在变化里，认出它就能接回整套活用</a></li><li><a href="char-8a69.html">詩｜把感受写成语言，再听字音怎样组成作品的名称</a></li><li><a href="char-4e8b.html">事｜发生的事、说出的内容，以及把动作当作一件事</a></li><li><a href="char-5b9f.html">実｜树上的果实，怎样成为努力的结果与内容的充实</a></li><li><a href="char-5199.html">写｜影像落在画面里，和把对象拍到画面里</a></li><li><a href="char-4e3b.html">主｜谁拥有、谁主持，以及哪一部分最主要</a></li><li><a href="char-5dde.html">州｜水中露出的陆地，怎样变成地域的名称</a></li><li><a href="char-7fd2.html">習｜反复跟着做，动作怎样长成习惯</a></li><li><a href="char-96c6.html">集｜人自己聚来，与把分散的东西收拢</a></li><li><a href="char-91cd.html">重｜重量、价值和一层层叠加，要分两幅图理解</a></li><li><a href="char-5bbf.html">宿｜有一个停留之处，生命和情感也可以“住在里面”</a></li><li><a href="char-6240.html">所｜地点可以缩小成一个部分，也可以变成做事的时机</a></li><li><a href="char-5546.html">商｜把买卖当成持续经营的动作</a></li><li><a href="char-52dd.html">勝｜比赛赢下来，与某一方面更出色</a></li><li><a href="char-4e57.html">乗｜自己登上交通工具，与把别人载上去</a></li><li><a href="char-7533.html">申｜郑重地说出请求，敬语与礼貌词尾分两步接</a></li><li><a href="char-795e.html">神｜神明、神社与服务神明的人，词的组成会留下声音变化</a></li><li><a href="char-6574.html">整｜零散的部分归到合适位置，准备就能完成</a></li><li><a href="char-6614.html">昔｜时间回到从前，声音在故事和字音词里各自连接</a></li><li><a href="char-5168.html">全｜把所有项目合在一起，把一件事做到完整</a></li><li><a href="char-901f.html">速｜同一段距离用时更少，速度怎样变成动作</a></li><li><a href="char-5bfe.html">対｜两边相向，便能对话、比较，也能组成一对</a></li><li><a href="char-4ee3.html">代｜一个位置换了人，费用也能成为价值的替身</a></li><li><a href="char-7740.html">着｜衣服到身体上，人和车辆到目的地</a></li><li><a href="char-6ce8.html">注｜液体流进容器，注意与心力也能朝同一方向流动</a></li><li><a href="char-8abf.html">調｜查清楚、调到合适，以及让各部分协调</a></li><li><a href="char-5b9a.html">定｜原来摇摆的东西终于有了确定位置</a></li><li><a href="char-7b1b.html">笛｜气流变成声音，复合词中的ぶえ仍是那支笛</a></li><li><a href="char-8ee2.html">転｜跌倒与滚动各有一对，s把推动对象的作用带进来</a></li><li><a href="char-90fd.html">都｜宫室所在之处，和把各项情况合起来看</a></li><li><a href="char-5ea6.html">度｜一次、一种程度，以及先估量再准备</a></li><li><a href="char-8c46.html">豆｜豆粒的小巧，与食品名称里的两套字音</a></li><li><a href="char-7b49.html">等｜相等的性质、举例的范围，以及一群人</a></li><li><a href="char-52d5.html">動｜く与かす里面，那个k一直没走</a></li><li><a href="char-7ae5.html">童｜儿童的日常称呼，与传统歌谣里的わらべ</a></li><li><a href="char-914d.html">配｜把东西送到各处，也把注意分给各个人</a></li><li><a href="char-7551.html">畑｜旱地里的作物，和属于自己的专业田地</a></li><li><a href="char-767a.html">発｜出发、发生和发出，促音要看接合处在哪一边</a></li><li><a href="char-53cd.html">反｜平面翘向另一边，把背向后弓起</a></li><li><a href="char-677f.html">板｜平而薄的形状，可以从木头移到玻璃和巧克力</a></li><li><a href="char-7b46.html">筆｜拿来书写的工具，つ与h都可能在接合处变化</a></li><li><a href="char-8868.html">表｜里面的内容显到外面，再成为可看的文字与表格</a></li><li><a href="char-75c5.html">病｜患病是动作，疾病是名词，词族把两者接在一起</a></li><li><a href="char-54c1.html">品｜一件物品、一类商品，也可以是举止的格调</a></li><li><a href="char-8ca0.html">負｜比赛中败下阵来，与肩上承担的负担</a></li><li><a href="char-798f.html">福｜把好运装进袋子，连浊发生在“袋”这一边</a></li><li><a href="char-653e.html">放｜松开约束、朝外发出，以及扔到一边</a></li><li><a href="char-5473.html">味｜尝到一种味道，再慢慢体会其中的滋味</a></li><li><a href="char-554f.html">問｜向外提出一个问题，再把问题当成名词来处理</a></li><li><a href="char-7531.html">由｜事情从哪里来，知道它又通过什么途径</a></li><li><a href="char-4e88.html">予｜事情还没开始，先把必要的一步做在前面</a></li><li><a href="char-7f8a.html">羊｜一只羊、饲养它的人，以及身上的毛</a></li><li><a href="char-8449.html">葉｜树上的一片、落下的一片，后项的ば仍是叶</a></li><li><a href="char-967d.html">陽｜阳光照到哪里，哪里便有温暖的一小块</a></li><li><a href="char-6d41.html">流｜水沿着方向流动，人也可以让水与信息流出去</a></li><li><a href="char-7dd1.html">緑｜新芽长出的颜色，怎样进入茶、绿地和铜锈</a></li><li><a href="char-7df4.html">練｜反复加工，使材料与想法逐渐成熟</a></li><li><a href="char-548c.html">和｜心情变平和、疼痛减轻，以及把调味与食材拌合</a></li><li><a href="char-611b.html">愛｜心里珍惜、看着欣赏，以及把爱组成一个动作</a></li><li><a href="char-4ee5.html">以｜拿某物来做事，后来把手段与界限写进句子</a></li><li><a href="char-8863.html">衣｜覆盖在外的一层，从衣服一直到食物外壳</a></li><li><a href="char-4f4d.html">位｜空间中的位置，怎样变成等级与大约的程度</a></li><li><a href="char-5370.html">印｜留下一个可认出的记号，じるし是复合里的しるし</a></li><li><a href="char-6804.html">栄｜兴旺、光彩与好看的外表，先认三组词形</a></li><li><a href="char-5a9b.html">媛｜女性的美称，如何保存在爱媛这个古老地名里</a></li><li><a href="char-52a0.html">加｜原来的集合里，又添进一项新的东西</a></li><li><a href="char-679c.html">果｜事情走到终点，留下果实与结果</a></li><li><a href="char-8ab2.html">課｜把一项任务交到别人手里，か怎样接成かす</a></li><li><a href="char-82bd.html">芽｜一个小点长出来，疑问与希望也能开始萌生</a></li><li><a href="char-5bb3.html">害｜原来完好的状态受损，动词把损伤方向说出来</a></li><li><a href="char-5404.html">各｜视线依次落到每个人，重复形式把“各自”显出来</a></li><li><a href="char-899a.html">覚｜先感觉到、意识到，再把它留进记忆</a></li><li><a href="char-6f5f.html">潟｜退潮后的滩地，与海边被沙洲隔出的水域</a></li><li><a href="char-7ba1.html">管｜一根中空的通道，与负责某个范围的管理</a></li><li><a href="char-95a2.html">関｜一道关卡能拦住通路，一件事也能与另一件事相连</a></li><li><a href="char-5e0c.html">希｜出现得少，与心里盼望的目标</a></li><li><a href="char-5668.html">器｜能装下东西的容器，也能比喻人的承受与担当</a></li><li><a href="char-6a5f.html">機｜会运作的装置，与事情可以转动的关键时机</a></li><li><a href="char-6c42.html">求｜想得到某物，行动便朝那个目标伸出去</a></li><li><a href="char-6ce3.html">泣｜哭声从人身上出现，也能由一个故事引发</a></li><li><a href="char-7d66.html">給｜发给所需之物，古老的たまう还带着人物关系</a></li><li><a href="char-6319.html">挙｜把手举起来，把例子与候选人提出来</a></li><li><a href="char-6f01.html">漁｜寻找鱼、寻找食物，再把搜寻移到资料与信息</a></li><li><a href="char-7af6.html">競｜比较高低、彼此争夺，竞价又把动作留下为名词</a></li><li><a href="char-718a.html">熊｜动物名进入复合，清浊变化要找对后项</a></li><li><a href="char-8ecd.html">軍｜成队组织起来，与古风叙述中的战事</a></li><li><a href="char-90e1.html">郡｜行政区域留下的旧名称，在地名里继续读こおり</a></li><li><a href="char-7fa4.html">群｜聚成一群，与许多个体涌向一个地点</a></li><li><a href="char-5f84.html">径｜一条可走的路径，也能用来量圆的宽度</a></li><li><a href="char-6b20.html">欠｜少了一块、缺少某项，以及坚持不漏做</a></li><li><a href="char-7d50.html">結｜把两端接到一起，结就成为关系与成果</a></li><li><a href="char-5065.html">健｜身体与心灵安稳成长，やか把状态组织成性质词</a></li><li><a href="char-56fa.html">固｜从坚固的性质，到凝固，再到把对象固定好</a></li><li><a href="char-597d.html">好｜喜欢的状态，从喜欢这一动词留下来</a></li><li><a href="char-9999.html">香｜气味散出来，再被名词称作香り</a></li><li><a href="char-5019.html">候｜等候、时节与旧式书信里的礼貌结句</a></li><li><a href="char-83dc.html">菜｜能吃的植物，也可以是配在主食与酒旁的菜肴</a></li><li><a href="char-57fc.html">埼｜伸出海岸的地形，与埼玉这个名称保存的声音</a></li><li><a href="char-6628.html">昨｜昨天是一个完整时间词，正式名称又可以逐字组合</a></li><li><a href="char-672d.html">札｜写着信息的小片，与作为货币流通的纸</a></li><li><a href="char-5237.html">刷｜する可以是印刷，也可以是“做”，活用会立刻分开</a></li><li><a href="char-7523.html">産｜从生育者看产下，从新生命看出生</a></li><li><a href="char-6c0f.html">氏｜一家同祖的联系，和姓名后正式的称呼</a></li><li><a href="char-53f8.html">司｜把一个职分接到手里，长词つかさどる便有组成</a></li><li><a href="char-8a66.html">試｜测试一个对象，和试着把一件事做成</a></li><li><a href="char-5150.html">児｜同一个儿童概念，在不同字音词里保留じ与に</a></li><li><a href="char-6cbb.html">治｜动荡变安定，伤病恢复正常，两对动词各自成组</a></li><li><a href="char-9e7f.html">鹿｜しか、か、じか各在已有的动物名与地名里保留</a></li><li><a href="char-7a2e.html">種｜能长出东西的起点，也能引出话题与争端</a></li><li><a href="char-5468.html">周｜绕行一圈后，四周就成了一个可以命名的范围</a></li><li><a href="char-795d.html">祝｜为一件好事庆贺，动作留下祝い这一名词</a></li><li><a href="char-521d.html">初｜第一次的时点、第一次的事物，以及初涉世事的新鲜感</a></li><li><a href="char-677e.html">松｜松树的实物名，与松竹梅里的字音组合</a></li><li><a href="char-7b11.html">笑｜放声笑与含着笑意，先分清两个动词词干</a></li><li><a href="char-5531.html">唱｜把声音念出来，再把主张公开说出来</a></li><li><a href="char-4e0a.html">上｜从水位升高，到把事情做完</a></li><li><a href="char-5165.html">入｜看见杯子的里面，也看见はいる里的いる</a></li><li><a href="char-8d77.html">起｜闹钟响、孩子醒：i／o为什么出现在同一家里</a></li><li><a href="char-843d.html">落｜杯子滑落时，把ち／と拆给自己看</a></li><li><a href="char-7167.html">照｜一束光怎样照亮道路，也照亮词形</a></li><li><a href="char-96e8.html">雨｜眼前的雨、与雨有关的东西，以及气象名称</a></li></ol></aside><main><p class="eyebrow">逐字理解 · 152 / 232</p><div class="hero" lang="ja">筆</div><h1>拿来书写的工具，つ与h都可能在接合处变化</h1><nav class="readingmap" aria-label="本章读音导航"><h2>本章读音 · 2 项</h2><p class="maphint">点读音，直接到例句和讲解。整词项读完整个词。</p><div class="readinggrid"><a class="readinglink" href="#char-7b46-s3"><span class="kana" lang="ja">ふで</span><span class="word" lang="ja">筆</span><span class="kind">训读</span></a><a class="readinglink" href="#char-7b46-s4"><span class="kana" lang="ja">ひつ</span><span class="word" lang="ja">筆記</span><span class="kind">音读</span></a></div></nav><nav class="localtoc" aria-label="本章讲解"><p class="label">先看联系，再逐项读</p><p><a href="#char-7b46-s1">把笔拿起来，笔尖接触纸面</a></p><p><a href="#char-7b46-s2">ひつ接到后一个字时，词尾会变紧</a></p><p><a href="#char-7b46-s5">“记下来”不是都叫筆記</a></p><p><a href="#practice-7b46">遮住上文，试着把关系找回来</a></p></nav><h3 id="char-7b46-s1">把笔拿起来，笔尖接触纸面</h3>
+<p>筆（ふで）是书写工具，筆先（ふでさき）把先端加在后面，絵筆（えふで）把画画用途加在前面。ふで作为完整名词进入复合，前后成分说明它用于什么、哪一部分或放在哪里。</p>
+<p>筆箱（ふでばこ）由<strong>ふで＋はこ→ふでばこ</strong>，箱子的はこ在后项连浊为ばこ。化粧筆（けしょうふで）把用途移到化妆，笔状工具的形状仍然可以直接回想。</p>
+<h3 id="char-7b46-s2">ひつ接到后一个字时，词尾会变紧</h3>
+<p>筆記（ひっき）由<strong>ひつ＋き→ひっき</strong>，つ压成一拍停顿，再接k。筆者（ひっしゃ）也由ひつ与しゃ紧密相接，命名写作者；这两个词都把促音留在第一字末尾。</p>
+<p>鉛筆（えんぴつ）里，筆采用ぴつ这一接续形式，末尾つ仍在。和筆記放在一起看，一边改变词末的つ，一边改变开头的h，声音变化的位置不同，具体边界因而更容易看清。</p>
+<p>筆を取る（ふでをとる）从拿起笔扩展为开始写作，筆で暮らす（ふででくらす）用工具代表写作谋生。把工具、接触纸面的动作、写成的文字和写作者串起来，ふで与ひつ就能沿着同一书写过程分别回忆。</p>
+<h3 id="char-7b46-s3">ふで · 筆：毛笔、画笔</h3>
+<p>单独指毛笔、画笔等刷状工具，也用于笔尖、笔盒、化妆刷等生活复合词。</p>
+<blockquote class="example"><p class="jp" lang="ja">私は筆で手紙を書きます。</p><p class="reading" lang="ja">わたしはふででてがみをかきます</p><p class="translation">我用毛笔写信。</p></blockquote>
+<p>筆で直接把ふで放进“拿它写字”的动作里。</p>
+<p>把这个用法向外展开：</p>
+<p><strong>筆箱（ふでばこ）</strong>，笔盒、文具盒。原本是装ふで的箱子；现在常装铅笔，读音仍保留。</p>
+<p><strong>筆ペン（ふでぺん）</strong>，软笔、毛笔笔。笔尖像ふで，直接把工具名接到ペン上。</p>
+<p><strong>化粧筆（けしょうふで）</strong>，化妆刷。即使不写字，只要是刷状上色工具，也能走ふで这条线。</p>
+<p>回想这个词时，最短、最能看见实物；先认这一支笔，再外扩到相关工具词。</p>
+<p><strong>看到能蘸墨、上色或刷出线条的笔状工具，先读ふで。</strong></p>
+<h3 id="char-7b46-s4">ひつ · 筆記：书写、笔记</h3>
+<p>用于书写、记录、作者、笔压和文具等汉语式复合词；词中常表面变成ひっ或ぴつ。</p>
+<blockquote class="example"><p class="jp" lang="ja">私は筆圧が強いです。</p><p class="reading" lang="ja">わたしはひつあつがつよいです</p><p class="translation">我写字下笔很重。</p></blockquote>
+<p>筆圧里的筆直接读ひつ，能清楚看见这个音读本体。</p>
+<p>把这个用法向外展开：</p>
+<p><strong>筆圧（ひつあつ）</strong>，笔压。后接元音时，ひつ的本来形最清楚。</p>
+<p><strong>鉛筆（えんぴつ）</strong>，铅笔。前面有ん时，ひつ线表面常变成ぴつ。</p>
+<p><strong>筆者（ひっしゃ）</strong>，作者、撰写者。后接しゃ时，つ收紧为っ，仍属于ひつ这条音读线。</p>
+<p>回想这个词时，学校和考试场景常见；ひつ遇到き时收紧成ひっ，顺带记住音变。</p>
+<p><strong>写下、笔记、作者、笔压等抽象书写词多走ひつ；见到ひっ或ぴつ要能还原回来。</strong></p>
+<h3 id="char-7b46-s5">“记下来”不是都叫筆記</h3>
+<p>中文都可能译成“记录”，但日语分别强调手写行为、临时提醒和正式保存。</p>
+<p><strong>筆記（ひっき）</strong>，书写、笔记。强调用笔写下，也常见于筆記試験、筆記用具等固定场景。</p>
+<p><strong>メモ（めも）</strong>，简短备忘。临时记电话、待办或关键词，口语而轻。</p>
+<p><strong>記録（きろく）</strong>，正式记录、纪录。强调把事实、数据、过程保存下来，不限于手写。</p>
+<p><strong>临时记一句用メモ；强调手写或笔试用筆記；保存事实和数据用記録。</strong></p>
+<h3 id="practice-7b46">遮住上文，试着把关系找回来</h3>
+<ol>
+<li>
+<p>读出并解释这些词：筆；筆記。</p>
+</li>
+<li>
+<p>筆記的っ与鉛筆的ぴつ分别发生在哪里？筆箱又怎样用和语组成？</p>
+</li>
+<li>
+<p>用本章的词表达：“我用毛笔写信。”说明句中谁在发生变化、做动作或承载这个性质。</p>
+</li>
+<li>
+<p>把「筆記、メモ、記録」分别放进一个适合的场景，说出你选择它的理由。</p>
+</li>
+</ol>
+<p><a href="answers-7b46.html">查看答案与理由</a></p><nav class="pager"><a href="../阅读预览.html">全书目录</a>　·　<a href="char-677f.html">上一章</a>　·　<a href="char-8868.html">下一章</a>　·　<a href="answers-7b46.html">本章答案</a></nav></main></div><script>
+let readingSize=19;
+function changeSize(d){readingSize=Math.max(16,Math.min(26,readingSize+d));document.documentElement.style.setProperty('--reading-size',readingSize+'px');}
+document.querySelector('#smaller').addEventListener('click',()=>changeSize(-1));
+document.querySelector('#larger').addEventListener('click',()=>changeSize(1));
+document.querySelector('#kana-toggle').addEventListener('click',function(){const h=document.body.classList.toggle('hide-kana');this.setAttribute('aria-pressed',String(h));this.textContent=h?'显示假名':'隐藏假名';});
+const search=document.querySelector('#search');if(search){search.addEventListener('input',function(){
+const q=this.value.trim().toLowerCase();let n=0;document.querySelectorAll('.indexcard').forEach(el=>{const hit=!q||el.dataset.search.toLowerCase().includes(q);el.hidden=!hit;if(hit)n++;});
+document.querySelectorAll('.indexgroup').forEach(el=>{el.hidden=!el.querySelector('.indexcard:not([hidden])');});
+document.querySelector('#searchcount').textContent=n?'找到 '+n+' 章':'没有匹配章节';});}
+</script></body></html>

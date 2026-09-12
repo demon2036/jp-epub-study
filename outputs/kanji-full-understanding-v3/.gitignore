@@ -1,0 +1,10 @@
+# Temporary reference downloads, source extracts and early QA drafts.
+research/*
+!research/README.md
+!research/official-readings.json
+!research/official-reading-gaps.json
+qa/draft-*
+qa/epubcheck-draft.json
+qa/official-*.png
+qa/dictionary-mismatches.json
+qa/ruby-alignment.json
